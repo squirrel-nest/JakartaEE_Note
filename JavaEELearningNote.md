@@ -7,11 +7,5 @@
       + [Jakarta® EE](https://jakarta.ee/)
       + [JAKARTA EE 8](https://jakarta.ee/release/) - JAKARTA EE 8可下载版本
 
-## 开发环境环境的安装与设置
-### Eclipse
-   * Eclipse的安装与设置参见：[]()<br>
-### IntelliJ IDEA
-   * Eclipse的安装与设置参见：[]()<br>
-
-## 预备知识
-### 包管理工具
+## 兼容产品
+   * [WildFly](https://wildfly.org/downloads/)
