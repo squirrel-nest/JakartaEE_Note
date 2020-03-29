@@ -9,7 +9,7 @@
    * []()<br>
    * []()<br>
    * []()<br>
-## Examples
+## Examples - Google Search: github java ee projects opensource example site:github.com
    * [daggerok/java-ee-examples](https://github.com/daggerok/java-ee-examples) - 用到了Kotlin语言，参考看看<br>
    * [manorrock/jakartaee-examples](https://github.com/manorrock/jakartaee-examples) - 非常经典，已贡献给Eclipse Foundation<br>
       + >This repository has been donated to the Eclipse Foundation, click [here](https://github.com/eclipse-ee4j/jakartaee-examples) ->  [eclipse-ee4j/jakartaee-examples] to go to its new home.
