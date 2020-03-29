@@ -11,6 +11,7 @@
    * [Jakarta EE 8: The new era of Java EE explained](https://developers.redhat.com/blog/2019/09/12/jakarta-ee-8-the-new-era-of-java-ee-explained/)<br>
    * []()<br>
 ## Examples - Google Search: github java ee projects opensource example site:github.com | jakarta ee example
+   * [Jakarta EE Examples](https://projects.eclipse.org/proposals/jakarta-ee-examples) - 这个是官网的Examples 的即介绍，认真先看。优先看。。。<br>
    * [daggerok/java-ee-examples](https://github.com/daggerok/java-ee-examples) - 用到了Kotlin语言，参考看看<br>
    * [manorrock/jakartaee-examples](https://github.com/manorrock/jakartaee-examples) - 非常经典，已贡献给Eclipse Foundation<br>
       + >This repository has been donated to the Eclipse Foundation, click [here](https://github.com/eclipse-ee4j/jakartaee-examples) ->  [eclipse-ee4j/jakartaee-examples] to go to its new home.
