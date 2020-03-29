@@ -1,6 +1,6 @@
 # Jakarta EE 8 Reference
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
-   * [Jakarta EE Platform - spec-8](https://jakarta.ee/specifications/platform/8/platform-spec-8.pdf) - PDF 文档<br>
+   * [Jakarta EE Platform - spec-8](https://jakarta.ee/specifications/platform/8/platform-spec-8.pdf) - PDF 文档 - 文档的GitHub资源：[Jakarta EE Platform Specification](https://github.com/eclipse-ee4j/jakartaee-platform/tree/master/specification) - eclipse-ee4j/jakartaee-platform<br>
    * [Getting started with Jakarta EE](http://www.mastertheboss.com/javaee/jakarta-ee/getting-started-with-jakarta-ee)<br>
    * [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
    * [Bootstrap your first Jakarta EE 8 application](https://rieckpil.de/howto-bootstrap-your-first-jakarta-ee-8-application/)<br>
