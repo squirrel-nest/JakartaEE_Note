@@ -1,13 +1,14 @@
 # Jakarta EE 8 Reference
 ## Tutorials - Google Search: jakarta ee tutorial, jakarta ee 8 tutorial
-   * [Jakarta EE 8 CRUD API Tutorial using Java 11]()<br>
-
+   * [Jakarta EE Platform - spec-8](https://jakarta.ee/specifications/platform/8/platform-spec-8.pdf) - PDF 文档<br>
+   * [Getting started with Jakarta EE](http://www.mastertheboss.com/javaee/jakarta-ee/getting-started-with-jakarta-ee)<br>
+   * [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
+   * [Bootstrap your first Jakarta EE 8 application](https://rieckpil.de/howto-bootstrap-your-first-jakarta-ee-8-application/)<br>
+## 一些知识背景介绍等
    * [Java EE vs J2EE vs Jakarta EE](https://www.baeldung.com/java-enterprise-evolution)<br>
    * [Jakarta EE 8 and Beyond](https://dzone.com/articles/jakarta-ee-8-and-beyond)<br>
-   * []()<br>
-   * []()<br>
-   * []()<br>
-   * []()<br>
+   * [Jakarta EE 8: Past, Present, and Future](https://jaxenter.com/jakarta-ee-8-past-present-future-161990.html)<br>
+   * [Jakarta EE 8: The new era of Java EE explained](https://developers.redhat.com/blog/2019/09/12/jakarta-ee-8-the-new-era-of-java-ee-explained/)<br>
    * []()<br>
 ## Examples - Google Search: github java ee projects opensource example site:github.com
    * [daggerok/java-ee-examples](https://github.com/daggerok/java-ee-examples) - 用到了Kotlin语言，参考看看<br>
