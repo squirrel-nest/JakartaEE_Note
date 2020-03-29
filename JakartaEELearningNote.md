@@ -1,9 +1,9 @@
 # Jakarta EE 8 Reference
-## Tutorials - Google Search: jakarta ee tutorial
+## Tutorials - Google Search: jakarta ee tutorial, jakarta ee 8 tutorial
    * [Jakarta EE 8 CRUD API Tutorial using Java 11]()<br>
 
-   * []()<br>
-   * []()<br>
+   * [Java EE vs J2EE vs Jakarta EE](https://www.baeldung.com/java-enterprise-evolution)<br>
+   * [Jakarta EE 8 and Beyond](https://dzone.com/articles/jakarta-ee-8-and-beyond)<br>
    * []()<br>
    * []()<br>
    * []()<br>
