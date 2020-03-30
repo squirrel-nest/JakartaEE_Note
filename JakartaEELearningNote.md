@@ -1,6 +1,6 @@
 # Jakarta EE 8 Reference
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
-   * [eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial)<br>
+   * [eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial) - Migrated from [javaee/tutorial](https://github.com/javaee/tutorial)<br>
       + >This repository contains the source files that are used to build the Jakarta Enterprise Edition (Jakarta EE) Tutorial. The source files are authored in AsciiDoc. AsciiDoc is similar to markdown but is particularly suited for user documentation. This project also uses JBake. JBake is a static site generator that is inspired from Jekyll and written in Java. JBake uses templates for the structure of the page and the body of the page is generated from AsciiDoc content.
 
       + >Note that the Jakarta EE Tutorial code examples are located in a separate repository eclipse-ee4j/jakartaee-tutorial-examples.
@@ -71,7 +71,10 @@
 
 ## Examples - Old 7 version   
    * [Azure-Samples/Java-application-petstore-ee7](https://github.com/Azure-Samples/Java-application-petstore-ee7) - 非优先。。。<br>
-
+   * [Java EE 7 Example for JMS and WebSockets integration](https://github.com/brunoborges/javaee7-jms-websocket-example)<br>
+      + >This application demonstrates a full-duplex scenario using WebSockets and JMS, with a fully functional server-side asynchronous push, using CDI events and EJB.
+        >
+        >Details and step-by-step were blogged [here]: https://blogs.oracle.com/brunoborges/entry/integrating_websockets_and_jms_with
 
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
