@@ -57,3 +57,4 @@
          - >This archetype creates a blank EAR project with EJB and Web module. It is prepared for running Arquillian unit tests. More details can be found in the file "src/main/resources/archetype-resources/README.txt", which is end-user doc and added to the resulting project.
    * [jrbalsas/dawClubJSF](https://github.com/jrbalsas/dawClubJSF)<br>
       + >Sample Maven Netbeans project with JSF CRUD Web App
+   * [thjanssen/HibernateTips](https://github.com/thjanssen/HibernateTips)<br>
