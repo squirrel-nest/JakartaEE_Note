@@ -45,3 +45,7 @@
       - ![High Level Overview](https://raw.githubusercontent.com/phillip-kruger/jello/master/high_level.png)<br>
    * [eclipse-ee4j/jakartaee-tck](https://github.com/eclipse-ee4j/jakartaee-tck)<br>
    * [wesleyegberto/javaee8-jsf-chat](https://github.com/wesleyegberto/javaee8-jsf-chat) - 学习WebSocket的时候，可以参考，这个项目是2019年9月份更新为Jakarta EE 8<br>
+   * [imixs/imixs-workflow](https://github.com/imixs/imixs-workflow) - 这个Workflow，就是想要的效果<br>
+      - >Imixs-Workflow is an open source workflow engine to build human-centric workflow applications on a flexible and robust framework. Using the Business Process Modelling Notation - BPMN 2.0, business logic can be modeled fast, easy and in a flexible way. Imixs-Workflow is based on the Jarkarta EE and the Eclipse Microprofile standards and fits into any modern microservice architecture thanks to its openness. Imixs-Workflow runs on all modern application servers like Wildfly, Payara, Open Liberty or Apache TomEE.
+      - Imixs-BPMN
+      - ![Imixs-BPMN](https://github.com/imixs/imixs-workflow/raw/master/screen_001.png)<br>
