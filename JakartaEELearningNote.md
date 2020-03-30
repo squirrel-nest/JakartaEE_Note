@@ -50,6 +50,6 @@
       - Imixs-BPMN
       - ![Imixs-BPMN](https://github.com/imixs/imixs-workflow/raw/master/screen_001.png)<br>
    * [eclipse-ee4j/jpa-api](https://github.com/eclipse-ee4j/jpa-api) - Jakarta Persistence project<br>
-   
-   
+      - >Jakarta Persistence defines a standard for management of persistence and object/relational mapping in Java(R) environments.
+
    * 
