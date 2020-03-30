@@ -44,3 +44,4 @@
       - High Level Overview
       - ![High Level Overview](https://raw.githubusercontent.com/phillip-kruger/jello/master/high_level.png)<br>
    * [eclipse-ee4j/jakartaee-tck](https://github.com/eclipse-ee4j/jakartaee-tck)<br>
+   * [wesleyegberto/javaee8-jsf-chat](https://github.com/wesleyegberto/javaee8-jsf-chat) - 学习WebSocket的时候，可以参考，这个项目是2019年9月份更新为Jakarta EE 8<br>
