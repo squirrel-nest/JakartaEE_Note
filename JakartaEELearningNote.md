@@ -42,4 +42,5 @@
    * [phillip-kruger/jello](https://github.com/phillip-kruger/jello)<br>
       - >This is an example application to demonstrate some of the APIs available under the Jakarta EE Umbrella.
       - High Level Overview
-      - ![High Level Overview](https://raw.githubusercontent.com/phillip-kruger/jello/master/high_level.png)<>
+      - ![High Level Overview](https://raw.githubusercontent.com/phillip-kruger/jello/master/high_level.png)<br>
+   * [eclipse-ee4j/jakartaee-tck](https://github.com/eclipse-ee4j/jakartaee-tck)<br>
