@@ -6,6 +6,7 @@
    * [rieckpil/blog-tutorials](https://github.com/rieckpil/blog-tutorials)<br>
    * [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
    * [Bootstrap your first Jakarta EE 8 application](https://rieckpil.de/howto-bootstrap-your-first-jakarta-ee-8-application/)<br>
+   * [Java EE 8/Jakarta EE 8 Sandbox](https://github.com/hantsy/ee8-sandbox)<br>
 ## 一些知识背景介绍等
    * [Java EE vs J2EE vs Jakarta EE](https://www.baeldung.com/java-enterprise-evolution)<br>
    * [Jakarta EE 8 and Beyond](https://dzone.com/articles/jakarta-ee-8-and-beyond)<br>
