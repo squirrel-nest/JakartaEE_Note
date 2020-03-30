@@ -58,3 +58,5 @@
    * [jrbalsas/dawClubJSF](https://github.com/jrbalsas/dawClubJSF)<br>
       + >Sample Maven Netbeans project with JSF CRUD Web App
    * [thjanssen/HibernateTips](https://github.com/thjanssen/HibernateTips)<br>
+##    
+   * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
