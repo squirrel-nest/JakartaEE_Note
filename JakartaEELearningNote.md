@@ -52,4 +52,4 @@
    * [eclipse-ee4j/jpa-api](https://github.com/eclipse-ee4j/jpa-api) - Jakarta Persistence project<br>
       - >Jakarta Persistence defines a standard for management of persistence and object/relational mapping in Java(R) environments.
 
-   * 
+   * [wildfly-archetypes/wildfly-jakartaee-ear-archetype/](https://github.com/wildfly/wildfly-archetypes/tree/master/wildfly-jakartaee-ear-archetype)<br>
