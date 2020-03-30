@@ -75,7 +75,10 @@
       + >This application demonstrates a full-duplex scenario using WebSockets and JMS, with a fully functional server-side asynchronous push, using CDI events and EJB.
         >
         >Details and step-by-step were blogged [here]: https://blogs.oracle.com/brunoborges/entry/integrating_websockets_and_jms_with
-
+   * WebSocket Java EE 7 - AngularJS - WildFly 10 Docker: [mgreau/javaee7-websocket](https://github.com/mgreau/javaee7-websocket)<br>
+      + ![Multiple matches in live (US OPEN)](https://github.com/mgreau/javaee7-websocket/raw/master/doc/img/websocket_wildfly_angularjs_tennis.png)<br>
+      + Install on your local WildFly 10 Application Server
+         - 
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
    
