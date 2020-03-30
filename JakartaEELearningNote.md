@@ -36,8 +36,6 @@
    * [IanDarwin/javasrc](https://github.com/IanDarwin/javasrc) - Java 的很多知识混合，参考学习。。。<br>
    * [SmartDeviceLink (SDL)](https://github.com/smartdevicelink/sdl_java_suite)<br>
       + >SmartDeviceLink (SDL) is a standard set of protocols and messages that connect applications on a smartphone to a vehicle head unit. This messaging enables a consumer to interact with their application using common in-vehicle interfaces such as a touch screen display, embedded voice recognition, steering wheel controls and various vehicle knobs and buttons. There are three main components that make up the SDL ecosystem.
-## Examples - Old 7 version   
-   * [Azure-Samples/Java-application-petstore-ee7](https://github.com/Azure-Samples/Java-application-petstore-ee7) - 非优先。。。<br>
 
 ## Advance Examples - 值得推荐，开源项目
    * [phillip-kruger/jello](https://github.com/phillip-kruger/jello)<br>
@@ -60,6 +58,17 @@
       + >Sample Maven Netbeans project with JSF CRUD Web App
    * [thjanssen/HibernateTips](https://github.com/thjanssen/HibernateTips)<br>
    * [jakartaee/jakarta.ee](https://github.com/jakartaee/jakarta.ee)<br>
+
+
+## JavaEE Examples - 8 version   
+   * [javaee-samples/javaee8-samples](https://github.com/javaee-samples/javaee8-samples)<br>
+   * [lpelczar/JavaEE-hibernate-web-app](https://github.com/lpelczar/JavaEE-hibernate-web-app)<br>
+   * []()<br>
+
+## Examples - Old 7 version   
+   * [Azure-Samples/Java-application-petstore-ee7](https://github.com/Azure-Samples/Java-application-petstore-ee7) - 非优先。。。<br>
+
+
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
    
