@@ -71,6 +71,8 @@
 
 ## Examples - Old 7 version   
    * [Azure-Samples/Java-application-petstore-ee7](https://github.com/Azure-Samples/Java-application-petstore-ee7) - 非优先。。。<br>
+   * [dockersamples/javaee-demo](https://github.com/dockersamples/javaee-demo) - Docker 的例子<br>
+      + >This example demonstrates the path to modernizing a Java EE application to a containerized infrastructure. We'll migrate the Java EE 7 Hands-on Lab to Docker. Furthermore, we'll update the presentation layer written in Java Server Faces to a React application.
    * [Java EE 7 Example for JMS and WebSockets integration](https://github.com/brunoborges/javaee7-jms-websocket-example)<br>
       + >This application demonstrates a full-duplex scenario using WebSockets and JMS, with a fully functional server-side asynchronous push, using CDI events and EJB.
         >
