@@ -79,7 +79,9 @@
         >Details and step-by-step were blogged [here]: https://blogs.oracle.com/brunoborges/entry/integrating_websockets_and_jms_with
    * WebSocket Java EE 7 - AngularJS - WildFly 10 Docker: [mgreau/javaee7-websocket](https://github.com/mgreau/javaee7-websocket)<br>
       + ![Multiple matches in live (US OPEN)](https://github.com/mgreau/javaee7-websocket/raw/master/doc/img/websocket_wildfly_angularjs_tennis.png)<br>
-      + Install on your local WildFly 10 Application Server
+      + >Install on your local WildFly 10 Application Server
+   * [javaee-samples/javaee7-docker-maven](https://github.com/javaee-samples/javaee7-docker-maven) - Run Java EE 7 Application as Docker Container using Maven<br>
+      + >This sample application shows how to package a Java EE 7 application as Docker image and run it within a container using docker-maven-plugin.
          - 
 ## Awesome JavaEE projects
    * [ScarlettRay/JavaEE-projects](https://github.com/ScarlettRay/JavaEE-projects)<br>
@@ -90,6 +92,21 @@
       + >技术栈 Servlet + Jsp + Tomcat , 是Java Web入门非常好的练手项目
         >
         >本项目为Java EE入门练手项目，没有使用 SSH , SSM 框架，而是使用 JavaEE 整套技术来作为解决方案，实现模仿天猫网站的各种业务场景。 之所以不使用框架，就是为了借助这个项目夯实 JavaEE 基础，并且在项目中借助反射等技术。--> [模仿天猫前台](http://how2j.cn/tmall?p=55563)<br>
+   * [AdamBien/javaee8-essentials-archetype](https://github.com/AdamBien/javaee8-essentials-archetype)<br>
+      + >Minimalistic Java EE 8 / Jakarta EE + MicroProfile Quickstarter
+      + >A quickstart maven archetype for creating greenfield Java EE 8 / Jakarta EE project with MicroProfile 2+ APIs.
+        >
+        >Fire up your CLI and type: mvn archetype:generate -Dfilter=com.airhacks:javaee8-essentials-archetype to create a fully fledged Java EE 8 "kB" project. Use the most recent version.
+   * [arun-gupta/microservices](https://github.com/arun-gupta/microservices) - 微服务 模式<br>
+      + >Refactor monolith to microservices
+   * [JaceyRx/Examination_System](https://github.com/JaceyRx/Examination_System) 这个项目是一个简单的教务查询系统，该练手小项目希望能帮助到大家，熟悉SSM的整合开发<br>
+      + >这个项目是一个简单的教务查询系统，该练手小项目希望能帮助到大家，熟悉SSM的整合开发
+   * [Vino007/javaEEScaffold](https://github.com/Vino007/javaEEScaffold)<br>
+      + >JavaEEScaffold-----java web 脚手架搭建(用户角色权限管理系统) ##项目地址 JavaEEScaffold 用户名：admin 密码：1111 数据库文件：javaEEScaffold.sql ##项目介绍
+      
+      
+   * [WebGoat/WebGoat-Legacy](https://github.com/WebGoat/WebGoat-Legacy)<br>
+      + >This program is a demonstration of common server-side application flaws. The exercises are intended to be used by people to learn about application penetration testing techniques.
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
    
