@@ -53,3 +53,5 @@
       - >Jakarta Persistence defines a standard for management of persistence and object/relational mapping in Java(R) environments.
 
    * [wildfly-archetypes/wildfly-jakartaee-ear-archetype/](https://github.com/wildfly/wildfly-archetypes/tree/master/wildfly-jakartaee-ear-archetype)<br>
+      - Introduction
+      >This archetype creates a blank EAR project with EJB and Web module. It is prepared for running Arquillian unit tests. More details can be found in the file "src/main/resources/archetype-resources/README.txt", which is end-user doc and added to the resulting project.
