@@ -81,6 +81,9 @@
       + ![Multiple matches in live (US OPEN)](https://github.com/mgreau/javaee7-websocket/raw/master/doc/img/websocket_wildfly_angularjs_tennis.png)<br>
       + Install on your local WildFly 10 Application Server
          - 
+## Awesome JavaEE projects
+   * [ScarlettRay/JavaEE-projects](https://github.com/ScarlettRay/JavaEE-projects)<br>
+      + >这个仓库收藏了一些自己在学习和工作过程中接触到的Javaee项目，为后人的项目开发提供一些思路或者解决方案吧。也希望各位看官可以将你们觉得不错的项目提交上来，格式不限，网站链接、网盘、源码都可以，PR,issues,或者直接联系我。
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
    
