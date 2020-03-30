@@ -41,4 +41,4 @@
 ## Advance Examples - 值得推荐，开源项目
    * [phillip-kruger/jello](https://github.com/phillip-kruger/jello)<br>
       - >This is an example application to demonstrate some of the APIs available under the Jakarta EE Umbrella.
-   
+      - ![High Level Overview](https://raw.githubusercontent.com/phillip-kruger/jello/master/high_level.png)<>
