@@ -38,5 +38,7 @@
 ## Examples - Old 7 version   
    * [Azure-Samples/Java-application-petstore-ee7](https://github.com/Azure-Samples/Java-application-petstore-ee7) - 非优先。。。<br>
 
-
+## Advance Examples - 值得推荐，开源项目
+   * [phillip-kruger/jello](https://github.com/phillip-kruger/jello)<br>
+      - >This is an example application to demonstrate some of the APIs available under the Jakarta EE Umbrella.
    
