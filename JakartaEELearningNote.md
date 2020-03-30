@@ -84,6 +84,12 @@
 ## Awesome JavaEE projects
    * [ScarlettRay/JavaEE-projects](https://github.com/ScarlettRay/JavaEE-projects)<br>
       + >这个仓库收藏了一些自己在学习和工作过程中接触到的Javaee项目，为后人的项目开发提供一些思路或者解决方案吧。也希望各位看官可以将你们觉得不错的项目提交上来，格式不限，网站链接、网盘、源码都可以，PR,issues,或者直接联系我。
+   * [howsun/howsun-javaee-framework](https://github.com/howsun/howsun-javaee-framework)<br>
+      + >这是一款特别适用于中小企业应用的JavaEE快速开发框架。它是居于Spring容器之上，封装了DAO（含Hibernate和MongoDB）操作、多模块统一管理、统一配置管理、统一日志管理等优雅的工程管理开发模型，并提供大量工具包、Json操作、分页辅助工具。
+   * [czwbig/Tmall_JavaEE](https://github.com/czwbig/Tmall_JavaEE)<br>
+      + >技术栈 Servlet + Jsp + Tomcat , 是Java Web入门非常好的练手项目
+        >
+        >本项目为Java EE入门练手项目，没有使用 SSH , SSM 框架，而是使用 JavaEE 整套技术来作为解决方案，实现模仿天猫网站的各种业务场景。 之所以不使用框架，就是为了借助这个项目夯实 JavaEE 基础，并且在项目中借助反射等技术。--> [模仿天猫前台](http://how2j.cn/tmall?p=55563)<br>
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
    
