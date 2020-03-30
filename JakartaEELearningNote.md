@@ -22,7 +22,7 @@
            This repository has been deprecated and will be removed August 1st, 2020.
         ```
    * [eclipse-ee4j/jakartaee-examples](https://github.com/eclipse-ee4j/jakartaee-examples) - 是上面一个新的Github源位置<br>
-   * [eclipse-ee4j/jakartaee-tutorial-examples](https://github.com/eclipse-ee4j/jakartaee-tutorial-examples)<br>
+   * [eclipse-ee4j/jakartaee-tutorial-examples](https://github.com/eclipse-ee4j/jakartaee-tutorial-examples) -- migrated from [javaee/tutorial-examples](https://github.com/javaee/tutorial-examples) - Java EE tutorial examples<br>
    * [payara/Payara-Examples](https://github.com/payara/Payara-Examples) - JakartaEE 在 Payara Web 服务器 上的部署于应用 <br>
    * [Example Health JEE Application on Openshift](https://github.com/IBM/example-health-jee-openshift) - IBM/example-health-jee-openshift : IBM 的 Open Liberty 上的部署与应用<br>
    * []()<br>
