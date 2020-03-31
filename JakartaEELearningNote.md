@@ -111,5 +111,5 @@ http://www.ruoyi.vip
       + >This program is a demonstration of common server-side application flaws. The exercises are intended to be used by people to learn about application penetration testing techniques.
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
-   *
+   * [RuoYi: 使用若依快速构建web应用程序](http://doc.ruoyi.vip/)<br>
    
