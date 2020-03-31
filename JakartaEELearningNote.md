@@ -84,6 +84,8 @@
    * [javaee-samples/javaee7-docker-maven](https://github.com/javaee-samples/javaee7-docker-maven) - Run Java EE 7 Application as Docker Container using Maven<br>
       + >This sample application shows how to package a Java EE 7 application as Docker image and run it within a container using docker-maven-plugin.
          - 
+   * [algaworks/curso-javaee-primefaces](https://github.com/algaworks/curso-javaee-primefaces)<br>
+      + 
 ## Awesome JavaEE projects
    * [ScarlettRay/JavaEE-projects](https://github.com/ScarlettRay/JavaEE-projects)<br>
       + >这个仓库收藏了一些自己在学习和工作过程中接触到的Javaee项目，为后人的项目开发提供一些思路或者解决方案吧。也希望各位看官可以将你们觉得不错的项目提交上来，格式不限，网站链接、网盘、源码都可以，PR,issues,或者直接联系我。
