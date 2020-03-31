@@ -67,7 +67,8 @@
 ## JavaEE Examples - 8 version   
    * [javaee-samples/javaee8-samples](https://github.com/javaee-samples/javaee8-samples)<br>
    * [lpelczar/JavaEE-hibernate-web-app](https://github.com/lpelczar/JavaEE-hibernate-web-app)<br>
-   * []()<br>
+   * [javamelody/javamelody](https://github.com/javamelody/javamelody) - JavaMelody<br>
+      + >The goal of JavaMelody is to monitor Java or Java EE applications in QA and production environments.
 
 ## Examples - Old 7 version   
    * [Azure-Samples/Java-application-petstore-ee7](https://github.com/Azure-Samples/Java-application-petstore-ee7) - 非优先。。。<br>
