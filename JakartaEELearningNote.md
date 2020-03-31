@@ -103,10 +103,13 @@
       + >这个项目是一个简单的教务查询系统，该练手小项目希望能帮助到大家，熟悉SSM的整合开发
    * [Vino007/javaEEScaffold](https://github.com/Vino007/javaEEScaffold)<br>
       + >JavaEEScaffold-----java web 脚手架搭建(用户角色权限管理系统) ##项目地址 JavaEEScaffold 用户名：admin 密码：1111 数据库文件：javaEEScaffold.sql ##项目介绍
-      
+   * [GVP若依 / RuoYi](https://gitee.com/y_project/RuoYi)<br>
+      + >基于SpringBoot的权限管理系统 易读易懂、界面简洁美观。 核心技术采用Spring、MyBatis、Shiro没有任何其它重度依赖。直接运行即可用
+http://www.ruoyi.vip
       
    * [WebGoat/WebGoat-Legacy](https://github.com/WebGoat/WebGoat-Legacy)<br>
       + >This program is a demonstration of common server-side application flaws. The exercises are intended to be used by people to learn about application penetration testing techniques.
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
+   *
    
