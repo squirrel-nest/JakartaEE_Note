@@ -62,7 +62,7 @@
       + >Sample Maven Netbeans project with JSF CRUD Web App
    * [thjanssen/HibernateTips](https://github.com/thjanssen/HibernateTips)<br>
    * [jakartaee/jakarta.ee](https://github.com/jakartaee/jakarta.ee)<br>
-
+   * [lenve/JavaEETest](https://github.com/lenve/JavaEETest) - 很多SpringBoot项目，可以参考参考<br>
 
 ## JavaEE Examples - 8 version   
    * [javaee-samples/javaee8-samples](https://github.com/javaee-samples/javaee8-samples)<br>
