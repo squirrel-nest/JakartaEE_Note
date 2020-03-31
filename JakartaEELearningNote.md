@@ -16,7 +16,8 @@
    * [Jakarta EE 8 and Beyond](https://dzone.com/articles/jakarta-ee-8-and-beyond)<br>
    * [Jakarta EE 8: Past, Present, and Future](https://jaxenter.com/jakarta-ee-8-past-present-future-161990.html)<br>
    * [Jakarta EE 8: The new era of Java EE explained](https://developers.redhat.com/blog/2019/09/12/jakarta-ee-8-the-new-era-of-java-ee-explained/)<br>
-   * []()<br>
+   * [c0de8ug/javaee-tutorial](https://github.com/c0de8ug/javaee-tutorial)<br>
+      + >这是个简单的教务系统网站,并且结合了图书订购功能,希望这个小DEMO能对大家学习有帮助
 ## Examples - Google Search: github java ee projects opensource example site:github.com | jakarta ee example | github jakarta ee projects opensource example site:github.com
    * [Jakarta EE Examples](https://projects.eclipse.org/proposals/jakarta-ee-examples) - 这个是官网的Examples 的即介绍，认真先看。优先看。。。<br>
    * [daggerok/java-ee-examples](https://github.com/daggerok/java-ee-examples) - 用到了Kotlin语言，参考看看<br>
