@@ -6,10 +6,11 @@
       + >Note that the Jakarta EE Tutorial code examples are located in a separate repository eclipse-ee4j/jakartaee-tutorial-examples.
    * [Jakarta EE Platform - spec-8](https://jakarta.ee/specifications/platform/8/platform-spec-8.pdf) - PDF 文档 - 文档的GitHub资源：[Jakarta EE Platform Specification](https://github.com/eclipse-ee4j/jakartaee-platform/tree/master/specification) - eclipse-ee4j/jakartaee-platform<br>
    * [Getting started with Jakarta EE](http://www.mastertheboss.com/javaee/jakarta-ee/getting-started-with-jakarta-ee)<br>
-   * [​Java tutorials for both Java EE & Jakarta EE and the Spring ecosystem](https://rieckpil.de/#/blog) - Example 下一条<br>
-   * [rieckpil/blog-tutorials](https://github.com/rieckpil/blog-tutorials)<br>
-   * [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
-   * [Bootstrap your first Jakarta EE 8 application](https://rieckpil.de/howto-bootstrap-your-first-jakarta-ee-8-application/)<br>
+   * [rieckpil/blog-tutorials](https://github.com/rieckpil/blog-tutorials) - 备注：这个例子比较新，参考<br>
+      + [Bootstrap your first Jakarta EE 8 application](https://rieckpil.de/howto-bootstrap-your-first-jakarta-ee-8-application/) - 创建Maven 与 Gradle 共生的 例子，以这个教程为 模板<br>
+      + [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
+      + [​Java tutorials for both Java EE & Jakarta EE and the Spring ecosystem](https://rieckpil.de/#/blog) - Example 下一条<br>
+
    * [Java EE 8/Jakarta EE 8 Sandbox](https://github.com/hantsy/ee8-sandbox)<br>
 ## 一些知识背景介绍等
    * [Java EE vs J2EE vs Jakarta EE](https://www.baeldung.com/java-enterprise-evolution)<br>
