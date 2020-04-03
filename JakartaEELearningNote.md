@@ -1,8 +1,8 @@
 # Jakarta EE 8 Reference
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
-   * [eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial) - Migrated from [javaee/tutorial](https://github.com/javaee/tutorial)<br>
+   * [eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial) - Migrated from [javaee/tutorial](https://github.com/javaee/tutorial) --> [The Jakarta EE 8 Tutorial - DRAFT](https://eclipse-ee4j.github.io/jakartaee-tutorial/toc.html)<br>
       + >This repository contains the source files that are used to build the Jakarta Enterprise Edition (Jakarta EE) Tutorial. The source files are authored in AsciiDoc. AsciiDoc is similar to markdown but is particularly suited for user documentation. This project also uses JBake. JBake is a static site generator that is inspired from Jekyll and written in Java. JBake uses templates for the structure of the page and the body of the page is generated from AsciiDoc content.
-
+      + >
       + >Note that the Jakarta EE Tutorial code examples are located in a separate repository eclipse-ee4j/jakartaee-tutorial-examples.
    * [Jakarta EE Platform - spec-8](https://jakarta.ee/specifications/platform/8/platform-spec-8.pdf) - PDF 文档 - 文档的GitHub资源：[Jakarta EE Platform Specification](https://github.com/eclipse-ee4j/jakartaee-platform/tree/master/specification) - eclipse-ee4j/jakartaee-platform<br>
    * [Getting started with Jakarta EE](http://www.mastertheboss.com/javaee/jakarta-ee/getting-started-with-jakarta-ee)<br>
