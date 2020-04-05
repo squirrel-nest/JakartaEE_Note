@@ -34,7 +34,10 @@
    * [eclipse-ee4j/jakartaee-tutorial-examples](https://github.com/eclipse-ee4j/jakartaee-tutorial-examples) -- migrated from [javaee/tutorial-examples](https://github.com/javaee/tutorial-examples) - Java EE tutorial examples<br>
    * [payara/Payara-Examples](https://github.com/payara/Payara-Examples) - JakartaEE 在 Payara Web 服务器 上的部署于应用 <br>
    * [Example Health JEE Application on Openshift](https://github.com/IBM/example-health-jee-openshift) - IBM/example-health-jee-openshift : IBM 的 Open Liberty 上的部署与应用<br>
-   * []()<br>
+      + [使用 Java EE、Open Liberty 和 Node.js 在一个虚构的医疗保健应用中部署基于 Kubernetes 的微服务](https://developer.ibm.com/cn/patterns/jee-app-modernization-with-openshift/)<br>
+         - >本 Code Pattern 展示了如何通过将 Java EE 应用程序转换为基于 Kubernetes 的微服务来实现应用程序现代化。它演示了为一个虚构的医疗保健公司的面向患者的应用程序创建容器镜像，并将其部署到 Red Hat OpenShift on IBM Cloud™ 集群上的步骤。
+         - >
+         - >此示例代码是一系列 Code Pattern 的一部分，这些 Code Pattern 专注于虚构的医疗保健公司，并使用 Red Hat OpenShift on IBM Cloud™ 企业版 Kubernetes 环境演示应用程序现代化。您将学习如何使用来自 Java EE 应用程序的 REST API 在 MySQL 数据库上填充和访问大量数据。此外，您还可以通过部署 Node.js 和 PHP Web 应用程序来使用 OpenShift 的 Source-to-Image 工具包，这些应用程序从 Java EE 应用程序对 API 进行 RESTful 调用，并显示来自 MySQL 数据库的数据。
    * []()<br>
    * []()<br>
    * []()<br>
