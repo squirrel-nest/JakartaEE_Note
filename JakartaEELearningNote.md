@@ -1,4 +1,11 @@
 # Jakarta EE 8 Reference
+## 前瞻性 - 在开始Java EE 的学习旅程之前，先了解了解 前瞻性的问题，把握好学习的方向，2020.4.5 -之后这些也许又落伍了 - 理解：周虽旧邦，其命维新 的 发展规律
+   * [https://zhuanlan.zhihu.com/p/78720067](云原生时代JAVA语言的求生之路) - 参考其中的 reference<br>
+   * [Java生态系统总结(QCon2019)](http://monkeybean.cn/2019/05/12/qcon2019/)<br>
+   * [Kubernetes 是什么？](https://kubernetes.io/zh/docs/concepts/overview/what-is-kubernetes/)<br>
+   * [EE4J Projects - Technical Direction](https://docs.google.com/document/d/12vO9Ztcxyd6oxDnKFi73p7JsYaPgifpepggFxzW_uyE/edit#)<br>
+   * [GraalVM - High-performance polyglot VM: What does GraalVM do?](https://www.graalvm.org/)<br>
+   * [Spring Cloud 使用 Kubernetes 作为配置中心 - 使用加密配置](https://blog.csdn.net/u013360850/article/details/100635538)<br>
 ## SDK Download
    * [Java™ EE 8 SDK Downloads](https://www.oracle.com/java/technologies/javaee-8-sdk-downloads.html)<br>
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
