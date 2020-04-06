@@ -13,7 +13,7 @@
 ## Jakarta EE 8 的学习路径
 
 ### Jakarta EE Persistence --> [JakartaEEPersistenceLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEPersistenceLearningNote.md)
-
+:point_down::small_red_triangle_down::arrow_down::arrow_down_small::arrow_double_down::arrow_double_down:
 ### Jakarta EE JsonB --> [JakartaEEJsonBLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEJsonBLearningNote.md)
 
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
