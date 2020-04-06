@@ -8,6 +8,13 @@
    * [Spring Cloud 使用 Kubernetes 作为配置中心 - 使用加密配置](https://blog.csdn.net/u013360850/article/details/100635538)<br>
 ## SDK Download
    * [Java™ EE 8 SDK Downloads](https://www.oracle.com/java/technologies/javaee-8-sdk-downloads.html)<br>
+
+
+## Jakarta EE 8 的学习路径
+
+### Jakarta EE Persistence --> [JakartaEEPersistenceLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEPersistenceLearningNote.md)
+
+
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
    * [eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial) - Migrated from [javaee/tutorial](https://github.com/javaee/tutorial) --> [The Jakarta EE 8 Tutorial - DRAFT](https://eclipse-ee4j.github.io/jakartaee-tutorial/toc.html)<br>
       + >This repository contains the source files that are used to build the Jakarta Enterprise Edition (Jakarta EE) Tutorial. The source files are authored in AsciiDoc. AsciiDoc is similar to markdown but is particularly suited for user documentation. This project also uses JBake. JBake is a static site generator that is inspired from Jekyll and written in Java. JBake uses templates for the structure of the page and the body of the page is generated from AsciiDoc content.
