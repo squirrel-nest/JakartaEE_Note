@@ -19,6 +19,14 @@
 :point_down::small_red_triangle_down::arrow_down::arrow_down_small::arrow_double_down::arrow_double_down:
 ### 2. Jakarta EE JsonB --> [JakartaEEJsonBLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEJsonBLearningNote.md)
 
+### 3. Jakarta EE JsonP -->
+
+
+### 4. [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
+
+
+
+
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
    * [eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial) - Migrated from [javaee/tutorial](https://github.com/javaee/tutorial) --> [The Jakarta EE 8 Tutorial - DRAFT](https://eclipse-ee4j.github.io/jakartaee-tutorial/toc.html)<br>
       + >This repository contains the source files that are used to build the Jakarta Enterprise Edition (Jakarta EE) Tutorial. The source files are authored in AsciiDoc. AsciiDoc is similar to markdown but is particularly suited for user documentation. This project also uses JBake. JBake is a static site generator that is inspired from Jekyll and written in Java. JBake uses templates for the structure of the page and the body of the page is generated from AsciiDoc content.
