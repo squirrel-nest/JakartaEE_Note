@@ -1,8 +1,8 @@
 
 # 学习资料的RoadMap
 ## 1. [Part VIII Persistence](https://eclipse-ee4j.github.io/jakartaee-tutorial/partpersist.html) --> [Jakarta Persistence](https://projects.eclipse.org/projects/ee4j.jpa) --> [Jakarta Persistence - Specifications](https://jakarta.ee/specifications/persistence/) --> [jakarta-ee/persistence-spec](https://github.com/jakarta-ee/persistence-spec) --> [Eclipse Yasson](https://github.com/eclipse-ee4j/yasson)<br>
-|  |  |<br>
-V V V
+|<br>
+V<br>
 ## 2. Youtube
    * [Configure a JDBC DataSource (PostgreSQL) for Open Liberty](https://www.youtube.com/watch?v=b2rtkYKoshA&list=PLFjB4VDnlT_1UH_Ncopre4nhCRNtBxohX)  --<br>
    * []()<br>
