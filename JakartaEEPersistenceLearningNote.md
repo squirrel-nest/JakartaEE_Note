@@ -4,7 +4,7 @@
 |  |  |<br>
 V V V
 ## 2. Youtube
-   * []()  --<br>
+   * [Configure a JDBC DataSource (PostgreSQL) for Open Liberty](https://www.youtube.com/watch?v=b2rtkYKoshA&list=PLFjB4VDnlT_1UH_Ncopre4nhCRNtBxohX)  --<br>
    * []()<br>
 # 源代码的流程图（顺序）- 与学习过程的 关系图（包括 参考 的 例子，时间顺序、文件位置：Project and Package）
 ## 2. Source Code 的 顺序 与 位置（文件位置）
