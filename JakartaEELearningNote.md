@@ -11,6 +11,7 @@
 
 
 ## Jakarta EE 8 的学习路径
+### 0. Jakarta EE 8 --> [Jakarta EE 8](https://projects.eclipse.org/jakartaee/releases/8)<br>
 
 ### 1. Jakarta EE Persistence --> [JakartaEEPersistenceLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEPersistenceLearningNote.md)
 :point_down::small_red_triangle_down::arrow_down::arrow_down_small::arrow_double_down::arrow_double_down:
