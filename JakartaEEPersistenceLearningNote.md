@@ -7,7 +7,7 @@
 
 
 # 知识点
-## da
+## Persistence 相关知识点
    * Persistence.xml 位置
       + >If you package the persistent unit as a set of classes in an enterprise bean JAR file, persistence.xml should be put in the enterprise bean JAR’s META-INF directory.
         >
