@@ -1,7 +1,7 @@
 
 # 学习资料的RoadMap
 ## 1. [Part VIII Persistence](https://eclipse-ee4j.github.io/jakartaee-tutorial/partpersist.html) --> [Jakarta Persistence](https://projects.eclipse.org/projects/ee4j.jpa) --> [Jakarta Persistence - Specifications](https://jakarta.ee/specifications/persistence/) --> [jakarta-ee/persistence-spec](https://github.com/jakarta-ee/persistence-spec)<br>
-| | |<br>
+|  |  |<br>
 V V V
 ## 2. Youtube: [Jakarta EE 8 Recipes : Applying JSONB and JSONP Operations | packtpub.com](https://www.youtube.com/watch?v=TNB0fK8l0EU)  --<br>
 
