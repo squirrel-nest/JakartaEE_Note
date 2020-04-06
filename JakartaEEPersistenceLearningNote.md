@@ -1,10 +1,11 @@
 
 # 学习资料的RoadMap
-## 1. [Part VIII Persistence](https://eclipse-ee4j.github.io/jakartaee-tutorial/partpersist.html) --> [Jakarta Persistence](https://projects.eclipse.org/projects/ee4j.jpa) --> [Jakarta Persistence - Specifications](https://jakarta.ee/specifications/persistence/) --> [jakarta-ee/persistence-spec](https://github.com/jakarta-ee/persistence-spec)<br>
+## 1. [Part VIII Persistence](https://eclipse-ee4j.github.io/jakartaee-tutorial/partpersist.html) --> [Jakarta Persistence](https://projects.eclipse.org/projects/ee4j.jpa) --> [Jakarta Persistence - Specifications](https://jakarta.ee/specifications/persistence/) --> [jakarta-ee/persistence-spec](https://github.com/jakarta-ee/persistence-spec) --> [Eclipse Yasson](https://github.com/eclipse-ee4j/yasson)<br>
 |  |  |<br>
 V V V
-## 2. Youtube: [Jakarta EE 8 Recipes : Applying JSONB and JSONP Operations | packtpub.com](https://www.youtube.com/watch?v=TNB0fK8l0EU)  --<br>
-
+## 2. Youtube
+   * []()  --<br>
+   * []()<br>
 # 源代码的流程图（顺序）- 与学习过程的 关系图（包括 参考 的 例子，时间顺序、文件位置：Project and Package）
 ## 2. Source Code 的 顺序 与 位置（文件位置）
 
