@@ -6,7 +6,7 @@
 
 ## 2. Youtube
    * [Jakarta EE 8 Recipes : Applying JSONB and JSONP Operations | packtpub.com](https://www.youtube.com/watch?v=TNB0fK8l0EU)  --<br>
-   * <br>
+   * [MicroProfile Config - Getting Started with Eclipse MicroProfile](https://www.youtube.com/watch?v=0h3QceSBBiY&list=PLFjB4VDnlT_3vXkrLkSBW7j6ygQRXBypA)<br>
 
 ## 3. [Spring JSON-P with Jackson](https://www.baeldung.com/spring-jackson-jsonp) -- [Introduction to the JSON Binding API (JSR 367) in Java](https://www.baeldung.com/java-json-binding-api)<br>
 
