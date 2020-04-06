@@ -14,6 +14,7 @@
 
 ### Jakarta EE Persistence --> [JakartaEEPersistenceLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEPersistenceLearningNote.md)
 
+### Jakarta EE JsonB --> [JakartaEEJsonBLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEJsonBLearningNote.md)
 
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
    * [eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial) - Migrated from [javaee/tutorial](https://github.com/javaee/tutorial) --> [The Jakarta EE 8 Tutorial - DRAFT](https://eclipse-ee4j.github.io/jakartaee-tutorial/toc.html)<br>
