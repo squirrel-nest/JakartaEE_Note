@@ -8,6 +8,12 @@
 # 源代码的流程图（顺序）- 与学习过程的 关系图（包括 参考 的 例子，时间顺序、文件位置：Project and Package）
 ## 2. Source Code 的 顺序 与 位置（文件位置）
 
+1. persistence.xml --> jakarta-ee-8-jaxrs/src/main/resources/META-INF/persistence.xml
+2. hibernate.cfg.xml --> jakarta-ee-8-jaxrs/src/main/webapp/WEB-INF/classes/hibernate.cfg.xml
+
+
+
+
 
 # 知识点
 ## Persistence 相关知识点
