@@ -25,3 +25,6 @@
      + [jakarta.persistence:jakarta.persistence-api](https://search.maven.org/artifact/jakarta.persistence/jakarta.persistence-api/3.0.0-RC2/jar)<br>
      + 本地文件所在位置
         - C:\Users\w******i\.m2 - 其中 w******i 为 本地用户名 ，linux 类似。。
+  * Hibernate
+     + [Hibernate ORM 5.3.16.Final User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html)<br>
+     + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/current/quickstart/html_single/)<br>
