@@ -26,5 +26,6 @@
      + 本地文件所在位置
         - C:\Users\w******i\.m2 - 其中 w******i 为 本地用户名 ，linux 类似。。
   * Hibernate
+     + [Topical Guides](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/) - 这个指导包含所有的路径，优先参考<br>
      + [Hibernate ORM 5.3.16.Final User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html)<br>
      + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/current/quickstart/html_single/)<br>
