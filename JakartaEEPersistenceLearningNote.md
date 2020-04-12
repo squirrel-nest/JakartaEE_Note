@@ -39,4 +39,79 @@
 ## JakartaEE 与 NoSQL
    * 参考
       + [Eclipse Jakarta NoSQL](http://www.jnosql.org/spec/) - 开发NoSQL 数据库时要看看<br>
+         - ```java
+              package com.ilhicas.converters;
+
+              import org.json.JSONArray;
+              import org.json.JSONException;
+
+              import javax.persistence.AttributeConverter;
+              import javax.persistence.Converter;
+
+              @Converter
+              public class JSONObjectConverter implements AttributeConverter<JSONObject, String> {
+                  @Override
+                  public String convertToDatabaseColumn(JSONObject jsonData) {
+                      String json;
+                      try{
+                          json = jsonData.toString();
+                      }
+                      catch (NullPointerException ex)
+                      {
+                          //extend error handling here if you want
+                          json = "";
+                      }
+                      return json;
+                  }
+
+                  @Override
+                  public JSONObject convertToEntityAttribute(String jsonDataAsJson) {
+                      JSONObject jsonData;
+                      try {
+                          jsonData = new JSONObject(jsonDataAsJson);
+                      } catch (JSONException ex) {
+                          //extend error handling here if you want
+                          jsonData = null;
+                      }
+                      return jsonData;
+                  }
+              }
+           ```
+         - ```java
+              @Entity
+              @Data
+              @Table(name = "users")
+              public class User {
+                  @Id
+                  private Long id;
+
+                  @NonNull
+                  private String username;
+
+                  @NonNull
+                  @Column(columnDefinition = "TEXT")
+                  @Convert(converter= JSONObjectConverter.class)
+                  private JSONObject jsonData;
+              }
+           
+           ```
+         - ```java
+             ...
+            @Autowired
+            private UserRepository userRepository;
+
+            public void someMethod()
+            {
+                User example = userRepository.findByUsername("ilhicas");
+                System.out.println(example.getJsonData().getString("KEY") )
+                //prints out value for key
+
+                JSONObject toSet = new JSONObject();
+                toSet.put("SOME_OTHER_KEY", "SOME_VALUE")
+                example.setJsonData(toSet);
+                userRepository.save(example);
+                //Saves our user uson jsonData from our JSONObject
+            }
+            ...
+           ```
 ##
