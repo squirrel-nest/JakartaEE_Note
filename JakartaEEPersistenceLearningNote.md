@@ -70,8 +70,8 @@
                       return jsonData;
                   }
               }
-           ```
-         - ```java
+            ```
+          - ```java
               @Entity
               @Data
               @Table(name = "users")
@@ -88,26 +88,26 @@
                   private JSONObject jsonData;
               }
            
-           ```
-         - ```java
-             ...
-            @Autowired
-            private UserRepository userRepository;
+            ```
+          - ```java
+              ...
+              @Autowired
+              private UserRepository userRepository;
 
-            public void someMethod()
-            {
-                User example = userRepository.findByUsername("ilhicas");
-                System.out.println(example.getJsonData().getString("KEY") )
-                //prints out value for key
+              public void someMethod()
+              {
+                  User example = userRepository.findByUsername("ilhicas");
+                  System.out.println(example.getJsonData().getString("KEY") )
+                  //prints out value for key
 
-                JSONObject toSet = new JSONObject();
-                toSet.put("SOME_OTHER_KEY", "SOME_VALUE")
-                example.setJsonData(toSet);
-                userRepository.save(example);
-                //Saves our user uson jsonData from our JSONObject
-            }
-            ...
-           ```
+                  JSONObject toSet = new JSONObject();
+                  toSet.put("SOME_OTHER_KEY", "SOME_VALUE")
+                  example.setJsonData(toSet);
+                  userRepository.save(example);
+                  //Saves our user uson jsonData from our JSONObject
+              }
+              ...
+            ```
 ## Hibernate 与 E。。
 ### Hibernate
    * 参考
