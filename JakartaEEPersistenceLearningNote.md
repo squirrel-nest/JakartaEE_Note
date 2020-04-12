@@ -29,7 +29,8 @@
      + [Topical Guides](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/) - 这个指导包含所有的路径，优先参考<br>
      + [Hibernate ORM 5.3.16.Final User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html)<br>
      + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/current/quickstart/html_single/)<br>
-
+## Persistence 与 Json
+   * [Persisting JSONObject Using JPA - JPA entity with JSONObject](https://ilhicas.com/2019/04/26/Persisting-JSONObject-Using-JPA.html) 非常好的指南。。学习<br>
 ## Hibernate 与 E。。
 ### Hibernate
    * 参考
