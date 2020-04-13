@@ -1,3 +1,4 @@
+# Java SE LearningNote --> [JavaSELearningNote.md](https://github.com/squirrel-nest/JavaSELearningNote/blob/master/JavaSELearningNote.md)<br>
 # Jakarta EE 8 Reference
 ## 前瞻性 - 在开始Java EE 的学习旅程之前，先了解了解 前瞻性的问题，把握好学习的方向，2020.4.5 -之后这些也许又落伍了 - 理解：周虽旧邦，其命维新 的 发展规律
    * [https://zhuanlan.zhihu.com/p/78720067](云原生时代JAVA语言的求生之路) - 参考其中的 reference<br>
