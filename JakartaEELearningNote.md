@@ -155,3 +155,4 @@ http://www.ruoyi.vip
 ## 包的管理
 ### 包的网址
    * **Maven Central Repository --> [Maven Central Repository](https://repo.maven.apache.org/) --> [Maven Central Repository: Maven2](https://repo.maven.apache.org/maven2/) - Maven Central Repository: Maven2的位置**<br>
+   * 次要位置 - 一般网上查的都是这个网址，但更新稍有滞后 -- [Maven Repository](https://mvnrepository.com/)<br>
