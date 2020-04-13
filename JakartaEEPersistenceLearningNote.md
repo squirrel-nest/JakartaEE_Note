@@ -31,8 +31,16 @@
          - [Topical Guides](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/) - 这个指导包含所有的路径，优先参考<br>
          - [Hibernate ORM 5.3.16.Final User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html)<br>
          - [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/current/quickstart/html_single/)<br>
+         - [The Bean Validation reference implementation](http://hibernate.org/validator/)<br>
+         - [Getting Started With Hibernate Annotations](https://www.codejava.net/frameworks/hibernate/getting-started-with-hibernate-annotations)<br>
          - [Chapter 21. Improving performance](https://docs.jboss.org/hibernate/core/3.6/reference/en-US/html/performance.html#performance-fetching-profiles)<br>
-
+         - [Using latest Hibernate ORM within WildFly](https://docs.jboss.org/hibernate/orm/current/topical/html_single/wildfly/Wildfly.html)<br>
+         - [Native Bootstrapping](https://docs.jboss.org/hibernate/orm/current/topical/html_single/bootstrap/NativeBootstrapping.html#_building_the_metadata)<br>
+         - [Custom SessionFactory and Session Implementations Guide](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/sessionfactory/CustomSessionFactory.html)<br>
+         - [Services and Registries](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/registries/ServiceRegistries.html)<br>
+         - [Bytecode Enhancement](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/bytecode/BytecodeEnhancement.html)<br>
+         - [JPA Static Metamodel Generator](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/metamodelgen/MetamodelGenerator.html)<br>
+         - []()<br>
 ## Persistence 与 Json
    * 参考 
       + [Persisting JSONObject Using JPA - JPA entity with JSONObject](https://ilhicas.com/2019/04/26/Persisting-JSONObject-Using-JPA.html) 非常好的指南。。学习<br>
@@ -116,5 +124,12 @@
 ## JakartaEE 与 NoSQL
    * 参考
       + [Eclipse Jakarta NoSQL](http://www.jnosql.org/spec/) - 开发NoSQL 数据库时要看看<br>
+   * Hibernate
+      + [NoSQL datastores](http://hibernate.org/ogm/)<br>
+      + [Getting started with Hibernate OGM](http://hibernate.org/ogm/documentation/getting-started/)<br>
+      + [Hibernate OGM - Documentation](http://hibernate.org/ogm/documentation/)<br>
+      + [Run Hibernate OGM with WildFly and MongoDB as a beginner](https://discourse.hibernate.org/t/run-hibernate-ogm-with-wildfly-and-mongodb-as-a-beginner/2799)<br>
+      + hibernate-ogm 源代码 - [hibernate/hibernate-ogm](https://github.com/hibernate/hibernate-ogm)<br>
+      + []()<br>
 
 ##
