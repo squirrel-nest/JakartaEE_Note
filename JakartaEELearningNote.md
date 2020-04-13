@@ -20,7 +20,7 @@
 :point_down::small_red_triangle_down::arrow_down::arrow_down_small::arrow_double_down::arrow_double_down:
 ### 2. Jakarta EE JsonB --> [JakartaEEJsonBLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEJsonBLearningNote.md)
 
-### 3. Jakarta EE JsonP -->
+### 3. Jakarta EE JsonP --> []()<br>
 
 
 ### 4. [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
@@ -151,4 +151,7 @@ http://www.ruoyi.vip
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
    * [RuoYi: 使用若依快速构建web应用程序](http://doc.ruoyi.vip/)<br>
-   
+
+## 包的管理
+### 包的网址
+   * **Maven Central Repository --> [Maven Central Repository](https://repo.maven.apache.org/) --> [Maven Central Repository: Maven2](https://repo.maven.apache.org/maven2/) - Maven Central Repository: Maven2的位置**<br>
