@@ -25,11 +25,14 @@
       + [jakarta.persistence:jakarta.persistence-api](https://search.maven.org/artifact/jakarta.persistence/jakarta.persistence-api/3.0.0-RC2/jar)<br>
       + 本地文件所在位置
          - C:\Users\w******i\.m2 - 其中 w******i 为 本地用户名 ，linux 类似。。
-   * Hibernate
-      + **Hibernate 所有文档的索引 -- 包括quickstart、userguide 等等** [Index of /hibernate/orm/current](https://docs.jboss.org/hibernate/orm/current/)<br>
-      + [Topical Guides](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/) - 这个指导包含所有的路径，优先参考<br>
-      + [Hibernate ORM 5.3.16.Final User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html)<br>
-      + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/current/quickstart/html_single/)<br>
+   * Persistence 的 Implementation - **Hibernate 与 EclipseLink**
+      + Hibernate
+         - **Hibernate 所有文档的索引 -- 包括quickstart、userguide 等等** [Index of /hibernate/orm/current](https://docs.jboss.org/hibernate/orm/current/)<br>
+         - [Topical Guides](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/) - 这个指导包含所有的路径，优先参考<br>
+         - [Hibernate ORM 5.3.16.Final User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html)<br>
+         - [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/current/quickstart/html_single/)<br>
+         - [Chapter 21. Improving performance](https://docs.jboss.org/hibernate/core/3.6/reference/en-US/html/performance.html#performance-fetching-profiles)<br>
+
 ## Persistence 与 Json
    * 参考 
       + [Persisting JSONObject Using JPA - JPA entity with JSONObject](https://ilhicas.com/2019/04/26/Persisting-JSONObject-Using-JPA.html) 非常好的指南。。学习<br>
@@ -109,10 +112,6 @@
               }
               ...
             ```
-## Hibernate 与 E。。
-### Hibernate
-   * 参考
-      + [Chapter 21. Improving performance](https://docs.jboss.org/hibernate/core/3.6/reference/en-US/html/performance.html#performance-fetching-profiles)<br>
 
 ## JakartaEE 与 NoSQL
    * 参考
