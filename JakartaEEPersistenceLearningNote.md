@@ -40,7 +40,7 @@
          - [Services and Registries](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/registries/ServiceRegistries.html)<br>
          - [Bytecode Enhancement](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/bytecode/BytecodeEnhancement.html)<br>
          - [JPA Static Metamodel Generator](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/metamodelgen/MetamodelGenerator.html)<br>
-         - []()<br>
+         - [Stored Procedures with Hibernate](https://www.baeldung.com/stored-procedures-with-hibernate-tutorial)<br>
 ## Persistence 与 Json
    * 参考 
       + [Persisting JSONObject Using JPA - JPA entity with JSONObject](https://ilhicas.com/2019/04/26/Persisting-JSONObject-Using-JPA.html) 很好的指南。。学习。。但是，Hibernate无法实现:=(<br>
@@ -120,7 +120,21 @@
               }
               ...
             ```
-
+      + MySQL 的 JSON 字段 的 解决方案 （临时）
+         - hibernate-types 源代码 --> [vladmihalcea/hibernate-types](https://github.com/vladmihalcea/hibernate-types/tree/master/hibernate-types-52)<br>
+         - MySQL JSON字段的例子 --> [aelgali/jpa-mysql-json-sample](https://github.com/aelgali/jpa-mysql-json-sample)<br>
+         - 例子 --> [mopano/hibernate-json-type](https://github.com/mopano/hibernate-json-type)<br>
+         - [How to fix the Hibernate “No Dialect mapping for JDBC type” issue](https://vladmihalcea.com/hibernate-no-dialect-mapping-for-jdbc-type/)<br>
+         - [How to map a String JPA property to a JSON column using Hibernate](https://vladmihalcea.com/map-string-jpa-property-json-column-hibernate/)<br>
+         - [How to map JSON objects using generic Hibernate Types](https://vladmihalcea.com/how-to-map-json-objects-using-generic-hibernate-types/)<br>
+         - [Hibernate PostgreSQL JSONB issue: No Dialect mapping for JDBC type: 1111](https://discourse.hibernate.org/t/hibernate-postgresql-jsonb-issue-no-dialect-mapping-for-jdbc-type-1111/1612) - 如参考上一篇，如果上一篇解决<br>
+         - [How to map a JSON hierarchy with JPA and Hibernate](https://discourse.hibernate.org/t/how-to-map-a-json-hierarchy-with-jpa-and-hibernate/2380)<br>
+         - [How to store schema-less EAV (Entity-Attribute-Value) data using JSON and Hibernate](https://vladmihalcea.com/how-to-store-schema-less-eav-entity-attribute-value-data-using-json-and-hibernate/)<br>
+         - [How to map a map JSON column to Java Object with JPA](https://stackoverflow.com/questions/25738569/how-to-map-a-map-json-column-to-java-object-with-jpa)<br>
+         - [How to map a MySQL JSON column to a Java entity property using JPA and Hibernate -](https://stackoverflow.com/questions/44308167/how-to-map-a-mysql-json-column-to-a-java-entity-property-using-jpa-and-hibernate)<br>
+         - [How to use Hibernate 5.2.10 MySQL JSON support without AttributeConverter or customUserType to map to Java Entity Class?](https://stackoverflow.com/questions/44445417/how-to-use-hibernate-5-2-10-mysql-json-support-without-attributeconverter-or-cus) - 有空的话参考下面提到的例子<br>
+         - [12.17.3 Functions That Search JSON Values](https://dev.mysql.com/doc/refman/8.0/en/json-search-functions.html)<br>
+         
 ## JakartaEE 与 NoSQL
    * 参考
       + [Eclipse Jakarta NoSQL](http://www.jnosql.org/spec/) - 开发NoSQL 数据库时要看看<br>
@@ -130,6 +144,6 @@
       + [Hibernate OGM - Documentation](http://hibernate.org/ogm/documentation/)<br>
       + [Run Hibernate OGM with WildFly and MongoDB as a beginner](https://discourse.hibernate.org/t/run-hibernate-ogm-with-wildfly-and-mongodb-as-a-beginner/2799)<br>
       + hibernate-ogm 源代码 - [hibernate/hibernate-ogm](https://github.com/hibernate/hibernate-ogm)<br>
-      + []()<br>
+      + [MySQL and MongoDB together](https://discourse.hibernate.org/t/mysql-and-mongodb-together/1846)<br>
 
 ##
