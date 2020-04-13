@@ -1,4 +1,4 @@
-## [Process JSON data with the JSON Processing (JSON-P) specification](https://rieckpil.de/whatis-json-processing-json-p/)<br>
+## [Process JSON data with the JSON Processing (JSON-P) specification](https://rieckpil.de/whatis-json-processing-json-p/)<br> - 这个教程很好，优先学先
 
    * JSON Support in Jakarta EE
       + [JSON Support in Jakarta EE](https://www.eclipse.org/community/eclipse_newsletter/2018/november/jsonjakartaee.php) -一些有用的用法参考<br>
