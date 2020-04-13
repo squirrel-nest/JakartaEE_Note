@@ -157,3 +157,5 @@ http://www.ruoyi.vip
    * **Maven Central Repository --> [Maven Central Repository](https://repo.maven.apache.org/) --> [Maven Central Repository: Maven2](https://repo.maven.apache.org/maven2/) - Maven Central Repository: Maven2的位置**<br>
    * Maven Central Repository 的搜索引擎 --> [The Central Repository Search Engine](https://search.maven.org/) -- 如果找到，但在IntelliJ Idea中无法用maven或gradle下载，到Maven Central Repository中没有查到，说明尚未更新到Maven Central Repository<br>
    * 次要位置 - 一般网上查的都是这个网址，但更新稍有滞后 -- [Maven Repository](https://mvnrepository.com/)<br>
+
+   * Gradle plugins 的搜索引擎： [Search Gradle plugins](https://plugins.gradle.org/search)<br>
