@@ -43,7 +43,7 @@
          - []()<br>
 ## Persistence 与 Json
    * 参考 
-      + [Persisting JSONObject Using JPA - JPA entity with JSONObject](https://ilhicas.com/2019/04/26/Persisting-JSONObject-Using-JPA.html) 非常好的指南。。学习<br>
+      + [Persisting JSONObject Using JPA - JPA entity with JSONObject](https://ilhicas.com/2019/04/26/Persisting-JSONObject-Using-JPA.html) 很好的指南。。学习。。但是，Hibernate无法实现:=(<br>
          * 代码样例
             - ```java
               package com.ilhicas.converters;
