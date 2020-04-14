@@ -137,8 +137,12 @@
          - [12.17.3 Functions That Search JSON Values](https://dev.mysql.com/doc/refman/8.0/en/json-search-functions.html)<br>
          
          - [How to add a data access layer to your Wicket app using Hibernate and Spring JPA with minimal code](https://www.coderdreams.com/how-to-add-a-data-access-layer-to-your-wicket-app-using-hibernate-and-spring-jpa-with-minimal-code/)<br>
+            * 代码 - [RomanSery/codesnippets](https://github.com/RomanSery/codesnippets)<br>
          - [Using MySQL JSON columns to simplify your data storage: Part 1](https://www.coderdreams.com/using-mysql-json-columns-to-simplify-your-data-storage-part-1/)<br>
-         
+
+## CRUD（数据库的增删改查）
+   * 参考
+      + [Spring Boot, Spring Data JPA – Building Rest CRUD API example](https://bezkoder.com/spring-boot-jpa-crud-rest-api/)<br>
 ## JakartaEE 与 NoSQL
    * 参考
       + [Eclipse Jakarta NoSQL](http://www.jnosql.org/spec/) - 开发NoSQL 数据库时要看看<br>
