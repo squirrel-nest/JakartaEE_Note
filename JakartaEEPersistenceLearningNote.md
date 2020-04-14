@@ -46,6 +46,8 @@
    * 参考
       [Persisting Maps with Hibernate](https://www.baeldung.com/hibernate-persisting-maps)<br>
       [Mapping LOB Data in Hibernate](https://www.baeldung.com/hibernate-lob)<br>
+## Data 
+   * [JPA and Hibernate Many To Many Relationship Mapping Example with Spring Boot and MySQL](https://hellokoding.com/jpa-many-to-many-relationship-mapping-example-with-spring-boot-maven-and-mysql/)<br>
 ## Persistence 与 Json
    * 参考 
       + [Persisting JSON change via AttributeConverter to database using Quarkus and Hibernate](https://stackoverflow.com/questions/59115776/persisting-json-change-via-attributeconverter-to-database-using-quarkus-and-hibe) - 用到Quarkus and Hibernate，有时间看看<br>
