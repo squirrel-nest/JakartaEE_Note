@@ -42,6 +42,10 @@
          - [JPA Static Metamodel Generator](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/metamodelgen/MetamodelGenerator.html)<br>
          - [Stored Procedures with Hibernate](https://www.baeldung.com/stored-procedures-with-hibernate-tutorial)<br>
          - [Hibernate Tutorial](https://www.javaguides.net/p/hibernate-tutorial.html) - 有空看吧<br>
+## Persisting Maps with Hibernate
+   * 参考
+      [Persisting Maps with Hibernate](https://www.baeldung.com/hibernate-persisting-maps)<br>
+      [Mapping LOB Data in Hibernate](https://www.baeldung.com/hibernate-lob)<br>
 ## Persistence 与 Json
    * 参考 
       + [Persisting JSON change via AttributeConverter to database using Quarkus and Hibernate](https://stackoverflow.com/questions/59115776/persisting-json-change-via-attributeconverter-to-database-using-quarkus-and-hibe) - 用到Quarkus and Hibernate，有时间看看<br>
