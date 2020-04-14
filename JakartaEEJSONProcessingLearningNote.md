@@ -16,6 +16,7 @@
          - Parse JSON Using JsonPATH
       + Jackson 的 用法，暂时不考虑用
          - [Convert List to JSON Array Using Jackson](https://www.javaguides.net/2019/07/convert-list-to-json-array-using-jackson.html)<br>
+         - [How to convert Java object to JSON string?](https://kodejava.org/how-to-convert-java-object-to-json-string/)<br>
       + 临时 - 一些有用的例子
          - [Convert List to Array in Java](https://devqa.io/java/convert-list-to-array-in-java)<br>
          - [Java Code Examples for javax.json.Json.createArrayBuilder()](https://www.programcreek.com/java-api-examples/?class=javax.json.Json&method=createArrayBuilder)<br>
