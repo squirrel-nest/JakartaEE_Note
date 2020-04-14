@@ -41,6 +41,7 @@
          - [Bytecode Enhancement](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/bytecode/BytecodeEnhancement.html)<br>
          - [JPA Static Metamodel Generator](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/metamodelgen/MetamodelGenerator.html)<br>
          - [Stored Procedures with Hibernate](https://www.baeldung.com/stored-procedures-with-hibernate-tutorial)<br>
+         - [Hibernate Tutorial](https://www.javaguides.net/p/hibernate-tutorial.html) - 有空看吧<br>
 ## Persistence 与 Json
    * 参考 
       + [Persisting JSONObject Using JPA - JPA entity with JSONObject](https://ilhicas.com/2019/04/26/Persisting-JSONObject-Using-JPA.html) 很好的指南。。学习。。但是，Hibernate无法实现:=(<br>
@@ -135,6 +136,9 @@
          - [How to use Hibernate 5.2.10 MySQL JSON support without AttributeConverter or customUserType to map to Java Entity Class?](https://stackoverflow.com/questions/44445417/how-to-use-hibernate-5-2-10-mysql-json-support-without-attributeconverter-or-cus) - 有空的话参考下面提到的例子<br>
          - [12.17.3 Functions That Search JSON Values](https://dev.mysql.com/doc/refman/8.0/en/json-search-functions.html)<br>
          
+         - [How to add a data access layer to your Wicket app using Hibernate and Spring JPA with minimal code](https://www.coderdreams.com/how-to-add-a-data-access-layer-to-your-wicket-app-using-hibernate-and-spring-jpa-with-minimal-code/)<br>
+         - [Using MySQL JSON columns to simplify your data storage: Part 1](https://www.coderdreams.com/using-mysql-json-columns-to-simplify-your-data-storage-part-1/)<br>
+         
 ## JakartaEE 与 NoSQL
    * 参考
       + [Eclipse Jakarta NoSQL](http://www.jnosql.org/spec/) - 开发NoSQL 数据库时要看看<br>
@@ -145,5 +149,6 @@
       + [Run Hibernate OGM with WildFly and MongoDB as a beginner](https://discourse.hibernate.org/t/run-hibernate-ogm-with-wildfly-and-mongodb-as-a-beginner/2799)<br>
       + hibernate-ogm 源代码 - [hibernate/hibernate-ogm](https://github.com/hibernate/hibernate-ogm)<br>
       + [MySQL and MongoDB together](https://discourse.hibernate.org/t/mysql-and-mongodb-together/1846)<br>
-
+   * Sample
+      + [platformsh/java-quick-start/jakarta/tomee-mongodb](https://github.com/platformsh/java-quick-start/tree/master/jakarta/tomee-mongodb)<br>
 ##
