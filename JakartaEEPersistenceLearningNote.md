@@ -150,5 +150,5 @@
       + hibernate-ogm 源代码 - [hibernate/hibernate-ogm](https://github.com/hibernate/hibernate-ogm)<br>
       + [MySQL and MongoDB together](https://discourse.hibernate.org/t/mysql-and-mongodb-together/1846)<br>
    * Sample
-      + [platformsh/java-quick-start/jakarta/tomee-mongodb](https://github.com/platformsh/java-quick-start/tree/master/jakarta/tomee-mongodb)<br>
+      + [platformsh/java-quick-start/jakarta/tomee-mongodb](https://github.com/platformsh/java-quick-start/tree/master/jakarta/tomee-mongodb) - 待看<br>
 ##
