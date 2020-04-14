@@ -143,6 +143,8 @@
 ## CRUD（数据库的增删改查）
    * 参考
       + [Spring Boot, Spring Data JPA – Building Rest CRUD API example](https://bezkoder.com/spring-boot-jpa-crud-rest-api/)<br>
+      + [MapStruct Example of Mapping JPA and Hibernate Entity to DTO](https://hellokoding.com/mapping-jpa-hibernate-entity-and-dto-with-mapstruct/)<br>
+      + [Don’t expose your JPA entities in your REST API](https://thoughts-on-java.org/dont-expose-entities-in-api/)<br>
 ## JakartaEE 与 NoSQL
    * 参考
       + [Eclipse Jakarta NoSQL](http://www.jnosql.org/spec/) - 开发NoSQL 数据库时要看看<br>
