@@ -11,7 +11,10 @@
    1. persistence.xml --> jakarta-ee-8-jaxrs/src/main/resources/META-INF/persistence.xml
    2. hibernate.cfg.xml --> jakarta-ee-8-jaxrs/src/main/webapp/WEB-INF/classes/hibernate.cfg.xml
 
-
+## Entity-Relationship Diagram Symbols and Notation - 需要先学习
+   * [Entity-Relationship Diagram Symbols and Notation](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)<br>
+   * [Entity Relationship Diagram](https://www.smartdraw.com/entity-relationship-diagram/)<br>
+   
 
 
 
@@ -46,8 +49,22 @@
    * 参考
       [Persisting Maps with Hibernate](https://www.baeldung.com/hibernate-persisting-maps)<br>
       [Mapping LOB Data in Hibernate](https://www.baeldung.com/hibernate-lob)<br>
-## Data 
+## Data Rationship
    * [JPA and Hibernate Many To Many Relationship Mapping Example with Spring Boot and MySQL](https://hellokoding.com/jpa-many-to-many-relationship-mapping-example-with-spring-boot-maven-and-mysql/)<br>
+## Hibernate - Query Language
+   * [Hibernate - Query Language](https://www.tutorialspoint.com/hibernate/hibernate_query_language.htm)<br>
+   * [JPA Query Parameters Usage](https://www.baeldung.com/jpa-query-parameters)<br>
+   * [Hibernate Query Language Tutorial](https://www.javaguides.net/2019/10/hibernate-query-language-tutorial.html)<br>
+   * [Hibernate Query Language (HQL) Example](https://www.codejava.net/frameworks/hibernate/hibernate-query-language-hql-example)<br>
+   * [Best Performance Practices for Hibernate 5 and Spring Boot 2 (Part 1)](https://dzone.com/articles/50-best-performance-practices-for-hibernate-5-amp)<br>
+   * [Passing query parameters through your WebClient](https://blog.knoldus.com/passing-query-parameters-through-your-webclient/)<br>
+
+
+
+## Testing JPA-based applications
+   * [Chapter 18. Testing JPA-based applications](https://livebook.manning.com/book/junit-in-action-second-edition/chapter-18/)<br> 
+
+
 ## Persistence 与 Json
    * 参考 
       + [Persisting JSON change via AttributeConverter to database using Quarkus and Hibernate](https://stackoverflow.com/questions/59115776/persisting-json-change-via-attributeconverter-to-database-using-quarkus-and-hibe) - 用到Quarkus and Hibernate，有时间看看<br>
