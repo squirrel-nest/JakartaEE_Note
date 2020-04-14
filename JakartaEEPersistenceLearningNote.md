@@ -44,9 +44,8 @@
          - [Hibernate Tutorial](https://www.javaguides.net/p/hibernate-tutorial.html) - 有空看吧<br>
 ## Persistence 与 Json
    * 参考 
-      + [Persisting JSON change via AttributeConverter to database using Quarkus and Hibernate](https://stackoverflow.com/questions/59115776/persisting-json-change-via-attributeconverter-to-database-using-quarkus-and-hibe) - 用到Quarkus and Hibernate，有时间看看
+      + [Persisting JSON change via AttributeConverter to database using Quarkus and Hibernate](https://stackoverflow.com/questions/59115776/persisting-json-change-via-attributeconverter-to-database-using-quarkus-and-hibe) - 用到Quarkus and Hibernate，有时间看看<br>
          - [QUARKUS - SIMPLIFIED HIBERNATE ORM WITH PANACHE](https://quarkus.io/guides/hibernate-orm-panache#transactions)<br>
-<br>
       + Converter 的使用
          - [JPA Attribute Converters](https://www.baeldung.com/jpa-attribute-converters) 有空一定要试试<br>
       + [Persisting JSONObject Using JPA - JPA entity with JSONObject](https://ilhicas.com/2019/04/26/Persisting-JSONObject-Using-JPA.html) 很好的指南。。学习。。但是，Hibernate无法实现:=(<br>
@@ -144,6 +143,7 @@
          - [How to add a data access layer to your Wicket app using Hibernate and Spring JPA with minimal code](https://www.coderdreams.com/how-to-add-a-data-access-layer-to-your-wicket-app-using-hibernate-and-spring-jpa-with-minimal-code/)<br>
             * 代码 - [RomanSery/codesnippets](https://github.com/RomanSery/codesnippets)<br>
          - [Using MySQL JSON columns to simplify your data storage: Part 1](https://www.coderdreams.com/using-mysql-json-columns-to-simplify-your-data-storage-part-1/)<br>
+         - [Using MySQL JSON columns to simplify your data storage: Part 2](https://www.coderdreams.com/using-mysql-json-columns-to-simplify-your-data-storage-part-2/)<br>
 
 ## CRUD（数据库的增删改查）
    * 参考
