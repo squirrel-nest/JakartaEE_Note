@@ -165,6 +165,6 @@ http://www.ruoyi.vip
    * Gradle Plugin Portal： Gradle plugins 的搜索引擎： [Search Gradle plugins - Gradle Plugin Portal](https://plugins.gradle.org/search)<br>
 ### 本地文件包位置
    * Gradle
-      + C:\Users\wanglai\.gradle\caches\modules-2\files-2.1\
+      + C:\Users\userhome\\.gradle\caches\modules-2\files-2.1\
    * Maven
-      + C:\Users\userhome\.m2\repository\
+      + C:\Users\userhome\\.m2\repository\
