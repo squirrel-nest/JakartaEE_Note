@@ -46,6 +46,7 @@
          - [JPA Static Metamodel Generator](https://docs.jboss.org/hibernate/orm/5.3/topical/html_single/metamodelgen/MetamodelGenerator.html)<br>
          - [Stored Procedures with Hibernate](https://www.baeldung.com/stored-procedures-with-hibernate-tutorial)<br>
          - [Hibernate Tutorial](https://www.javaguides.net/p/hibernate-tutorial.html) - 有空看吧<br>
+         - [JSP Servlet Hibernate Web Application](https://www.javaguides.net/2019/03/jsp-servlet-hibernate-web-application.html)<br>
 ## Persisting Maps with Hibernate
    * 参考
       [Persisting Maps with Hibernate](https://www.baeldung.com/hibernate-persisting-maps)<br>
@@ -171,11 +172,16 @@
 
 ## CRUD（数据库的增删改查）
    * 参考
+      + [JSP Servlet Hibernate CRUD Example](https://www.javaguides.net/2019/03/jsp-servlet-hibernate-crud-example.html)<br>
+         - 源代码 --> [jsp-servlet-hibernate-mysql-tutorial](https://github.com/RameshMF/jsp-servlet-hibernate-mysql-tutorial)<br>
+      + [Hibernate Registration Form Example with JSP, Servlet, MySQL](https://www.javaguides.net/2019/11/hibernate-registration-form-example-with-jsp-servlet-mysql.html)<br>
+      + [Login Form using JSP + Servlet + Hibernate + MySQL Example](https://www.javaguides.net/2019/11/login-form-using-jsp-servlet-hibernate-mysql-example.html)<br>
       + [MapStruct Example of Mapping JPA and Hibernate Entity to DTO](https://hellokoding.com/mapping-jpa-hibernate-entity-and-dto-with-mapstruct/)<br>
       + [Don’t expose your JPA entities in your REST API](https://thoughts-on-java.org/dont-expose-entities-in-api/)<br>
       + Spring 架构
          - [Spring Boot, Spring Data JPA – Building Rest CRUD API example](https://bezkoder.com/spring-boot-jpa-crud-rest-api/)<br>
          - [Spring Data REST Example – Spring Boot RESTful API + CRUD](https://javainterviewpoint.com/spring-data-rest-example/)<br>
+         
 ## JakartaEE 与 NoSQL
    * 参考
       + [Eclipse Jakarta NoSQL](http://www.jnosql.org/spec/) - 开发NoSQL 数据库时要看看<br>
