@@ -30,7 +30,8 @@
 ### 4. [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
 
 
-
+### 5. 测试相关
+   * [Testing a MicroProfile or Jakarta EE application](https://openliberty.io/guides/microshed-testing.html)<br>
 
 ## Tutorials - Google Search: jakarta ee tutorial | jakarta ee 8 tutorial
    * [eclipse-ee4j/jakartaee-tutorial](https://github.com/eclipse-ee4j/jakartaee-tutorial) - Migrated from [javaee/tutorial](https://github.com/javaee/tutorial) --> [The Jakarta EE 8 Tutorial - DRAFT](https://eclipse-ee4j.github.io/jakartaee-tutorial/toc.html)<br>
