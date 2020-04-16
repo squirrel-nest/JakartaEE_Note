@@ -14,6 +14,7 @@
 ## Entity-Relationship Diagram Symbols and Notation - 需要先学习
    * [Entity-Relationship Diagram Symbols and Notation](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)<br>
    * [Entity Relationship Diagram](https://www.smartdraw.com/entity-relationship-diagram/)<br>
+      + [Build Your ERD (Database Diagram)](https://www.smartdraw.com/developers/extensions/erd.htm)<br>
    
 
 
