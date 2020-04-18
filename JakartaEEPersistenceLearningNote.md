@@ -181,6 +181,7 @@
       + Spring 架构
          - [Spring Boot, Spring Data JPA – Building Rest CRUD API example](https://bezkoder.com/spring-boot-jpa-crud-rest-api/)<br>
          - [Spring Data REST Example – Spring Boot RESTful API + CRUD](https://javainterviewpoint.com/spring-data-rest-example/)<br>
+         - [Spring Boot JPA One To One Example with MySQL | Unidirectional & Bidirectional](https://javainterviewpoint.com/spring-boot-jpa-one-to-one-example/)<br>
          
 ## JakartaEE 与 NoSQL
    * 参考
