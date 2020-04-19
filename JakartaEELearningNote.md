@@ -29,6 +29,11 @@
 
 ### 4. [Jakarta EE 8 CRUD API Tutorial using Java 11](https://rieckpil.de/jakarta-ee-crud-api-tutorial/)<br>
 
+### 5. [Handling Pagination With JAX-RS and NoSQL in Your Jakarta EE/MicroProfile Application](https://dzone.com/articles/handling-with-pagination-with-jax-rs-in-your-jakar)<br>
+
+### 6. [JAX-RS Crud Application using Quarkus and Vue.js](http://www.mastertheboss.com/soa-cloud/quarkus/jax-rs-crud-application-using-quarkus-and-vue-js)<br>
+### 7. [JAX-RS CRUD Application using Vue.js and RESTEasy](http://www.mastertheboss.com/jboss-frameworks/resteasy/jax-rs-crud-application-using-vue-js-and-resteasy)<br>
+### 8. [CRUD with TomEE, MicroProfile, and REST](https://www.tomitribe.com/blog/crud-with-tomee-microprofile-and-rest/)<br>
 
 ### 5. 测试相关
    * [Testing a MicroProfile or Jakarta EE application](https://openliberty.io/guides/microshed-testing.html)<br>
