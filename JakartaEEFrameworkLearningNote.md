@@ -3,6 +3,7 @@
 ## EE4J的相关项目状态
    * [Java生态系统总结(QCon2019)](http://monkeybean.cn/2019/05/12/qcon2019/)<br>
    * [Eclipse EE4J](https://projects.eclipse.org/projects/ee4j/status.php)<br>
+        + [Java EE, Jakarta EE and the Dead "javax"](http://www.adam-bien.com/roller/abien/entry/java_ee_jakarta_ee_and)<br>
         + [Jakarta EE 8，我们还要等多久？](https://www.chainnews.com/articles/204271580241.htm)<br>
 ## SpringBoot Framework
    * 知识性介绍
