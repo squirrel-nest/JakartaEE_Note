@@ -7,4 +7,4 @@
    2. http://localhost:8088/lzdata-ee-8-jaxrs_gd/parser - 未取得数据，待查
    5. http://localhost:8088/lzdata-ee-8-jaxrs/structure
    6.
-   7.
+   7. http://localhost:8088/lzdata-ee-8-jaxrs-mv/myarray - mysql data
