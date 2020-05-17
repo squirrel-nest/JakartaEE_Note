@@ -25,5 +25,10 @@
    14. How to Create and Delete?
    
 ## Sample Data
+### json
    1. https://andfun-weather.udacity.com/weather
    2. https://andfun-weather.udacity.com/staticweather
+   
+   
+### xml
+   1. https://quotes.rest/qod
