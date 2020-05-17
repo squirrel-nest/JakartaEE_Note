@@ -19,6 +19,10 @@
    10. http://localhost:8088/lzdata-ee-8-jaxrs-mv/api/fruits
    
    11. http://localhost:8088/lzdata-ee-8-jaxrs-mv/books
+   12. http://localhost:8088/lzdata-ee-8-jaxrs-mv/books/async
+   13. http://localhost:8088/lzdata-ee-8-jaxrs-mv/books/3
+   
+   14. How to Create and Delete?
    
 ## Sample Data
    1. https://andfun-weather.udacity.com/weather
