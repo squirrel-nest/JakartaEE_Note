@@ -174,3 +174,10 @@ http://www.ruoyi.vip
       + C:\Users\userhome\\.gradle\caches\modules-2\files-2.1\
    * Maven
       + C:\Users\userhome\\.m2\repository\
+
+## 编译命令
+### Gradle
+   * gradlew clean build
+
+### Maven
+   * mvn clean package
