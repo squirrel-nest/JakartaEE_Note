@@ -8,3 +8,18 @@
    5. http://localhost:8088/lzdata-ee-8-jaxrs/structure
    6.
    7. http://localhost:8088/lzdata-ee-8-jaxrs-mv/myarray - mysql data
+   
+   
+   
+   8. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/persons
+   
+   9. http://localhost:8088/lzdata-ee-8-jaxrs-mv/resources/quotes
+   
+   
+   10. http://localhost:8088/lzdata-ee-8-jaxrs-mv/api/fruits
+   
+   11. http://localhost:8088/lzdata-ee-8-jaxrs-mv/books
+   
+## Sample Data
+   1. https://andfun-weather.udacity.com/weather
+   2. https://andfun-weather.udacity.com/staticweather
