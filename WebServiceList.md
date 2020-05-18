@@ -26,6 +26,11 @@
    
 ## Sample Data
 ### json
+   * 优先
+      + Recipes API - 设计很好，优先参考
+         1. https://recipesapi.herokuapp.com/api/search
+         2. https://recipesapi.herokuapp.com/api/search?q=chicken&page=3
+         3. Get Recipe Details - https://recipesapi.herokuapp.com/api/get?rId=41470
    1. https://andfun-weather.udacity.com/weather
    2. https://andfun-weather.udacity.com/staticweather
    
