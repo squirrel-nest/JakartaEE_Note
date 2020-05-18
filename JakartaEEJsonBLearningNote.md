@@ -11,3 +11,14 @@
 ## 3. [Spring JSON-P with Jackson](https://www.baeldung.com/spring-jackson-jsonp) -- [Introduction to the JSON Binding API (JSR 367) in Java](https://www.baeldung.com/java-json-binding-api)<br>
 
 ## 4. [JSON Handling with JSON-P and JSON-B](https://cloud.ibm.com/docs/java?topic=java-mp-json)<br>
+
+
+
+
+## Sample - 临时
+   * [https://www.codota.com/code/java/classes/javax.json.JsonReader](Best Java code snippets using javax.json.JsonReader)<br>
+   * [Best Java code snippets using org.apache.activemq.artemis.api.core.JsonUtil.readJsonArray](https://www.codota.com/code/java/methods/org.apache.activemq.artemis.api.core.JsonUtil/readJsonArray)<br>
+   * [Best Java code snippets using javax.json.JsonArray]()<br>
+   * [Best Java code snippets using org.apache.activemq.artemis.api.core.JsonUtil.fromJsonArray](https://www.codota.com/code/java/methods/org.apache.activemq.artemis.api.core.JsonUtil/fromJsonArray)<br>
+   * [Best Java code snippets using org.apache.activemq.artemis.api.core.JsonUtil](https://www.codota.com/code/java/classes/org.apache.activemq.artemis.api.core.JsonUtil)<br>
+   * [Java Examples for org.apache.activemq.artemis.api.core.JsonUtil](https://www.javatips.net/api/org.apache.activemq.artemis.api.core.jsonutil)<br>
