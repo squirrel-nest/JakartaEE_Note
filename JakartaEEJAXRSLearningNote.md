@@ -15,5 +15,7 @@
 
 
 
-## 【Create real-time applications with Jakarta EE WebSocket】(https://rieckpil.de/create-real-time-applications-with-jakarta-ee-websocket/)<br>
+## [Create real-time applications with Jakarta EE WebSocket](https://rieckpil.de/create-real-time-applications-with-jakarta-ee-websocket/)<br>
 
+
+## [Build a Java REST API With Quarkus](https://dzone.com/articles/build-a-java-rest-api-with-quarkus)<br>
