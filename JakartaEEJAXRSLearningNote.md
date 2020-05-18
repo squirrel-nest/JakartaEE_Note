@@ -19,3 +19,8 @@
 
 
 ## [Build a Java REST API With Quarkus](https://dzone.com/articles/build-a-java-rest-api-with-quarkus)<br>
+
+
+## 这个例子中前端得方法 - 了解下。。
+   * [RESTful CRUD API using JAX-RS + Ionic 4/Angular](https://omosaziegbe.com/ionic4-jax-rs-backend/)<br>
+   * [Jakarta EE: Generation IV - a new hope](https://platform.sh/blog/2019/jakarta-ee-generation-iv-a-new-hope/)<br>
