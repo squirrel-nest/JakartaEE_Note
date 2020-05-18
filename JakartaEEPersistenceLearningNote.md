@@ -3,20 +3,23 @@
 ## 1. [Part VIII Persistence](https://eclipse-ee4j.github.io/jakartaee-tutorial/partpersist.html) --> [Jakarta Persistence](https://projects.eclipse.org/projects/ee4j.jpa) --> [Jakarta Persistence - Specifications](https://jakarta.ee/specifications/persistence/) --> [jakarta-ee/persistence-spec](https://github.com/jakarta-ee/persistence-spec) --> [Eclipse Yasson](https://github.com/eclipse-ee4j/yasson)<br>
 🢃 ⇓  🢃  ⇓  🢃  ⇓   🢃
 ## 2. Youtube
-   * [Configure a JDBC DataSource (PostgreSQL) for Open Liberty](https://www.youtube.com/watch?v=b2rtkYKoshA&list=PLFjB4VDnlT_1UH_Ncopre4nhCRNtBxohX)  --<br>
-   * []()<br>
+      * [Configure a JDBC DataSource (PostgreSQL) for Open Liberty](https://www.youtube.com/watch?v=b2rtkYKoshA&list=PLFjB4VDnlT_1UH_Ncopre4nhCRNtBxohX)  --<br>
+      * []()<br>
 # 源代码的流程图（顺序）- 与学习过程的 关系图（包括 参考 的 例子，时间顺序、文件位置：Project and Package）
-## 2. Source Code 的 顺序 与 位置（文件位置）
-
-   1. persistence.xml --> jakarta-ee-8-jaxrs/src/main/resources/META-INF/persistence.xml
-   2. hibernate.cfg.xml --> jakarta-ee-8-jaxrs/src/main/webapp/WEB-INF/classes/hibernate.cfg.xml
+## 1. Source Code 的 顺序 与 位置（文件位置）
+      *. persistence.xml --> jakarta-ee-8-jaxrs/src/main/resources/META-INF/persistence.xml
+      *. hibernate.cfg.xml --> jakarta-ee-8-jaxrs/src/main/webapp/WEB-INF/classes/hibernate.cfg.xml
 
 ## Entity-Relationship Diagram Symbols and Notation - 需要先学习
    * [Entity-Relationship Diagram Symbols and Notation](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)<br>
    * [Entity Relationship Diagram](https://www.smartdraw.com/entity-relationship-diagram/)<br>
       + [Build Your ERD (Database Diagram)](https://www.smartdraw.com/developers/extensions/erd.htm)<br>
    
-
+## Hibernate教程
+   * [Mapping Java Entities for Persistence in Hibernate (Part 1)](https://dzone.com/articles/mapping-java-entities-for-persistence-in-hibernate)<br>
+   * [Mapping Java Entities for Persistence With Hibernate (Part 2)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna)<br>
+   * [Mapping Java Entities for Persistence With Hibernate (Part 3)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-1)<br>
+   * [Mapping Java Entities for Persistence With Hibernate (Part 4)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-2)<br>
 
 
 # 知识点
