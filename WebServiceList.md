@@ -33,6 +33,7 @@
          3. Get Recipe Details - https://recipesapi.herokuapp.com/api/get?rId=41470
    1. https://andfun-weather.udacity.com/weather
    2. https://andfun-weather.udacity.com/staticweather
+   3. https://raw.githubusercontent.com/ujjwalmaity/CountriesApi/master/countriesV1.json
    
    
 ### xml
