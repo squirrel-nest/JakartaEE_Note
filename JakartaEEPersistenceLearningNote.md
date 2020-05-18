@@ -195,4 +195,7 @@
       + [MySQL and MongoDB together](https://discourse.hibernate.org/t/mysql-and-mongodb-together/1846)<br>
    * Sample
       + [platformsh/java-quick-start/jakarta/tomee-mongodb](https://github.com/platformsh/java-quick-start/tree/master/jakarta/tomee-mongodb) - 待看<br>
-##
+## JakartaEE Pagination
+   * NoSql
+      + [Handling Pagination With JAX-RS and NoSQL in Your Jakarta EE/MicroProfile Application](https://dzone.com/articles/handling-with-pagination-with-jax-rs-in-your-jakar)<br>
+      + [Improving Performance at NoSQL Query With Pagination](https://dzone.com/articles/improving-performance-at-nosql-query-with-paginati)<br>
