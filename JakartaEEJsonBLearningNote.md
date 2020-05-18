@@ -19,6 +19,7 @@
    * [https://www.codota.com/code/java/classes/javax.json.JsonReader](Best Java code snippets using javax.json.JsonReader)<br>
    * [Best Java code snippets using org.apache.activemq.artemis.api.core.JsonUtil.readJsonArray](https://www.codota.com/code/java/methods/org.apache.activemq.artemis.api.core.JsonUtil/readJsonArray)<br>
    * [Best Java code snippets using javax.json.JsonArray]()<br>
+   * [https://www.javatips.net/api/org.apache.activemq.artemis.api.core.jsonutil](https://www.javatips.net/api/org.apache.activemq.artemis.api.core.jsonutil)<br>
    * [Best Java code snippets using org.apache.activemq.artemis.api.core.JsonUtil.fromJsonArray](https://www.codota.com/code/java/methods/org.apache.activemq.artemis.api.core.JsonUtil/fromJsonArray)<br>
    * [Best Java code snippets using org.apache.activemq.artemis.api.core.JsonUtil](https://www.codota.com/code/java/classes/org.apache.activemq.artemis.api.core.JsonUtil)<br>
    * [Java Examples for org.apache.activemq.artemis.api.core.JsonUtil](https://www.javatips.net/api/org.apache.activemq.artemis.api.core.jsonutil)<br>
