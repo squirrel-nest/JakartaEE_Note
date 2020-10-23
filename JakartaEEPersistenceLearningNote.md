@@ -9,6 +9,7 @@
 ## 1. Source Code 的 顺序 与 位置（文件位置）
       *. persistence.xml --> jakarta-ee-8-jaxrs/src/main/resources/META-INF/persistence.xml
       *. hibernate.cfg.xml --> jakarta-ee-8-jaxrs/src/main/webapp/WEB-INF/classes/hibernate.cfg.xml
+         + Example of hibernater.cfg.xml: [An example hibernate.cfg.xml for MySQL 8 and Hibernate 5](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/An-example-hibernatecfgxml-for-MySQL-8-and-Hibernate-5)<br>
 
 ## Entity-Relationship Diagram Symbols and Notation - 需要先学习
    * [Entity-Relationship Diagram Symbols and Notation](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)<br>
