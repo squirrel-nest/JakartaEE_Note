@@ -181,7 +181,12 @@ http://www.ruoyi.vip
 
 ## 编译命令
 ### Gradle
+   * 
    * gradlew clean build
 
 ### Maven
-   * mvn clean package
+   * Build whole project with maven.
+      ```shell
+          mvn clean install 
+          or
+          mvn clean package - without clean as well
