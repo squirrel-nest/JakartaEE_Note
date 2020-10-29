@@ -15,8 +15,20 @@
    * [Entity-Relationship Diagram Symbols and Notation](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)<br>
    * [Entity Relationship Diagram](https://www.smartdraw.com/entity-relationship-diagram/)<br>
       + [Build Your ERD (Database Diagram)](https://www.smartdraw.com/developers/extensions/erd.htm)<br>
-   
-## Hibernate教程
+
+## Hibernate
+   * 关于 hibernate.cfg.xml
+      + 默认文件位置应该放在 classpath（E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new\src\main）目录下的 resources 目录中
+      + 如果要指定目录，则设置时要指定：/resources/config/hibernate.cfg.xml，如：
+      ```java
+         ...
+         sessionFactory = new Configuration()
+                    .configure("/resources/config/hibernate.cfg.xml")
+                    .addAnnotatedClass(Customer.class)
+                    .buildSessionFactory();
+         ...
+      ```
+### Hibernate教程
    * [Mapping Java Entities for Persistence in Hibernate (Part 1)](https://dzone.com/articles/mapping-java-entities-for-persistence-in-hibernate)<br>
    * [Mapping Java Entities for Persistence With Hibernate (Part 2)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna)<br>
    * [Mapping Java Entities for Persistence With Hibernate (Part 3)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-1)<br>
