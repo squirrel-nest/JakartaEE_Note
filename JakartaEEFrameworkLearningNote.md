@@ -11,7 +11,7 @@
    * 参考
       + [Spring Boot Framework Guides](https://spring.io/guides)<br>
    * 教程
-      + [
+      + [Spring Boot - Building RESTful Web Service 🚀 - Tutorial for Beginners](https://www.youtube.com/watch?v=7cvQzHC2kDE)<br>
 ## Eclipse MicroProfile
    * 知识性介绍
       + [Eclipse Releases Versions 1.4 and 2.0 of MicroProfile](https://www.infoq.com/news/2018/08/microprofile-1.4-and-2.0) -有点旧，但知道是什么了<br>
