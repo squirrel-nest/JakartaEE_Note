@@ -33,7 +33,8 @@
       + Source Code - [quarkusio/quarkus](https://github.com/quarkusio/quarkus)<br>
    * [QUARKUS - BUILDING A NATIVE EXECUTABLE](https://quarkus.io/guides/building-native-image)<br>
    * [Run your Jakarta EE/MicroProfile application on Quarkus with minimum changes](https://jefrajames.fr/2019/12/17/run-your-jakarta-ee-microprofile-application-on-quarkus-with-minimum-changes/)<br>
-   
+   * 参考 - 重点研究
+      + [QUARKUS - USING HIBERNATE ORM AND JPA](https://quarkus.pro/guides/hibernate-orm.html)<br>
 ## Ionic 4/Angular
    * [RESTful CRUD API using JAX-RS + Ionic 4/Angular](https://omosaziegbe.com/ionic4-jax-rs-backend/)<br>
    
