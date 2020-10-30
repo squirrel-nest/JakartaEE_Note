@@ -33,7 +33,7 @@
    * [Mapping Java Entities for Persistence With Hibernate (Part 2)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna)<br>
    * [Mapping Java Entities for Persistence With Hibernate (Part 3)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-1)<br>
    * [Mapping Java Entities for Persistence With Hibernate (Part 4)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-2)<br>
-
+   * 项目中Hibernate的部分参考过下面教程：[Hibernate Framework](https://github.com/RameshMF#hibernate-framework)<br>
 
 # 知识点
 ## Persistence 相关知识点
