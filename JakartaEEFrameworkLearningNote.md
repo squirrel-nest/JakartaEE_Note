@@ -42,7 +42,9 @@
 ## Ionic 4/Angular
    * [RESTful CRUD API using JAX-RS + Ionic 4/Angular](https://omosaziegbe.com/ionic4-jax-rs-backend/)<br>
    
-   
+## 连接数据库的几种方式 -- 不同框架模式
+   * 参考
+      + MySQL的例子 - [Connect Java to a MySQL Database)(https://www.baeldung.com/java-connect-mysql)<br>
 ## 云产品
    * 腾讯云
       + [腾讯云 - 开发者手册](https://cloud.tencent.com/developer/devdocs)<br>
