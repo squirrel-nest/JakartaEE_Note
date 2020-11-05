@@ -15,9 +15,10 @@
    * [Java™ EE 8 SDK Downloads](https://www.oracle.com/java/technologies/javaee-8-sdk-downloads.html)<br>
 
 ## Jakarta EE 9
-### 0. Jakarta RESTful Web Services --> [Jakarta RESTful Web Services 3.0 (milestone)](https://jakarta.ee/specifications/restful-ws/3.0/)<br>
-   * --> [Jakarta RESTful Web Services - PDF](https://jakarta.ee/specifications/restful-ws/3.0/restful-ws-spec-3.0-M1.pdf)<br> 
-   * --> [Jakarta RESTful Web Services - HTML](https://jakarta.ee/specifications/restful-ws/3.0/restful-ws-spec-3.0-M1.html)<br>
+### 0. Jakarta EE Specifications --> [Jakarta EE Specifications](https://jakarta.ee/specifications/)<br>
+   * 0_1. Jakarta RESTful Web Services --> [Jakarta RESTful Web Services 3.0 (milestone)](https://jakarta.ee/specifications/restful-ws/3.0/)<br>
+      + --> [Jakarta RESTful Web Services - PDF](https://jakarta.ee/specifications/restful-ws/3.0/restful-ws-spec-3.0-M1.pdf)<br> 
+      + --> [Jakarta RESTful Web Services - HTML](https://jakarta.ee/specifications/restful-ws/3.0/restful-ws-spec-3.0-M1.html)<br>
 
 ## Jakarta EE 8 的学习路径
 ### 0. Jakarta EE 8 --> [Jakarta EE 8](https://projects.eclipse.org/jakartaee/releases/8)<br>
