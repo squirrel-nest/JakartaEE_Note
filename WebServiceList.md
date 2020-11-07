@@ -20,7 +20,10 @@
       5. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/persons/1
       6. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/persons/1
 
-   9. http://localhost:8088/lzdata-ee-8-jaxrs-mv/resources/quotes
+   9. 如下
+      1. http://localhost:8088/lzdata-ee-8-jaxrs-mv/quotes - 不行！ 没有设置。。。
+      2. http://localhost:8088/lzdata-ee-8-jaxrs-mv/resources/quotes - 可以！
+      3. http://localhost:8088/lzdata-ee-8-jaxrs-mv/api/quotes - 可以！
    
    
    10. http://localhost:8088/lzdata-ee-8-jaxrs-mv/api/fruits
