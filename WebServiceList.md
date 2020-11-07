@@ -8,7 +8,7 @@
    5. http://localhost:8088/lzdata-ee-8-jaxrs/structure
    6.
    7. http://localhost:8088/lzdata-ee-8-jaxrs-mv/myarray - mysql data
-   7_1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/myarray - 在 de.rieckpil.blog.JAXRSConfiguration 中设置了 @ApplicationPath("resources") 路径， 为何也可以，研究！
+   7_1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/myarray - 在 de.rieckpil.blog.JAXRSConfiguration 中设置@ApplicationPath("resources") 路径， 为何也可以，研究！
    7_2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/myarray 在 de.rieckpil.blog.JAXRSConfiguration 中设置了 /api 路径
    
    8. http://localhost:8088/lzdata-ee-8-jaxrs-gd/persons
