@@ -7,16 +7,18 @@
    2. http://localhost:8088/lzdata-ee-8-jaxrs_gd/parser - 未取得数据，待查
    5. http://localhost:8088/lzdata-ee-8-jaxrs/structure
    6.
-   7. http://localhost:8088/lzdata-ee-8-jaxrs-mv/myarray - mysql data
-   7_1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/myarray - 在 de.rieckpil.blog.JAXRSConfiguration 中设置@ApplicationPath("resources") 路径， 为何也可以，研究！
-   7_2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/myarray 在 de.rieckpil.blog.JAXRSConfiguration 中设置了 /api 路径
+   7. 从 mysql 获取数据
+      a. http://localhost:8088/lzdata-ee-8-jaxrs-mv/myarray - mysql data
+      b. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/myarray - 在 de.rieckpil.blog.JAXRSConfiguration 中设置@ApplicationPath("resources") 路径， 为何也可以，研究！
+      c. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/myarray 在 de.rieckpil.blog.JAXRSConfiguration 中设置了 /api 路径
    
-   8. http://localhost:8088/lzdata-ee-8-jaxrs-gd/persons
-   8_1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/persons - 在 de.rieckpil.blog.JAXRSConfiguration 中设置。
-   8_2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/persons
-   8_3. http://localhost:8088/lzdata-ee-8-jaxrs-gd/persons/1
-   8_4. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/persons/1
-   8_5. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/persons/1
+   8. 从 mysql 获取数据
+      a.http://localhost:8088/lzdata-ee-8-jaxrs-gd/persons
+      b. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/persons - 在 de.rieckpil.blog.JAXRSConfiguration 中设置。
+      c. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/persons
+      d. http://localhost:8088/lzdata-ee-8-jaxrs-gd/persons/1
+      e. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/persons/1
+      f. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/persons/1
 
    9. http://localhost:8088/lzdata-ee-8-jaxrs-mv/resources/quotes
    
