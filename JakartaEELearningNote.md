@@ -19,7 +19,9 @@
    * 0_1. Jakarta RESTful Web Services --> [Jakarta RESTful Web Services 3.0 (milestone)](https://jakarta.ee/specifications/restful-ws/3.0/)<br>
       + --> [Jakarta RESTful Web Services - PDF](https://jakarta.ee/specifications/restful-ws/3.0/restful-ws-spec-3.0-M1.pdf)<br> 
       + --> [Jakarta RESTful Web Services - HTML](https://jakarta.ee/specifications/restful-ws/3.0/restful-ws-spec-3.0-M1.html)<br>
-
+### Weld Meets Jakarta EE 9
+   * 参考
+      + [Weld Meets Jakarta EE 9](http://weld.cdi-spec.org/news/2020/05/13/weld-jakarta-ee-9/)<br>
 ## Jakarta EE 8 的学习路径
 ### 0. Jakarta EE 8 --> [Jakarta EE 8](https://projects.eclipse.org/jakartaee/releases/8)<br>
 
