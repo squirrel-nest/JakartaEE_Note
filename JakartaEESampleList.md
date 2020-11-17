@@ -20,7 +20,9 @@
    * []()<br>
    * []()<br>
    * []()<br>
-   * []()<br>
+   * 有些值得参考 - [daggerok/java-ee-examples](https://github.com/daggerok/java-ee-examples)<br>
+      + 一些教程
+         - [JavaEE examples java-ee-examples (0.0.1)](https://daggerok.github.io/java-ee-examples/)<br>
    * [bmuschko/whats-new-in-java-12](https://github.com/bmuschko/whats-new-in-java-12)<br>
    * [IanDarwin/javasrc](https://github.com/IanDarwin/javasrc) - Java 的很多知识混合，参考学习。。。<br>
    * [SmartDeviceLink (SDL)](https://github.com/smartdevicelink/sdl_java_suite)<br>
