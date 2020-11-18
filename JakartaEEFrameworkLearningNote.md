@@ -5,6 +5,9 @@
    * [Eclipse EE4J](https://projects.eclipse.org/projects/ee4j/status.php)<br>
         + [Java EE, Jakarta EE and the Dead "javax"](http://www.adam-bien.com/roller/abien/entry/java_ee_jakarta_ee_and)<br>
         + [Jakarta EE 8，我们还要等多久？](https://www.chainnews.com/articles/204271580241.htm)<br>
+## Jakarta EE 与 Kubernetes
+   * 参考
+      + [Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes)<br>
 ## Spring Boot Framework
    * 知识性介绍
       + [一文教你搭SpringBoot环境](https://zhuanlan.zhihu.com/p/106337255)<br>
