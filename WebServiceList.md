@@ -1,14 +1,14 @@
 # Jakarta EE Project
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
-   1. http://localhost:8088/lzdata-ee-8-jaxrs/array
-   3. http://localhost:8088/lzdata-ee-8-jaxrs/generator
-   4. http://localhost:8088/lzdata-ee-8-jaxrs/object
+   1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/array
+   3. http://localhost:8088/lzdata-ee-8-jaxrs-gd/generator
+   4. http://localhost:8088/lzdata-ee-8-jaxrs-gd/object
    2. http://localhost:8088/lzdata-ee-8-jaxrs_gd/parser - 未取得数据，待查
-   5. http://localhost:8088/lzdata-ee-8-jaxrs/structure
+   5. http://localhost:8088/lzdata-ee-8-jaxrs-gd/structure
    6.
    7. 从 mysql 获取数据
-      1. http://localhost:8088/lzdata-ee-8-jaxrs-mv/myarray - mysql data
+      1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/myarray - mysql data
       2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/myarray - 在 de.rieckpil.blog.JAXRSConfiguration 中设置@ApplicationPath("resources") 路径， 为何也可以，研究！
       3. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/myarray 在 de.rieckpil.blog.JAXRSConfiguration 中设置了 /api 路径
    
@@ -21,16 +21,16 @@
       6. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/persons/1
 
    9. 如下
-      1. http://localhost:8088/lzdata-ee-8-jaxrs-mv/quotes - 不行！ 没有设置。。。
-      2. http://localhost:8088/lzdata-ee-8-jaxrs-mv/resources/quotes - 可以！
-      3. http://localhost:8088/lzdata-ee-8-jaxrs-mv/api/quotes - 可以！
+      1. http://localhost:8088/lzdata-ee-8-jaxrs--gd/quotes - 不行！ 没有设置。。。
+      2. http://localhost:8088/lzdata-ee-8-jaxrs--gd/resources/quotes - 可以！
+      3. http://localhost:8088/lzdata-ee-8-jaxrs--gd/api/quotes - 可以！
    
    
-   10. http://localhost:8088/lzdata-ee-8-jaxrs-mv/api/fruits
+   10. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/fruits
    
-   11. http://localhost:8088/lzdata-ee-8-jaxrs-mv/books
-   12. http://localhost:8088/lzdata-ee-8-jaxrs-mv/books/async
-   13. http://localhost:8088/lzdata-ee-8-jaxrs-mv/books/3
+   11. http://localhost:8088/lzdata-ee-8-jaxrs-gd/books
+   12. http://localhost:8088/lzdata-ee-8-jaxrs-gd/books/async
+   13. http://localhost:8088/lzdata-ee-8-jaxrs-gd/books/3
    
    14. How to Create and Delete?
    
