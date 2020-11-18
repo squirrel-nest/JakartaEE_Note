@@ -75,3 +75,6 @@
    * [algaworks/curso-javaee-primefaces](https://github.com/algaworks/curso-javaee-primefaces)<br>
       + 
 
+## WildFly Examples
+   * 参考
+      + WildFly Maven Plugin - [Adding Resources Examples](https://docs.jboss.org/wildfly/plugins/maven/latest/examples/add-resource-example.html)<br>
