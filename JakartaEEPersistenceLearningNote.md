@@ -17,6 +17,8 @@
       + [Build Your ERD (Database Diagram)](https://www.smartdraw.com/developers/extensions/erd.htm)<br>
 
 ## Hibernate
+   * 参考
+      + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/6.0/quickstart/html_single/)<br>
    * 关于 hibernate.cfg.xml
       + 默认文件位置应该放在 classpath（E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new\src\main）目录下的 resources 目录中
       + 如果要指定目录，则设置时要指定：/resources/config/hibernate.cfg.xml，如：
