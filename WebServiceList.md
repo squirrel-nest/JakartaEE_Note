@@ -43,6 +43,21 @@
          1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/myarray - mysql data
          2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/myarray - 在 de.rieckpil.blog.JAXRSConfiguration 中设置@ApplicationPath("resources") 路径， 为何也可以，研究！
          3. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/myarray 在 de.rieckpil.blog.JAXRSConfiguration 中设置了 /api 路径
+
+   * BiDiction   OneToOne
+      + 说明
+         - 表 Employee 和 Address 为 OneToOne， 并且 共用 相同的 ID， 测试：HibernateJavaConfigMain.java
+            1. com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateJavaConfigMain
+      + Create
+         1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/save
+         2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/save
+      + Read
+      + Update
+      + Delete
+         1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/remove
+         2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/removeall
+         3. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/remove
+         4. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/removeall
    
    * BiDiction   OneToMany - ManyToOne
       + Create
