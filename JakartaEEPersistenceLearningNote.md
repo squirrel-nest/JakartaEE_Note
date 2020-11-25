@@ -19,6 +19,7 @@
 ## Hibernate
    * 参考
       + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/6.0/quickstart/html_single/)<br>
+      + [Hibernate ORM 6.0.0.Alpha6 User Guide](https://docs.jboss.org/hibernate/orm/6.0/userguide/html_single/Hibernate_User_Guide.html#annotations-jpa-onetoone)<br>
    * 关于 hibernate.cfg.xml
       + 默认文件位置应该放在 classpath（E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new\src\main）目录下的 resources 目录中
       + 如果要指定目录，则设置时要指定：/resources/config/hibernate.cfg.xml，如：
@@ -67,8 +68,9 @@
          - [JSP Servlet Hibernate Web Application](https://www.javaguides.net/2019/03/jsp-servlet-hibernate-web-application.html)<br>
 ## Persisting Maps with Hibernate
    * 参考
-      [Persisting Maps with Hibernate](https://www.baeldung.com/hibernate-persisting-maps)<br>
-      [Mapping LOB Data in Hibernate](https://www.baeldung.com/hibernate-lob)<br>
+      + [Annotation Type OneToOne](https://jakarta.ee/specifications/platform/8/apidocs/javax/persistence/OneToOne.html)<br>
+      + [Persisting Maps with Hibernate](https://www.baeldung.com/hibernate-persisting-maps)<br>
+      + [Mapping LOB Data in Hibernate](https://www.baeldung.com/hibernate-lob)<br>
 ## Data Rationship
    * [JPA and Hibernate Many To Many Relationship Mapping Example with Spring Boot and MySQL](https://hellokoding.com/jpa-many-to-many-relationship-mapping-example-with-spring-boot-maven-and-mysql/)<br>
 ## Hibernate - Query Language
