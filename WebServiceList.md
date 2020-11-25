@@ -48,6 +48,26 @@
       + 说明
          - 表 Employee 和 Address 为 OneToOne， 并且 共用 相同的 ID， 测试：HibernateJavaConfigMain.java
             1. com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateJavaConfigMain
+            2. com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateAnnotationMain
+               * 问题-报错，需要后续处理
+               >Exception in thread "main" org.hibernate.MappingException: Unknown entity: com.lzsoft.lzdata.persistence.hibernate.model.employee.Employee
+               >...
+               >...
+               >...
+               >	at com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateAnnotationMain.main(HibernateAnnotationMain.java:28)
+               >
+            3. com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateLog4jExample
+               * 问题-报错，需要后续处理
+               >Exception in thread "main" org.hibernate.MappingException: Unknown entity: com.lzsoft.lzdata.persistence.hibernate.model.employee.Employee
+               >...
+               >...
+               >...
+               >	at com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateAnnotationMain.main(HibernateAnnotationMain.java:28)
+               >Exception in thread "main" org.hibernate.query.sqm.InterpretationException: Error interpreting query [from Employee]; this may indicate a semantic (user query) problem or a bug in the parser
+            4. com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateMain
+               * 问题-报错，需要后续处理
+               >Exception in thread "main" org.hibernate.MappingException: Unknown entity: com.lzsoft.lzdata.persistence.purebean.EmployeeBean
+
       + Create
          1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/save
          2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/save
