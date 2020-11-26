@@ -101,6 +101,14 @@
          2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/removelast
          3. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/removeall
 ## Sample Data
+   * [eugenp
+/
+tutorials/patterns/design-patterns-architectural/](https://github.com/eugenp/tutorials/tree/master/patterns/design-patterns-architectural)<br>
+### Patterns
+   * 参考
+      + [DAO vs Repository Patterns](https://www.baeldung.com/java-dao-vs-repository)<br>
+      + [The DAO Pattern in Java](https://www.baeldung.com/java-dao-pattern) --> [Sample Code]()<br>
+      + [Service Locator Pattern and Java Implementation](https://www.baeldung.com/java-service-locator-pattern)<br>
 ### json
    * 优先
       + Recipes API - 设计很好，优先参考
