@@ -42,6 +42,9 @@
 ### 7. [JAX-RS CRUD Application using Vue.js and RESTEasy](http://www.mastertheboss.com/jboss-frameworks/resteasy/jax-rs-crud-application-using-vue-js-and-resteasy)<br>
 ### 8. [CRUD with TomEE, MicroProfile, and REST](https://www.tomitribe.com/blog/crud-with-tomee-microprofile-and-rest/)<br>
 
+### 9. Jakarta EE Bean
+   * 参考
+      + [Java Bean Validation Basics](https://www.baeldung.com/javax-validation)<br>
 ### 5. 测试相关
    * [Testing a MicroProfile or Jakarta EE application](https://openliberty.io/guides/microshed-testing.html)<br>
 
