@@ -100,6 +100,8 @@
          1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/removefirst
          2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/removelast
          3. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/removeall
+## 测试用：CRUD
+   * com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateJavaConfigMain
 ## Sample Data
    * [eugenp
 /
