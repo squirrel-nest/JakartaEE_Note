@@ -1,16 +1,18 @@
 # Jakarta EE Project
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
 ### jakartaee-9
-   * JSP and Servlet
+   * JSP
       1. http://localhost:8089/jakartaee-9/
          * Source: web.xml --> <welcome-file>index.jsp</welcome-file>
-      2. http://localhost:8089/jakartaee-9/index.html
+      2. http://localhost:8089/jakartaee-9/helloworldnew.jsp
+   * and Servlet
+      3. http://localhost:8089/jakartaee-9/index.html
          * Servlet
-            1. HelloService
-            2. HelloWorldServlet
-
-
-
+            1. org.jboss.as.quickstarts.helloworld.HelloService
+            2. org.jboss.as.quickstarts.helloworld.HelloWorldServlet
+      4. http://localhost:8089/jakartaee-9/index_push.html or http://localhost:8089/jakartaee-9/ServerPush
+         * Servlet
+            1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
    1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/array
