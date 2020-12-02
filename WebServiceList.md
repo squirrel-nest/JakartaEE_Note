@@ -5,7 +5,7 @@
       1. http://localhost:8089/jakartaee-9/
          * Source: web.xml --> <welcome-file>index.jsp</welcome-file>
       2. http://localhost:8089/jakartaee-9/helloworldnew.jsp
-   * and Servlet
+   * Servlet
       3. http://localhost:8089/jakartaee-9/index.html
          * Servlet
             1. org.jboss.as.quickstarts.helloworld.HelloService
