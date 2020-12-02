@@ -6,11 +6,11 @@
          * Source: web.xml --> <welcome-file>index.jsp</welcome-file>
       2. http://localhost:8089/jakartaee-9/helloworldnew.jsp
    * Servlet
-      3. http://localhost:8089/jakartaee-9/index.html
+      1. http://localhost:8089/jakartaee-9/index.html
          * Servlet
             1. org.jboss.as.quickstarts.helloworld.HelloService
             2. org.jboss.as.quickstarts.helloworld.HelloWorldServlet
-      4. http://localhost:8089/jakartaee-9/index_push.html or http://localhost:8089/jakartaee-9/ServerPush
+      2. http://localhost:8089/jakartaee-9/index_push.html or http://localhost:8089/jakartaee-9/ServerPush
          * Servlet
             1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
