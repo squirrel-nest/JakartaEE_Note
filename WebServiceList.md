@@ -1,4 +1,16 @@
 # Jakarta EE Project
+## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
+### jakartaee-9
+   * JSP and Servlet
+      1. http://localhost:8089/jakartaee-9/
+         * Source: web.xml --> <welcome-file>index.jsp</welcome-file>
+      2. http://localhost:8089/jakartaee-9/index.html
+         * Servlet
+            1. HelloService
+            2. HelloWorldServlet
+
+
+
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
    1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/array
