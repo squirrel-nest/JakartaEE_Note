@@ -42,6 +42,7 @@
    * [Run your Jakarta EE/MicroProfile application on Quarkus with minimum changes](https://jefrajames.fr/2019/12/17/run-your-jakarta-ee-microprofile-application-on-quarkus-with-minimum-changes/)<br>
    * 参考 - 重点研究
       + [QUARKUS - USING HIBERNATE ORM AND JPA](https://quarkus.pro/guides/hibernate-orm.html)<br>
+      + ***优先***[Managing Data Persistence with Quarkus and Hibernate Panache](http://www.mastertheboss.com/soa-cloud/quarkus/managing-data-persistence-with-quarkus)<br>
 ## Ionic 4/Angular
    * [RESTful CRUD API using JAX-RS + Ionic 4/Angular](https://omosaziegbe.com/ionic4-jax-rs-backend/)<br>
    
