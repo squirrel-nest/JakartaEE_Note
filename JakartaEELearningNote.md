@@ -124,7 +124,8 @@ http://www.ruoyi.vip
           mvn clean package - without clean as well
 ## <a name="charset-encoding"></a>字符集及编码相关
 ### 一般性知识
-
+   * 参考
+      + [UTF-8: The Secret of Character Encoding](http://htmlpurifier.org/docs/enduser-utf8.html)<br>
 ### Jakarta EE 相关部分
    * 参考
       + [Character Sets and Encodings](https://eclipse-ee4j.github.io/jakartaee-tutorial/webi18n004.html#BNAYB)<br>
