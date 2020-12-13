@@ -127,7 +127,9 @@ http://www.ruoyi.vip
 
 ### Jakarta EE 相关部分
    * 参考
-   
+      + [Character Sets and Encodings](https://eclipse-ee4j.github.io/jakartaee-tutorial/webi18n004.html#BNAYB)<br>
+      + [Character Conversions from Browser to Database](https://www.oracle.com/technical-resources/articles/javase/httpcharset.html)<br>
+      + 仅参考，注意：不同的服务器有不同的设置方法 服务器级别的设置 - [How to set charset for my web application?](https://developer.jboss.org/message/804018#804018)<br>
    * 用 filter 的方法
       + [The Essentials of Filters - Example: Modifying the Request Character Encoding](https://www.oracle.com/java/technologies/filters.html)<br>
       ```java
