@@ -122,3 +122,134 @@ http://www.ruoyi.vip
           mvn clean install 
           or
           mvn clean package - without clean as well
+## <a name="charset-encoding"></a>字符集及编码相关
+### 一般性知识
+
+### Jakarta EE 相关部分
+   * 参考
+   
+   * 用 filter 的方法
+      + [The Essentials of Filters - Example: Modifying the Request Character Encoding](https://www.oracle.com/java/technologies/filters.html)<br>
+      ```java
+        public void doFilter(ServletRequest request, 
+        ServletResponse response, FilterChain chain) throws
+        IOException, ServletException {
+            String encoding = selectEncoding(request);
+            if (encoding != null)
+            request.setCharacterEncoding(encoding);
+            chain.doFilter(request, response);
+            }
+            public void init(FilterConfig filterConfig) throws
+            ServletException {
+            this.filterConfig = filterConfig;
+            this.encoding = filterConfig.getInitParameter("encoding");
+            }
+            protected String selectEncoding(ServletRequest request) {
+            return (this.encoding);
+        } 
+      ```
+      + [Tomcat中设置Fileter的方法 - tomcat/conf/web.xml](https://github.com/apache/tomcat/blob/master/conf/web.xml)<br>
+         - Source Code
+            - [tomcat/java/org/apache/catalina/filters/SetCharacterEncodingFilter.java](https://github.com/apache/tomcat/blob/master/java/org/apache/catalina/filters/SetCharacterEncodingFilter.java)<br>
+            ```java
+                package org.apache.catalina.filters;
+
+                import java.io.IOException;
+
+                import jakarta.servlet.FilterChain;
+                import jakarta.servlet.ServletException;
+                import jakarta.servlet.ServletRequest;
+                import jakarta.servlet.ServletResponse;
+
+                import org.apache.juli.logging.Log;
+                import org.apache.juli.logging.LogFactory;
+
+                public class SetCharacterEncodingFilter extends FilterBase {
+
+                    // Log must be non-static as loggers are created per class-loader and this
+                    // Filter may be used in multiple class loaders
+                    private final Log log = LogFactory.getLog(SetCharacterEncodingFilter.class); // must not be static
+
+
+                    // ----------------------------------------------------- Instance Variables
+
+                    /**
+                     * The default character encoding to set for requests that pass through
+                     * this filter.
+                     */
+                    private String encoding = null;
+                    public void setEncoding(String encoding) { this.encoding = encoding; }
+                    public String getEncoding() { return encoding; }
+
+
+                    /**
+                     * Should a character encoding specified by the client be ignored?
+                     */
+                    private boolean ignore = false;
+                    public void setIgnore(boolean ignore) { this.ignore = ignore; }
+                    public boolean isIgnore() { return ignore; }
+
+
+                    // --------------------------------------------------------- Public Methods
+
+
+                    /**
+                     * Select and set (if specified) the character encoding to be used to
+                     * interpret request parameters for this request.
+                     *
+                     * @param request The servlet request we are processing
+                     * @param response The servlet response we are creating
+                     * @param chain The filter chain we are processing
+                     *
+                     * @exception IOException if an input/output error occurs
+                     * @exception ServletException if a servlet error occurs
+                     */
+                    @Override
+                    public void doFilter(ServletRequest request, ServletResponse response,
+                                         FilterChain chain)
+                        throws IOException, ServletException {
+
+                        // Conditionally select and set the character encoding to be used
+                        if (ignore || (request.getCharacterEncoding() == null)) {
+                            String characterEncoding = selectEncoding(request);
+                            if (characterEncoding != null) {
+                                request.setCharacterEncoding(characterEncoding);
+                            }
+                        }
+
+                        // Pass control on to the next filter
+                        chain.doFilter(request, response);
+                    }
+
+
+                    // ------------------------------------------------------ Protected Methods
+
+                    @Override
+                    protected Log getLogger() {
+                        return log;
+                    }
+
+
+                    /**
+                     * Select an appropriate character encoding to be used, based on the
+                     * characteristics of the current request and/or filter initialization
+                     * parameters.  If no character encoding should be set, return
+                     * <code>null</code>.
+                     * <p>
+                     * The default implementation unconditionally returns the value configured
+                     * by the <strong>encoding</strong> initialization parameter for this
+                     * filter.
+                     *
+                     * @param request The servlet request we are processing
+                     * @return the encoding that was configured
+                     */
+                    protected String selectEncoding(ServletRequest request) {
+                        return this.encoding;
+                    }
+                }
+            ```
+            
+            
+            
+            
+         
