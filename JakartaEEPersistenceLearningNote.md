@@ -198,6 +198,7 @@
       + [Login Form using JSP + Servlet + Hibernate + MySQL Example](https://www.javaguides.net/2019/11/login-form-using-jsp-servlet-hibernate-mysql-example.html)<br>
       + [MapStruct Example of Mapping JPA and Hibernate Entity to DTO](https://hellokoding.com/mapping-jpa-hibernate-entity-and-dto-with-mapstruct/)<br>
       + [Don’t expose your JPA entities in your REST API](https://thoughts-on-java.org/dont-expose-entities-in-api/)<br>
+      + [Deleting Data in Spring Boot with JPA and Hibernate](https://hellokoding.com/deleting-data-with-jpa-hibernate/)<br>
       + Spring 架构
          - [Spring Boot, Spring Data JPA – Building Rest CRUD API example](https://bezkoder.com/spring-boot-jpa-crud-rest-api/)<br>
          - [Spring Data REST Example – Spring Boot RESTful API + CRUD](https://javainterviewpoint.com/spring-data-rest-example/)<br>
