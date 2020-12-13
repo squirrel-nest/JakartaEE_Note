@@ -13,6 +13,22 @@
       2. http://localhost:8089/jakartaee-9/index_push.html or http://localhost:8089/jakartaee-9/ServerPush
          * Servlet
             1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
+   * REST Service (JAX-RS)
+      + project module 
+         - lzdata-ee8-jaxrsweb --> lzdata-ee8-jaxrs-base --> lzdata-ee8-jpa-model
+            1. http://localhost:8089/lzjaxrsweb8/index.jsp - 输入对象，转换为json，并输出网页。
+               - --> http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/tojson
+                  * com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.JsonService
+            2. http://localhost:8089/lzjaxrsweb8/index_todb.jsp - 输入数据存入数据库，然后从数据库中取出，用json格式展示在网页。
+               - http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/dbtojson
+                  * com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DatabaseJsonService
+            3. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
+            4. http://localhost:8089/lzjaxrsweb8/index_restfile_purejsp.jsp
+               - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
+            5. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud
+            6. http://localhost:8089/lzjaxrsweb8/exampleapi/hello -- {"message":"Duke says 你好，Jakarta EE 9！(Hello to Jakarta EE 9!)!"}
+            7. http://localhost:8089/lzjaxrsweb8/exampleapi/greeting/美女 -- {"message":"Say Hello to 美女 at 2020-12-13T22:33:47.362864"}
+
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
    1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/array
