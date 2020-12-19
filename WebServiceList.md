@@ -3,6 +3,19 @@
    * 框架搭建分为 Jakarta EE 8 和 Jakarta EE 9， 以 Jakarta EE 8 作为开发的主线, Jakarta EE 9通过拷贝 Jakarta EE 8来获得, 然后修改 javax 包名 到 jakarta, 共用的模块用 _share_ 或 _common_ 
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
    * 关于 字符集 CharSet 与 编码 Encoding：所采用的方式，有模块中单独说明。。。
+   * 关于 绝对路径 和相对路径的说明
+      + JSP 页面 通过 ${pageContext.request.contextPath} + "Relative Path" 来设置 href tag（标签）
+      + Sevelet中的设置，通过：
+         1. response.sendRedirect("${pageContext.request.contextPath}/customer/list"); 还是 
+            response.sendRedirect(${pageContext.request.contextPath + "/customer/list");
+      + Html5页面 通过
+         1. html 是 静态页面，所以只能通过 . 、.. 、/ 等 路径符号来设置
+            >1. /   = Root directory
+            >2. .   = This location
+            >3. ..  = Up a directory
+            >4 ./  = Current directory
+            >5 ../ = Parent of current directory
+            >6 ../../ = Two directories backwards
 ## 问题汇总
    1. 。。
 ### 分项目
