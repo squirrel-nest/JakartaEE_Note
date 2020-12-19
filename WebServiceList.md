@@ -4,15 +4,18 @@
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
    * 关于 字符集 CharSet 与 编码 Encoding：所采用的方式，有模块中单独说明。。。
    * 关于 绝对路径 和相对路径的说明
-      + JSP 页面 通过 ${pageContext.request.contextPath} + "Relative Path" 来设置 href tag（标签）
+      + JSP 页面 通过 ${pageContext.request.contextPath} + "Relative Path" 来设置 href tag（标签） - 参考：[How to use relative paths without including the context root name?
+](https://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name)<br>
       + Sevelet中的设置，通过：
          1. response.sendRedirect("${pageContext.request.contextPath}/customer/list"); 还是 
             response.sendRedirect(${pageContext.request.contextPath + "/customer/list");
       + Html5页面 是 静态页面，所以只能通过 . 、.. 、/ 等 路径符号来设置
-         - 相关设置的方法
+         2. html.append("<img src='" + request.getContextPath() + "/images/javaee-logo.png'><br>");
+
+         - 相关设置的方法 - 
          ```
-            1. /   = Root directory<br>
-            2. .   = This location<br>
+            1. /   = Root directory<br>  - 如果加了 / 表示相对路径是 根目录 如 /images/picture.jpg 表示是根目录下的 images目录下的picture.jpg
+            2. .   = This location<br> - 如何是当前目录下面的文件夹，.也可以省略，只要写文件夹名称即可 如 images/picture.jpg 表示当前目录的images目录下的picture.jpg。
             3. ..  = Up a directory<br>
             4. ./  = Current directory<br>
             5. ../ = Parent of current directory<br>
@@ -38,7 +41,7 @@
             2. http://localhost:8089/jakartaee-9/index.html
                * 1 ~ 2 的说明
                   + 编码设置通过
-                     1. Servlet 中，添加 resp.setContentType("text/html;charset=UTF-8");
+                     1. Servlet 中，添加 response.setContentType("text/html;charset=UTF-8");
                      2. 网页中设置 UTF-8 的编码
                   + 网页： index.html 、 index_org.html
                   + Servlet
@@ -47,7 +50,10 @@
             3. http://localhost:8089/jakartaee-9/index_push.html or http://localhost:8089/jakartaee-9/ServerPush
               * 说明
                  + 编码 - 没有设置，因此是乱码：）
-                 + 无法显示图片，增加：pb.path(request.getContextPath() -- 解决：pb.path(request.getContextPath() + "/images/javaee-logo.png")
+                 + 无法显示图片，增加：pb.path(request.getContextPath() -- 解决：pb.path(request.getContextPath() + "/images/javaee-logo.png") 
+                 ```java
+                    html.append("<img src='" + request.getContextPath() + "/images/javaee-logo.png'><br>");
+                 ```
                  + 网页：http://localhost:8089/jakartaee-9/index_push.html -- 改为 index_push.jsp，解决 相对路径的问题。。。
                  + Servlet
                     1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
