@@ -10,13 +10,14 @@
             response.sendRedirect(${pageContext.request.contextPath + "/customer/list");
       + Html5页面 是 静态页面，所以只能通过 . 、.. 、/ 等 路径符号来设置
          - 相关设置的方法
-            >1. /   = Root directory<br>
-            >2. .   = This location<br>
-            >3. ..  = Up a directory<br>
-            >4. ./  = Current directory<br>
-            >5. ../ = Parent of current directory<br>
-            >6. ../../ = Two directories backwards<br>
-
+         ```
+            1. /   = Root directory<br>
+            2. .   = This location<br>
+            3. ..  = Up a directory<br>
+            4. ./  = Current directory<br>
+            5. ../ = Parent of current directory<br>
+            6. ../../ = Two directories backwards<br>
+         ```
 ## 问题汇总
    1. 。。
 ### 分项目
