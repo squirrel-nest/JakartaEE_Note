@@ -63,6 +63,15 @@
                  + 网页：http://localhost:8089/lzservletweb8/index_push.html -- 改为 index_push.jsp，解决 相对路径的问题。。。
                  + Servlet
                     1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
+         -  JSP 结合 Servlet 和 Persistence 进行数据库的操作例子
+            * MySQL 数据库的例子
+               1. JSP 页面
+               ```jsp
+                   http://localhost:8089/lzservletweb8/custome_list.jsp
+               ```
+               2. Servlet
+                  1. Requery 部分
+                     >com.lzsoft.lzdata.weblogic.servlet.customer.CustomerListServlet
    * REST Service (JAX-RS)
       + project module 
          - lzdata-ee8-jaxrsweb --> lzdata-ee8-jaxrs-base --> lzdata-ee8-jpa-model
