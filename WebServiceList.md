@@ -48,7 +48,7 @@
               * 说明
                  + 编码 - 没有设置，因此是乱码：）
                  + 无法显示图片，增加：pb.path(request.getContextPath() -- 解决：pb.path(request.getContextPath() + "/images/javaee-logo.png")
-                 + 网页：http://localhost:8089/jakartaee-9/index_push.html
+                 + 网页：http://localhost:8089/jakartaee-9/index_push.html -- 改为 index_push.jsp，解决 相对路径的问题。。。
                  + Servlet
                     1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
    * REST Service (JAX-RS)
