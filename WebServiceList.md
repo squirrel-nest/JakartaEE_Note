@@ -7,11 +7,17 @@
       + JSP 页面 通过 ${pageContext.request.contextPath} + "Relative Path" 来设置 href tag（标签） - 参考：[How to use relative paths without including the context root name?
 ](https://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name)<br>
       + Sevelet中的设置，通过：
-         1. response.sendRedirect("${pageContext.request.contextPath}/customer/list"); 还是 
-            response.sendRedirect(${pageContext.request.contextPath + "/customer/list");
+         1. 通过 request.getContextPath()
+         ```java
+             html.append("<img src='" + request.getContextPath() + "/images/javaee-logo.png'><br>");
+         ```
+         2. 用 JSP 的 脚本 ${pageContext.request.contextPath}
+         ```jsp
+             response.sendRedirect("${pageContext.request.contextPath}/customer/list"); 
+             也可以用下面的吗？
+             response.sendRedirect(${pageContext.request.contextPath + "/customer/list");
+         ```
       + Html5页面 是 静态页面，所以只能通过 . 、.. 、/ 等 路径符号来设置
-         2. html.append("<img src='" + request.getContextPath() + "/images/javaee-logo.png'><br>");
-
          - 相关设置的方法 - 
          ```
             1. /   = Root directory<br>  - 如果加了 / 表示相对路径是 根目录 如 /images/picture.jpg 表示是根目录下的 images目录下的picture.jpg
