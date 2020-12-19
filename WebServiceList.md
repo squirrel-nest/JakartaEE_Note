@@ -53,7 +53,7 @@
                   + Servlet
                      1. org.jboss.as.quickstarts.helloworld.HelloService
                      2. org.jboss.as.quickstarts.helloworld.HelloWorldServlet
-            3. http://localhost:8089/lzservletweb8/index_push.html or http://localhost:8089/jakartaee-9/ServerPush
+            3. http://localhost:8089/lzservletweb8/index_push.html or http://localhost:8089/lzservletweb8/servlets/servlet/ServerPush
               * 说明
                  + 编码 - 没有设置，因此是乱码：）
                  + 无法显示图片，增加：pb.path(request.getContextPath() -- 解决：pb.path(request.getContextPath() + "/images/javaee-logo.png") 
