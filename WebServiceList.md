@@ -8,14 +8,15 @@
       + Sevelet中的设置，通过：
          1. response.sendRedirect("${pageContext.request.contextPath}/customer/list"); 还是 
             response.sendRedirect(${pageContext.request.contextPath + "/customer/list");
-      + Html5页面 通过
-         1. html 是 静态页面，所以只能通过 . 、.. 、/ 等 路径符号来设置
-            >1. /   = Root directory
-            >2. .   = This location
-            >3. ..  = Up a directory
-            >4 ./  = Current directory
-            >5 ../ = Parent of current directory
-            >6 ../../ = Two directories backwards
+      + Html5页面 是 静态页面，所以只能通过 . 、.. 、/ 等 路径符号来设置
+         - 相关设置的方法
+            >1. /   = Root directory<br>
+            >2. .   = This location<br>
+            >3. ..  = Up a directory<br>
+            >4. ./  = Current directory<br>
+            >5. ../ = Parent of current directory<br>
+            >6. ../../ = Two directories backwards<br>
+
 ## 问题汇总
    1. 。。
 ### 分项目
