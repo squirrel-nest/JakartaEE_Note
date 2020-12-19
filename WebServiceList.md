@@ -41,10 +41,10 @@
                   + 例子来源：[mastertheboss - jakartaee-9](https://github.com/fmarchioni/mastertheboss.git) -- E:\JavaEESamples\JakartaEE9\mastertheboss\jakartaee\jakartaee-9
                   + 字符集编码 采用 网页级 设置
                   + 没有用 web.xml --> 如果要用可以设置web.xml <welcome-file>index.jsp</welcome-file>
-            2. http://localhost:8089/jakartaee-9/helloworldnew.jsp -- 结合嵌入的 java 语言
+            2. http://localhost:8089/lzservletweb8/helloworldnew.jsp -- 结合嵌入的 java 语言
          - JSP 与 Servlet 结合的例子，实现前后端的分离 -- 网页中不用嵌入的Java了，使得 维护方便了。。。
             1. http://localhost:8089/lzservletweb8/ 默认为 index.html   --> Source：jakartaee-9
-            2. http://localhost:8089/jakartaee-9/index.html
+            2. http://localhost:8089/lzservletweb8/index.html
                * 1 ~ 2 的说明
                   + 编码设置通过
                      1. Servlet 中，添加 response.setContentType("text/html;charset=UTF-8");
@@ -53,14 +53,14 @@
                   + Servlet
                      1. org.jboss.as.quickstarts.helloworld.HelloService
                      2. org.jboss.as.quickstarts.helloworld.HelloWorldServlet
-            3. http://localhost:8089/jakartaee-9/index_push.html or http://localhost:8089/jakartaee-9/ServerPush
+            3. http://localhost:8089/lzservletweb8/index_push.html or http://localhost:8089/jakartaee-9/ServerPush
               * 说明
                  + 编码 - 没有设置，因此是乱码：）
                  + 无法显示图片，增加：pb.path(request.getContextPath() -- 解决：pb.path(request.getContextPath() + "/images/javaee-logo.png") 
                  ```java
                     html.append("<img src='" + request.getContextPath() + "/images/javaee-logo.png'><br>");
                  ```
-                 + 网页：http://localhost:8089/jakartaee-9/index_push.html -- 改为 index_push.jsp，解决 相对路径的问题。。。
+                 + 网页：http://localhost:8089/lzservletweb8/index_push.html -- 改为 index_push.jsp，解决 相对路径的问题。。。
                  + Servlet
                     1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
    * REST Service (JAX-RS)
