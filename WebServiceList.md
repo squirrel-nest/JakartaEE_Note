@@ -87,7 +87,7 @@
             * MySQL 数据库的例子
                1. JSP 页面
                ```jsp
-                   http://localhost:8089/lzservletweb8/custome_list.jsp
+                   http://localhost:8089/lzservletweb8/customer_list.jsp
                ```
                2. Servlet
                   1. Requery 部分
