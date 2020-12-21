@@ -40,6 +40,7 @@
       + 说明
          1. 模块的架构
             - 中间层Java文件放在模块 lzdata-ee8-servlet-base 中, 通过 lzdata-ee8-servlet-base 模块 调用 数据接入层模块 lzdata-ee8-jpa-model，lzdata-ee8-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee8-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。
+            - 无法使用分模块的功能，合并到 lzdata-ee8-fusionweb 模块中。。。
       + 例子
          - JSP 的例子 - 仅JSP页面的例子
             1. http://localhost:8089/lzservletweb8/index.jsp  --> jakartaee-9
@@ -77,10 +78,11 @@
                * 说明
                   + 需要了解 HTTP/2.0 ServerPush 机制。。。
                   + 可以通过 PushBuilder pb = request.newPushBuilder(); 的 Push 机制，实现将图片分片发送客户端，以提高客户端加载速度。。
-            6. http://localhost:8089/lzjaxrsfusion8/index_cookbook_ch04_servlet.jsp
+            6. http://localhost:8089/lzeefusionweb8/index_cookbook_ch04_servlet.jsp
                * 说明
                   + 初始化 参数的方法
                   + 异步方式加载页面的方法 。。。
+                     - 无法使用分模块的方式。。。所以放在 lzeefusionweb8 模块中。。。
          -  JSP 结合 Servlet 和 Persistence 进行数据库的操作例子
             * MySQL 数据库的例子
                1. JSP 页面
