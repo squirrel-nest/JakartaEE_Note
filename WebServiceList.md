@@ -59,16 +59,24 @@
                   + Servlet
                      1. org.jboss.as.quickstarts.helloworld.HelloService
                      2. org.jboss.as.quickstarts.helloworld.HelloWorldServlet
-            3. http://localhost:8089/lzservletweb8/index_push.html or http://localhost:8089/lzservletweb8/servlets/servlet/ServerPush
-              * 说明
-                 + 编码 - 没有设置，因此是乱码：）
-                 + 无法显示图片，增加：pb.path(request.getContextPath() -- 解决：pb.path(request.getContextPath() + "/images/javaee-logo.png") 
-                 ```java
-                    html.append("<img src='" + request.getContextPath() + "/images/javaee-logo.png'><br>");
-                 ```
-                 + 网页：http://localhost:8089/lzservletweb8/index_push.html -- 改为 index_push.jsp，解决 相对路径的问题。。。
-                 + Servlet
-                    1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
+            3. http://localhost:8089/lzservletweb8/index_cookbook_user.jsp
+               * 说明
+                  + 同例子 1 类似
+                  + 通过 Servlet 生成 页面，返回客服端（前端）
+            4. http://localhost:8089/lzservletweb8/index_push.html or http://localhost:8089/lzservletweb8/servlets/servlet/ServerPush
+               * 说明
+                  + 编码 - 没有设置，因此是乱码：）
+                  + 无法显示图片，增加：pb.path(request.getContextPath() -- 解决：pb.path(request.getContextPath() + "/images/javaee-logo.png") 
+                  ```java
+                     html.append("<img src='" + request.getContextPath() + "/images/javaee-logo.png'><br>");
+                  ```
+                  + 网页：http://localhost:8089/lzservletweb8/index_push.html -- 改为 index_push.jsp，解决 相对路径的问题。。。
+                  + Servlet
+                     1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
+            5. http://localhost:8089/lzservletweb8/index_cookbook_serverpush.html
+               * 说明
+                  + 需要了解 HTTP/2.0 ServerPush 机制。。。
+                  + 可以通过 PushBuilder pb = request.newPushBuilder(); 的 Push 机制，实现将图片分片发送客户端，以提高客户端加载速度。。
          -  JSP 结合 Servlet 和 Persistence 进行数据库的操作例子
             * MySQL 数据库的例子
                1. JSP 页面
@@ -78,6 +86,7 @@
                2. Servlet
                   1. Requery 部分
                      >com.lzsoft.lzdata.weblogic.servlet.customer.CustomerListServlet
+         - Servlet
    * REST Service (JAX-RS)
       + project module 
          - lzdata-ee8-jaxrsweb --> lzdata-ee8-jaxrs-base --> lzdata-ee8-jpa-model
