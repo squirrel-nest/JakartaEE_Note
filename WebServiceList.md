@@ -77,6 +77,10 @@
                * 说明
                   + 需要了解 HTTP/2.0 ServerPush 机制。。。
                   + 可以通过 PushBuilder pb = request.newPushBuilder(); 的 Push 机制，实现将图片分片发送客户端，以提高客户端加载速度。。
+            6. http://localhost:8089/lzjaxrsfusion8/index_cookbook_ch04_servlet.jsp
+               * 说明
+                  + 初始化 参数的方法
+                  + 异步方式加载页面的方法 。。。
          -  JSP 结合 Servlet 和 Persistence 进行数据库的操作例子
             * MySQL 数据库的例子
                1. JSP 页面
