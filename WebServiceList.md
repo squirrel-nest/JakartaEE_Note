@@ -41,7 +41,7 @@
                   + 例子来源：[mastertheboss - jakartaee-9](https://github.com/fmarchioni/mastertheboss.git) -- E:\JavaEESamples\JakartaEE9\mastertheboss\jakartaee\jakartaee-9
                   + 字符集编码 采用 网页级 设置
                   + 没有用 web.xml --> 如果要用可以设置web.xml <welcome-file>index.jsp</welcome-file>
-            2. http://localhost:8089/lzservletweb8/helloworldnew.jsp -- 结合嵌入的 java 语言
+            2. http://localhost:8089/lzservletweb8/helloworldnew.jsp -- JSP 中嵌入的 java 语言 的 实现方法
          - JSP 与 Servlet 结合的例子，实现前后端的分离 -- 网页中不用嵌入的Java了，使得 维护方便了。。。
             1. http://localhost:8089/lzservletweb8/ 默认为 index.html   --> Source：jakartaee-9
             2. http://localhost:8089/lzservletweb8/index.html
