@@ -4,11 +4,17 @@
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
    * 关于 字符集 CharSet 与 编码 Encoding：所采用的方式，有模块中单独说明。。。
    * 关于 绝对路径 和相对路径的说明
-      + JSP 页面 通过 ${pageContext.request.contextPath} + "Relative Path" 来设置 href tag（标签） - 参考：[How to use relative paths without including the context root name?
-](https://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name)<br>
+      + JSP 页面 中 路径问题的动态处理（动态设置）
+         1. 通过 ${pageContext.request.contextPath} + "Relative Path" 来设置 href tag（标签） 
+            - 参考：[How to use relative paths without including the context root name?](https://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name)<br>
+         2. 在网页标签 pref中 嵌入 request.getContextPath() 函数的方法：
+         ```jsp
+             <a href="<%=request.getContextPath()%>/UserServlet"><%=request.getContextPath() %>/UserServlet</a>
+         ```
       + Sevelet中的设置，通过：
          1. 通过 request.getContextPath()
          ```java
+             // 写法可以参考上句：（用<% %>符号嵌入java语句： href="<%=request.getContextPath()%>/UserServlet" 的方法）
              html.append("<img src='" + request.getContextPath() + "/images/javaee-logo.png'><br>");
          ```
          2. 用 JSP 的 脚本 ${pageContext.request.contextPath}
