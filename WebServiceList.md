@@ -90,8 +90,20 @@
                    http://localhost:8089/lzservletweb8/customer_list.jsp
                ```
                2. Servlet
-                  1. Requery 部分
+                  1. Create(添加 或 创建) 部分
+                     >com.lzsoft.lzdata.weblogic.servlet.customer.AddCustomerServlet
+                  2. Retrieve(检索 或 查询) 部分
                      >com.lzsoft.lzdata.weblogic.servlet.customer.CustomerListServlet
+                  3. Update(更新 或 更改) 部分
+                     >com.lzsoft.lzdata.weblogic.servlet.customer.UpdateCustomerServlet
+                  4. Delete(删除) 部分
+                     >com.lzsoft.lzdata.weblogic.servlet.customer.DeleteCustomerServlet
+               3. Data Model - lzdata-ee8-jpa-model
+                  1. Model
+                     >com.lzsoft.lzdata.persistence.hibernate.models.Customer
+                  2. Dao
+                     >com.lzsoft.lzdata.persistence.hibernate.dao.CustomerDAO
+                     >com.lzsoft.lzdata.persistence.hibernate.dao.HibernateCustomerDAO
          - Servlet
    * REST Service (JAX-RS)
       + project module 
