@@ -3,6 +3,18 @@
    * 框架搭建分为 Jakarta EE 8 和 Jakarta EE 9， 以 Jakarta EE 8 作为开发的主线, Jakarta EE 9通过拷贝 Jakarta EE 8来获得, 然后修改 javax 包名 到 jakarta, 共用的模块用 _share_ 或 _common_ 
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
    * 关于 字符集 CharSet 与 编码 Encoding：所采用的方式，有模块中单独说明。。。
+      + JSP 页面中的设置
+      + Servlet 中的设置
+         - 方法
+         ```java
+         
+            response.setCharacterEncoding("UTF-8");
+            response.setHeader("Content-Type", "text/html;charset=UTF-8");
+            // 用下面这一行可以代替上面两行
+            // response.setContentType("text/html;charset=UTF-8");
+         
+         
+         ```
    * 关于 绝对路径 和相对路径的说明
       + JSP 页面 中 路径问题的动态处理（动态设置）
          1. 通过 ${pageContext.request.contextPath} + "Relative Path" 来设置 href tag（标签） 
