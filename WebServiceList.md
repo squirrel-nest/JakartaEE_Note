@@ -117,7 +117,7 @@
                      >com.lzsoft.lzdata.persistence.hibernate.dao.CustomerDAO
                      >com.lzsoft.lzdata.persistence.hibernate.dao.HibernateCustomerDAO
          - Servlet
-   * REST Service (JAX-RS)
+   * lzdata-ee8-jaxrsweb - REST Service (JAX-RS)
       + project module 
          - lzdata-ee8-jaxrsweb --> lzdata-ee8-jaxrs-base --> lzdata-ee8-jpa-model
             1. http://localhost:8089/lzjaxrsweb8/index.jsp - 输入对象，转换为json，并输出网页。
