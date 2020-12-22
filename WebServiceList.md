@@ -116,22 +116,34 @@
                   2. Dao
                      >com.lzsoft.lzdata.persistence.hibernate.dao.CustomerDAO
                      >com.lzsoft.lzdata.persistence.hibernate.dao.HibernateCustomerDAO
-         - Servlet
+         - Jakarta Servlet 与 Jakarta Bean Validation 的例子
    * lzdata-ee8-jaxrsweb - REST Service (JAX-RS)
-      + project module 
-         - lzdata-ee8-jaxrsweb --> lzdata-ee8-jaxrs-base --> lzdata-ee8-jpa-model
-            1. http://localhost:8089/lzjaxrsweb8/index.jsp - 输入对象，转换为json，并输出网页。
-               - --> http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/tojson
-                  * com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.JsonService
+      + 说明
+         1. 模块的架构
+            - lzdata-ee8-jaxrsweb【前端】 --> lzdata-ee8-jaxrs-base【中间层】 --> lzdata-ee8-jpa-model【数据接入层模块】，lzdata-ee8-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee8-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。
+            - 无法使用分模块的功能，合并到 lzdata-ee8-fusionweb 模块中。。。见 lzdata-ee8-fusionweb 模块的例子说明
+      + 例子
+         - JAX-RS 的简单例子
+            6. http://localhost:8089/lzjaxrsweb8/exampleapi/hello -- {"message":"Duke says 你好，Jakarta EE 9！(Hello to Jakarta EE 9!)!"}
+            7. http://localhost:8089/lzjaxrsweb8/exampleapi/greeting/美女 -- {"message":"Say Hello to 美女 at 2020-12-13T22:33:47.362864"}
+         - JSP 结合 JAX-RS，实现Json格式及Java对象的转换
+            1. http://localhost:8089/lzjaxrsweb8/index.jsp
+               * 说明
+                  + tojson的部分：输入信息，转换成Java对象，然后再转换为json，并输出网页。
+                     - JSP form 通过 post 将信息以参数的形式传递到 URL：/exampleapi/jsonb/tojson --> http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/tojson
+                     - Service 部分 处理 Java 对象 --> com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.JsonService
+                  + tojava部分：输入json格式的对象，如：{ "name": "韶涵", "surname": "张", "address": "台湾台北忠孝东路1号", "city": "台北" }，转换成Java对象，然后输出网页端。
+         - JSP 结合 JAX-RS 和 Persistence 进行数据库的操作例子
             2. http://localhost:8089/lzjaxrsweb8/index_todb.jsp - 输入数据存入数据库，然后从数据库中取出，用json格式展示在网页。
                - http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/dbtojson
                   * com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DatabaseJsonService
+         - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
             3. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
             4. http://localhost:8089/lzjaxrsweb8/index_restfile_purejsp.jsp
                - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
+         - JAX-RS 结合 Persistence，实现 数据库的 CRUD
             5. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud
-            6. http://localhost:8089/lzjaxrsweb8/exampleapi/hello -- {"message":"Duke says 你好，Jakarta EE 9！(Hello to Jakarta EE 9!)!"}
-            7. http://localhost:8089/lzjaxrsweb8/exampleapi/greeting/美女 -- {"message":"Say Hello to 美女 at 2020-12-13T22:33:47.362864"}
+
 
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
