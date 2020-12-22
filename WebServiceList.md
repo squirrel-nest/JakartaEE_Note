@@ -125,7 +125,11 @@
       + 例子
          - JAX-RS 的简单例子
             6. http://localhost:8089/lzjaxrsweb8/exampleapi/hello -- {"message":"Duke says 你好，Jakarta EE 9！(Hello to Jakarta EE 9!)!"}
+               * 后端实现
+                  + com.lzsoft.lzdata.webservice.jaxrs.example.HelloWorldEndpoint
             7. http://localhost:8089/lzjaxrsweb8/exampleapi/greeting/美女 -- {"message":"Say Hello to 美女 at 2020-12-13T22:33:47.362864"}
+               * 后端实现
+                  + com.lzsoft.lzdata.webservice.jaxrs.example.GreetingResource
          - JSP 结合 JAX-RS，实现Json格式及Java对象的转换
             1. http://localhost:8089/lzjaxrsweb8/index.jsp
                * 说明
@@ -135,12 +139,15 @@
                   + tojava部分：输入json格式的对象，如：{ "name": "韶涵", "surname": "张", "address": "台湾台北忠孝东路1号", "city": "台北" }，转换成Java对象，然后输出网页端。
          - JSP 结合 JAX-RS 和 Persistence 进行数据库的操作例子
             2. http://localhost:8089/lzjaxrsweb8/index_todb.jsp - 输入数据存入数据库，然后从数据库中取出，用json格式展示在网页。
-               - http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/dbtojson
-                  * com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DatabaseJsonService
+               * http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/dbtojson
+                  + com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DatabaseJsonService
          - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
-            3. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
-            4. http://localhost:8089/lzjaxrsweb8/index_restfile_purejsp.jsp
-               - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
+            * JSP 页面
+               3. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
+               4. http://localhost:8089/lzjaxrsweb8/index_restfile_purejsp.jsp
+                  - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
+            * JAX-RS 后端实现
+               + com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
          - JAX-RS 结合 Persistence，实现 数据库的 CRUD
             5. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud
 
