@@ -142,21 +142,33 @@
                      - Service 部分 处理 Java 对象 --> com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.JsonService
                   + tojava部分：输入json格式的对象，如：{ "name": "韶涵", "surname": "张", "address": "台湾台北忠孝东路1号", "city": "台北" }，转换成Java对象，然后输出网页端。
          - JSP 结合 JAX-RS 和 Persistence ，实现 数据库的 CRUD
-            2. http://localhost:8089/lzjaxrsweb8/index_dbcustomertojson.jsp
+            1. http://localhost:8089/lzjaxrsweb8/index_dbcustomertojson.jsp
                * 说明
                   + 从界面输入数据，存入数据库
                   + 从数据库中取出，用json格式展示在网页。
                      - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbcustomertojson
-                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base： com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbCustomerJsonService
+                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbCustomerJsonService
             2. http://localhost:8089/lzjaxrsweb8/index_dbstudenttojson.jsp
                * 说明
                   + 从界面输入数据，存入数据库
                   + 从数据库中取出，用json格式展示在网页。
                      - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
-                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base： com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
+                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
 
-            5. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud
-
+            3. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud and async
+               * 说明
+                  + 参考：[JAX-RS - Getting Started with MicroProfile](https://www.youtube.com/watch?v=-TmKXm0k7UI&feature=youtu.be)<br>
+                  + JSP 界面
+                     - 无
+                  + CRUD部分
+                     - Create
+                     + Read - 从 mysql 获取数据
+                        11. http://localhost:8089/lzjaxrsweb8/books
+                        12. http://localhost:8088/lzjaxrsweb8/books/async
+                        13. http://localhost:8088/lzjaxrsweb8/books/3
+                     + Update
+                     + Delete
+                  + 可以将 @PostConstruct 的 init 部分改成 从 数据库中 获取数据
 
 
          - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
@@ -188,14 +200,7 @@
          10. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/fruits  - How to Create and Delete?
       + Update
       + Delete
-   * books
-      + Create
-      + Read - 从 mysql 获取数据
-         11. http://localhost:8088/lzdata-ee-8-jaxrs-gd/books
-         12. http://localhost:8088/lzdata-ee-8-jaxrs-gd/books/async
-         13. http://localhost:8088/lzdata-ee-8-jaxrs-gd/books/3
-      + Update
-      + Delete
+
    * Person 表
       + Create
       + Read
