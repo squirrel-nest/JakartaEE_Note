@@ -15,6 +15,10 @@
          
          
          ```
+      + 通过 Servlet CharacterEncodingFilter 的方法 参考下面的 Java 文件
+         - com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.CharacterEncodingFilter
+         - com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.ParameterHelper
+         - com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.EncodingFilterMy
    * 关于 绝对路径 和相对路径的说明
       + JSP 页面 中 路径问题的动态处理（动态设置）
          1. 通过 ${pageContext.request.contextPath} + "Relative Path" 来设置 href tag（标签） 
@@ -94,7 +98,7 @@
                * 说明
                   + 初始化 参数的方法
                   + 异步方式加载页面的方法 。。。
-                     - 无法使用分模块的方式。。。所以放在 lzeefusionweb8 模块中。。。
+                     - 无法使用分模块的方式。。。所以放在 ***lzeefusionweb8*** 模块中。。。
          -  JSP 结合 Servlet 和 Persistence 进行数据库的操作例子
             * MySQL 数据库的例子
                1. JSP 页面
@@ -137,10 +141,24 @@
                      - JSP form 通过 post 将信息以参数的形式传递到 URL：/exampleapi/jsonb/tojson --> http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/tojson
                      - Service 部分 处理 Java 对象 --> com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.JsonService
                   + tojava部分：输入json格式的对象，如：{ "name": "韶涵", "surname": "张", "address": "台湾台北忠孝东路1号", "city": "台北" }，转换成Java对象，然后输出网页端。
-         - JSP 结合 JAX-RS 和 Persistence 进行数据库的操作例子
-            2. http://localhost:8089/lzjaxrsweb8/index_todb.jsp - 输入数据存入数据库，然后从数据库中取出，用json格式展示在网页。
-               * http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/dbtojson
-                  + com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DatabaseJsonService
+         - JSP 结合 JAX-RS 和 Persistence ，实现 数据库的 CRUD
+            2. http://localhost:8089/lzjaxrsweb8/index_dbcustomertojson.jsp
+               * 说明
+                  + 从界面输入数据，存入数据库
+                  + 从数据库中取出，用json格式展示在网页。
+                     - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbcustomertojson
+                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base： com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbCustomerJsonService
+            2. http://localhost:8089/lzjaxrsweb8/index_dbstudenttojson.jsp
+               * 说明
+                  + 从界面输入数据，存入数据库
+                  + 从数据库中取出，用json格式展示在网页。
+                     - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
+                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base： com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
+
+            5. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud
+
+
+
          - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
             * JSP 页面
                3. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
@@ -148,8 +166,6 @@
                   - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
             * JAX-RS 后端实现
                + com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
-         - JAX-RS 结合 Persistence，实现 数据库的 CRUD
-            5. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud
 
 
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
