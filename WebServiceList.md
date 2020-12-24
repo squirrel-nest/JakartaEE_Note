@@ -164,7 +164,11 @@
                      - Create
                      + Read - 从 mysql 获取数据
                         1. http://localhost:8089/lzjaxrsweb8/books
-                        2. http://localhost:8088/lzjaxrsweb8/books/async
+                        2. http://localhost:8088/lzjaxrsweb8/books/async - 异步方式，分模块都无法实现。。。报错。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查
+                        ```
+                            RESTEASY003320: Failed processing arguments of public void
+                            com.lzsoft.lzdata.webservice.jaxrs.book.BookResource.getBooksAsync(jakarta.ws.rs.container.AsyncResponse)
+                        ```
                         3. http://localhost:8088/lzjaxrsweb8/books/3
                      + Update
                      + Delete
@@ -173,8 +177,8 @@
 
          - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
             * JSP 页面
-               3. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
-               4. http://localhost:8089/lzjaxrsweb8/index_restfile_purejsp.jsp
+               1. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
+               2. http://localhost:8089/lzjaxrsweb8/index_restfile_purejsp.jsp
                   - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
             * JAX-RS 后端实现
                + com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
