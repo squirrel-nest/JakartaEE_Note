@@ -163,13 +163,13 @@
                   + CRUD部分
                      - Create
                      + Read - 从 mysql 获取数据
-                        1. http://localhost:8089/lzjaxrsweb8/books
-                        2. http://localhost:8088/lzjaxrsweb8/books/async - 异步方式，分模块都无法实现。。。报错。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查
+                        1. http://localhost:8089/lzjaxrsweb8/exampleapi/books
+                        2. http://localhost:8088/lzjaxrsweb8/exampleapi/books/async - 异步方式，分模块都无法实现。。。报错。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查
                         ```
                             RESTEASY003320: Failed processing arguments of public void
                             com.lzsoft.lzdata.webservice.jaxrs.book.BookResource.getBooksAsync(jakarta.ws.rs.container.AsyncResponse)
                         ```
-                        3. http://localhost:8088/lzjaxrsweb8/books/3
+                        3. http://localhost:8088/lzjaxrsweb8/exampleapi/books/6
                      + Update
                      + Delete
                   + 可以将 @PostConstruct 的 init 部分改成 从 数据库中 获取数据
