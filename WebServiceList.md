@@ -128,10 +128,10 @@
             - 无法使用分模块的功能，合并到 lzdata-ee8-fusionweb 模块中。。。见 lzdata-ee8-fusionweb 模块的例子说明
       + 例子
          - JAX-RS 的简单例子
-            6. http://localhost:8089/lzjaxrsweb8/exampleapi/hello -- {"message":"Duke says 你好，Jakarta EE 9！(Hello to Jakarta EE 9!)!"}
+            1. http://localhost:8089/lzjaxrsweb8/exampleapi/hello -- {"message":"Duke says 你好，Jakarta EE 9！(Hello to Jakarta EE 9!)!"}
                * 后端实现
                   + com.lzsoft.lzdata.webservice.jaxrs.example.HelloWorldEndpoint
-            7. http://localhost:8089/lzjaxrsweb8/exampleapi/greeting/美女 -- {"message":"Say Hello to 美女 at 2020-12-13T22:33:47.362864"}
+            2. http://localhost:8089/lzjaxrsweb8/exampleapi/greeting/美女 -- {"message":"Say Hello to 美女 at 2020-12-13T22:33:47.362864"}
                * 后端实现
                   + com.lzsoft.lzdata.webservice.jaxrs.example.GreetingResource
          - JSP 结合 JAX-RS，实现Json格式及Java对象的转换
