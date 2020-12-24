@@ -163,9 +163,9 @@
                   + CRUD部分
                      - Create
                      + Read - 从 mysql 获取数据
-                        11. http://localhost:8089/lzjaxrsweb8/books
-                        12. http://localhost:8088/lzjaxrsweb8/books/async
-                        13. http://localhost:8088/lzjaxrsweb8/books/3
+                        1. http://localhost:8089/lzjaxrsweb8/books
+                        2. http://localhost:8088/lzjaxrsweb8/books/async
+                        3. http://localhost:8088/lzjaxrsweb8/books/3
                      + Update
                      + Delete
                   + 可以将 @PostConstruct 的 init 部分改成 从 数据库中 获取数据
