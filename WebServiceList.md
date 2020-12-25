@@ -155,7 +155,7 @@
                      - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
                   + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
 
-            3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>
+            3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>  将pesistence与resource分模块放就无法实现 参看 lzeefusionweb8
                http://localhost:8089/lzeefusionweb8/index_fruits.html - Path 的 设置方法，未实现
               
                * 说明
@@ -171,8 +171,22 @@
                         2. http://localhost:8089/lzeefusionweb8/api/fruits/3
                      + Update
                      + Delete
+            4. http://localhost:8089/lzjaxrsweb8/exampleapi/persons - 将pesistence与resource分模块放就无法实现 参看 lzeefusionweb8
+              
+               * 说明
+                  + 参考：[]()<br>
+                  + html 界面
+                     - 无
+                  + com.lzsoft.lzdata.webservice.jaxrs.person.de.rieckpil.blog.PersonResource
+                  + CRUD部分
+                     - Create
+                     + Read - 从 mysql 获取数据
+                        1. http://localhost:8089/lzeefusionweb8/api/fruits
+                        2. http://localhost:8089/lzeefusionweb8/api/fruits/3
+                     + Update
+                     + Delete
 
-            4. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud and async
+            5. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud and async
                * 说明
                   + 参考：[JAX-RS - Getting Started with MicroProfile](https://www.youtube.com/watch?v=-TmKXm0k7UI&feature=youtu.be)<br>
                   + JSP 界面
@@ -201,7 +215,7 @@
                      - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.UserAgentClientFilter
                      - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.ClientLoggingResponseFilter
                      
-              10. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/users  - Get Data from Web Api
+              2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/users  - Get Data from Web Api
 
          - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
             * JSP 页面
@@ -216,11 +230,14 @@
       
       
       + JAX-RS
-         - <a id="header-books_async"></a> http://localhost:8089/lzjaxrsweb8/exampleapi/books/async
+         - <a id="header-books_async"></a> http://localhost:8089/lzeefusionweb8/exampleapi/books/async
             * 说明
-               + com.lzsoft.lzdata.webservice.jaxrs.blog.BookResource
+               + com.lzsoft.lzdata.webservice.jaxrs.book.de.rieckpil.blog.BookResource
                + Book model 还是 放在 lzdata-ee8-jpa-model 模块中
-      
+         - <a id="header-person_resource"></a> http://localhost:8089/lzjaxrsweb8/exampleapi/persons
+            * 说明
+               + com.lzsoft.lzdata.webservice.jaxrs.person.de.rieckpil.blog.PersonResource
+               + Person model 还是 放在 lzdata-ee8-jpa-model 模块中      
       + 
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
