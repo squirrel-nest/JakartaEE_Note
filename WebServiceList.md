@@ -94,10 +94,10 @@
                * 说明
                   + 需要了解 HTTP/2.0 ServerPush 机制。。。
                   + 可以通过 PushBuilder pb = request.newPushBuilder(); 的 Push 机制，实现将图片分片发送客户端，以提高客户端加载速度。。
-            6. http://localhost:8089/lzeefusionweb8/index_cookbook_ch04_servlet.jsp
+            6. http://localhost:8089/lzeefusionweb8/index_cookbook_ch04_servlet.jsp --> [lzdata-ee8-fusionweb - index_cookbook_ch04_servlet.jsp](#header-index_cookbook_ch04_servlet)<br>
                * 说明
                   + 初始化 参数的方法
-                  + 异步方式加载页面的方法 。。。
+                  + 异步数据处理，加载页面的方法 。。。
                      - 无法使用分模块的方式。。。所以放在 ***lzeefusionweb8*** 模块中。。。
          -  JSP 结合 Servlet 和 Persistence 进行数据库的操作例子
             * MySQL 数据库的例子
@@ -175,6 +175,17 @@
                   + 可以将 @PostConstruct 的 init 部分改成 从 数据库中 获取数据
 
 
+         - JAX-RS，实现 引用 网络上 Json Api 的数据的方法
+            * 说明
+            * 例子
+               1. http://localhost:8089/lzjaxrsweb8/exampleapi/quotes - ApplicationPath需要设置。。。否则，不行。
+                  + 说明
+                     - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.QuoteResource
+                     - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.UserAgentClientFilter
+                     - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.ClientLoggingResponseFilter
+                     
+              10. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/users  - Get Data from Web Api
+
          - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
             * JSP 页面
                1. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
@@ -182,8 +193,12 @@
                   - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
             * JAX-RS 后端实现
                + com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
-
-
+   * lzdata-ee8-fusionweb
+      + Servlet 和 JSP 结合 实现前后端分离，以及异步数据处理的方式
+         - <a id="header-index_cookbook_ch04_servlet"></a> http://localhost:8089/lzeefusionweb8/index_cookbook_ch04_servlet.jsp
+      
+      
+      + JAX-RS
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
    1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/array
@@ -192,11 +207,7 @@
    2. http://localhost:8088/lzdata-ee-8-jaxrs_gd/parser - 未取得数据，待查
    5. http://localhost:8088/lzdata-ee-8-jaxrs-gd/structure
    6.
-   9. 如下
-      1. http://localhost:8088/lzdata-ee-8-jaxrs--gd/quotes - 不行！ 没有设置。。。
-      2. http://localhost:8088/lzdata-ee-8-jaxrs--gd/resources/quotes - 可以！
-      3. http://localhost:8088/lzdata-ee-8-jaxrs--gd/api/quotes - 可以！
-  10. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/users  - Get Data from Web Api
+
 ### MySQL CRUD
    * fruits 表
       + Create
