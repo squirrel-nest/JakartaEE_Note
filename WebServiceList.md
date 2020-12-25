@@ -155,7 +155,7 @@
                      - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
                   + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
 
-            3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>  将pesistence与resource分模块放就无法实现 参看 lzeefusionweb8
+            3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>  将pesistence与resource分模块放就无法实现 参看 [lzdata-ee8-fusionweb - index_fruits.html](#header-fruits)<br>
                http://localhost:8089/lzeefusionweb8/index_fruits.html - Path 的 设置方法，未实现
               
                * 说明
@@ -181,7 +181,7 @@
                   + CRUD部分
                      - Create
                      + Read - 从 mysql 获取数据
-                        1. http://localhost:8089/lzeefusionweb8/api/fruits
+                        1. http://localhost:8089/lzeefusionweb8/api/fruits  分模块报错 - 参见：[lzeefusionweb8 - fruits](#header-fruits)<br>
                         2. http://localhost:8089/lzeefusionweb8/api/fruits/3
                      + Update
                      + Delete
@@ -230,6 +230,9 @@
       
       
       + JAX-RS
+         - <a id="header-fruits"></a> http://localhost:8089/lzeefusionweb8/exampleapi/fruits
+            * 说明
+               + io.openliberty.example.FruitResource
          - <a id="header-books_async"></a> http://localhost:8089/lzeefusionweb8/exampleapi/books/async
             * 说明
                + com.lzsoft.lzdata.webservice.jaxrs.book.de.rieckpil.blog.BookResource
