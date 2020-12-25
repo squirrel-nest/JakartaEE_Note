@@ -155,7 +155,7 @@
                      - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
                   + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
 
-            3. http://localhost:8089/lzeefusionweb8/index.html - origin
+            3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>
                http://localhost:8089/lzeefusionweb8/index_fruits.html - Path 的 设置方法，未实现
               
                * 说明
@@ -163,6 +163,7 @@
                   + html 界面 -- 脚本：angular js --没有实现，angular js 对 path 的 动态path不知如何实现 待了解
                      - http://localhost:8089/lzeefusionweb8/index_fruits.html
                      - http://localhost:8089/lzeefusionweb8/index.html - origin
+                  + io.openliberty.example.FruitResource
                   + CRUD部分
                      - Create
                      + Read - 从 mysql 获取数据
@@ -180,7 +181,7 @@
                      - Create
                      + Read（Query) - 从 mysql 获取数据
                         1. http://localhost:8089/lzjaxrsweb8/exampleapi/books
-                        2. http://localhost:8089/lzjaxrsweb8/exampleapi/books/async - 异步方式，分模块都无法实现。。。报错。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查
+                        2. http://localhost:8089/lzjaxrsweb8/exampleapi/books/async - 异步方式，Jax-rs中，将pesistence与resource分模块放就无法实现。。。报错。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查 - 参见 [lzeefusionweb8 - books/async](#header-books_async)<br>
                         ```
                             RESTEASY003320: Failed processing arguments of public void
                             com.lzsoft.lzdata.webservice.jaxrs.book.BookResource.getBooksAsync(jakarta.ws.rs.container.AsyncResponse)
@@ -215,6 +216,12 @@
       
       
       + JAX-RS
+         - <a id="header-books_async"></a> http://localhost:8089/lzjaxrsweb8/exampleapi/books/async
+            * 说明
+               + com.lzsoft.lzdata.webservice.jaxrs.blog.BookResource
+               + Book model 还是 放在 lzdata-ee8-jpa-model 模块中
+      
+      + 
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
    1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/array
