@@ -155,14 +155,30 @@
                      - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
                   + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
 
-            3. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud and async
+            3. http://localhost:8089/lzeefusionweb8/index.html - origin
+               http://localhost:8089/lzeefusionweb8/index_fruits.html - Path 的 设置方法，未实现
+              
+               * 说明
+                  + 参考：[]()<br>
+                  + html 界面 -- 脚本：angular js --没有实现，angular js 对 path 的 动态path不知如何实现 待了解
+                     - http://localhost:8089/lzeefusionweb8/index_fruits.html
+                     - http://localhost:8089/lzeefusionweb8/index.html - origin
+                  + CRUD部分
+                     - Create
+                     + Read - 从 mysql 获取数据
+                        1. http://localhost:8089/lzeefusionweb8/api/fruits
+                        2. http://localhost:8089/lzeefusionweb8/api/fruits/3
+                     + Update
+                     + Delete
+
+            4. com.lzsoft.lzdata.webservice.jaxrs.book.BookResource - book crud and async
                * 说明
                   + 参考：[JAX-RS - Getting Started with MicroProfile](https://www.youtube.com/watch?v=-TmKXm0k7UI&feature=youtu.be)<br>
                   + JSP 界面
                      - 无
                   + CRUD部分
                      - Create
-                     + Read - 从 mysql 获取数据
+                     + Read（Query) - 从 mysql 获取数据
                         1. http://localhost:8089/lzjaxrsweb8/exampleapi/books
                         2. http://localhost:8089/lzjaxrsweb8/exampleapi/books/async - 异步方式，分模块都无法实现。。。报错。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查
                         ```
@@ -209,12 +225,6 @@
    6.
 
 ### MySQL CRUD
-   * fruits 表
-      + Create
-      + Read（Query) - 从 mysql 获取数据
-         10. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/fruits  - How to Create and Delete?
-      + Update
-      + Delete
 
    * Person 表
       + Create
@@ -292,9 +302,7 @@
 ## 测试用：CRUD
    * com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateJavaConfigMain
 ## Sample Data
-   * [eugenp
-/
-tutorials/patterns/design-patterns-architectural/](https://github.com/eugenp/tutorials/tree/master/patterns/design-patterns-architectural)<br>
+   * [eugenp/tutorials/patterns/design-patterns-architectural/](https://github.com/eugenp/tutorials/tree/master/patterns/design-patterns-architectural)<br>
 ### Patterns
    * 参考
       + [DAO vs Repository Patterns](https://www.baeldung.com/java-dao-vs-repository)<br>
