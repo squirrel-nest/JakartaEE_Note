@@ -171,7 +171,7 @@
                         2. http://localhost:8089/lzeefusionweb8/api/fruits/3
                      + Update
                      + Delete
-            4. http://localhost:8089/lzjaxrsweb8/exampleapi/persons - 将pesistence与resource分模块放就无法实现 参看 lzeefusionweb8
+            4. http://localhost:8089/lzjaxrsweb8/exampleapi/persons - 将pesistence与resource分模块放就无法实现 分模块报错, 改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
               
                * 说明
                   + 参考：[]()<br>
@@ -181,8 +181,8 @@
                   + CRUD部分
                      - Create
                      + Read - 从 mysql 获取数据
-                        1. http://localhost:8089/lzeefusionweb8/api/fruits  分模块报错 - 参见：[lzeefusionweb8 - fruits](#header-fruits)<br>
-                        2. http://localhost:8089/lzeefusionweb8/api/fruits/3
+                        1. http://localhost:8089/lzjaxrsweb8/exampleapi/persons  分模块报错, 改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
+                        2. http://localhost:8089/lzeefusionweb8/exampleapi/persons/3
                      + Update
                      + Delete
 
@@ -237,7 +237,7 @@
             * 说明
                + com.lzsoft.lzdata.webservice.jaxrs.book.de.rieckpil.blog.BookResource
                + Book model 还是 放在 lzdata-ee8-jpa-model 模块中
-         - <a id="header-person_resource"></a> http://localhost:8089/lzjaxrsweb8/exampleapi/persons
+         - <a id="header-person_resource"></a> http://localhost:8089/lzeefusionweb8/exampleapi/persons
             * 说明
                + com.lzsoft.lzdata.webservice.jaxrs.person.de.rieckpil.blog.PersonResource
                + Person model 还是 放在 lzdata-ee8-jpa-model 模块中      
