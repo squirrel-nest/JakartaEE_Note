@@ -155,10 +155,11 @@
                      - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
                   + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
 
-            3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>  将pesistence与resource分模块放就无法实现 参看 [lzdata-ee8-fusionweb - index_fruits.html](#header-fruits)<br>
+            3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>  将pesistence与resource分模块放就无法实现，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List<Book> 可以实现 Model 分模块。 参看 [lzdata-ee8-fusionweb - index_fruits.html](#header-fruits)<br>
                http://localhost:8089/lzeefusionweb8/index_fruits.html - Path 的 设置方法，未实现
               
                * 说明
+                  + 用 jakarta.persistence.NamedQuery 无法实现 分模块
                   + 参考：[]()<br>
                   + html 界面 -- 脚本：angular js --没有实现，angular js 对 path 的 动态path不知如何实现 待了解
                      - http://localhost:8089/lzeefusionweb8/index_fruits.html
@@ -171,7 +172,7 @@
                         2. http://localhost:8089/lzeefusionweb8/api/fruits/3
                      + Update
                      + Delete
-            4. http://localhost:8089/lzjaxrsweb8/exampleapi/persons - 将pesistence与resource分模块放就无法实现 分模块报错, 改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
+            4. http://localhost:8089/lzjaxrsweb8/exampleapi/persons - 将pesistence与resource分模块放就无法实现 分模块报错, ，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List<Book> 可以实现 Model 分模块。改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
               
                * 说明
                   + 参考：[]()<br>
@@ -181,7 +182,7 @@
                   + CRUD部分
                      - Create
                      + Read - 从 mysql 获取数据
-                        1. http://localhost:8089/lzjaxrsweb8/exampleapi/persons  分模块报错, 改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
+                        1. http://localhost:8089/lzjaxrsweb8/exampleapi/persons  分模块报错, ，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List<Book> 可以实现 Model 分模块。改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
                         2. http://localhost:8089/lzeefusionweb8/exampleapi/persons/3
                      + Update
                      + Delete
@@ -195,7 +196,7 @@
                      - Create
                      + Read（Query) - 从 mysql 获取数据
                         1. http://localhost:8089/lzjaxrsweb8/exampleapi/books
-                        2. http://localhost:8089/lzjaxrsweb8/exampleapi/books/async - 异步方式，Jax-rs中，将pesistence与resource分模块放就无法实现。。。报错。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查 - 参见 [lzeefusionweb8 - books/async](#header-books_async)<br>
+                        2. http://localhost:8089/lzjaxrsweb8/exampleapi/books/async - 异步方式，Jax-rs中，将pesistence与resource分模块放就无法实现。。。报错，，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List<Book> 可以实现 Model 分模块。。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查 - 参见 [lzeefusionweb8 - books/async](#header-books_async)<br>
                         ```
                             RESTEASY003320: Failed processing arguments of public void
                             com.lzsoft.lzdata.webservice.jaxrs.book.BookResource.getBooksAsync(jakarta.ws.rs.container.AsyncResponse)
