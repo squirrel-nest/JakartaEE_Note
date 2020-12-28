@@ -256,13 +256,27 @@
             * 说明
             * 例子
                1. http://localhost:8089/lzjaxrsweb8/exampleapi/quotes - ApplicationPath需要设置。。。否则，不行。
+                  + 来源
                   + 说明
                      - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.QuoteResource
                      - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.UserAgentClientFilter
                      - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.ClientLoggingResponseFilter
                      
-              2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/users  - Get Data from Web Api
-
+              2. http://localhost:8089/lzjaxrsweb8/exampleapi/users  - Get Data from Web Api
+                  + 来源
+                  + 说明
+                     - 更改成新的 wildfly服务器，无法部署，可以是服务器不支持旧的 inject 方法。。。
+                     - com.lzsoft.lzdata.webservice.jaxrs.user.de.rieckpil.blog.UserResource
+                     - com.lzsoft.lzdata.webservice.jaxrs.user.de.rieckpil.blog.
+              3. http://localhost:8089/lzjaxrsweb8/exampleapi/myusers
+                 + 说明
+                    - 根据上述例子的原理，将UserProvider 合并到 Resource 就可以了，不用 inject 
+                    - http://localhost:8089/lzjaxrsweb8/exampleapi/myusers
+                    - 代码：com.lzsoft.lzdata.webservice.jaxrs.user.de.rieckpil.blog.UserResourceMy
+              4. http://localhost:8089/lzjaxrsweb8/exampleapi/localcustomers
+                 + 说明
+                    - 同上代码，数据取自 自家服务器的数据：http://localhost:8089/lzjaxrsweb8/exampleapi/myarray
+                    - 代码：com.lzsoft.lzdata.webservice.jaxrs.user.de.rieckpil.blog.LocalCustomerResource
          - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
             * JSP 页面
                1. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
