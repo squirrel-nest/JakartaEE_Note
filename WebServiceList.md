@@ -206,7 +206,25 @@
                      + Delete
                   + 可以将 @PostConstruct 的 init 部分改成 从 数据库中 获取数据
 
-
+         - JAX-RS: jsonb 与 jsonp 的 使用
+            * 说明
+               + 例子的来源为
+                  - [eclipse-ee4j/jakartaee-examples](https://github.com/eclipse-ee4j/jakartaee-examples)<br>
+                     
+            * 例子
+               1. jsonp 的 例子：
+               2. jsonb 的 例子：
+                  - 来源
+                     * [https://github.com/eclipse-ee4j/jakartaee-examples/tree/master/jsonb](https://github.com/eclipse-ee4j/jakartaee-examples/tree/master/jsonb)<br>
+                  - 说明
+                     * serialization 的例子
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/serialization
+                           - org.glassfish.samples.jsonb.jaxrs.JsonbSerializationDemo
+                     * deserialization 的例子
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/deserialization
+                           - org.glassfish.samples.jsonb.jaxrs.JsonbDeserializationDemo
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/generic
+                           - org.glassfish.samples.jsonb.jaxrs.JsonbDeserializationGenericDemo
          - JAX-RS，实现 引用 网络上 Json Api 的数据的方法
             * 说明
             * 例子
