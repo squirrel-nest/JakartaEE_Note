@@ -209,13 +209,40 @@
          - JAX-RS: jsonb 与 jsonp 的 使用
             * 说明
                + 例子的来源为
-                  - [eclipse-ee4j/jakartaee-examples](https://github.com/eclipse-ee4j/jakartaee-examples)<br>
+                  - [eclipse-ee4j/glassfish-samples](https://github.com/eclipse-ee4j/glassfish-samples)<br> 不是 [eclipse-ee4j/jakartaee-examples](https://github.com/eclipse-ee4j/jakartaee-examples)<br>
                      
             * 例子
                1. jsonp 的 例子：
+                  - 来源
+                     * https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonp/jaxrs](https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonp/jaxrs)<br>
+                  - 说明
+                     * json array 的例子
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/array
+                           - org.glassfish.samples.jsonp.jaxrs.ArrayResource
+                     * 从数据库获取数据，然后输出array的方法 - 根据 array 的 例子 实现
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/myarray
+                           - org.glassfish.samples.jsonp.jaxrs.ArrayResourceMy
+                           -  ArrayResourceMy 设置 JsonbConfig config 中用到了 org.glassfish.samples.jsonp.jaxrs.CustomerAdapter
+                     * json object 的例子
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/object
+                           - org.glassfish.samples.jsonp.jaxrs.ObjectResource
+                     * 从数据库获取数据，然后输出object的方法 - 根据 jbject 的 例子 实现，说明：需要加入 id 号，才能得到单个 object 记录。。。
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/myobject/1
+                           - org.glassfish.samples.jsonp.jaxrs.ObjectResourceMy
+                     * jakarta.json.stream.JsonGenerator 的例子
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/generator
+                           - org.glassfish.samples.jsonp.jaxrs.GeneratorResource
+                     * jakarta.json.stream.JsonParser 的例子
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/parser
+                           - org.glassfish.samples.jsonp.jaxrs.ParserResource
+                        + 问题
+                           - 由于Twitter更改了api接口1.1 --> 2.0 需要进行用户认证，目前尚未搞碇，Twitter Api 安全认证方式，需要学习。。。
+                     * jakarta.json.JsonStructure 的例子
+                        + http://localhost:8089/lzjaxrsweb8/exampleapi/structure
+                           - org.glassfish.samples.jsonp.jaxrs.StructureResource
                2. jsonb 的 例子：
                   - 来源
-                     * [https://github.com/eclipse-ee4j/jakartaee-examples/tree/master/jsonb](https://github.com/eclipse-ee4j/jakartaee-examples/tree/master/jsonb)<br>
+                     * [https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonb/jaxrs](https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonb/jaxrs)<br>
                   - 说明
                      * serialization 的例子
                         + http://localhost:8089/lzjaxrsweb8/exampleapi/serialization
