@@ -214,7 +214,7 @@
             * 例子
                1. jsonp 的 例子：
                   - 来源
-                     * https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonp/jaxrs](https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonp/jaxrs)<br>
+                     * [https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonp/jaxrs](https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonp/jaxrs)<br>
                   - 说明
                      * json array 的例子
                         + http://localhost:8089/lzjaxrsweb8/exampleapi/array
@@ -290,32 +290,7 @@
       + 
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
-   1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/array
-   3. http://localhost:8088/lzdata-ee-8-jaxrs-gd/generator
-   4. http://localhost:8088/lzdata-ee-8-jaxrs-gd/object
-   2. http://localhost:8088/lzdata-ee-8-jaxrs_gd/parser - 未取得数据，待查
-   5. http://localhost:8088/lzdata-ee-8-jaxrs-gd/structure
-   6.
-
 ### MySQL CRUD
-
-   * Person 表
-      + Create
-      + Read
-         1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/persons
-         2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/persons - 在 de.rieckpil.blog.JAXRSConfiguration 中设置。
-         3. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/persons
-         4. http://localhost:8088/lzdata-ee-8-jaxrs-gd/persons/1
-         5. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/persons/1
-         6. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/persons/1
-      + Update
-      + Delete
-   * Cusotomer
-      + Read - 从 mysql 获取数据
-         1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/myarray - mysql data
-         2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/myarray - 在 de.rieckpil.blog.JAXRSConfiguration 中设置@ApplicationPath("resources") 路径， 为何也可以，研究！
-         3. http://localhost:8088/lzdata-ee-8-jaxrs-gd/api/myarray 在 de.rieckpil.blog.JAXRSConfiguration 中设置了 /api 路径
-
    * BiDiction   OneToOne
       + 说明
          - 表 Employee 和 Address 为 OneToOne， 并且 共用 相同的 ID， 测试：HibernateJavaConfigMain.java
