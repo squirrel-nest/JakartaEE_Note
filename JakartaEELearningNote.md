@@ -115,7 +115,14 @@ http://www.ruoyi.vip
 ### Gradle
    * 
    * gradlew clean build
-
+   * 错误处理的方法 - Window
+      + 无法删除build 文件夹
+         - 参考
+            * [Gradle – Execution failed for task ‘clean’. Unable to delete file](https://www.eknori.de/2020-09-18/gradle-execution-failed-for-task-appclean-unable-to-delete-file/)<br>
+            ```shell
+                TASKKILL /F /IM java.exe -- 会误杀在用的应用，最好找到 对应 的 PID，然后执行命令。。感觉还是用Task Manager来的更快。：（
+                # then
+                gradle clean build
 ### Maven
    * Build whole project with maven.
       ```shell
