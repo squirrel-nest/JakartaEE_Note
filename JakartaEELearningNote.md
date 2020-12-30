@@ -117,6 +117,8 @@ http://www.ruoyi.vip
    * gradlew clean build
    * 错误处理的方法 - Window
       + 无法删除build 文件夹
+         - 以下的都无效
+            * 执行：***Invalidate and Restart*** 才有效 --> The caches will be invalidated and rebuilt on the next startup.
          - 参考
             * [Gradle – Execution failed for task ‘clean’. Unable to delete file](https://www.eknori.de/2020-09-18/gradle-execution-failed-for-task-appclean-unable-to-delete-file/)<br>
             ```shell
