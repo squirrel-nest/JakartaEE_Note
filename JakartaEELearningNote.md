@@ -39,7 +39,7 @@
 ### 5. [Handling Pagination With JAX-RS and NoSQL in Your Jakarta EE/MicroProfile Application](https://dzone.com/articles/handling-with-pagination-with-jax-rs-in-your-jakar)<br>
 
 ### 6. [JAX-RS Crud Application using Quarkus and Vue.js](http://www.mastertheboss.com/soa-cloud/quarkus/jax-rs-crud-application-using-quarkus-and-vue-js)<br>
-### 7. [JAX-RS CRUD Application using Vue.js and RESTEasy](http://www.mastertheboss.com/jboss-frameworks/resteasy/jax-rs-crud-application-using-vue-js-and-resteasy)<br>
+### 7. [JAX-RS CRUD Application using Vue.js and RESTEasy](http://www.mastertheboss.com/jboss-frameworks/resteasy/jax-rs-crud-application-using-vue-js-and-resteasy)<br> - 可以参考 curl 的使用方法，了解 命令中 参数的用法。。。
    * [RESTEasy tutorial - Page 1](http://www.mastertheboss.com/jboss-frameworks/resteasy/resteasy-tutorial)<br>
    * [RESTEasy tutorial - Page 2](http://www.mastertheboss.com/jboss-frameworks/resteasy/resteasy-tutorial?showall=&start=1)<br>
 ### 8. [CRUD with TomEE, MicroProfile, and REST](https://www.tomitribe.com/blog/crud-with-tomee-microprofile-and-rest/)<br>
