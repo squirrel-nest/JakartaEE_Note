@@ -40,6 +40,8 @@
 
 ### 6. [JAX-RS Crud Application using Quarkus and Vue.js](http://www.mastertheboss.com/soa-cloud/quarkus/jax-rs-crud-application-using-quarkus-and-vue-js)<br>
 ### 7. [JAX-RS CRUD Application using Vue.js and RESTEasy](http://www.mastertheboss.com/jboss-frameworks/resteasy/jax-rs-crud-application-using-vue-js-and-resteasy)<br>
+   * [RESTEasy tutorial - Page 1](http://www.mastertheboss.com/jboss-frameworks/resteasy/resteasy-tutorial)<br>
+   * [RESTEasy tutorial - Page 2](http://www.mastertheboss.com/jboss-frameworks/resteasy/resteasy-tutorial?showall=&start=1)<br>
 ### 8. [CRUD with TomEE, MicroProfile, and REST](https://www.tomitribe.com/blog/crud-with-tomee-microprofile-and-rest/)<br>
 
 ### 9. Jakarta EE Bean
@@ -67,7 +69,9 @@
    * [Jakarta EE 8: Past, Present, and Future](https://jaxenter.com/jakarta-ee-8-past-present-future-161990.html)<br>
    * [Jakarta EE 8: The new era of Java EE explained](https://developers.redhat.com/blog/2019/09/12/jakarta-ee-8-the-new-era-of-java-ee-explained/)<br>
    * [From javax.* to jakarta.*: A Simple Proof of Concept](https://dzone.com/articles/from-javax-to-jakarta-a-simple-proof-of-concept)<br>
-
+   * [从一次编译出发梳理概念: Jetty,Jersey,hk2,glassFish,Javax,Jakarta](https://cloud.tencent.com/developer/article/1702027)<br>
+      + (https://www.cnblogs.com/rossiXYZ/p/13694489.html#27-glassfish)<br>
+      + (https://iter01.com/530958.html)<br>
 ## Awesome JavaEE projects
    * [ScarlettRay/JavaEE-projects](https://github.com/ScarlettRay/JavaEE-projects)<br>
       + >这个仓库收藏了一些自己在学习和工作过程中接触到的Javaee项目，为后人的项目开发提供一些思路或者解决方案吧。也希望各位看官可以将你们觉得不错的项目提交上来，格式不限，网站链接、网盘、源码都可以，PR,issues,或者直接联系我。
