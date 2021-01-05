@@ -30,7 +30,11 @@
 ### 1. Jakarta EE Persistence --> [JakartaEEPersistenceLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEPersistenceLearningNote.md)
 :point_down::small_red_triangle_down::arrow_down::arrow_down_small::arrow_double_down::arrow_double_down:
 ### 2. Jakarta EE JsonB --> [JakartaEEJsonBLearningNote.md](https://github.com/squirrel-nest/JavaEELearningNote/blob/master/JakartaEEJsonBLearningNote.md)
-
+   * 参考
+      + [Using Jakarta REST with Jakarta XML Binding[(https://eclipse-ee4j.github.io/jakartaee-tutorial/jaxrs-advanced007.html)<br>
+      + [https://eclipse-ee4j.github.io/jakartaee-tutorial/cdi-adv006.html)<b>
+      + [Using Interceptors in CDI Applications](https://eclipse-ee4j.github.io/jakartaee-tutorial/cdi-adv006.html)<br>
+  
 ### 3. Jakarta EE JsonP --> []()<br>
 
 
@@ -47,6 +51,9 @@
 ### 9. Jakarta EE Bean
    * 参考
       + [Java Bean Validation Basics](https://www.baeldung.com/javax-validation)<br>
+### 10. CHAPTER 7. JAKARTA CONTEXTS AND DEPENDENCY INJECTION
+   * 参考
+      + [CHAPTER 7. JAKARTA CONTEXTS AND DEPENDENCY INJECTION](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.3/html/development_guide/contexts_and_dependency_injection)<br>
 ### 5. 测试相关
    * [Testing a MicroProfile or Jakarta EE application](https://openliberty.io/guides/microshed-testing.html)<br>
 
