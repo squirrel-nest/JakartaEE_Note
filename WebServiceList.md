@@ -284,6 +284,10 @@
                   - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
             * JAX-RS 后端实现
                + com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
+   * lzdata-ee8-jaxwsweb
+      + ddd
+      + bbb
+      + ddfdf
    * lzdata-ee8-fusionweb
       + Servlet 和 JSP 结合 实现前后端分离，以及异步数据处理的方式
          - <a id="header-index_cookbook_ch04_servlet"></a> http://localhost:8089/lzeefusionweb8/index_cookbook_ch04_servlet.jsp
