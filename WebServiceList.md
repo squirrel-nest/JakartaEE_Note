@@ -285,7 +285,14 @@
             * JAX-RS 后端实现
                + com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
    * lzdata-ee8-jaxwsweb
-      + ddd
+      + Jakarta EE tutorial
+         - soap rpc style 的例子
+            * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
+               + interface：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
+               + implement：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.Hello
+               + **WebServiceClient**(不是 WebService)：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloService
+      + 例子参考：[gmavridakis/SOAP-JAX-WS-RPC]
+         + 
       + bbb
       + ddfdf
    * lzdata-ee8-fusionweb
