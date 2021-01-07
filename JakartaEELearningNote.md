@@ -48,6 +48,20 @@
    * [RESTEasy tutorial - Page 2](http://www.mastertheboss.com/jboss-frameworks/resteasy/resteasy-tutorial?showall=&start=1)<br>
 ### 8. [CRUD with TomEE, MicroProfile, and REST](https://www.tomitribe.com/blog/crud-with-tomee-microprofile-and-rest/)<br>
 
+
+### JAX-RS
+
+
+### JAX-WS
+   * Interface And Class
+      + Service implementation class and Service class
+         - targetNamespace规则：参看：3.11. Service and Ports 
+         - 没有 @ServiceName annotation - if present with a non-default value, otherwise the name of the implementation class with the "Service" suffix appended to it.
+         - 7.11.1. jakarta.jws.WebService - 7.11. Annotations Defined by Jakarta XML Web Services Metadata
+
+
+
+
 ### 9. Jakarta EE Bean
    * 参考
       + [Java Bean Validation Basics](https://www.baeldung.com/javax-validation)<br>
