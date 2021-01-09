@@ -59,7 +59,8 @@
          - 没有 @ServiceName annotation - if present with a non-default value, otherwise the name of the implementation class with the "Service" suffix appended to it.
          - 7.11.1. jakarta.jws.WebService - 7.11. Annotations Defined by Jakarta XML Web Services Metadata
 
-
+  * **需要看下：**WS User Guide  - WildFly Documentation
+     + [WS User Guide  - WildFly Documentation](https://docs.jboss.org/author/display/WFLY/JAX-WS%20User%20Guide.html)<br>
 
 
 ### 9. Jakarta EE Bean
