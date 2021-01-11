@@ -141,6 +141,7 @@ http://www.ruoyi.vip
 ### Gradle
    * 
    * gradlew clean build
+   * 略过 test：gradlew clean build -x test -i -- 查文档吧。。
    * 错误处理的方法 - Window
       + 无法删除build 文件夹
          - 以下的都无效
