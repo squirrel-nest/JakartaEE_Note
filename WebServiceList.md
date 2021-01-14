@@ -300,20 +300,25 @@
       + 例子
          - JAX-WS 的简单例子 - Jakarta EE tutorial
             * Hello Service Eaxmple
+               + WSDL
+                  - http://localhost:8089/lzjaxwsweb8/Hello?wsdl
+               + SOAP 说明
+                  - rpc style
                + 后端架构
-                  - WSDL
-                     * http://localhost:8089/lzjaxwsweb8/Hello?wsdl
                   - Interface class:
                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
                   - Implementation class:
                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.Hello
                   -  javax.xml.ws.Endpoint:
                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloPublisher
-                  - WebServiceClient
+                  - **WebServiceClient** (不是 WebService) class:
                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloService
                + Package
                   - com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
-            
+               + 前端实现
+                  - Web 实现
+                  - Client 实现
+
          - soap rpc style 的例子
             * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
                + interface：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
