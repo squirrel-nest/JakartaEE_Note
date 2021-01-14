@@ -328,19 +328,36 @@
 
             * HelloWorld Service Eaxmple - Soap 1.2 RPC Style
                + WSDL
-                  - http://localhost:8089/lzjaxwsweb8/HelloWorldRpcService?wsdl
-               + SOAP 说明
                   - rpc style
+                     * http://localhost:8089/lzjaxwsweb8/HelloWorldRpcService?wsdl
+                  - doc style
+                     * http://localhost:8089/lzjaxwsweb8/HelloWorldDocService?wsdl
+               + SOAP 说明
                   - soap 1.2
-               + 后端架构 - Package：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle
-                  - Interface class:
-                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpc
-                  - Implementation class:
-                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcImpl
-                  -  javax.xml.ws.Endpoint:
-                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcPublisher
-                  - **WebServiceClient** (不是 WebService) class:
-                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcImplService
+               + 后端架构
+                  - Rpc Style
+                    - Package
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle
+                    - Interface class:
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpc
+                    - Implementation class:
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcImpl
+                    -  javax.xml.ws.Endpoint:
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcPublisher
+                    - **WebServiceClient** (不是 WebService) class:
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcImplService
+
+                  - Doc Style
+                    - Package
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.docstyle
+                    - Interface class:
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.docstyle.HelloWorldDoc
+                    - Implementation class:
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.docstyle.HelloWorldDocImpl
+                    -  javax.xml.ws.Endpoint:
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.docstyle.HelloWorldDocPublisher
+                    - **WebServiceClient** (不是 WebService) class:
+                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.docstyle.HelloWorldDocImplService
                + 逻辑层实现 - Servlet
                   - Servlet
                      * com.lzsoft.lzdata.weblogic.servlet.tutorial.helloservice.MainHelloWorldServlet
