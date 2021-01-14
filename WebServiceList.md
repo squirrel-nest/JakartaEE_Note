@@ -304,7 +304,7 @@
                   - http://localhost:8089/lzjaxwsweb8/Hello?wsdl
                + SOAP 说明
                   - rpc style
-               + 后端架构
+               + 后端架构 - Package：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
                   - Interface class:
                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
                   - Implementation class:
@@ -313,17 +313,17 @@
                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloPublisher
                   - **WebServiceClient** (不是 WebService) class:
                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloService
-               + Package
-                  - com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
-               + 前端实现
+               + 逻辑层实现 - Servlet
+                  - Servlet
+                     * com.lzsoft.lzdata.weblogic.servlet.tutorial.helloservice.HelloServlet
+                  - Service
+                     * 
+               + 前端实现 - Front End - 界面
                   - Web 实现
+                     * 方法1：html界面
+                        + http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html
                   - Client 实现
 
-         - soap rpc style 的例子
-            * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
-               + interface：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
-               + implement：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.Hello
-               + **WebServiceClient**(不是 WebService)：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloService
       + 例子参考：[gmavridakis/SOAP-JAX-WS-RPC]
          + 
       + bbb
