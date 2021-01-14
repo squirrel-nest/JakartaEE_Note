@@ -142,18 +142,26 @@
                      - Service 部分 处理 Java 对象 --> com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.JsonService
                   + tojava部分：输入json格式的对象，如：{ "name": "韶涵", "surname": "张", "address": "台湾台北忠孝东路1号", "city": "台北" }，转换成Java对象，然后输出网页端。
          - JSP 结合 JAX-RS 和 Persistence ，实现 数据库的 CRUD
-            1. http://localhost:8089/lzjaxrsweb8/index_dbcustomertojson.jsp
-               * 说明
-                  + 从界面输入数据，存入数据库
-                  + 从数据库中取出，用json格式展示在网页。
-                     - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbcustomertojson
-                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbCustomerJsonService
+            1. Customers - CRUD
+               * JAX-RS Package Location
+                  + com.lzsoft.lzdata.webservice.jaxrs.customer.itbuzzpress.DbCustomerJsonService
+                  + Module：lzdata-ee-9-gdev: lzdata-ee8-jaxrs-base
+               * Front End - 界面
+                  + 方法1：html界面
+                     - http://localhost:8089/lzjaxrsweb8/jaxrs-crud-customers.html
+                  + 方式2：jsp界面
+                     - http://localhost:8089/lzjaxrsweb8/jaxrs-crud-customers-dbtojson.jsp
+                        * 说明
+                           + 从界面输入数据，存入数据库
+                           + 从数据库中取出，用json格式展示在网页。
+               * API
+                  + http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbcustomertojson
             2. http://localhost:8089/lzjaxrsweb8/index_dbstudenttojson.jsp
                * 说明
                   + 从界面输入数据，存入数据库
                   + 从数据库中取出，用json格式展示在网页。
                      - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
-                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.DbStudentJsonService
+                  + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.customer.itbuzzpress.DbCustomerJsonService
 
             3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>  将pesistence与resource分模块放就无法实现，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。 参看 [lzdata-ee8-fusionweb - index_fruits.html](#header-fruits)<br>
                http://localhost:8089/lzeefusionweb8/index_fruits.html - Path 的 设置方法，未实现
