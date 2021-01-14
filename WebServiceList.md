@@ -321,7 +321,8 @@
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html
+                        + [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
+                           - --> [http://localhost:8089/lzjaxwsweb8/HelloServlet](http://localhost:8089/lzjaxwsweb8/HelloServlet)<br>
                   - Client 实现
 
       + 例子参考：[gmavridakis/SOAP-JAX-WS-RPC]
