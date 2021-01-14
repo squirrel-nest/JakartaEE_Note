@@ -292,8 +292,28 @@
                   - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
             * JAX-RS 后端实现
                + com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
-   * lzdata-ee8-jaxwsweb
-      + Jakarta EE tutorial
+   * lzdata-ee8-jaxwsweb - SOAP Service (JAX-WS)
+      + 说明
+         1. 模块的架构
+            - lzdata-ee8-jaxwsweb【前端】 --> lzdata-ee8-jaxws-base【中间层】 --> lzdata-ee8-jpa-model【数据接入层模块】，lzdata-ee8-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee8-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。
+            - 无法使用分模块的功能，合并到 lzdata-ee8-fusionweb 模块中。。。见 lzdata-ee8-fusionweb 模块的例子说明
+      + 例子
+         - JAX-WS 的简单例子 - Jakarta EE tutorial
+            * Hello Service Eaxmple
+               + 后端架构
+                  - WSDL
+                     * http://localhost:8089/lzjaxwsweb8/Hello?wsdl
+                  - Interface class:
+                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
+                  - Implementation class:
+                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.Hello
+                  -  javax.xml.ws.Endpoint:
+                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloPublisher
+                  - WebServiceClient
+                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloService
+               + Package
+                  - com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
+            
          - soap rpc style 的例子
             * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
                + interface：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
