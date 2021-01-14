@@ -304,6 +304,7 @@
                   - http://localhost:8089/lzjaxwsweb8/Hello?wsdl
                + SOAP 说明
                   - rpc style
+                  - soap 1.2
                + 后端架构 - Package：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
                   - Interface class:
                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
@@ -323,6 +324,33 @@
                      * 方法1：html界面
                         + [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
                            - --> [http://localhost:8089/lzjaxwsweb8/HelloServlet](http://localhost:8089/lzjaxwsweb8/HelloServlet)<br>
+                  - Client 实现
+
+            * HelloWorld Service Eaxmple - Soap 1.2 RPC Style
+               + WSDL
+                  - http://localhost:8089/lzjaxwsweb8/HelloWorldRpcService?wsdl
+               + SOAP 说明
+                  - rpc style
+                  - soap 1.2
+               + 后端架构 - Package：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle
+                  - Interface class:
+                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpc
+                  - Implementation class:
+                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcImpl
+                  -  javax.xml.ws.Endpoint:
+                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcPublisher
+                  - **WebServiceClient** (不是 WebService) class:
+                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcImplService
+               + 逻辑层实现 - Servlet
+                  - Servlet
+                     * com.lzsoft.lzdata.weblogic.servlet.tutorial.helloservice.MainHelloWorldServlet
+                  - Service
+                     * 
+               + 前端实现 - Front End - 界面
+                  - Web 实现
+                     * 方法1：html界面
+                        + [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
+                           - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
                   - Client 实现
 
       + 例子参考：[gmavridakis/SOAP-JAX-WS-RPC]
