@@ -326,7 +326,7 @@
                            - --> [http://localhost:8089/lzjaxwsweb8/HelloServlet](http://localhost:8089/lzjaxwsweb8/HelloServlet)<br>
                   - Client 实现
 
-            * HelloWorld Service Eaxmple - Soap 1.2 RPC Style
+            * HelloWorld Service Eaxmple - Soap 1.2 Including RPC Style & Doc Style
                + WSDL
                   - rpc style
                      * http://localhost:8089/lzjaxwsweb8/HelloWorldRpcService?wsdl
@@ -366,9 +366,50 @@
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
+                        + 待完成 - [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
                            - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
                   - Client 实现
+
+
+
+
+            * Task Service Eaxmple - Soap 1.2 RPC Style
+               + WSDL
+                  - rpc style
+                     * http://localhost:8089/lzjaxwsweb8/TaskServiceImpl?wsdl 注：这个是部署到Wildfly上的。。。，Local看clinet中的说明
+               + SOAP 说明
+                  - soap 1.2
+               + 后端架构
+                  - Rpc Style
+                    - Package
+                       * com.lzsoft.lzdata.webservice.jaxws.taskservice
+                    - Interface class:
+                       * com.lzsoft.lzdata.webservice.jaxws.taskservice.TaskService
+                    - Implementation class:
+                       * com.lzsoft.lzdata.webservice.jaxws.taskservice.TaskServiceImpl
+                    -  javax.xml.ws.Endpoint:
+                       * com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisher
+                    - **WebServiceClient** (不是 WebService) class:
+                       * 未完成
+               + 逻辑层实现 - Servlet
+                  - Servlet
+                     * 暂无
+                  - Service
+                     * 
+               + 前端实现 - Front End - 界面
+                  - Web 实现
+                     * 方法1：html界面
+                        + 待完成 -  --><br>
+                           - --> <br>
+                  - Client 实现
+                     * Package
+                        + com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisherClient
+                     * 方法
+                        1. 执行: com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisher
+                        2. 再执行：com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisherClient
+                        3.查看结果。。。
+
+
 
       + 例子参考：[gmavridakis/SOAP-JAX-WS-RPC]
          + 
