@@ -375,7 +375,7 @@
                         + 说明
                            - javax.xml.ws.Service; 需要更改为：jakarta.xml.ws.Service;，否则会报错。。。
 
-            * HelloWorldServletTest Service Eaxmple - 与上同，可以不用看。。。
+            * HelloWorldServletTest Service Eaxmple - **与上同，可以不用看。。。**
                + Web Page
                   - --> [http://localhost:8089/lzjaxwsweb8/MServletTest](http://localhost:8089/lzjaxwsweb8/MServletTest)<br>
 
@@ -402,7 +402,7 @@
                  -  javax.xml.ws.Endpoint:
                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersPublisher
                  - **WebServiceClient** (不是 WebService) class:
-                    * 无
+                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersImplService
                + 逻辑层实现 - Servlet
                   - Servlet
                      * 无
