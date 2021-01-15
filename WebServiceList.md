@@ -327,6 +327,8 @@
                   - Client 实现
 
             * HelloWorld Service Eaxmple - Soap 1.2 Including RPC Style & Doc Style
+               + Web Page
+                  - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
                + WSDL
                   - rpc style
                      * http://localhost:8089/lzjaxwsweb8/HelloWorldRpcService?wsdl
@@ -369,9 +371,13 @@
                         + 待完成 - [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
                            - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
                   - Client 实现
+            * HelloWorldServletTest Service Eaxmple - 与上同，可以不用看。。。
+               + Web Page
+                  - --> [http://localhost:8089/lzjaxwsweb8/MServletTest](http://localhost:8089/lzjaxwsweb8/MServletTest)<br>
 
-
-
+               + 逻辑层实现 - Servlet
+                  - Servlet
+                     * com.lzsoft.lzdata.weblogic.servlet.tutorial.helloservice.HelloWorldServletTest
 
             * Task Service Eaxmple - Soap 1.2 RPC Style
                + WSDL
