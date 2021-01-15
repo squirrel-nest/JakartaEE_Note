@@ -371,6 +371,10 @@
                         + 待完成 - [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
                            - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
                   - Client 实现
+                     * com.lzsoft.lzdata.javaeeclient.jaxwstest.tutorial.helloservice.soap.HelloWorldClient
+                        + 说明
+                           - javax.xml.ws.Service; 需要更改为：jakarta.xml.ws.Service;，否则会报错。。。
+
             * HelloWorldServletTest Service Eaxmple - 与上同，可以不用看。。。
                + Web Page
                   - --> [http://localhost:8089/lzjaxwsweb8/MServletTest](http://localhost:8089/lzjaxwsweb8/MServletTest)<br>
@@ -378,6 +382,75 @@
                + 逻辑层实现 - Servlet
                   - Servlet
                      * com.lzsoft.lzdata.weblogic.servlet.tutorial.helloservice.HelloWorldServletTest
+
+
+            * AddNumbers Service Eaxmple - Soap 1.2 Doc Style
+               + Web Page
+                  - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+               + WSDL
+                  - document style - default: 默认为document style
+                     * http://localhost:8089/lzjaxwsweb8/AddNumbersImpl?wsdl
+               + SOAP 说明
+                  - soap 1.2
+               + 后端架构
+                 - Package
+                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers
+                 - Interface class:
+                    * 无，后续补加
+                 - Implementation class:
+                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersImpl
+                 -  javax.xml.ws.Endpoint:
+                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersPublisher
+                 - **WebServiceClient** (不是 WebService) class:
+                    * 无
+               + 逻辑层实现 - Servlet
+                  - Servlet
+                     * 无
+                  - Service
+                     * 
+               + 前端实现 - Front End - 界面
+                  - Web 实现
+                     * 方法1：html界面
+                        + 待完成 - [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
+                           - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+                  - Client 实现
+                     * 
+
+
+            * AddNumbers Service Eaxmple - Soap 1.2 Doc Style
+               + Reference
+                  - --->
+               + Web Page
+                  - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+               + WSDL
+                  - document style - default: 默认为document style
+                     * http://localhost:8089/lzjaxwsweb8/AddNumbersImpl?wsdl
+               + SOAP 说明
+                  - soap 1.2
+               + 后端架构
+                 - Package
+                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers
+                 - Interface class:
+                    * 无，后续补加
+                 - Implementation class:
+                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersImpl
+                 -  javax.xml.ws.Endpoint:
+                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersPublisher
+                 - **WebServiceClient** (不是 WebService) class:
+                    * 无
+               + 逻辑层实现 - Servlet
+                  - Servlet
+                     * 无
+                  - Service
+                     * 
+               + 前端实现 - Front End - 界面
+                  - Web 实现
+                     * 方法1：html界面
+                        + 待完成 - [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
+                           - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+                  - Client 实现
+
+
 
             * Task Service Eaxmple - Soap 1.2 RPC Style
                + WSDL
