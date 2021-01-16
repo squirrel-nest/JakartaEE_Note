@@ -386,8 +386,8 @@
 
             * AddNumbers Service Eaxmple - Soap 1.2 Doc Style
                + Web Page
-                  - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
-               + WSDL
+                  - --> []()<br>
+               + WSDL -- 两种方式：1. Web Server。 2. Endpoint: AddNumbersPublisher
                   - document style - default: 默认为document style
                      * http://localhost:8089/lzjaxwsweb8/AddNumbersImpl?wsdl
                + SOAP 说明
@@ -396,7 +396,7 @@
                  - Package
                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers
                  - Interface class:
-                    * 无，后续补加
+                    * 无，后续补加  --> com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbers 已补。2021-01-16
                  - Implementation class:
                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersImpl
                  -  javax.xml.ws.Endpoint:
@@ -411,43 +411,51 @@
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + 待完成 - [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
-                           - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+                        + 待完成 - []() --><br>
+                           - --> []()<br>
                   - Client 实现
-                     * 
+                     * com.lzsoft.lzdata.javaeeclient.jaxwstest.tutorial.helloservice.soap12.addnumbers.AddNumbersClient
+                        + 报错，待查
+                     * com.lzsoft.lzdata.javaeeclient.jaxwstest.tutorial.helloservice.soap12.addnumbers.AddNumbersRefFromHelloWorld
+                        + 借鉴 HelloWorldClient，通过，但其中的 AddNumbersException 报错，未解决
 
 
-            * AddNumbers Service Eaxmple - Soap 1.2 Doc Style
+            * CalculatorMy Service Eaxmple - Soap 1.2 Doc Style
                + Reference
                   - --->
                + Web Page
                   - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
                + WSDL
                   - document style - default: 默认为document style
-                     * http://localhost:8089/lzjaxwsweb8/AddNumbersImpl?wsdl
+                     * http://localhost:8089/lzjaxwsweb8/CalculatorMyImpl?wsdl
                + SOAP 说明
                   - soap 1.2
                + 后端架构
                  - Package
-                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers
+                    * org.me.calculator
                  - Interface class:
-                    * 无，后续补加
-                 - Implementation class:
-                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersImpl
+                    * org.me.calculator.CalculatorMy
+                 - Implementation class: -- @WebService
+                    * org.me.calculator.CalculatorMyImpl
+                    * org.me.calculator.ServerInfo -- Not a Implementation class
                  -  javax.xml.ws.Endpoint:
-                    * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.addnumbers.AddNumbersPublisher
-                 - **WebServiceClient** (不是 WebService) class:
                     * 无
+                 - **WebServiceClient** (不是 WebService) class:
+                    * org.me.calculator.CalculatorMyImplService
                + 逻辑层实现 - Servlet
                   - Servlet
-                     * 无
+                     * 无 -- 后续实现。 -- 目前实现方式是采用 JSP 页面中直接嵌入 Java 逻辑代码。。。
                   - Service
                      * 
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + 待完成 - [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
-                           - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+                        + [http://localhost:8089/lzjaxwsweb8/calculator-my.jsp](http://localhost:8089/lzjaxwsweb8/calculator-my.jsp) --><br>
+                           - --> []()<br>
+                        + Path：
+                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my-response.jsp
+                        
                   - Client 实现
 
 
