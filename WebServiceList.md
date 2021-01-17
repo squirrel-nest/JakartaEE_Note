@@ -492,9 +492,14 @@
                      * Package
                         + com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisherClient
                      * 方法
-                        1. 执行: com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisher
-                        2. 再执行：com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisherClient
-                        3.查看结果。。。
+                        + 本机模式
+                           1. 执行: com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisher
+                           2. 再执行：com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisherClient
+                           3.查看结果。。。
+                        + 服务器模式
+                           1. 上传war文件到服务器端
+                           2. 将 QName设置指向服务器端
+                           3. 再执行：com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisherClient
 
 
 
