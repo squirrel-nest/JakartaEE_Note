@@ -503,6 +503,65 @@
 
 
 
+
+            * EmployeeService Service Eaxmple - Soap 1.2 RPC Style
+            * LoginService Service Eaxmple - Soap 1.2 RPC Style
+            * OrderService Service Eaxmple - Soap 1.2 RPC Style
+               + Reference
+                  - --->
+               + Web Page
+                  - --> []()<br>
+               + WSDL
+                  - rpc style - default: 默认为document style
+                     * http://localhost:8088/lzjaxwsweb8/EmployeeServiceImpl?wsdl
+                     * http://localhost:8088/lzjaxwsweb8/LoginServiceImpl?wsdl
+                     * http://localhost:8088/lzjaxwsweb8/OrderServiceImpl?wsdl
+               + SOAP 说明
+                  - soap 1.2
+               + 后端架构
+                 - Package
+                    * com.memorynotfound.ws
+                 - Interface class:
+                    * com.memorynotfound.ws.EmployeeService
+                    * com.memorynotfound.ws.LoginService
+                    * com.memorynotfound.ws.OrderService
+                 - Implementation class: -- @WebService
+                    * com.memorynotfound.ws.EmployeeServiceImpl
+                    * com.memorynotfound.ws.LoginServiceImpl
+                    * com.memorynotfound.ws.OrderServiceImpl
+                 -  javax.xml.ws.Endpoint:
+                    * com.memorynotfound.ws.WebServicePublisher
+                 - **WebServiceClient** (不是 WebService) class:
+                    * 无
+               + 逻辑层实现 - Servlet
+                  - Servlet
+                     * 无 -- 后续实现。 -- 目前实现方式是采用 JSP 页面中直接嵌入 Java 逻辑代码。。。
+                  - Service
+                     * 
+               + 前端实现 - Front End - 界面
+                  - Web 实现
+                     * 方法1：html界面
+                        + [http://localhost:8089/lzjaxwsweb8/calculator-my.jsp](http://localhost:8089/lzjaxwsweb8/calculator-my.jsp) --><br>
+                           - --> []()<br>
+                        + Path：
+                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my-response.jsp
+                        
+                  - Client 实现
+                     * Package
+                        + com.memorynotfound.client.GreetingClient
+                     * 方法
+                        + 本机模式
+                           1. 执行: com.memorynotfound.ws.WebServicePublisher
+                           2. 再执行：com.memorynotfound.client.GreetingClient
+                           3.查看结果。。。
+                        + 服务器模式
+                           1. 将 com.memorynotfound.client.GreetingClient 中， QName设置指向服务器端
+                           2. 上传war文件到服务器端
+                           3. 再执行：com.memorynotfound.client.GreetingClient  -- Passed
+
+
+
       + 例子参考：[gmavridakis/SOAP-JAX-WS-RPC]
          + 
       + bbb
