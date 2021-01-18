@@ -578,17 +578,13 @@
                  - Package
                     * net.webservicex
                  - Interface class:
-                    * com.memorynotfound.ws.EmployeeService
-                    * com.memorynotfound.ws.LoginService
-                    * com.memorynotfound.ws.OrderService
+                    * net.webservicex.GeoIPServiceSoap
                  - Implementation class: -- @WebService
-                    * com.memorynotfound.ws.EmployeeServiceImpl
-                    * com.memorynotfound.ws.LoginServiceImpl
-                    * com.memorynotfound.ws.OrderServiceImpl
+                    * net.webservicex.GeoIPServiceSoapImpl
                  -  javax.xml.ws.Endpoint:
-                    * com.memorynotfound.ws.WebServicePublisher
-                 - **WebServiceClient** (不是 WebService) class:
                     * 无
+                 - **WebServiceClient** (不是 WebService) class:
+                    * net.webservicex.GeoIPService
                + 逻辑层实现 - Servlet
                   - Servlet
                      * 无 -- 后续实现。 -- 目前实现方式是采用 JSP 页面中直接嵌入 Java 逻辑代码。。。
@@ -605,16 +601,16 @@
                         
                   - Client 实现
                      * Package
-                        + com.memorynotfound.client.GreetingClient
+                        + com.soni.LocationFinderMain
                      * 方法
                         + 本机模式
-                           1. 执行: com.memorynotfound.ws.WebServicePublisher
-                           2. 再执行：com.memorynotfound.client.GreetingClient
+                           1. 执行: 
+                           2. 再执行：
                            3.查看结果。。。
                         + 服务器模式
-                           1. 将 com.memorynotfound.client.GreetingClient 中， QName设置指向服务器端
+                           1. 将 com.soni.LocationFinderMain 中， QName设置指向服务器端
                            2. 上传war文件到服务器端
-                           3. 再执行：com.memorynotfound.client.GreetingClient  -- Passed
+                           3. 再执行：com.soni.LocationFinderMain  -- Fail Passed
 
       + 例子参考：[gmavridakis/SOAP-JAX-WS-RPC]
          + 
