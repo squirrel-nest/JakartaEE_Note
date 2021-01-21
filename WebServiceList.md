@@ -612,6 +612,64 @@
                            2. 上传war文件到服务器端
                            3. 再执行：com.soni.LocationFinderMain  -- Fail Passed
 
+
+
+
+
+
+
+            * HelloPersonService Service Eaxmple - Soap 1.2 Doc Style
+               + Reference
+                  - ---> E:\JavaEESamples\JAX-WS\PerDalsten-HelloService
+               + Web Page
+                  - --> [http://localhost:8089/lzjaxwsweb8/perdalsten-helloservice.jsp](http://localhost:8089/lzjaxwsweb8/perdalsten-helloservice.jsp)<br>
+               + WSDL
+                  - doc style - default: 默认为document style
+                     * http://localhost:8089/lzjaxwsweb8/HelloPersonServiceWS?WSDL
+               + SOAP 说明
+                  - soap 1.2
+               + 后端架构
+                 - Package
+                    * net.webservicex
+                 - Interface class:
+                    * com.lzsoft.lzdata.webservice.jaxws.personservice.dk.purplegreen.HelloPersonService
+                 - Implementation class: -- @WebService
+                    * com.lzsoft.lzdata.webservice.jaxws.personservice.dk.purplegreen.HelloPersonServiceWS
+                 -  javax.xml.ws.Endpoint:
+                    * 无
+                 - **WebServiceClient** (不是 WebService) class:
+                    * com.lzsoft.lzdata.webservice.jaxws.personservice.dk.purplegreen.HelloPersonServiceClient
+               + 逻辑层实现 - Servlet
+                  - Servlet
+                     * com.lzsoft.lzdata.weblogic.servlet.dk.purplegreen.HelloPersonServlet
+                  - Service
+                     * 
+               + 前端实现 - Front End - 界面
+                  - Web 实现
+                     * 方法1：html界面
+                        + [http://localhost:8089/lzjaxwsweb8/calculator-my.jsp](http://localhost:8089/lzjaxwsweb8/calculator-my.jsp) --><br>
+                           - --> []()<br>
+                        + Path：
+                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my-response.jsp
+                        
+                  - Client 实现
+                     * Package
+                        + com.soni.LocationFinderMain
+                     * 方法
+                        + 本机模式
+                           1. 执行: 
+                           2. 再执行：
+                           3.查看结果。。。
+                        + 服务器模式
+                           1. 将 com.soni.LocationFinderMain 中， QName设置指向服务器端
+                           2. 上传war文件到服务器端
+                           3. 再执行：com.soni.LocationFinderMain  -- Fail Passed
+
+
+
+
+
       + 例子参考：[gmavridakis/SOAP-JAX-WS-RPC]
          + 
       + bbb
