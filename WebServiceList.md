@@ -773,3 +773,13 @@
    
 ### xml
    1. https://quotes.rest/qod
+## 部署的方法
+### Wildfly Server
+   * 步骤
+      1. 编译
+         + Gradle
+            - war文件目录：在每个Module目录下的 build/libs 目录 中
+
+         + Maven
+            - war文件目录：每个Module目录下的 target 目录 中
+      2. 将 war文件拖到部署页面。。。
