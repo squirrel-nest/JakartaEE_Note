@@ -773,7 +773,7 @@
 
 ### xml
    1. https://quotes.rest/qod
-## 安全性
+## 安全性 -- API 认证相关
    * security to an API — HTTP Basic Auth, API Keys, and OAuth
       + 参考
          - [3 Common Methods of API Authentication Explained](https://nordicapis.com/3-common-methods-api-authentication-explained/)<br>
