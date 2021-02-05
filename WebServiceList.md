@@ -769,8 +769,8 @@
    1. https://andfun-weather.udacity.com/weather
    2. https://andfun-weather.udacity.com/staticweather
    3. https://raw.githubusercontent.com/ujjwalmaity/CountriesApi/master/countriesV1.json
-   
-   
+
+
 ### xml
    1. https://quotes.rest/qod
 ## 安全性
