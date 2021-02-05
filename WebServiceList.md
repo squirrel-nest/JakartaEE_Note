@@ -773,6 +773,12 @@
    
 ### xml
    1. https://quotes.rest/qod
+## 安全性
+   * security to an API — HTTP Basic Auth, API Keys, and OAuth
+      + 参考
+         - [3 Common Methods of API Authentication Explained](https://nordicapis.com/3-common-methods-api-authentication-explained/)<br>
+         - [How to Authenticate Users with API Keys](https://symfony.com/doc/4.0/security/api_key_authentication.html)<br>
+         - [Upgrade your authentication method to API keys](https://sendgrid.com/docs/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys/)<br>
 ## 部署的方法
 ### Wildfly Server
    * 步骤
