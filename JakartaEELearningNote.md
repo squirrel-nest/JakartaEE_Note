@@ -142,6 +142,9 @@ http://www.ruoyi.vip
    * 
    * gradlew clean build
    * 略过 test：gradlew clean build -x test -i -- 查文档吧。。
+   * ./gradlew build --refresh-dependencies
+      + 参见：[Refreshing dependencies](https://docs.gradle.org/current/userguide/dependency_management.html#sec:refreshing-dependencies)<br>
+      +  >The --refresh-dependencies option tells Gradle to ignore all cached entries for resolved modules and artifacts.
    * 错误处理的方法 - Window
       + 无法删除build 文件夹
          - 以下的都无效
