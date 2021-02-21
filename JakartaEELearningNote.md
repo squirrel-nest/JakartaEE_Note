@@ -145,6 +145,9 @@ http://www.ruoyi.vip
    * ./gradlew build --refresh-dependencies
       + 参见：[Refreshing dependencies](https://docs.gradle.org/current/userguide/dependency_management.html#sec:refreshing-dependencies)<br>
       +  >The --refresh-dependencies option tells Gradle to ignore all cached entries for resolved modules and artifacts.
+   * Caches的清除
+      + rm -rf $HOME/.gradle/caches/
+         - You can also delete the cached files under ~/.gradle/caches. With the next build Gradle would attempt to download them again. 
    * 错误处理的方法 - Window
       + 无法删除build 文件夹
          - 以下的都无效
