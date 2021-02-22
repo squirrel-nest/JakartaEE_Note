@@ -145,6 +145,16 @@ http://www.ruoyi.vip
    * ./gradlew build --refresh-dependencies
       + 参见：[Refreshing dependencies](https://docs.gradle.org/current/userguide/dependency_management.html#sec:refreshing-dependencies)<br>
       +  >The --refresh-dependencies option tells Gradle to ignore all cached entries for resolved modules and artifacts.
+   * Gradle build only one module
+      + To execute a task of a specific subproject, specify its task path. For example:
+      + ```
+            # 查询 project structure
+            gradle -q projects
+            
+            gradlew :lzdata-ee8-jaxrsweb:clean build
+            gradle :ABC:build
+            # The leading : stands for the root project. ABC is the subproject, and build a task in that project.
+        ```
    * Caches的清除
       + rm -rf $HOME/.gradle/caches/
          - You can also delete the cached files under ~/.gradle/caches. With the next build Gradle would attempt to download them again. 
