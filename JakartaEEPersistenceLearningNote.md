@@ -71,6 +71,18 @@
       + [Annotation Type OneToOne](https://jakarta.ee/specifications/platform/8/apidocs/javax/persistence/OneToOne.html)<br>
       + [Persisting Maps with Hibernate](https://www.baeldung.com/hibernate-persisting-maps)<br>
       + [Mapping LOB Data in Hibernate](https://www.baeldung.com/hibernate-lob)<br>
+   * 问题处理
+      + Exception handling request to /lzjaxrsweb8/exampleapi/dbmovies: org.jboss.resteasy.spi.UnhandledException: java.lang.RuntimeException: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Movie is not mapped [from Movie order by title]
+      + org.hibernate.UnknownEntityTypeException: Unable to locate persister: com.lzsoft.lzdata.persistence.hibernate.model.movie.Movie
+      + 以上两个问题需要修改，增加 .addAnnotatedClass(Movie.class)
+      + ```java
+                     sessionFactory = new Configuration()
+                    .configure("hibernate.cfg.xml")
+                    .addAnnotatedClass(Customer.class)
+                    .addAnnotatedClass(Student.class)
+                    .addAnnotatedClass(Movie.class)
+                    .buildSessionFactory();
+        ```
 ## Data Rationship
    * [JPA and Hibernate Many To Many Relationship Mapping Example with Spring Boot and MySQL](https://hellokoding.com/jpa-many-to-many-relationship-mapping-example-with-spring-boot-maven-and-mysql/)<br>
 ## Hibernate - Query Language
