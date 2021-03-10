@@ -19,7 +19,9 @@
 ## Hibernate
    * 参考
       + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/6.0/quickstart/html_single/)<br>
+      + [Getting started with Hibernate ORM](http://hibernate.org/orm/documentation/getting-started/)<br>
       + [Hibernate ORM 6.0.0.Alpha6 User Guide](https://docs.jboss.org/hibernate/orm/6.0/userguide/html_single/Hibernate_User_Guide.html#annotations-jpa-onetoone)<br>
+      + [Hibernate Search 6.0.2.Final: Reference Documentation](https://docs.jboss.org/hibernate/search/6.0/reference/en-US/html_single/#preface)<br>
    * 关于 hibernate.cfg.xml
       + 默认文件位置应该放在 classpath（E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new\src\main）目录下的 resources 目录中
       + 如果要指定目录，则设置时要指定：/resources/config/hibernate.cfg.xml，如：
