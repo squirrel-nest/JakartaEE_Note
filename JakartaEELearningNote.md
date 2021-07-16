@@ -139,55 +139,7 @@ http://www.ruoyi.vip
 
 ## <a name="compile-command"></a>编译命令
 ### Gradle - 包括 Android
-   * 基本命令
-      + 编译
-         - gradlew clean build
-      + 获取可用任务列表 - to get a list of available tasks
-         - gradlew tasks
-      + 查询 project structure
-         - gradle -q projects
-      + 执行多项任务
-         - Window
-            * 方法1
-               + gradlew clean && gradlew : assembleDebug --no-build-cache
-            * 方法2
-               + gradlew clean build
-         - Linux
-            * ./gradlew clean && ./gradlew : assembleDebug --no-build-cache
-   * 略过 test：
-      + gradlew clean build -x test -i -- 查文档吧。。
-   * 更新依赖
-      + gradlew build --refresh-dependencies
-         - 参见：[Refreshing dependencies](https://docs.gradle.org/current/userguide/dependency_management.html#sec:refreshing-dependencies)<br>
-         -  >The --refresh-dependencies option tells Gradle to ignore all cached entries for resolved modules and artifacts.
-   * 仅编译一个模块 - Gradle build only one module
-      + To execute a task of a specific subproject, specify its task path. For example:
-      + ```
-            # 查询 project structure
-            gradle -q projects
-            
-            gradlew :lzdata-ee8-jaxrsweb:clean build
-            gradle :ABC:build
-            # The leading : stands for the root project. ABC is the subproject, and build a task in that project.
-        ```
-   * **不使用Cache的编译**
-      - gradlew build --no-build-cache
-      - gradlew clean && gradlew : assembleDebug --no-build-cache - 注意：assembleDebug 只是一个 task 样例，具体可使用的task，要 Run gradlew tasks to get a list of available tasks.
-   * Caches的清除
-      + 命令的方法
-         - 
-      + rm -rf $HOME/.gradle/caches/
-         - You can also delete the cached files under ~/.gradle/caches. With the next build Gradle would attempt to download them again. 
-   * 错误处理的方法 - Window
-      + 无法删除build 文件夹
-         - 以下的都无效
-            * 执行：***Invalidate and Restart*** 才有效 --> The caches will be invalidated and rebuilt on the next startup.
-         - 参考
-            * [Gradle – Execution failed for task ‘clean’. Unable to delete file](https://www.eknori.de/2020-09-18/gradle-execution-failed-for-task-appclean-unable-to-delete-file/)<br>
-            ```shell
-                TASKKILL /F /IM java.exe -- 会误杀在用的应用，最好找到 对应 的 PID，然后执行命令。。感觉还是用Task Manager来的更快。：（
-                # then
-                gradle clean build
+   * 参见: 基本命令参考 - [https://github.com/squirrel-nest/BuildToolLearningNote/edit/master/GradleLearningNote.md#compile-command](https://github.com/squirrel-nest/BuildToolLearningNote/edit/master/GradleLearningNote.md#compile-command)<br>
 ### Maven
    * Build whole project with maven.
       ```shell
