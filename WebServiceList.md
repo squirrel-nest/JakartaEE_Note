@@ -64,10 +64,10 @@
                   + 例子来源：[mastertheboss - jakartaee-9](https://github.com/fmarchioni/mastertheboss.git) -- E:\JavaEESamples\JakartaEE9\mastertheboss\jakartaee\jakartaee-9
                   + 字符集编码 采用 网页级 设置
                   + 没有用 web.xml --> 如果要用可以设置web.xml <welcome-file>index.jsp</welcome-file>
-            2. http://localhost:8089/lzservletweb8/helloworldnew.jsp -- JSP 中嵌入的 java 语言 的 实现方法
+            2. http://localhost:8088/lzservletweb8/helloworldnew.jsp -- JSP 中嵌入的 java 语言 的 实现方法
          - JSP 与 Servlet 结合的例子，实现前后端的分离 -- 网页中不用嵌入的Java了，使得 维护方便了。。。
-            1. http://localhost:8089/lzservletweb8/ 默认为 index.html   --> Source：jakartaee-9
-            2. http://localhost:8089/lzservletweb8/index.html
+            1. http://localhost:8088/lzservletweb8/ 默认为 index.html   --> Source：jakartaee-9
+            2. http://localhost:8088/lzservletweb8/index.html
                * 1 ~ 2 的说明
                   + 编码设置通过
                      1. Servlet 中，添加 response.setContentType("text/html;charset=UTF-8");
@@ -76,11 +76,11 @@
                   + Servlet
                      1. org.jboss.as.quickstarts.helloworld.HelloService
                      2. org.jboss.as.quickstarts.helloworld.HelloWorldServlet
-            3. http://localhost:8089/lzservletweb8/index_cookbook_user.jsp
+            3. http://localhost:8088/lzservletweb8/index_cookbook_user.jsp
                * 说明
                   + 同例子 1 类似
                   + 通过 Servlet 生成 页面，返回客服端（前端）
-            4. http://localhost:8089/lzservletweb8/index_push.html or http://localhost:8089/lzservletweb8/servlets/servlet/ServerPush
+            4. http://localhost:8088/lzservletweb8/index_push.html or http://localhost:8089/lzservletweb8/servlets/servlet/ServerPush
                * 说明
                   + 编码 - 没有设置，因此是乱码：）
                   + 无法显示图片，增加：pb.path(request.getContextPath() -- 解决：pb.path(request.getContextPath() + "/images/javaee-logo.png") 
@@ -90,11 +90,11 @@
                   + 网页：http://localhost:8089/lzservletweb8/index_push.html -- 改为 index_push.jsp，解决 相对路径的问题。。。
                   + Servlet
                      1. com.lzsoft.lzdata.weblogic.servlet.ServerPush
-            5. http://localhost:8089/lzservletweb8/index_cookbook_serverpush.html
+            5. http://localhost:8088/lzservletweb8/index_cookbook_serverpush.html
                * 说明
                   + 需要了解 HTTP/2.0 ServerPush 机制。。。
                   + 可以通过 PushBuilder pb = request.newPushBuilder(); 的 Push 机制，实现将图片分片发送客户端，以提高客户端加载速度。。
-            6. http://localhost:8089/lzeefusionweb8/index_cookbook_ch04_servlet.jsp --> [lzdata-ee8-fusionweb - index_cookbook_ch04_servlet.jsp](#header-index_cookbook_ch04_servlet)<br>
+            6. http://localhost:8088/lzeefusionweb8/index_cookbook_ch04_servlet.jsp --> [lzdata-ee8-fusionweb - index_cookbook_ch04_servlet.jsp](#header-index_cookbook_ch04_servlet)<br>
                * 说明
                   + 初始化 参数的方法
                   + 异步数据处理，加载页面的方法 。。。
@@ -103,7 +103,7 @@
             * MySQL 数据库的例子
                1. JSP 页面
                ```jsp
-                   http://localhost:8089/lzservletweb8/customer_list.jsp
+                   http://localhost:8088/lzservletweb8/customer_list.jsp
                ```
                2. Servlet
                   1. Create(添加 或 创建) 部分
@@ -128,17 +128,17 @@
             - 无法使用分模块的功能，合并到 lzdata-ee8-fusionweb 模块中。。。见 lzdata-ee8-fusionweb 模块的例子说明
       + 例子
          - JAX-RS 的简单例子
-            1. http://localhost:8089/lzjaxrsweb8/exampleapi/hello -- {"message":"Duke says 你好，Jakarta EE 9！(Hello to Jakarta EE 9!)!"}
+            1. http://localhost:8088/lzjaxrsweb8/exampleapi/hello -- {"message":"Duke says 你好，Jakarta EE 9！(Hello to Jakarta EE 9!)!"}
                * 后端实现
                   + com.lzsoft.lzdata.webservice.jaxrs.example.HelloWorldEndpoint
-            2. http://localhost:8089/lzjaxrsweb8/exampleapi/greeting/美女 -- {"message":"Say Hello to 美女 at 2020-12-13T22:33:47.362864"}
+            2. http://localhost:8088/lzjaxrsweb8/exampleapi/greeting/美女 -- {"message":"Say Hello to 美女 at 2020-12-13T22:33:47.362864"}
                * 后端实现
                   + com.lzsoft.lzdata.webservice.jaxrs.example.GreetingResource
          - JSP 结合 JAX-RS，实现Json格式及Java对象的转换
-            1. http://localhost:8089/lzjaxrsweb8/index.jsp
+            1. http://localhost:8088/lzjaxrsweb8/index.jsp
                * 说明
                   + tojson的部分：输入信息，转换成Java对象，然后再转换为json，并输出网页。
-                     - JSP form 通过 post 将信息以参数的形式传递到 URL：/exampleapi/jsonb/tojson --> http://localhost:8089/lzjaxrsweb8/exampleapi/jsonb/tojson
+                     - JSP form 通过 post 将信息以参数的形式传递到 URL：/exampleapi/jsonb/tojson --> http://localhost:8088/lzjaxrsweb8/exampleapi/jsonb/tojson
                      - Service 部分 处理 Java 对象 --> com.lzsoft.lzdata.webservice.jaxrs.person.itbuzzpress.JsonService
                   + tojava部分：输入json格式的对象，如：{ "name": "韶涵", "surname": "张", "address": "台湾台北忠孝东路1号", "city": "台北" }，转换成Java对象，然后输出网页端。
          - JSP 结合 JAX-RS 和 Persistence ，实现 数据库的 CRUD
@@ -148,39 +148,39 @@
                   + Module：lzdata-ee-9-gdev: lzdata-ee8-jaxrs-base
                * Front End - 界面
                   + 方法1：html界面
-                     - http://localhost:8089/lzjaxrsweb8/jaxrs-crud-customers.html
+                     - http://localhost:8088/lzjaxrsweb8/jaxrs-crud-customers.html
                   + 方式2：jsp界面
-                     - http://localhost:8089/lzjaxrsweb8/jaxrs-crud-customers-dbtojson.jsp
+                     - http://localhost:8088/lzjaxrsweb8/jaxrs-crud-customers-dbtojson.jsp
                         * 说明
                            + 从界面输入数据，存入数据库
                            + 从数据库中取出，用json格式展示在网页。
                * API
                   + http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbcustomertojson
-            2. http://localhost:8089/lzjaxrsweb8/index_dbstudenttojson.jsp
+            2. http://localhost:8088/lzjaxrsweb8/index_dbstudenttojson.jsp
                * 说明
                   + 从界面输入数据，存入数据库
                   + 从数据库中取出，用json格式展示在网页。
-                     - http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
+                     - http://localhost:8088/lzjaxrsweb8/exampleapi/dbjsonb/dbstudenttojson
                   + JAX-RS 数据处理部分：lzdata-ee8-jaxrs-base -->  com.lzsoft.lzdata.webservice.jaxrs.customer.itbuzzpress.DbCustomerJsonService
 
-            3. http://localhost:8089/lzeefusionweb8/index.html - origin<br>  将pesistence与resource分模块放就无法实现，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。 参看 [lzdata-ee8-fusionweb - index_fruits.html](#header-fruits)<br>
-               http://localhost:8089/lzeefusionweb8/index_fruits.html - Path 的 设置方法，未实现
+            3. http://localhost:8088/lzeefusionweb8/index.html - origin<br>  将pesistence与resource分模块放就无法实现，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。 参看 [lzdata-ee8-fusionweb - index_fruits.html](#header-fruits)<br>
+               http://localhost:8088/lzeefusionweb8/index_fruits.html - Path 的 设置方法，未实现
               
                * 说明
                   + 用 jakarta.persistence.NamedQuery 无法实现 分模块
                   + 参考：[]()<br>
                   + html 界面 -- 脚本：angular js --没有实现，angular js 对 path 的 动态path不知如何实现 待了解
-                     - http://localhost:8089/lzeefusionweb8/index_fruits.html
-                     - http://localhost:8089/lzeefusionweb8/index.html - origin
+                     - http://localhost:8088/lzeefusionweb8/index_fruits.html
+                     - http://localhost:8088/lzeefusionweb8/index.html - origin
                   + io.openliberty.example.FruitResource
                   + CRUD部分
                      - Create
                      + Read - 从 mysql 获取数据
-                        1. http://localhost:8089/lzeefusionweb8/api/fruits
-                        2. http://localhost:8089/lzeefusionweb8/api/fruits/3
+                        1. http://localhost:8088/lzeefusionweb8/api/fruits
+                        2. http://localhost:8088/lzeefusionweb8/api/fruits/3
                      + Update
                      + Delete
-            4. http://localhost:8089/lzjaxrsweb8/exampleapi/persons - 将pesistence与resource分模块放就无法实现 分模块报错, ，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
+            4. http://localhost:8088/lzjaxrsweb8/exampleapi/persons - 将pesistence与resource分模块放就无法实现 分模块报错, ，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
               
                * 说明
                   + 参考：[]()<br>
@@ -190,8 +190,8 @@
                   + CRUD部分
                      - Create
                      + Read - 从 mysql 获取数据
-                        1. http://localhost:8089/lzjaxrsweb8/exampleapi/persons  分模块报错, ，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
-                        2. http://localhost:8089/lzeefusionweb8/exampleapi/persons/3
+                        1. http://localhost:8088/lzjaxrsweb8/exampleapi/persons  分模块报错, ，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。改为合并模式 --> 参见：[lzeefusionweb8 - PersonResource](#header-person_resource)<br>
+                        2. http://localhost:8088/lzeefusionweb8/exampleapi/persons/3
                      + Update
                      + Delete
 
@@ -203,13 +203,13 @@
                   + CRUD部分
                      - Create
                      + Read（Query) - 从 mysql 获取数据
-                        1. http://localhost:8089/lzjaxrsweb8/exampleapi/books
-                        2. http://localhost:8089/lzjaxrsweb8/exampleapi/books/async - 异步方式，Jax-rs中，将pesistence与resource分模块放就无法实现。。。报错，，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查 - 参见 [lzeefusionweb8 - books/async](#header-books_async)<br>
+                        1. http://localhost:8088/lzjaxrsweb8/exampleapi/books
+                        2. http://localhost:8088/lzjaxrsweb8/exampleapi/books/async - 异步方式，Jax-rs中，将pesistence与resource分模块放就无法实现。。。报错，，甚至：用 jakarta.persistence.NamedQuery, Model也无法实现分模块，但用 List\<Book\> 可以实现 Model 分模块。。是否是变量声明的范围问题 public。。。，应该是 服务器端 本身的问题 -- 待查 - 参见 [lzeefusionweb8 - books/async](#header-books_async)<br>
                         ```
                             RESTEASY003320: Failed processing arguments of public void
                             com.lzsoft.lzdata.webservice.jaxrs.book.BookResource.getBooksAsync(jakarta.ws.rs.container.AsyncResponse)
                         ```
-                        3. http://localhost:8089/lzjaxrsweb8/exampleapi/books/6
+                        3. http://localhost:8088/lzjaxrsweb8/exampleapi/books/6
                      + Update
                      + Delete
                   + 可以将 @PostConstruct 的 init 部分改成 从 数据库中 获取数据
@@ -225,70 +225,70 @@
                      * [https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonp/jaxrs](https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonp/jaxrs)<br>
                   - 说明
                      * json array 的例子
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/array
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/array
                            - org.glassfish.samples.jsonp.jaxrs.ArrayResource
                      * 从数据库获取数据，然后输出array的方法 - 根据 array 的 例子 实现
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/myarray
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/myarray
                            - org.glassfish.samples.jsonp.jaxrs.ArrayResourceMy
                            -  ArrayResourceMy 设置 JsonbConfig config 中用到了 org.glassfish.samples.jsonp.jaxrs.CustomerAdapter
                      * json object 的例子
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/object
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/object
                            - org.glassfish.samples.jsonp.jaxrs.ObjectResource
                      * 从数据库获取数据，然后输出object的方法 - 根据 jbject 的 例子 实现，说明：需要加入 id 号，才能得到单个 object 记录。。。
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/myobject/1
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/myobject/1
                            - org.glassfish.samples.jsonp.jaxrs.ObjectResourceMy
                      * jakarta.json.stream.JsonGenerator 的例子
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/generator
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/generator
                            - org.glassfish.samples.jsonp.jaxrs.GeneratorResource
                      * jakarta.json.stream.JsonParser 的例子
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/parser
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/parser
                            - org.glassfish.samples.jsonp.jaxrs.ParserResource
                         + 问题
                            - 由于Twitter更改了api接口1.1 --> 2.0 需要进行用户认证，目前尚未搞碇，Twitter Api 安全认证方式，需要学习。。。
                      * jakarta.json.JsonStructure 的例子
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/structure
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/structure
                            - org.glassfish.samples.jsonp.jaxrs.StructureResource
                2. jsonb 的 例子：
                   - 来源
                      * [https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonb/jaxrs](https://github.com/eclipse-ee4j/glassfish-samples/tree/master/ws/javaee8/jsonb/jaxrs)<br>
                   - 说明
                      * serialization 的例子
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/serialization
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/serialization
                            - org.glassfish.samples.jsonb.jaxrs.JsonbSerializationDemo
                      * deserialization 的例子
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/deserialization
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/deserialization
                            - org.glassfish.samples.jsonb.jaxrs.JsonbDeserializationDemo
-                        + http://localhost:8089/lzjaxrsweb8/exampleapi/generic
+                        + http://localhost:8088/lzjaxrsweb8/exampleapi/generic
                            - org.glassfish.samples.jsonb.jaxrs.JsonbDeserializationGenericDemo
          - JAX-RS，实现 引用 网络上 Json Api 的数据的方法
             * 说明
             * 例子
-               1. http://localhost:8089/lzjaxrsweb8/exampleapi/quotes - ApplicationPath需要设置。。。否则，不行。
+               1. http://localhost:8088/lzjaxrsweb8/exampleapi/quotes - ApplicationPath需要设置。。。否则，不行。
                   + 来源
                   + 说明
                      - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.QuoteResource
                      - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.UserAgentClientFilter
                      - com.lzsoft.lzdata.webservice.jaxrs.quote.de.rieckpil.blog.ClientLoggingResponseFilter
                      
-              2. http://localhost:8089/lzjaxrsweb8/exampleapi/users  - Get Data from Web Api
+              2. http://localhost:8088/lzjaxrsweb8/exampleapi/users  - Get Data from Web Api
                   + 来源
                   + 说明
                      - 更改成新的 wildfly服务器，无法部署，可以是服务器不支持旧的 inject 方法。。。
                      - com.lzsoft.lzdata.webservice.jaxrs.user.de.rieckpil.blog.UserResource
                      - com.lzsoft.lzdata.webservice.jaxrs.user.de.rieckpil.blog.
-              3. http://localhost:8089/lzjaxrsweb8/exampleapi/myusers
+              3. http://localhost:8088/lzjaxrsweb8/exampleapi/myusers
                  + 说明
                     - 根据上述例子的原理，将UserProvider 合并到 Resource 就可以了，不用 inject 
-                    - http://localhost:8089/lzjaxrsweb8/exampleapi/myusers
+                    - http://localhost:8088/lzjaxrsweb8/exampleapi/myusers
                     - 代码：com.lzsoft.lzdata.webservice.jaxrs.user.de.rieckpil.blog.UserResourceMy
-              4. http://localhost:8089/lzjaxrsweb8/exampleapi/localcustomers
+              4. http://localhost:8088/lzjaxrsweb8/exampleapi/localcustomers
                  + 说明
                     - 同上代码，数据取自 自家服务器的数据：http://localhost:8089/lzjaxrsweb8/exampleapi/myarray
                     - 代码：com.lzsoft.lzdata.webservice.jaxrs.user.de.rieckpil.blog.LocalCustomerResource
          - JSP 结合 JAX-RS，实现 文件的 上传 与 下载
             * JSP 页面
-               1. http://localhost:8089/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
-               2. http://localhost:8089/lzjaxrsweb8/index_restfile_purejsp.jsp
+               1. http://localhost:8088/lzjaxrsweb8/index_restfile_angular.jsp 上传下载文件
+               2. http://localhost:8088/lzjaxrsweb8/index_restfile_purejsp.jsp
                   - com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
             * JAX-RS 后端实现
                + com.lzsoft.lzdata.webservice.jaxrs.upanddownloadfile.mastertheboss
@@ -331,9 +331,9 @@
                   - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
                + WSDL
                   - rpc style
-                     * http://localhost:8089/lzjaxwsweb8/HelloWorldRpcService?wsdl
+                     * http://localhost:8088/lzjaxwsweb9/HelloWorldRpcService?wsdl
                   - doc style
-                     * http://localhost:8089/lzjaxwsweb8/HelloWorldDocService?wsdl
+                     * http://localhost:8088/lzjaxwsweb9/HelloWorldDocService?wsdl
                + SOAP 说明
                   - soap 1.2
                + 后端架构
@@ -368,8 +368,8 @@
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + 待完成 - [http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html](http://localhost:8089/lzjaxwsweb8/jaxws-hello-service.html) --><br>
-                           - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+                        + 待完成 - [http://localhost:8088/lzjaxwsweb9/jaxws-hello-service.html](http://localhost:8088/lzjaxwsweb9/jaxws-hello-service.html) --><br>
+                           - --> [http://localhost:8088/lzjaxwsweb9/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
                   - Client 实现
                      * com.lzsoft.lzdata.javaeeclient.jaxwstest.tutorial.helloservice.soap.HelloWorldClient
                         + 说明
@@ -377,7 +377,7 @@
 
             * HelloWorldServletTest Service Eaxmple - **与上同，可以不用看。。。**
                + Web Page
-                  - --> [http://localhost:8089/lzjaxwsweb8/MServletTest](http://localhost:8089/lzjaxwsweb8/MServletTest)<br>
+                  - --> [http://localhost:8088/lzjaxwsweb9/MServletTest](http://localhost:8088/lzjaxwsweb9/MServletTest)<br>
 
                + 逻辑层实现 - Servlet
                   - Servlet
@@ -389,7 +389,7 @@
                   - --> []()<br>
                + WSDL -- 两种方式：1. Web Server。 2. Endpoint: AddNumbersPublisher
                   - document style - default: 默认为document style
-                     * http://localhost:8089/lzjaxwsweb8/AddNumbersImpl?wsdl
+                     * http://localhost:8088/lzjaxwsweb9/AddNumbersImpl?wsdl
                + SOAP 说明
                   - soap 1.2
                + 后端架构
@@ -424,10 +424,10 @@
                + Reference
                   - --->
                + Web Page
-                  - --> [http://localhost:8089/lzjaxwsweb8/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+                  - --> [http://localhost:8088/lzjaxwsweb9/HelloWorldServlet - Include Rpc and Doc](http://localhost:8088/lzjaxwsweb9/HelloWorldServlet)<br>
                + WSDL
                   - document style - default: 默认为document style
-                     * http://localhost:8089/lzjaxwsweb8/CalculatorMyImpl?wsdl
+                     * http://localhost:8088/lzjaxwsweb9/CalculatorMyImpl?wsdl
                + SOAP 说明
                   - soap 1.2
                + 后端架构
@@ -450,7 +450,7 @@
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + [http://localhost:8089/lzjaxwsweb8/calculator-my.jsp](http://localhost:8089/lzjaxwsweb8/calculator-my.jsp) --><br>
+                        + [http://localhost:8088/lzjaxwsweb9/calculator-my.jsp](http://localhost:8088/lzjaxwsweb9/calculator-my.jsp) --><br>
                            - --> []()<br>
                         + Path：
                            - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my.jsp
@@ -463,7 +463,7 @@
             * Task Service Eaxmple - Soap 1.2 RPC Style
                + WSDL
                   - rpc style
-                     * http://localhost:8089/lzjaxwsweb8/TaskServiceImpl?wsdl 注：这个是部署到Wildfly上的。。。，Local看clinet中的说明
+                     * http://localhost:8088/lzjaxwsweb9/TaskServiceImpl?wsdl 注：这个是部署到Wildfly上的。。。，Local看clinet中的说明
                + SOAP 说明
                   - soap 1.2
                + 后端架构
@@ -513,9 +513,9 @@
                   - --> []()<br>
                + WSDL
                   - rpc style - default: 默认为document style
-                     * http://localhost:8088/lzjaxwsweb8/EmployeeServiceImpl?wsdl
-                     * http://localhost:8088/lzjaxwsweb8/LoginServiceImpl?wsdl
-                     * http://localhost:8088/lzjaxwsweb8/OrderServiceImpl?wsdl
+                     * http://localhost:8088/lzjaxwsweb9/EmployeeServiceImpl?wsdl
+                     * http://localhost:8088/lzjaxwsweb9/LoginServiceImpl?wsdl
+                     * http://localhost:8088/lzjaxwsweb9/OrderServiceImpl?wsdl
                + SOAP 说明
                   - soap 1.2
                + 后端架构
@@ -541,7 +541,7 @@
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + [http://localhost:8089/lzjaxwsweb8/calculator-my.jsp](http://localhost:8089/lzjaxwsweb8/calculator-my.jsp) --><br>
+                        + [http://localhost:8088/lzjaxwsweb9/calculator-my.jsp](http://localhost:8088/lzjaxwsweb9/calculator-my.jsp) --><br>
                            - --> []()<br>
                         + Path：
                            - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my.jsp
@@ -571,7 +571,7 @@
                   - --> []()<br>
                + WSDL
                   - doc style - default: 默认为document style
-                     * http://localhost:8088/lzjaxwsweb8/GeoIPServiceSoapImpl?wsdl
+                     * http://localhost:8088/lzjaxwsweb9/GeoIPServiceSoapImpl?wsdl
                + SOAP 说明
                   - soap 1.2
                + 后端架构
@@ -593,11 +593,11 @@
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + [http://localhost:8089/lzjaxwsweb8/calculator-my.jsp](http://localhost:8089/lzjaxwsweb8/calculator-my.jsp) --><br>
+                        + [http://localhost:8088/lzjaxwsweb9/calculator-my.jsp](http://localhost:8088/lzjaxwsweb9/calculator-my.jsp) --><br>
                            - --> []()<br>
                         + Path：
-                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my.jsp
-                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my-response.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee9-jaxwsweb/src/main/webapp/calculator-my.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee9-jaxwsweb/src/main/webapp/calculator-my-response.jsp
                         
                   - Client 实现
                      * Package
@@ -622,10 +622,10 @@
                + Reference
                   - ---> E:\JavaEESamples\JAX-WS\PerDalsten-HelloService
                + Web Page
-                  - --> [http://localhost:8089/lzjaxwsweb8/perdalsten-helloservice.jsp](http://localhost:8089/lzjaxwsweb8/perdalsten-helloservice.jsp)<br>
+                  - --> [http://localhost:8088/lzjaxwsweb9/perdalsten-helloservice.jsp](http://localhost:8088/lzjaxwsweb9/perdalsten-helloservice.jsp)<br>
                + WSDL
                   - doc style - default: 默认为document style
-                     * http://localhost:8089/lzjaxwsweb8/HelloPersonServiceWS?WSDL
+                     * http://localhost:8088/lzjaxwsweb9/HelloPersonServiceWS?WSDL
                + SOAP 说明
                   - soap 1.2
                + 后端架构
@@ -647,11 +647,11 @@
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + [http://localhost:8089/lzjaxwsweb8/calculator-my.jsp](http://localhost:8089/lzjaxwsweb8/calculator-my.jsp) --><br>
+                        + [http://localhost:8088/lzjaxwsweb9/calculator-my.jsp](http://localhost:8088/lzjaxwsweb9/calculator-my.jsp) --><br>
                            - --> []()<br>
                         + Path：
-                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my.jsp
-                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my-response.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee9-jaxwsweb/src/main/webapp/calculator-my.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee9-jaxwsweb/src/main/webapp/calculator-my-response.jsp
                         
                   - Client 实现
                      * Package
@@ -676,21 +676,21 @@
       + ddfdf
    * lzdata-ee8-fusionweb
       + Servlet 和 JSP 结合 实现前后端分离，以及异步数据处理的方式
-         - <a id="header-index_cookbook_ch04_servlet"></a> http://localhost:8089/lzeefusionweb8/index_cookbook_ch04_servlet.jsp
+         - <a id="header-index_cookbook_ch04_servlet"></a> http://localhost:8088/lzeefusionweb9/index_cookbook_ch04_servlet.jsp
       
       
       + JAX-RS
-         - <a id="header-fruits"></a> http://localhost:8089/lzeefusionweb8/exampleapi/fruits
+         - <a id="header-fruits"></a> http://localhost:8088/lzeefusionweb9/exampleapi/fruits
             * 说明
                + io.openliberty.example.FruitResource
-         - <a id="header-books_async"></a> http://localhost:8089/lzeefusionweb8/exampleapi/books/async
+         - <a id="header-books_async"></a> http://localhost:8088/lzeefusionweb9/exampleapi/books/async
             * 说明
                + com.lzsoft.lzdata.webservice.jaxrs.book.de.rieckpil.blog.BookResource
                + Book model 还是 放在 lzdata-ee8-jpa-model 模块中
-         - <a id="header-person_resource"></a> http://localhost:8089/lzeefusionweb8/exampleapi/persons
+         - <a id="header-person_resource"></a> http://localhost:8088/lzeefusionweb9/exampleapi/persons
             * 说明
                + com.lzsoft.lzdata.webservice.jaxrs.person.de.rieckpil.blog.PersonResource
-               + Person model 还是 放在 lzdata-ee8-jpa-model 模块中      
+               + Person model 还是 放在 lzdata-ee9-jpa-model 模块中      
       + 
 ## E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new
 
@@ -720,8 +720,8 @@
                >Exception in thread "main" org.hibernate.MappingException: Unknown entity: com.lzsoft.lzdata.persistence.purebean.EmployeeBean
 
       + Create
-         1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/save
-         2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/save
+         1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/bookstore/save
+         2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/save
       + Read
       + Update
       + Delete
