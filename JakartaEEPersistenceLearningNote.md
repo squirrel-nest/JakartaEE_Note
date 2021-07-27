@@ -16,30 +16,11 @@
    * [Entity Relationship Diagram](https://www.smartdraw.com/entity-relationship-diagram/)<br>
       + [Build Your ERD (Database Diagram)](https://www.smartdraw.com/developers/extensions/erd.htm)<br>
 
-## Hibernate
-   * 参考
-      + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/6.0/quickstart/html_single/)<br>
-      + [Getting started with Hibernate ORM](http://hibernate.org/orm/documentation/getting-started/)<br>
-      + [Hibernate ORM 6.0.0.Alpha6 User Guide](https://docs.jboss.org/hibernate/orm/6.0/userguide/html_single/Hibernate_User_Guide.html#annotations-jpa-onetoone)<br>
-      + [Hibernate Search 6.0.2.Final: Reference Documentation](https://docs.jboss.org/hibernate/search/6.0/reference/en-US/html_single/#preface)<br>
-   * 关于 hibernate.cfg.xml
-      + 默认文件位置应该放在 classpath（E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new\src\main）目录下的 resources 目录中
-      + 如果要指定目录，则设置时要指定：/resources/config/hibernate.cfg.xml，如：
-      ```java
-         ...
-         sessionFactory = new Configuration()
-                    .configure("/resources/config/hibernate.cfg.xml")
-                    .addAnnotatedClass(Customer.class)
-                    .buildSessionFactory();
-         ...
-      ```
-### Hibernate教程
-   * [Mapping Java Entities for Persistence in Hibernate (Part 1)](https://dzone.com/articles/mapping-java-entities-for-persistence-in-hibernate)<br>
-   * [Mapping Java Entities for Persistence With Hibernate (Part 2)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna)<br>
-   * [Mapping Java Entities for Persistence With Hibernate (Part 3)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-1)<br>
-   * [Mapping Java Entities for Persistence With Hibernate (Part 4)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-2)<br>
-   * 项目中Hibernate的部分参考过下面教程：[Hibernate Framework](https://github.com/RameshMF#hibernate-framework)<br>
-   * [Hibernate One to Many Annotation Tutorial](https://www.baeldung.com/hibernate-one-to-many)<br>
+
+
+
+
+
 # 知识点
 ## Persistence 相关知识点
    * Persistence.xml 位置
@@ -68,7 +49,46 @@
          - [Stored Procedures with Hibernate](https://www.baeldung.com/stored-procedures-with-hibernate-tutorial)<br>
          - [Hibernate Tutorial](https://www.javaguides.net/p/hibernate-tutorial.html) - 有空看吧<br>
          - [JSP Servlet Hibernate Web Application](https://www.javaguides.net/2019/03/jsp-servlet-hibernate-web-application.html)<br>
-## Persisting Maps with Hibernate
+
+
+
+
+## Hibernate
+   * 参考
+      + [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/6.0/quickstart/html_single/)<br>
+      + [Getting started with Hibernate ORM](http://hibernate.org/orm/documentation/getting-started/)<br>
+      + [Hibernate ORM 6.0.0.Alpha6 User Guide](https://docs.jboss.org/hibernate/orm/6.0/userguide/html_single/Hibernate_User_Guide.html#annotations-jpa-onetoone)<br>
+      + [Hibernate Search 6.0.2.Final: Reference Documentation](https://docs.jboss.org/hibernate/search/6.0/reference/en-US/html_single/#preface)<br>
+   * 关于 hibernate.cfg.xml
+      + 默认文件位置应该放在 classpath（E:\JavaEEDev\JavaEELearningCode\lzdata-ee-8-jaxrs-new\src\main）目录下的 resources 目录中
+      + 如果要指定目录，则设置时要指定：/resources/config/hibernate.cfg.xml，如：
+      ```java
+         ...
+         sessionFactory = new Configuration()
+                    .configure("/resources/config/hibernate.cfg.xml")
+                    .addAnnotatedClass(Customer.class)
+                    .buildSessionFactory();
+         ...
+      ```
+
+### Hibernate 与 Jakarta 9
+   * 参考
+      + Hibernate ORM (5.5 开始支持 Jakarta)--> [https://hibernate.org/orm/releases/5.5/](https://hibernate.org/orm/releases/5.5/)<br>
+      + Getting started with Hibernate ORM (重点要看) --> [https://hibernate.org/orm/documentation/getting-started/](https://hibernate.org/orm/documentation/getting-started/)<br>
+      + Hibernate ORM 5.5.4.Final User Guide -- [Hibernate ORM 5.5.4.Final User Guide](https://docs.jboss.org/hibernate/stable/orm/userguide/html_single/Hibernate_User_Guide.html)<br>
+      + Hibernate ORM 5.5.0.Final released -- 这里有使用Jakarta 9 的 **权威** 设置说明 --> [https://in.relation.to/2021/06/02/hibernate-orm-550-final-release/](https://in.relation.to/2021/06/02/hibernate-orm-550-final-release/)<br>
+      + Migrating from JPA 2.x to 3.0 -- (辅助教程, 可以不看) --> [https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/](https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/)<br>
+      + Hibernate ORM 5.5.4.Final released --> [https://in.relation.to/2021/07/19/hibernate-orm-554-release/](https://in.relation.to/2021/07/19/hibernate-orm-554-release/)<br>
+### Hibernate 教程
+   * [Mapping Java Entities for Persistence in Hibernate (Part 1)](https://dzone.com/articles/mapping-java-entities-for-persistence-in-hibernate)<br>
+   * [Mapping Java Entities for Persistence With Hibernate (Part 2)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna)<br>
+   * [Mapping Java Entities for Persistence With Hibernate (Part 3)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-1)<br>
+   * [Mapping Java Entities for Persistence With Hibernate (Part 4)](https://dzone.com/articles/mapping-java-entities-for-persistence-with-hiberna-2)<br>
+   * 项目中Hibernate的部分参考过下面教程：[Hibernate Framework](https://github.com/RameshMF#hibernate-framework)<br>
+   * [Hibernate One to Many Annotation Tutorial](https://www.baeldung.com/hibernate-one-to-many)<br>
+   * [Hibernate’s Read-Only Query Hint For Faster Read Operations](https://thorben-janssen.com/read-only-query-hint/)<br>
+
+### Persisting Maps with Hibernate
    * 参考
       + [Annotation Type OneToOne](https://jakarta.ee/specifications/platform/8/apidocs/javax/persistence/OneToOne.html)<br>
       + [Persisting Maps with Hibernate](https://www.baeldung.com/hibernate-persisting-maps)<br>
@@ -85,9 +105,14 @@
                     .addAnnotatedClass(Movie.class)
                     .buildSessionFactory();
         ```
-## Data Rationship
+
+### Quarkus & Hibernate – Getting Started
+   * 参考
+      + Quarkus & Hibernate – Getting Started --> [https://thorben-janssen.com/quarkus-hibernate/](https://thorben-janssen.com/quarkus-hibernate/)<br>
+
+### Data Rationship
    * [JPA and Hibernate Many To Many Relationship Mapping Example with Spring Boot and MySQL](https://hellokoding.com/jpa-many-to-many-relationship-mapping-example-with-spring-boot-maven-and-mysql/)<br>
-## Hibernate - Query Language
+### Hibernate - Query Language
    * [Hibernate - Query Language](https://www.tutorialspoint.com/hibernate/hibernate_query_language.htm)<br>
    * [JPA Query Parameters Usage](https://www.baeldung.com/jpa-query-parameters)<br>
    * [Hibernate Query Language Tutorial](https://www.javaguides.net/2019/10/hibernate-query-language-tutorial.html)<br>
@@ -95,7 +120,10 @@
    * [Best Performance Practices for Hibernate 5 and Spring Boot 2 (Part 1)](https://dzone.com/articles/50-best-performance-practices-for-hibernate-5-amp)<br>
    * [Passing query parameters through your WebClient](https://blog.knoldus.com/passing-query-parameters-through-your-webclient/)<br>
 
-
+## EclipseLink
+   * 参考
+      + EclipseLink -- [https://www.eclipse.org/eclipselink/](https://www.eclipse.org/eclipselink/)<br>
+    
 
 ## Testing JPA-based applications
    * [Chapter 18. Testing JPA-based applications](https://livebook.manning.com/book/junit-in-action-second-edition/chapter-18/)<br> 
