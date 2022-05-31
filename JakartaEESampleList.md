@@ -5,7 +5,7 @@
           <summary>
               说明
           </summary>
-          基本的实现
+          基本的实现<br />
           配套的例子： 👉 <a href="https://github.com/fmarchioni/mastertheboss/tree/master/jakartaee">mastertheboss/jakartaee/</a>
       </details>
   * [Getting started with Jakarta RESTful Services](http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/)
@@ -13,7 +13,7 @@
           <summary>
               说明
           </summary>
-          实现 Jakarta RESTful Services
+          实现 Jakarta RESTful Services<br />
           例子： 👉 <a href="https://github.com/fmarchioni/mastertheboss/tree/master/jakartaee">mastertheboss/jakartaee/</a>
       </details>
 
