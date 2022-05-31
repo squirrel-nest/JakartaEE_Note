@@ -1,5 +1,12 @@
 # Sample for Tutorial
 ## 按顺序学习的教程与配套的例子
+  * [Jakarta EE 9 Hello World example application](http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-ee-9-hello-world-example-application/)
+    - <details open>
+          <summary>
+              说明
+          </summary>
+          Hello World 的 例子<br />
+          配套的例子： 👉 <a href="https://github.com/fmarchioni/mastertheboss/tree/master/jakartaee/jakartaee-9">mastertheboss/jakartaee/jakartaee-9/</a>
   * [Getting started with Jakarta EE](http://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-ee/)
     - <details open>
           <summary>
