@@ -1,3 +1,20 @@
+# Sample for Tutorial
+## 按顺序学习的教程与配套的例子
+  * [Getting started with Jakarta EE](http://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-ee/)
+    - <details open>
+          <summary>
+              说明
+          </summary>
+          基本的实现
+      </details>
+  * [Getting started with Jakarta EE](http://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-ee/)
+    - <details open>
+          <summary>
+              说明
+          </summary>
+          基本的实现
+      </details>
+
 ## Examples - Google Search: github java ee projects opensource example site:github.com | jakarta ee example | github jakarta ee projects opensource example site:github.com
    * [Jakarta EE Examples](https://projects.eclipse.org/proposals/jakarta-ee-examples) - 这个是官网的Examples 的即介绍，认真先看。优先看。。。<br>
    * [daggerok/java-ee-examples](https://github.com/daggerok/java-ee-examples) - 用到了Kotlin语言，参考看看<br>
