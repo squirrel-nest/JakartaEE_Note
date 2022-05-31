@@ -1,3 +1,39 @@
+# 官网的资源
+  * Jakarta EE Tutorial
+    - <details open>
+          <summary>
+              说明
+          </summary>
+          The <a href="https://eclipse-ee4j.github.io/jakartaee-tutorial">Jakarta EE Tutorial</a> is a comprehensive reference for developing applications with Jakarta EE.
+      </details>
+  * First Cup
+    - <details open>
+          <summary>
+              说明
+          </summary>
+          The <a href="https://eclipse-ee4j.github.io/jakartaee-firstcup/">First Cup</a> is part of the Tutorial and is a gentle hands-on introduction to Jakarta EE.
+      </details>
+  * First Cup Examples
+    - <details open>
+          <summary>
+              说明
+          </summary>
+          You can further explore the <a href="https://github.com/eclipse-ee4j/jakartaee-firstcup-examples">First Cup Examples</a> to get a feel for how Jakarta EE applications look like.
+      </details>
+  * Jakarta EE Tutorial Examples
+    - <details open>
+          <summary>
+              说明
+          </summary>
+          The <a href="https://github.com/eclipse-ee4j/jakartaee-tutorial-examples">Jakarta EE Tutorial Examples</a> is a very comprehensive resource showing you how to use many Jakarta EE APIs and features.
+      </details>
+  * Cargo Tracker
+    - <details open>
+          <summary>
+              说明
+          </summary>
+          The <a href="https://eclipse-ee4j.github.io/cargotracker/">Cargo Tracker</a> project demonstrates first-hand how you can develop applications with Jakarta EE using widely adopted architectural best practices like Domain-Driven Design (DDD).
+      </details>
 # Sample for Tutorial
 ## 按顺序学习的教程与配套的例子
   * [Jakarta EE 9 Hello World example application](http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-ee-9-hello-world-example-application/)
