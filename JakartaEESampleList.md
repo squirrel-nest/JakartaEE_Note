@@ -6,6 +6,7 @@
               说明
           </summary>
           基本的实现
+          配套的例子：:point-right:<a href="https://github.com/fmarchioni/mastertheboss/tree/master/jakartaee">mastertheboss/jakartaee/</a>
       </details>
   * [Getting started with Jakarta EE](http://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-ee/)
     - <details open>
