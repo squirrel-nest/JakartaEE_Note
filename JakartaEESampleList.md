@@ -6,14 +6,15 @@
               说明
           </summary>
           基本的实现
-          配套的例子：:point-right:<a href="https://github.com/fmarchioni/mastertheboss/tree/master/jakartaee">mastertheboss/jakartaee/</a>
+          配套的例子： 👉 <a href="https://github.com/fmarchioni/mastertheboss/tree/master/jakartaee">mastertheboss/jakartaee/</a>
       </details>
-  * [Getting started with Jakarta EE](http://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-ee/)
+  * [Getting started with Jakarta RESTful Services](http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/)
     - <details open>
           <summary>
               说明
           </summary>
-          基本的实现
+          实现 Jakarta RESTful Services
+          例子： 👉 <a href="https://github.com/fmarchioni/mastertheboss/tree/master/jakartaee">mastertheboss/jakartaee/</a>
       </details>
 
 ## Examples - Google Search: github java ee projects opensource example site:github.com | jakarta ee example | github jakarta ee projects opensource example site:github.com
