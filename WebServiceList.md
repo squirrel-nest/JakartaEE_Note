@@ -110,7 +110,7 @@
              Wildfly 部署的方式
          </summary>
          <ul type="square">
-             <li>后续补充：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install&Setting_WebServer.md">参见 squirrel-nest/MacOS_Note/MacOS_Install&Setting_WebServer.md 中的相关内容</a>
+             <li>内容后续补充：参见 <a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install&Setting_WebServer.md">squirrel-nest/MacOS_Note/MacOS_Install&Setting_WebServer.md</a>  中的相关内容
              </li>
          </ul>
       </details>
