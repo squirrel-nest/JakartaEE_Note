@@ -2,11 +2,12 @@
 ## lzdata-ee-9-gdev
 ### 项目路径
   * 数据库相设计相关，模型文件等
-## 项目的部署
 ## 项目的运行
 ### 启动顺序
-### 启动方法
-
+  * 数据库
+    1. MySQL Server Home 位置
+  * WebServer
+    1. Wildfly Home 位置
 ## 说明
    * 框架搭建分为 Jakarta EE 8 和 Jakarta EE 9， 以 Jakarta EE 8 作为开发的主线, Jakarta EE 9通过拷贝 Jakarta EE 8来获得, 然后修改 javax 包名 到 jakarta, 共用的模块用 _share_ 或 _common_ 
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
@@ -20,7 +21,6 @@
             response.setHeader("Content-Type", "text/html;charset=UTF-8");
             // 用下面这一行可以代替上面两行
             // response.setContentType("text/html;charset=UTF-8");
-         
          
          ```
       + 通过 Servlet CharacterEncodingFilter 的方法 参考下面的 Java 文件
