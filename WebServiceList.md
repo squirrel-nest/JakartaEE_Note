@@ -29,7 +29,14 @@
                    </li>
                  </ul>
              </li>
-             <li>MySQL 启动
+             <li>MySQL 启动 命令
+                 <ul type="circle">
+                   <li>方法 1
+                       <ul type="disc">
+                           <li>cd /usr/local/mysql && bin/mysqld_safe --user=mysql &
+                       </ul>
+                   </li>
+                 </ul>
              </li>
              <li>MySQL 停止
              </li>
