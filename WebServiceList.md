@@ -103,6 +103,56 @@
              </li>
          </ul>
       </details>
+### 部署的方式
+### 部署的Web Service 列表
+  * 参见 <a href="https://github.com/squirrel-nest/JakartaEE_Note/edit/master/WebServiceList.md">Web Service 列表</a>
+  * WebServer
+    + <details open>
+         <summary>
+             Wildfly
+         </summary>
+         <ul type="square">
+             <li>Wildfly 安装 与 设置 入口【目前】：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install&Setting_WebServer.md">squirrel-nest/MacOS_Note/MacOS_Install&Setting_WebServer.md</a>
+             </li>
+         </ul>
+         <ul type="square">
+             <li>Wildfly Home 位置: 
+                 <ul type="disc">
+                   <li>MacOS
+                       <ul type="circle">
+                           <li>原始路径：/Users/Softwares/Wildfly/wildfly-preview-26.1.1.Final</li>
+                           <li>备注：是否要建立一个软连接到 /usr/local/wildfly</li>
+                           <li>Symbolic link 命令：cd /usr/local && ln -s /Users/Softwares/Wildfly/wildfly-preview-26.1.1.Final /usr/local/wildfly</li>
+                       </ul>
+                   </li>
+                   <li>Windows
+                       <ul type="circle">
+                           <li>E:\Softwares\Wildfly\wildfly-preview-26.1.1.Final</li>
+                       </ul>
+                   </li>
+                 </ul>
+             </li>
+             <li>WildFly 启动 命令
+                 <ul type="disc">
+                   <li>启动 - 方法 1<br />
+                       备注：命令后面 & 符号 可选
+                       <ul type="circle">
+                           <li>cd /Users/Softwares/Wildfly/wildfly-preview-26.1.1.Final && bin/standalone.sh &</li>
+                       </ul>
+                   </li>
+                 </ul>
+             </li>
+             <li>MySQL 停止 命令
+                 <ul type="disc">
+                   <li>停止 - 方法 1
+                       <ul type="circle">
+                           <li>Control + C 即可</li>
+                       </ul>
+                   </li>
+                 </ul>
+             </li>
+         </ul>
+      </details>
 ## 说明
    * 框架搭建分为 Jakarta EE 8 和 Jakarta EE 9， 以 Jakarta EE 8 作为开发的主线, Jakarta EE 9通过拷贝 Jakarta EE 8来获得, 然后修改 javax 包名 到 jakarta, 共用的模块用 _share_ 或 _common_ 
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
