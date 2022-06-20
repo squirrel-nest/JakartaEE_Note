@@ -18,6 +18,9 @@
              <li>MySQL Server Home 位置: 
                  <ul type="circle">
                    <li>MacOS
+                       ```diff
+                          - 测试
+                       ```
                        <ul type="disc">
                            <li>/usr/local/mysql</li>
                        </ul>
