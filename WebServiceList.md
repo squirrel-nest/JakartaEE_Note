@@ -5,7 +5,31 @@
 ## 项目的运行
 ### 启动顺序
   * 数据库
-    1. MySQL Server Home 位置
+    + <details open>
+         <summary>
+             MySQL
+         </summary>
+         <li>MySQL 安装 与 设置 入口【目前】：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install%26Setting_Database.md#mysql">squirrel-nest/MacOS_Note/MacOS_Install&Setting_Database.md</a>
+         <ul type="disc">
+             <li>MySQL Server Home 位置: 
+                 <ul type="cycle">
+                   <li>MacOS
+                       <ul type="rectangle">
+                           <li>/usr/local/mysql</li>
+                       </ul>
+                   </li>
+                   <li>Windows
+                       <ul type="rectangle">
+                           <li>/usr/local/mysql</li>
+                       </ul>
+                   </li>
+                 </ul>
+             </li>
+             <li>
+             </li>
+         </ul>
+      </details>
+
   * WebServer
     1. Wildfly Home 位置
 ## 说明
