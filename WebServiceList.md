@@ -70,21 +70,24 @@
                  <ul type="disc">
                    <li>MacOS
                        <ul type="circle">
-                           <li>/usr/local/mysql</li>
+                           <li>原始路径：/Users/Softwares/Wildfly/wildfly-preview-26.1.1.Final</li>
+                           <li>备注：是否要建立一个软连接到 /usr/local/wildfly</li>
+                           <li>Symbolic link 命令：cd /usr/local && ln -s /Users/Softwares/Wildfly/wildfly-preview-26.1.1.Final /usr/local/wildfly</li>
                        </ul>
                    </li>
                    <li>Windows
                        <ul type="circle">
-                           <li>E:\Softwares\MySQL\mysql-8.0.29</li>
+                           <li>E:\Softwares\Wildfly\wildfly-preview-26.1.1.Final</li>
                        </ul>
                    </li>
                  </ul>
              </li>
-             <li>MySQL 启动 命令
+             <li>WildFly 启动 命令
                  <ul type="disc">
-                   <li>启动 - 方法 1
+                   <li>启动 - 方法 1<br />
+                       备注：命令后面 & 符号 可选
                        <ul type="circle">
-                           <li>cd /usr/local/mysql && bin/mysqld_safe --user=mysql &</li>
+                           <li>cd /Users/Softwares/Wildfly/wildfly-preview-26.1.1.Final && bin/standalone.sh &</li>
                        </ul>
                    </li>
                    <li>登陆 账号 & 密码
