@@ -5,7 +5,7 @@
   * 代码
 ## 项目的 部署
 ### 启动顺序
-  * 数据库
+  * ```diff - 数据库 ```
     + <details open>
          <summary>
              MySQL
@@ -18,9 +18,6 @@
              <li>MySQL Server Home 位置: 
                  <ul type="circle">
                    <li>MacOS
-                       ```diff
-                          - 测试
-                       ```
                        <ul type="disc">
                            <li>/usr/local/mysql</li>
                        </ul>
