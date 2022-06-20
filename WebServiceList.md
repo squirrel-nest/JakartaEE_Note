@@ -34,7 +34,6 @@
                    <li>启动 - 方法 1
                        <ul type="disc">
                            <li>cd /usr/local/mysql && bin/mysqld_safe --user=mysql &</li>
-                           <li>pass: r**t**3</li>
                        </ul>
                    </li>
                    <li>登陆 账号 & 密码
@@ -45,7 +44,14 @@
                    </li>
                  </ul>
              </li>
-             <li>MySQL 停止
+             <li>MySQL 停止 命令
+                 <ul type="circle">
+                   <li>停止 - 方法 1
+                       <ul type="disc">
+                           <li>cd /usr/local/mysql && bin/mysqladmin -u root -p shutdown &</li>
+                       </ul>
+                   </li>
+                 </ul>
              </li>
          </ul>
       </details>
