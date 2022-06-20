@@ -10,22 +10,24 @@
              MySQL
          </summary>
          <li>MySQL 安装 与 设置 入口【目前】：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install%26Setting_Database.md#mysql">squirrel-nest/MacOS_Note/MacOS_Install&Setting_Database.md</a>
-         <ul type="disc">
+         <ul type="square">
              <li>MySQL Server Home 位置: 
                  <ul type="circle">
                    <li>MacOS
-                       <ul type="square">
+                       <ul type="disc">
                            <li>/usr/local/mysql</li>
                        </ul>
                    </li>
                    <li>Windows
-                       <ul type="rectangle">
-                           <li>/usr/local/mysql</li>
+                       <ul type="disc">
+                           <li>E:\Softwares\MySQL\mysql-8.0.29</li>
                        </ul>
                    </li>
                  </ul>
              </li>
-             <li>
+             <li>MySQL 启动
+             </li>
+             <li>MySQL 停止
              </li>
          </ul>
       </details>
