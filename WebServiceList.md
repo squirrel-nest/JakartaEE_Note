@@ -120,6 +120,7 @@
 ## 例子 列表 - 暂放这里
   * 下面这个例子是 Wildfly 的 官方例子。。。
     - Getting Started Developing Applications Guide --》[Getting Started Developing Applications Guide](https://docs.wildfly.org/26/Getting_Started_Developing_Applications_Guide.html) --》[Kitchensink Quickstart](https://github.com/wildfly/quickstart/blob/10.x/guide/KitchensinkQuickstart.asciidoc)
+      * 源码：[CDI + JSF + EJB + JTA + Bean Validation + JAX-RS + Arquillian: Kitchensink quickstart](https://github.com/wildfly/quickstart/blob/10.x/guide/KitchensinkQuickstart.asciidoc)
 ## 说明
    * 框架搭建分为 Jakarta EE 8 和 Jakarta EE 9， 以 Jakarta EE 8 作为开发的主线, Jakarta EE 9通过拷贝 Jakarta EE 8来获得, 然后修改 javax 包名 到 jakarta, 共用的模块用 _share_ 或 _common_ 
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
