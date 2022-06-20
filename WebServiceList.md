@@ -16,28 +16,28 @@
          </ul>
          <ul type="square">
              <li>MySQL Server Home 位置: 
-                 <ul type="circle">
+                 <ul type="disc">
                    <li>MacOS
-                       <ul type="disc">
+                       <ul type="circle">
                            <li>/usr/local/mysql</li>
                        </ul>
                    </li>
                    <li>Windows
-                       <ul type="disc">
+                       <ul type="circle">
                            <li>E:\Softwares\MySQL\mysql-8.0.29</li>
                        </ul>
                    </li>
                  </ul>
              </li>
              <li>MySQL 启动 命令
-                 <ul type="circle">
+                 <ul type="disc">
                    <li>启动 - 方法 1
-                       <ul type="disc">
+                       <ul type="circle">
                            <li>cd /usr/local/mysql && bin/mysqld_safe --user=mysql &</li>
                        </ul>
                    </li>
                    <li>登陆 账号 & 密码
-                       <ul type="disc">
+                       <ul type="circle">
                            <li>r**t</li>
                            <li>r**t**3</li>
                        </ul>
@@ -45,9 +45,9 @@
                  </ul>
              </li>
              <li>MySQL 停止 命令
-                 <ul type="circle">
+                 <ul type="disc">
                    <li>停止 - 方法 1
-                       <ul type="disc">
+                       <ul type="circle">
                            <li>cd /usr/local/mysql && bin/mysqladmin -u root -p shutdown &</li>
                        </ul>
                    </li>
