@@ -9,8 +9,10 @@
          <summary>
              MySQL
          </summary>
-         <li>MySQL 安装 与 设置 入口【目前】：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install%26Setting_Database.md#mysql">squirrel-nest/MacOS_Note/MacOS_Install&Setting_Database.md</a>
-         </li>
+         <ul type="square">
+             <li>MySQL 安装 与 设置 入口【目前】：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install%26Setting_Database.md#mysql">squirrel-nest/MacOS_Note/MacOS_Install&Setting_Database.md</a>
+             </li>
+         </ul>
          <ul type="square">
              <li>MySQL Server Home 位置: 
                  <ul type="circle">
