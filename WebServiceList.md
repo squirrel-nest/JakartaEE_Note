@@ -5,7 +5,7 @@
   * 代码
 ## 项目的 部署
 ### 启动顺序
-  * ```diff - 数据库 ```
+  * 数据库
     + <details open>
          <summary>
              MySQL
