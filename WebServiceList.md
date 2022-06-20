@@ -90,19 +90,13 @@
                            <li>cd /Users/Softwares/Wildfly/wildfly-preview-26.1.1.Final && bin/standalone.sh &</li>
                        </ul>
                    </li>
-                   <li>登陆 账号 & 密码
-                       <ul type="circle">
-                           <li>r**t</li>
-                           <li>r**t**3</li>
-                       </ul>
-                   </li>
                  </ul>
              </li>
              <li>MySQL 停止 命令
                  <ul type="disc">
                    <li>停止 - 方法 1
                        <ul type="circle">
-                           <li>cd /usr/local/mysql && bin/mysqladmin -u root -p shutdown &</li>
+                           <li>Control + C 即可</li>
                        </ul>
                    </li>
                  </ul>
