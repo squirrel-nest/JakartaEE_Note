@@ -1,8 +1,11 @@
 # Jakarta EE Project
-## 项目路径
+## lzdata-ee-9-gdev
+### 项目路径
+  * 数据库相设计相关，模型文件等
 ## 项目的部署
 ## 项目的运行
 ### 启动顺序
+### 启动方法
 
 ## 说明
    * 框架搭建分为 Jakarta EE 8 和 Jakarta EE 9， 以 Jakarta EE 8 作为开发的主线, Jakarta EE 9通过拷贝 Jakarta EE 8来获得, 然后修改 javax 包名 到 jakarta, 共用的模块用 _share_ 或 _common_ 
