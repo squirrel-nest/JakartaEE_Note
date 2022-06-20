@@ -210,7 +210,7 @@
                * 说明
                   + 需要了解 HTTP/2.0 ServerPush 机制。。。
                   + 可以通过 PushBuilder pb = request.newPushBuilder(); 的 Push 机制，实现将图片分片发送客户端，以提高客户端加载速度。。
-            6. http://localhost:8088/lzeefusionweb9/index_cookbook_ch04_servlet.jsp --> [lzdata-ee9-fusionweb - index_cookbook_ch04_servlet.jsp](#header-index_cookbook_ch04_servlet)<br>
+            6. http://localhost:8088/lzeefusionweb9/index_cookbook_ch04_servlet.jsp --> [lzdata-ee9-fusionweb - index_cookbook_ch04_servlet.jsp](#header-index_cookbook_ch04_servlet)<br><a href="#header-index_cookbook_ch04_servlet">lzdata-ee9-fusionweb - index_cookbook_ch04_servlet.jsp</a>
                * 说明
                   + 初始化 参数的方法
                   + 异步数据处理，加载页面的方法 。。。
