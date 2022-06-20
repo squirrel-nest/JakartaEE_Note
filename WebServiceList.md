@@ -57,7 +57,55 @@
       </details>
 
   * WebServer
-    1. Wildfly Home 位置
+    + <details open>
+         <summary>
+             Wildfly
+         </summary>
+         <ul type="square">
+             <li>WebServer 安装 与 设置 入口【目前】：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install%26Setting_Database.md#mysql">squirrel-nest/MacOS_Note/MacOS_Install&Setting_Database.md</a>
+             </li>
+         </ul>
+         <ul type="square">
+             <li>Wildfly Home 位置: 
+                 <ul type="disc">
+                   <li>MacOS
+                       <ul type="circle">
+                           <li>/usr/local/mysql</li>
+                       </ul>
+                   </li>
+                   <li>Windows
+                       <ul type="circle">
+                           <li>E:\Softwares\MySQL\mysql-8.0.29</li>
+                       </ul>
+                   </li>
+                 </ul>
+             </li>
+             <li>MySQL 启动 命令
+                 <ul type="disc">
+                   <li>启动 - 方法 1
+                       <ul type="circle">
+                           <li>cd /usr/local/mysql && bin/mysqld_safe --user=mysql &</li>
+                       </ul>
+                   </li>
+                   <li>登陆 账号 & 密码
+                       <ul type="circle">
+                           <li>r**t</li>
+                           <li>r**t**3</li>
+                       </ul>
+                   </li>
+                 </ul>
+             </li>
+             <li>MySQL 停止 命令
+                 <ul type="disc">
+                   <li>停止 - 方法 1
+                       <ul type="circle">
+                           <li>cd /usr/local/mysql && bin/mysqladmin -u root -p shutdown &</li>
+                       </ul>
+                   </li>
+                 </ul>
+             </li>
+         </ul>
+      </details>
 ## 说明
    * 框架搭建分为 Jakarta EE 8 和 Jakarta EE 9， 以 Jakarta EE 8 作为开发的主线, Jakarta EE 9通过拷贝 Jakarta EE 8来获得, 然后修改 javax 包名 到 jakarta, 共用的模块用 _share_ 或 _common_ 
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
