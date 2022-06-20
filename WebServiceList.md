@@ -62,7 +62,7 @@
              Wildfly
          </summary>
          <ul type="square">
-             <li>WebServer 安装 与 设置 入口【目前】：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install%26Setting_Database.md#mysql">squirrel-nest/MacOS_Note/MacOS_Install&Setting_Database.md</a>
+             <li>Wildfly 安装 与 设置 入口【目前】：<a href="https://github.com/squirrel-nest/MacOS_Note/blob/master/MacOS_Install&Setting_WebServer.md">squirrel-nest/MacOS_Note/MacOS_Install&Setting_WebServer.md</a>
              </li>
          </ul>
          <ul type="square">
