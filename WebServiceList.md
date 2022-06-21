@@ -279,7 +279,7 @@
                            + 从界面输入数据，存入数据库
                            + 从数据库中取出，用json格式展示在网页。
                * API
-                  + http://localhost:8089/lzjaxrsweb8/exampleapi/dbjsonb/dbcustomertojson
+                  + http://localhost:8088/lzjaxrsweb9/exampleapi/dbjsonb/dbcustomertojson
             2. http://localhost:8088/lzjaxrsweb9/index_dbstudenttojson.jsp
                * 说明
                   + 从界面输入数据，存入数据库
@@ -493,7 +493,7 @@
                   - Web 实现
                      * 方法1：html界面
                         + 待完成 - [http://localhost:8088/lzjaxwsweb9/jaxws-hello-service.html](http://localhost:8088/lzjaxwsweb9/jaxws-hello-service.html) --><br>
-                           - --> [http://localhost:8088/lzjaxwsweb9/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+                           - --> [http://localhost:8088/lzjaxwsweb9/HelloWorldServlet - Include Rpc and Doc](http://localhost:8088/lzjaxwsweb9/HelloWorldServlet)<br>
                   - Client 实现
                      * com.lzsoft.lzdata.javaeeclient.jaxwstest.tutorial.helloservice.soap.HelloWorldClient
                         + 说明
@@ -844,37 +844,37 @@
                >Exception in thread "main" org.hibernate.MappingException: Unknown entity: com.lzsoft.lzdata.persistence.purebean.EmployeeBean
 
       + Create
-         1. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/bookstore/save
-         2. http://localhost:8088/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/save
+         1. http://localhost:8088/lzjaxrsweb9/resources/bookstore/save
+         2. http://localhost:8088/lzjaxrsweb9/resources/bookstoremy/save
       + Read
       + Update
       + Delete
-         1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/remove
-         2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/removeall
-         3. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/remove
-         4. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/removeall
+         1. http://localhost:8088/lzjaxrsweb9/resources/bookstore/remove
+         2. http://localhost:8088/lzjaxrsweb9/resources/bookstore/removeall
+         3. http://localhost:8088/lzjaxrsweb9/resources/bookstoremy/remove
+         4. http://localhost:8088/lzjaxrsweb9/resources/bookstoremy/removeall
    
    * BiDiction   OneToMany - ManyToOne
       + Create
-         1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/save
-         2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/save
+         1. http://localhost:8088/lzjaxrsweb9/resources/bookstore/save
+         2. http://localhost:8088/lzjaxrsweb9/resources/bookstoremy/save
       + Read
       + Update
       + Delete
-         1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/remove
-         2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstore/removeall
-         3. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/remove
-         4. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/bookstoremy/removeall
+         1. http://localhost:8088/lzjaxrsweb9/resources/bookstore/remove
+         2. http://localhost:8088/lzjaxrsweb9/resources/bookstore/removeall
+         3. http://localhost:8088/lzjaxrsweb9/resources/bookstoremy/remove
+         4. http://localhost:8088/lzjaxrsweb9/resources/bookstoremy/removeall
    * Unidirection
       + Create
-         1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/save - addAuthorWithBooks() 有问题？！
-         2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/add - addNewBook()
+         1. http://localhost:8088/lzjaxrsweb9/resources/unidirection/bookstoremy/save - addAuthorWithBooks() 有问题？！
+         2. http://localhost:8088/lzjaxrsweb9/resources/unidirection/bookstoremy/add - addNewBook()
       + Read
       + Update
       + Delete
-         1. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/removefirst
-         2. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/removelast
-         3. http://localhost:8089/lzdata-ee-8-jaxrs-gd/resources/unidirection/bookstoremy/removeall
+         1. http://localhost:8088/lzjaxrsweb9/resources/unidirection/bookstoremy/removefirst
+         2. http://localhost:8088/lzjaxrsweb9/resources/unidirection/bookstoremy/removelast
+         3. http://localhost:8088/lzjaxrsweb9/resources/unidirection/bookstoremy/removeall
 ## 测试用：CRUD
    * com.lzsoft.lzdata.javaeebase.jpa.journaldev.HibernateJavaConfigMain
 ## Sample Data
