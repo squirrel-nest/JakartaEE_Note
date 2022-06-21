@@ -452,7 +452,7 @@
 
             * HelloWorld Service Eaxmple - Soap 1.2 Including RPC Style & Doc Style
                + Web Page
-                  - --> [http://localhost:8088/lzjaxwsweb9/HelloWorldServlet - Include Rpc and Doc](http://localhost:8089/lzjaxwsweb8/HelloWorldServlet)<br>
+                  - --> [http://localhost:8088/lzjaxwsweb9/HelloWorldServlet - Include Rpc and Doc](http://localhost:8088/lzjaxwsweb9/HelloWorldServlet)<br>
                + WSDL
                   - rpc style
                      * http://localhost:8088/lzjaxwsweb9/HelloWorldRpcService?wsdl
