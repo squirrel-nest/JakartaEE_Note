@@ -118,7 +118,10 @@
   * 参见 <a href="https://github.com/squirrel-nest/JakartaEE_Note/blob/master/WebServiceList.md">Web Service 列表</a>
 
 ## 例子 列表 - 暂放这里
-  * 下面这个例子是 Wildfly 的 官方例子。。。
+  * Bootable JAR Guide --》需要知道的方法，方便开发。--〉[Bootable JAR Guide](https://docs.wildfly.org/26/Bootable_Guide.html)
+    - https://github.com/wildfly-extras/wildfly-jar-maven-plugin
+  * 下面的例子是 Wildfly 的 官方例子。。。
+    - Downloading the quickstarts -- [Downloading the quickstarts -> JBoss Developer Framework](https://github.com/wildfly/quickstart)
     - 【这个例子，太久远了，可不用看？】Getting Started Developing Applications Guide --》[Getting Started Developing Applications Guide](https://docs.wildfly.org/26/Getting_Started_Developing_Applications_Guide.html) --》[Kitchensink Quickstart](https://github.com/wildfly/quickstart/blob/10.x/guide/KitchensinkQuickstart.asciidoc)
       * 源码：[CDI + JSF + EJB + JTA + Bean Validation + JAX-RS + Arquillian: Kitchensink quickstart](https://github.com/wildfly/quickstart/blob/10.x/guide/KitchensinkQuickstart.asciidoc)
 ## 说明
