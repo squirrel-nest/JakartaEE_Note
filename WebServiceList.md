@@ -3,6 +3,17 @@
 ### 项目路径
   * 数据库 - 相关设计模型文件等
   * 代码
+## 项目 的 编译
+  * 编译方法
+    + 参见 --> [](url)
+    + 终端命令的方法 - 优先选择
+    + 开发工具直接编译
+  * 编译后 war文件目录
+     + Gradle
+        - war文件目录：在每个Module目录下的 build/libs 目录 中
+     + Maven
+        - war文件目录：每个Module目录下的 target 目录 中
+
 ## 项目的 部署
 ### 启动顺序
   * 数据库
@@ -907,9 +918,5 @@
 ### Wildfly Server
    * 步骤
       1. 编译
-         + Gradle
-            - war文件目录：在每个Module目录下的 build/libs 目录 中
 
-         + Maven
-            - war文件目录：每个Module目录下的 target 目录 中
       2. 将 war文件拖到部署页面。。。
