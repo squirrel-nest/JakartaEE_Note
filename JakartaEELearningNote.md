@@ -139,7 +139,7 @@ http://www.ruoyi.vip
 
 ## <a name="compile-command"></a>编译命令
 ### Gradle - 包括 Android
-   * 参见: 基本命令参考 - [总结的Gradle常用编译命令](https://github.com/squirrel-nest/BuildToolLearningNote/blob/master/GradleLearningNote.md#compile-command)<br>
+   * 参见: 基本命令参考 - [总结的Gradle常用编译命令](https://github.com/squirrel-nest/BuildTool_Note/blob/master/Gradle_Note.md#compile-command)<br>
 ### Maven
    * Build whole project with maven.
       ```shell
