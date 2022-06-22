@@ -123,7 +123,9 @@ http://www.ruoyi.vip
 ## githuber 相关
    * [Thorben Janssen](https://github.com/thjanssen) - 关于Jakarta EE 的 数据层（Persistence 和 Hibernate）例子<br>
    * [RuoYi: 使用若依快速构建web应用程序](http://doc.ruoyi.vip/)<br>
-
+### Security
+  * 参考
+    + [Securing REST APIs with RESTEasy Filter](https://howtodoinjava.com/resteasy/resteasy-containerrequestfilter-example/)
 ## 包的管理
 ### 包的网址
    * **Maven Central Repository --> [Maven Central Repository](https://repo.maven.apache.org/) --> [Maven Central Repository: Maven2](https://repo.maven.apache.org/maven2/) - Maven Central Repository: Maven2的位置**<br>
