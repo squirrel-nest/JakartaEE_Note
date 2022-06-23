@@ -34,6 +34,13 @@
           </summary>
           The <a href="https://eclipse-ee4j.github.io/cargotracker/">Cargo Tracker</a> project demonstrates first-hand how you can develop applications with Jakarta EE using widely adopted architectural best practices like Domain-Driven Design (DDD).
       </details>
+## Wildfly 的 官网例子。。。 列表
+   * Downloading the quickstarts -- [Downloading the quickstarts -> JBoss Developer Framework](https://github.com/wildfly/quickstart)
+   * 【这个例子，太久远了，可不用看？】Getting Started Developing Applications Guide --》[Getting Started Developing Applications Guide](https://docs.wildfly.org/26/Getting_Started_Developing_Applications_Guide.html) --》[Kitchensink Quickstart](https://github.com/wildfly/quickstart/blob/10.x/guide/KitchensinkQuickstart.asciidoc)
+     + 源码：[CDI + JSF + EJB + JTA + Bean Validation + JAX-RS + Arquillian: Kitchensink quickstart](https://github.com/wildfly/quickstart/blob/10.x/guide/KitchensinkQuickstart.asciidoc)
+  * Bootable JAR Guide --》需要知道的方法，方便开发。--〉[Bootable JAR Guide](https://docs.wildfly.org/26/Bootable_Guide.html)
+    - https://github.com/wildfly-extras/wildfly-jar-maven-plugin
+
 # Sample for Tutorial
 ## 按顺序学习的教程与配套的例子
   * [Jakarta EE 9 Hello World example application](http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-ee-9-hello-world-example-application/)
