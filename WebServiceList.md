@@ -146,7 +146,18 @@
              <li>Jakarta XML Web Services is now included in the Jakarta EE platform as an optional technology under the jakarta namespace.</li>
          </ul>
       </details>
-   * lzdata-ee9-jaxwsweb - SOAP Service (JAX-WS)
+  * Jakarta XML Web Services Sample 模块 的 架构 以及 模块间的关系
+    + <details open>
+         <summary>
+             说明
+         </summary>
+         <ul type="square">
+             <li>
+           mermaid
+           
+           </li>
+         </ul>
+      </details>
       + 说明
          1. 模块的架构
             - lzdata-ee9-jaxwsweb【前端】 --> lzdata-ee9-jaxws-base【中间层】 --> lzdata-ee9-jpa-model【数据接入层模块】，lzdata-ee9-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee9-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。
