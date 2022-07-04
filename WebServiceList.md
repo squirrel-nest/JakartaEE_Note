@@ -153,9 +153,8 @@
          </summary>
          <ul type="square">
              <li>
-           mermaid
-           
-           </li>
+                 mermaid
+             </li>
          </ul>
       </details>
       + 说明
