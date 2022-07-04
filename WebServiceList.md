@@ -157,57 +157,56 @@
              </li>
          </ul>
       </details>
-      + 说明
-         1. 模块的架构
-            - lzdata-ee9-jaxwsweb【前端】 --> lzdata-ee9-jaxws-base【中间层】 --> lzdata-ee9-jpa-model【数据接入层模块】，lzdata-ee9-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee9-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。
-            - 无法使用分模块的功能，合并到 lzdata-ee9-fusionweb 模块中。。。见 lzdata-ee9-fusionweb 模块的例子说明
+    + 说明
+      1. 模块的架构
+         - lzdata-ee9-jaxwsweb【前端】 --> lzdata-ee9-jaxws-base【中间层】 --> lzdata-ee9-jpa-model【数据接入层模块】，lzdata-ee9-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee9-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。
+         - 无法使用分模块的功能，合并到 lzdata-ee9-fusionweb 模块中。。。见 lzdata-ee9-fusionweb 模块的例子说明
       + 例子
          - JAX-WS 的简单例子 - Jakarta EE tutorial
-            * Hello Service Eaxmple
-               + WSDL
-                  - http://localhost:8088/lzjaxwsweb9/Hello?wsdl
+           * Hello Service Eaxmple
+             + WSDL
+               - http://localhost:8088/lzjaxwsweb9/Hello?wsdl
+             + SOAP 说明
+               - rpc style
+               - soap 1.2
+             + 后端架构 - Package：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
+               - Interface class:
+                  * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
+               - Implementation class:
+                  * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.Hello
+               -  javax.xml.ws.Endpoint:
+                  * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloPublisher
+               - **WebServiceClient** (不是 WebService) class:
+                  * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloService
+             + 逻辑层实现 - Servlet
+               - Servlet
+                 * com.lzsoft.lzdata.weblogic.servlet.tutorial.helloservice.HelloServlet
+               - Service
+                 * 保留
+             + 前端实现 - Front End - 界面
+               - Web 实现
+                 * 方法1：html界面
+                   + [http://localhost:8088/lzjaxwsweb9/jaxws-hello-service.html](http://localhost:8088/lzjaxwsweb9/jaxws-hello-service.html) --><br>
+                     - --> [http://localhost:8088/lzjaxwsweb9/HelloServlet](http://localhost:8088/lzjaxwsweb9/HelloServlet)<br>
+               - Client 实现
+           * HelloWorld Service Eaxmple - Soap 1.2 Including RPC Style & Doc Style
+             + Web Page
+               - --> [http://localhost:8088/lzjaxwsweb9/HelloWorldServlet - Include Rpc and Doc](http://localhost:8088/lzjaxwsweb9/HelloWorldServlet)<br>
+             + WSDL
+               - rpc style
+                 * http://localhost:8088/lzjaxwsweb9/HelloWorldRpcService?wsdl
+               - doc style
+                 * http://localhost:8088/lzjaxwsweb9/HelloWorldDocService?wsdl
                + SOAP 说明
-                  - rpc style
-                  - soap 1.2
-               + 后端架构 - Package：com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello
-                  - Interface class:
-                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloInf
-                  - Implementation class:
-                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.Hello
-                  -  javax.xml.ws.Endpoint:
-                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloPublisher
-                  - **WebServiceClient** (不是 WebService) class:
-                     * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap12.hello.HelloService
-               + 逻辑层实现 - Servlet
-                  - Servlet
-                     * com.lzsoft.lzdata.weblogic.servlet.tutorial.helloservice.HelloServlet
-                  - Service
-                     * 
-               + 前端实现 - Front End - 界面
-                  - Web 实现
-                     * 方法1：html界面
-                        + [http://localhost:8088/lzjaxwsweb9/jaxws-hello-service.html](http://localhost:8088/lzjaxwsweb9/jaxws-hello-service.html) --><br>
-                           - --> [http://localhost:8088/lzjaxwsweb9/HelloServlet](http://localhost:8088/lzjaxwsweb9/HelloServlet)<br>
-                  - Client 实现
-
-            * HelloWorld Service Eaxmple - Soap 1.2 Including RPC Style & Doc Style
-               + Web Page
-                  - --> [http://localhost:8088/lzjaxwsweb9/HelloWorldServlet - Include Rpc and Doc](http://localhost:8088/lzjaxwsweb9/HelloWorldServlet)<br>
-               + WSDL
-                  - rpc style
-                     * http://localhost:8088/lzjaxwsweb9/HelloWorldRpcService?wsdl
-                  - doc style
-                     * http://localhost:8088/lzjaxwsweb9/HelloWorldDocService?wsdl
-               + SOAP 说明
-                  - soap 1.2
+                 - soap 1.2
                + 后端架构
                   - Rpc Style
                     - Package
-                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle
+                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle
                     - Interface class:
-                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpc
+                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpc
                     - Implementation class:
-                       * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcImpl
+                      * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcImpl
                     -  javax.xml.ws.Endpoint:
                        * com.lzsoft.lzdata.webservice.jaxws.tutorial.helloservice.soap.rpcstyle.HelloWorldRpcPublisher
                     - **WebServiceClient** (不是 WebService) class:
