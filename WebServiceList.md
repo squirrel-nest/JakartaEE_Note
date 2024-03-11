@@ -69,11 +69,20 @@
                                             <i><b>✨ 文件 的 结构 - versions_variable.gradle 文件 管理阶段</b></i>
                                         </summary>
                                         <ul type="disc">
-                                            <li>
-                                                <pre><code>
---> core_dependencies_servlet_web_9.gradle
+                                            <li>lzdata-ee9-servlet-base --> lzdata-ee9-servletweb/build.gradle
+                                                <pre><code>apply from: '../core_dependencies_servlet_web_9.gradle'
+apply from: '../test_dependencies_common.gradle'</code></pre>
+                                                --> core_dependencies_servlet_web_9.gradle
+                                                <pre><code>dependencies {
+<br>
+    // implementation project(path: ':lzdata-ee-utils')
+    implementation project(path: ':lzdata-ee9-servlet-base')
+    ...
+    implementation deps.mysql.mysql_connector_java
+<br>
+}</code></pre>
+                                                --> core_dependencies_servlet_base_9.gradle
 --> dependency_variable.gradle --> versions_variable.gradle
-                                                </code></pre>
                                             </li>
                                         </ul>
                                     </details>
