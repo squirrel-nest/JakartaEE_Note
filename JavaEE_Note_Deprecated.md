@@ -1,4 +1,4 @@
-# JavaEE Learning Note --> 移步 JakartaEE Learning Note：[JakataEE_Note.md](https://github.com/squirrel-nest/JavaEE_Note/blob/master/JakartaEE_Note.md)<br>
+# JavaEE Learning Note --> 移步 JakartaEE Learning Note：[JakataEE_Note.md](https://github.com/squirrel-nest/JakartaEE_Note/blob/master/JakartaEE_Note.md)<br>
 
 # Java SE LearningNote --> [JavaSE_Note.md](https://github.com/squirrel-nest/JavaSE_Note/blob/master/JavaSE_Note.md)<br>
    * 参考
