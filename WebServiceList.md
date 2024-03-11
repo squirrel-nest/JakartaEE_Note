@@ -71,8 +71,8 @@
                                         <ul type="disc">
                                             <li>
                                                 <pre><code>
-                                                    --> core_dependencies_servlet_web_9.gradle
-                                                    --> dependency_variable.gradle --> versions_variable.gradle
+--> core_dependencies_servlet_web_9.gradle
+--> dependency_variable.gradle --> versions_variable.gradle
                                                 </code></pre>
                                             </li>
                                         </ul>
