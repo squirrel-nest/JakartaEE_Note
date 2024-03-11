@@ -69,11 +69,18 @@
                                             <i><b>✨ 文件 的 结构 - versions_variable.gradle 文件 管理阶段</b></i>
                                         </summary>
                                         <ul type="disc">
-                                            <li>lzdata-ee9-servlet-base --> lzdata-ee9-servletweb/build.gradle
-                                                <pre><code>apply from: '../core_dependencies_servlet_web_9.gradle'
+                                            <li>
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ lzdata-ee9-servletweb</b></i>
+                                                    </summary>
+                                                    <ul type="disc">
+                                                        <li>build.gradle
+                                                            <pre><code>apply from: '../core_dependencies_servlet_web_9.gradle'
 apply from: '../test_dependencies_common.gradle'</code></pre>
-                                                --> core_dependencies_servlet_web_9.gradle
-                                                <pre><code>dependencies {
+                                                        </li>
+                                                        <li>--> core_dependencies_servlet_web_9.gradle
+                                                            <pre><code>dependencies {
 <br>
     // implementation project(path: ':lzdata-ee-utils')
     implementation project(path: ':lzdata-ee9-servlet-base')
@@ -81,8 +88,57 @@ apply from: '../test_dependencies_common.gradle'</code></pre>
     implementation deps.mysql.mysql_connector_java
 <br>
 }</code></pre>
-                                                --> core_dependencies_servlet_base_9.gradle
---> dependency_variable.gradle --> versions_variable.gradle
+                                                        </li>
+                                                        <li>
+                                                            ==> <a href="#lzdata-ee9-servlet-base">lzdata-ee9-servlet-base</a>
+                                                        </li>
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ lzdata-ee9-servlet-base</b></i>
+                                                    </summary>
+                                                    <a id="lzdata-ee9-servlet-base"></a>
+                                                    <ul type="disc">
+                                                        <li>build.gradle
+                                                            <pre><code>apply from: '../core_dependencies_servlet_base_9.gradle'
+apply from: '../test_dependencies_common.gradle'</code></pre>
+                                                        </li>
+                                                        <li>--> core_dependencies_servlet_base_9.gradle
+                                                            <pre><code>dependencies {
+<br>
+    implementation project(path: ':lzdata-ee9-jpa-model')
+    implementation project(path: ':lzdata-ee9-jaxws-base')
+...
+    implementation deps.jakarta.platform.jakartaee_api_9
+...
+    implementation deps.org_glassfish.jakarta_el
+...
+    implementation deps.mysql.mysql_connector_java</code></pre>
+                                                        </li>
+                                                        <li>
+                                                            ==> <a href="#lzdata-ee9-jaxws-base">lzdata-ee9-jaxws-base</a>
+                                                            ==> <a href="#lzdata-ee9-jpa-model">lzdata-ee9-jpa-model</a>
+                                                        </li>
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ lzdata-ee9-jaxws-base</b></i>
+                                                    </summary>
+                                                    <a id="lzdata-ee9-jaxws-base"></a>
+                                                    <ul type="disc">
+                                                        <li>build.gradle
+                                                            <pre><code>apply from: '../core_dependencies_jaxws_base_9.gradle'
+apply from: '../test_dependencies_common.gradle'
+apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
+                                                        </li>
+                                                    </ul>
+                                                </details>
                                             </li>
                                         </ul>
                                     </details>
