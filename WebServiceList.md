@@ -109,8 +109,8 @@ apply from: '../test_dependencies_common.gradle'</code></pre>
                                                         <li>--> core_dependencies_servlet_base_9.gradle
                                                             <pre><code>dependencies {
 <br>
-    implementation project(path: ':lzdata-ee9-jpa-model')
     implementation project(path: ':lzdata-ee9-jaxws-base')
+    implementation project(path: ':lzdata-ee9-jpa-model')
 ...
     implementation deps.jakarta.platform.jakartaee_api_9
 ...
@@ -119,8 +119,8 @@ apply from: '../test_dependencies_common.gradle'</code></pre>
     implementation deps.mysql.mysql_connector_java</code></pre>
                                                         </li>
                                                         <li>
-                                                            ==> <a href="#lzdata-ee9-jaxws-base">lzdata-ee9-jaxws-base</a>
-                                                            ==> <a href="#lzdata-ee9-jpa-model">lzdata-ee9-jpa-model</a>
+                                                            ==> <a href="#lzdata-ee9-jaxws-base">lzdata-ee9-jaxws-base</a> 👈 是 Project
+                                                            ==> <a href="#lzdata-ee9-jpa-model">lzdata-ee9-jpa-model</a> 👈 是 Project
                                                         </li>
                                                     </ul>
                                                 </details>
@@ -136,6 +136,28 @@ apply from: '../test_dependencies_common.gradle'</code></pre>
                                                             <pre><code>apply from: '../core_dependencies_jaxws_base_9.gradle'
 apply from: '../test_dependencies_common.gradle'
 apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
+                                                        </li>
+                                                        <li>--> core_dependencies_jaxws_base_9.gradle
+                                                            <pre><code>dependencies {
+<br>
+    implementation project(path: ':lzdata-ee9-jpa-model')
+...
+    implementation deps.jakarta.platform.jakartaee_api_9
+    implementation deps.com_sun.xml.ws.jaxws_rt
+    implementation deps.com_sun.xml.ws.jaxws_ri
+<br>
+    implementation deps.org_glassfish.jakarta_el
+...
+...
+    implementation deps.mysql.mysql_connector_java
+<br>
+    implementation deps.commons_io.commons_io
+<br>
+    testImplementation deps.jboss.resteasy.client
+    // implementation 'org.jboss.resteasy:resteasy-multipart-provider:4.5.8.Final'
+    compileOnly deps.jboss.resteasy.multipart_provider
+    compileOnly deps.jboss.resteasy.jaxrs
+}</code></pre>
                                                         </li>
                                                     </ul>
                                                 </details>
