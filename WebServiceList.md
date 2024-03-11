@@ -119,7 +119,7 @@ apply from: '../test_dependencies_common.gradle'</code></pre>
     implementation deps.mysql.mysql_connector_java</code></pre>
                                                         </li>
                                                         <li>
-                                                            ==> <a href="#lzdata-ee9-jaxws-base">lzdata-ee9-jaxws-base</a> 👈 是 Project
+                                                            ==> <a href="#lzdata-ee9-jaxws-base">lzdata-ee9-jaxws-base</a> 👈 是 Project<br>
                                                             ==> <a href="#lzdata-ee9-jpa-model">lzdata-ee9-jpa-model</a> 👈 是 Project
                                                         </li>
                                                     </ul>
