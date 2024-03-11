@@ -1,4 +1,107 @@
-# Jakarta EE Project
+# ✨ Jakarta EE Project
+
+<details open>
+    <summary>
+        <i><b>✨ Jakarta EE 的 开发</b></i>
+    </summary>
+    <ul type="disc">
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ 项目文件夹 路径</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ GitHub Repository - <a href="https://github.com/squirrel-nest/JakartaEE_Code">squirrel-nest/JakartaEE_Code</a></b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    <a href="https://github.com/squirrel-nest/JakartaEE_Code/tree/master/lzdata-ee-9-gdev">squirrel-nest/JakartaEE_Code/lzdata-ee-9-gdev/</a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 本地目录 - MacOS System</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-9-gdev
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 本地目录 - Windows System</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ 版本 管理 与 更新</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>方法 - 沿革</li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Gradle 模式</b></i>
+                            </summary>
+                            <ol type="disc">
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ 文件 的 结构 - versions_variable.gradle 文件 管理阶段</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <pre><code>
+                                                    --> core_dependencies_servlet_web_9.gradle
+                                                    --> dependency_variable.gradle --> versions_variable.gradle
+                                                </code></pre>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                            </ol>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Maven 模式</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    -
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+----
+
+
 ## 项目说明
    * 框架搭建 以 Jakarta EE 9 作为开发的主线, javax 包名 已经全部更改为 jakarta, 共用的模块用 _share_ 或 _common_ 
    * 总项目文件夹：E:\JavaEEDev\JavaEELearningCode\lzdata-ee-9-gdev
@@ -118,6 +221,7 @@
              </li>
          </ul>
       </details>
+
 ### 部署的方式
   * Wildfly
     + <details open>
