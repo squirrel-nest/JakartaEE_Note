@@ -69,7 +69,8 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ Plugin 的 设置</b></i>
+                                <i><b>✨ Plugin 的 设置</b></i><br>临时
+                                <a href="https://discuss.gradle.org/t/multi-module-project-how-where-to-apply-plugins/46701">Multi-Module Project: How/Where to apply plugins?</a>
                             </summary>
                             <a id="explanation-for-different-ver-in-diff-position"></a>
                             <ul type="disc">
