@@ -1,5 +1,7 @@
 # ✨ Jakarta EE 的 开发
-
+  * 临时
+    + [Apache Camel REST step-by-step example](https://www.masterspringboot.com/camel/apache-camel-rest-example-for-beginners/)
+    + [Using the Gradle build system in the Eclipse IDE - Tutorial](https://www.vogella.com/tutorials/EclipseGradle/article.html#google_vignette)
 ## 开发 工具 和 环境 设置
 
 <details open>
