@@ -101,6 +101,75 @@
     </ul>
 </details>
 
+----
+
+<details open>
+    <summary>
+        <i><b>✨ 环境 搭建</b></i>
+    </summary>
+    <ul type="disc">
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Java 环境</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 设置</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> - </li>
+                                    </ol>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ - </b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> - </li>
+                                    </ol>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨Visual Studio Code</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>✨ 辅助 的 开发 工具，也 很好用</li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+----
+
 # Java SE LearningNote --> [JavaSELearningNote.md](https://github.com/squirrel-nest/JavaSELearningNote/blob/master/JavaSE_Note.md)<br>
 # Jakarta EE 8 Reference
 ## 前瞻性 - 在开始Java EE 的学习旅程之前，先了解了解 前瞻性的问题，把握好学习的方向，2020.4.5 -之后这些也许又落伍了 - 理解：周虽旧邦，其命维新 的 发展规律
