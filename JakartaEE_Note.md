@@ -1,3 +1,37 @@
+# ✨ Jakarta EE 的 开发
+
+## 开发 工具 和 环境 设置
+
+<details open>
+    <summary>
+        <i><b>✨ Build Tools - 编译 和 生成 工具</b></i>
+    </summary>
+    <ul type="disc">
+        <li>目前 主要 用 Gradle 编译， 与 Maven 比较， 不知 哪个 更好，Gradle 直观 一些。</li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Gradle Build Tool</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>✨ 笔记 参见：<a href="https://github.com/squirrel-nest/BuildTool_Note/tree/master">BuildTool_Note</a> --> <a href="https://github.com/squirrel-nest/BuildTool_Note/blob/master/Gradle_Note.md">BuildTool_Note/Gradle_Note.md</a>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Maven Build Tool</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>✨ 笔记 参见：<a href="https://github.com/squirrel-nest/BuildTool_Note/tree/master">BuildTool_Note</a> --> <a href="https://github.com/squirrel-nest/BuildTool_Note/blob/master/Maven_Note.md">BuildTool_Note/Maven_Note.md</a>
+                    </li>
+                </ul>
+            </details>
+        </li>
+
+
 # Java SE LearningNote --> [JavaSELearningNote.md](https://github.com/squirrel-nest/JavaSELearningNote/blob/master/JavaSE_Note.md)<br>
 # Jakarta EE 8 Reference
 ## 前瞻性 - 在开始Java EE 的学习旅程之前，先了解了解 前瞻性的问题，把握好学习的方向，2020.4.5 -之后这些也许又落伍了 - 理解：周虽旧邦，其命维新 的 发展规律
