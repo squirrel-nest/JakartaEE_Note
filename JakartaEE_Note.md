@@ -47,7 +47,43 @@
                     <i><b>✨ IntelliJ IDEA CE（ 社区版 ）</b></i>
                 </summary>
                 <ul type="disc">
-                    <li>✨ 
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 设置</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> - </li>
+                                    </ol>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Plugin 的 安装</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> - </li>
+                                    </ol>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
                     </li>
                 </ul>
             </details>
