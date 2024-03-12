@@ -69,13 +69,14 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ Plugin 的 安装</b></i>
+                                <i><b>✨ Plugin 的 设置</b></i>
                             </summary>
                             <a id="explanation-for-different-ver-in-diff-position"></a>
                             <ul type="disc">
                                 <li>
                                     <ol type="i">
-                                        <li> - </li>
+                                        <li> The Java Plugin </li>
+                                        <li> The War Plugin </li>
                                     </ol>
                                 </li>
                                 <li> - </li>
