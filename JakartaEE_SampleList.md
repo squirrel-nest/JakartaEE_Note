@@ -43,6 +43,7 @@
 
 # Sample for Tutorial
 ## 按顺序学习的教程与配套的例子
+  * [Kickstart a Jakarta EE 10 Application](https://hantsy.medium.com/kickstart-a-jakarta-ee-10-application-d579577af634)
   * [Jakarta EE 9 Hello World example application](http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-ee-9-hello-world-example-application/)
     - <details open>
           <summary>
