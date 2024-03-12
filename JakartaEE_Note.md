@@ -30,7 +30,40 @@
                 </ul>
             </details>
         </li>
+    </ul>
+</details>
 
+----
+
+<details open>
+    <summary>
+        <i><b>✨ 开发 工具</b></i>
+    </summary>
+    <ul type="disc">
+        <li>目前 主要 用 IntelliJ IDEA CE（ 社区版 ） 进行 开发 与 辅助编译， 只要 的 编译 手段 是 用 Gradle 后端 进行 编译，这样 会 灵活 一些，容易 控制 和 进行 错误 查找。</li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ IntelliJ IDEA CE（ 社区版 ）</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>✨ 
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨Visual Studio Code</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>✨ 辅助 的 开发 工具，也 很好用</li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
 
 # Java SE LearningNote --> [JavaSELearningNote.md](https://github.com/squirrel-nest/JavaSELearningNote/blob/master/JavaSE_Note.md)<br>
 # Jakarta EE 8 Reference
