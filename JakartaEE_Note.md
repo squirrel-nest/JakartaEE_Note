@@ -79,7 +79,7 @@
                                         <li> The War Plugin </li>
                                     </ol>
                                 </li>
-                                <li> - </li>
+                                <li> <a href="https://github.com/heroku/heroku-gradle-plugin">heroku/heroku-gradle-plugin</a> </li>
                                 <li> - </li>
                                 <li> - </li>
                                 <li> - </li>
@@ -96,6 +96,90 @@
                 </summary>
                 <ul type="disc">
                     <li>✨ 辅助 的 开发 工具，也 很好用</li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+----
+
+<details open>
+    <summary>
+        <i><b>✨ 开发 框架</b></i>
+    </summary>
+    <ul type="disc">
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Native 框架 - Jakarta EE</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 设置</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> - </li>
+                                    </ol>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Spring</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Spring 框架</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> - </li>
+                                    </ol>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Spring boot 轻量框架</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <a href="https://spring.pleiades.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/">Spring Boot Gradle プラグインリファレンスガイド</a>
+                                </li>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
                 </ul>
             </details>
         </li>
