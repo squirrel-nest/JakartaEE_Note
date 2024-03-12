@@ -8,6 +8,14 @@
         <li>
             <details open>
                 <summary>
+                    <i><b>✨ 项目 的 脉络</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+        </li>
+        <li>
+            <details open>
+                <summary>
                     <i><b>✨ 项目文件夹 路径</b></i>
                 </summary>
                 <ul type="disc">
