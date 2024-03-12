@@ -2,6 +2,8 @@
   * 临时
     + [Apache Camel REST step-by-step example](https://www.masterspringboot.com/camel/apache-camel-rest-example-for-beginners/)
     + [Using the Gradle build system in the Eclipse IDE - Tutorial](https://www.vogella.com/tutorials/EclipseGradle/article.html#google_vignette)
+    + [Vaadin Flow Quick Start](https://vaadin.com/docs/latest/guide/quick-start)
+    + [Eclipse Jetty Programming Guide](https://eclipse.dev/jetty/documentation/jetty-12/programming-guide/index.html)
 ## 开发 工具 和 环境 设置
 
 <details open>
