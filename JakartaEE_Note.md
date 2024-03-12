@@ -58,11 +58,6 @@
                             </summary>
                             <a id="explanation-for-different-ver-in-diff-position"></a>
                             <ul type="disc">
-                                <li>
-                                    <ol type="i">
-                                        <li> - </li>
-                                    </ol>
-                                </li>
                                 <li> - </li>
                                 <li> - </li>
                                 <li> - </li>
