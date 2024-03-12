@@ -80,7 +80,7 @@
                                     </ol>
                                 </li>
                                 <li> <a href="https://github.com/heroku/heroku-gradle-plugin">heroku/heroku-gradle-plugin</a> </li>
-                                <li> - </li>
+                                <li> <a href="https://github.com/bmuschko/gradle-tomcat-plugin">bmuschko/gradle-tomcat-plugin</a> </li>
                                 <li> - </li>
                                 <li> - </li>
                             </ul>
