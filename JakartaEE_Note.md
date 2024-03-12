@@ -310,10 +310,69 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ - </b></i>
+                    <i><b>✨ 创建 项目 的 步骤 </b></i>
                 </summary>
                 <ul type="disc">
-                    <li>✨  - </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨  新建 项目 的 方法 </b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ 完全 新建 一个 （空 或者 有 hello world界面）的 项目，然后 拷贝（添加）需要 的 依赖项 和 插件 的 方法</b></i>
+                                        </summary>
+                                        <a id="explanation-for-mysql-install-by-brew-mode" ></a>
+                                        <ul type="disc">
+                                            <li>
+                                                -
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ 手动 添加 文件 的 方法</b></i>
+                                        </summary>
+                                        <a id="explanation-for-mysql-install-by-brew-mode" ></a>
+                                        <ul type="disc">
+                                            <li>
+                                                -
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨  拷贝 （旧）项目 模版 的 方法</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ 手动 添加 文件 的 方法</b></i>
+                                        </summary>
+                                        <a id="explanation-for-mysql-install-by-brew-mode" ></a>
+                                        <ul type="disc">
+                                            <li>
+                                         
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
                 </ul>
             </details>
         </li>
