@@ -365,7 +365,7 @@
                                         <a id="explanation-for-mysql-install-by-brew-mode" ></a>
                                         <ul type="disc">
                                             <li>
-                                         
+                                                -
                                             </li>
                                         </ul>
                                     </details>
