@@ -91,7 +91,7 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨Visual Studio Code</b></i>
+                    <i><b>✨ Visual Studio Code</b></i>
                 </summary>
                 <ul type="disc">
                     <li>✨ 辅助 的 开发 工具，也 很好用</li>
@@ -158,10 +158,10 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨Visual Studio Code</b></i>
+                    <i><b>✨ - </b></i>
                 </summary>
                 <ul type="disc">
-                    <li>✨ 辅助 的 开发 工具，也 很好用</li>
+                    <li>✨  - </li>
                 </ul>
             </details>
         </li>
