@@ -39,7 +39,7 @@
     </ul>
 </details>
 
-## eclipse-ee4j/jakartaee-examples
+----
 
 <details open>
     <summary>
