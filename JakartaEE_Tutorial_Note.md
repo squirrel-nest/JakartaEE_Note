@@ -1,7 +1,69 @@
 
 # Jakarta EE Tutorial
+  * Jakarta EE Tutorial =-> https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html
+## 新 的 版本
 
-# 以下 为 旧版本 的 内容，不用看了！ -- Note：AsciiDoc 这个架构，一定 是 维护 太 复杂 困难，所以 被 放弃
+<details open>
+    <summary>
+        <i><b>✨ jakartaee/jakartaee-tutorial</b></i>
+    </summary>
+    <a id="mysql-install-and-config-for-mac-note"></a>
+    <ul type="disc">
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ 项目 所在 网址</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        Jakarta EE Tutorial Content --> <a href="https://github.com/jakartaee/jakartaee-tutorial?tab=readme-ov-file">jakartaee/jakartaee-tutorial</a>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ 项目 所在 网址</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        Jakarta EE Tutorial Content --> <a href="https://github.com/jakartaee/jakartaee-tutorial?tab=readme-ov-file">jakartaee/jakartaee-tutorial</a>
+                    </li>
+                    <li>
+                        Jakarta EE Tutorial UI --> <a href="https://github.com/jakartaee/jakartaee-documentation-ui">jakartaee/jakartaee-documentation-ui</a>
+                    </li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+## eclipse-ee4j/jakartaee-examples
+
+<details open>
+    <summary>
+        <i><b>✨ eclipse-ee4j/jakartaee-examples</b></i>
+    </summary>
+    <ul type="disc">
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ 项目 所在 网址</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        Jakarta EE Tutorial Content --> <a href="https://github.com/eclipse-ee4j/jakartaee-examples">Jakarta EE Examples -- eclipse-ee4j/jakartaee-examples</a>
+                    </li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+----
+
+## 以下 为 旧版本 的 内容，不用看了！ -- Note：AsciiDoc 这个架构，一定 是 维护 太 复杂 困难，所以 被 放弃
 
 <details open>
     <summary>
