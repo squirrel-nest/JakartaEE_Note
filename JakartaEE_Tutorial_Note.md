@@ -19,18 +19,6 @@
                     <li>
                         Jakarta EE Tutorial Content --> <a href="https://github.com/jakartaee/jakartaee-tutorial?tab=readme-ov-file">jakartaee/jakartaee-tutorial</a>
                     </li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ 项目 所在 网址</b></i>
-                </summary>
-                <ul type="disc">
-                    <li>
-                        Jakarta EE Tutorial Content --> <a href="https://github.com/jakartaee/jakartaee-tutorial?tab=readme-ov-file">jakartaee/jakartaee-tutorial</a>
-                    </li>
                     <li>
                         Jakarta EE Tutorial UI --> <a href="https://github.com/jakartaee/jakartaee-documentation-ui">jakartaee/jakartaee-documentation-ui</a>
                     </li>
