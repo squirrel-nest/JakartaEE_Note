@@ -1,6 +1,7 @@
 
 # Jakarta EE Tutorial
   * Jakarta EE Tutorial =-> https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html
+  * 可以在 页面 右上角 点击 Download 下载 PDF 文档。
 ## 新 的 版本
 
 <details open>
