@@ -376,6 +376,27 @@
 
 ----
 
+<details open>
+    <summary>
+        <i><b>✨ Deployment - 部署</b></i>
+    </summary>
+    <ul type="disc">
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ 部署到 Wildfly</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>✨ 笔记 参见：<a href="https://github.com/huarui0/WebServer_Note/tree/master">WebServer_Note</a> --> <a href="">Wildfly 的 笔记 （待改）</a>
+                    </li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+----
+
 # Java SE LearningNote --> [JavaSELearningNote.md](https://github.com/squirrel-nest/JavaSELearningNote/blob/master/JavaSE_Note.md)<br>
 # Jakarta EE 8 Reference
 ## 前瞻性 - 在开始Java EE 的学习旅程之前，先了解了解 前瞻性的问题，把握好学习的方向，2020.4.5 -之后这些也许又落伍了 - 理解：周虽旧邦，其命维新 的 发展规律
