@@ -35,6 +35,18 @@
                     <li>
                         <details open>
                             <summary>
+                                <i><b>✨ JAKARTA EE COMPATIBLE PRODUCTS</b></i>
+                            </summary>
+                            <ul type="disc">
+                                👉  ➡️  <a href="https://jakarta.ee/compatibility/">JAKARTA EE COMPATIBLE PRODUCTS</a>
+                            </ul>
+                        </details>
+                    </li>
+
+                    
+                    <li>
+                        <details open>
+                            <summary>
                                 <i><b>✨ 知识点 的 融合 与 贯通 - 用 xmind 图解</b></i>
                             </summary>
                             <ul type="disc">
