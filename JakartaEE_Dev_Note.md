@@ -24,74 +24,24 @@
                         </details>
                     </li>
                     <li>
-                        -
-                    </li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ MySQL Reference Manual 文档的下载</b></i>
-                </summary>
-                <a id="mysql-reference-download-note" ></a>
-                <ul type="disc">
-                    <li>如果网络通畅，则查看在线文档，更方便，并且，是：<br>
-                        ➡️ 👉 👉 最新版本：<a href="https://dev.mysql.com/doc/refman/8.3/en/">MySQL 8.3 Reference Manual</a>
-                    <li>
                         <details open>
                             <summary>
-                                <i><b>✨ 下载 位置（网址）</b></i>
+                                <i><b>✨ 最新 Jakarta EE Tutorial 在线文档</b></i>
                             </summary>
-                            <a id="source-for-mysql-reference-download" ></a>
                             <ul type="disc">
-                                <li>当前位置（网址）：<a href="https://docs.oracle.com/en-us/iaas/mysql-database/doc/supporting-documentation.html">Supporting Documentation</a>  -> <br><a href="https://dev.mysql.com/doc/refman/en/">MySQL Reference Manual</a></li>
-                                <li><a href="https://dev.mysql.com/doc/refman/en/">MySQL Documentation HomePage</a></li>
+                                👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a>
                             </ul>
                         </details>
                     </li>
-                    <li>
-                        <details open>
-                            <summary>
-                                <i><b>✨ 下载步骤</b></i>
-                            </summary>
-                            <a id="mysql-reference-download-step-by-step" ></a>
-                            <ol type="i">
-                                <li>打开 <a href="https://dev.mysql.com/doc/">MySQL Documentation HomePage</a></li>
-                                <li>下拉到 Browse MySQL Documentation by: Product</li>
-                                <li>找到 MySQL Server & MySQL Cluster</li>
-                                <li>点击 ➕</li>
-                                <li>选择要下载的版本，点击右边的 下载 符号</li>
-                                <li>文档打开后，右键菜单，选择，另存为</li>
-                                <li>选择保存位置，即可</li>
-                            </ol>
-                        </details>
-                    </li>
-                    <li>
-                        <details open>
-                            <summary>
-                                <i><b>✨ 注意事项 及 问题处理</b></i>
-                            </summary>
-                            <a id="note-and-troubleshooting-for-mysql-reference-download" ></a>
-                            <ol type="i">
-                                <li>需要登陆 oracle 账号</li>
-                                <li>关闭 VPN，否则会提示无权限</li>
-                            </ol>
-                        </details>
-                    </li>
                 </ul>
             </details>
         </li>
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ 安装</b></i>
+                    <i><b>✨ - </b></i>
                 </summary>
-                <a id="mysql-install-by-mode"></a>
                 <ul type="disc">
-                    <li>
-                        <a href="#mysql-install-and-config-for-mac-note">回到开头</a>
-                    </li>
                     <li>参考文档：<a href="https://dev.mysql.com/doc/refman/8.3/en/macos-installation.html">2.4 Installing MySQL on macOS</a></li>
                     <li>安装需要关注的一般注意事项，请 参阅：<a href="https://dev.mysql.com/doc/refman/8.3/en/macos-installation-notes.html">2.4.1 General Notes on Installing MySQL on macOS</a><br>
                         <ul>
@@ -102,7 +52,7 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ brew 的 安装方式</b></i> 👈 ✨ 不推荐，目前 推荐 <a href="#mysql-install-on-macos-using-native-packages">Native Packages 的 安装方式</a>，方便、快捷 ✨
+                                <i><b>✨ brew 的 安装方式</b></i>
                             </summary>
                             <a id="mysql-install-by-brew-mode" ></a>
                             <ul type="disc">
