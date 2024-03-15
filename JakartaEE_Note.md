@@ -255,7 +255,17 @@
                                 <li>
                                     <details open>
                                         <summary>
-                                            <i><b>✨  最旧 的 版本 所在 的 位置</b></i>
+                                            <i><b>✨ 参见： <a href="https://github.com/huarui0/WebServer_Note/blob/master/WebServer_Wildfly_Note.md">huarui0/WebServer_Note/WebServer_Wildfly_Note.md</a> </b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li> 这个 版本 也是 Deprecated，待 整合：<a href="https://github.com/huarui0/WebServer_Note/blob/master/WildFly%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md">huarui0/WebServer_Note/WildFly的安装与配置.md</a>
+                                            <li>
+                                                最旧的 版本：Linux（CentOS）的 <b>单服务器版</b> 安装 与 设置 参见：<a href="https://github.com/huarui0/WebServer_Note/blob/master/Wildfly/2_Note/1_1_0_Wildfly_Stantalone_Note_Centos.txt">1_1_0_Wildfly_Stantalone_Note_Centos.txt</a>
+                                            </li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ 附：最旧 的 版本 所在 的 位置</b></i>
                                         </summary>
                                         <ul type="disc">
                                             <li>
