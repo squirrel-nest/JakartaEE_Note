@@ -252,7 +252,27 @@
                                 <i><b>✨  Wildfly 的 安装 与 配置</b></i>
                             </summary>
                             <ul type="disc">
-                                <li> 参见：<a href="https://github.com/huarui0/WebServer_Note/blob/master/Wildfly/2_Note/%E5%8D%87%E7%BA%A7_%E8%AF%B4%E6%98%8E.txt">最旧的 升级 说明 </a> </li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨  最旧 的 版本 所在 的 位置</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                最旧的 版本：Linux（CentOS）的 <b>单服务器版</b> 安装 与 设置 参见：<a href="https://github.com/huarui0/WebServer_Note/blob/master/Wildfly/2_Note/1_1_0_Wildfly_Stantalone_Note_Centos.txt">1_1_0_Wildfly_Stantalone_Note_Centos.txt</a>
+                                            </li>
+                                            <li>
+                                                最旧的 版本：Linux（CentOS）的 <b>多服务器版（Domain版）</b> 安装 与 设置 参见：<a href="https://github.com/huarui0/WebServer_Note/blob/master/Wildfly/2_Note/1_1_1_Wildfly_DomainMode_Note_Centos.txt">1_1_1_Wildfly_DomainMode_Note_Centos.txt</a>
+                                            </li>
+                                            <li>
+                                                版本升级 的 最旧 版本 参见：<a href="https://github.com/huarui0/WebServer_Note/blob/master/Wildfly/2_Note/%E5%8D%87%E7%BA%A7_%E8%AF%B4%E6%98%8E.txt">最旧的 升级 说明 </a> 
+                                            </li>
+                                            <li>
+                                                最旧 的 Windows 版本 的 安装 与 设置 参见：<a href="https://github.com/huarui0/WebServer_Note/blob/master/Wildfly/2_Note/1_0_0_Wildfly_Stantalone_Note_Window.txt">1_0_0_Wildfly_Stantalone_Note_Window.txt</a> 
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
                             </ul>
                         </details>
                     </li>
