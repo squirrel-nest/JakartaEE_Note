@@ -35,7 +35,7 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ 知识点 的 融合 与 贯通 - 用 xming 图解</b></i>
+                                <i><b>✨ 知识点 的 融合 与 贯通 - 用 xmind 图解</b></i>
                             </summary>
                             <ul type="disc">
                                 <li> - </li>
@@ -52,29 +52,32 @@
                     <i><b>✨ - </b></i>
                 </summary>
                 <ul type="disc">
-                    <li>参考文档：<a href="https://dev.mysql.com/doc/refman/8.3/en/macos-installation.html">2.4 Installing MySQL on macOS</a></li>
-                    <li>安装需要关注的一般注意事项，请 参阅：<a href="https://dev.mysql.com/doc/refman/8.3/en/macos-installation-notes.html">2.4.1 General Notes on Installing MySQL on macOS</a><br>
+                    <li> - <br>
                         <ul>
-                            <li>可以先按照 <a href="#mysql-install-on-macos-using-native-packages">2.4.2 Installing MySQL on macOS Using Native Packages</a> 的步骤 进行 安装，后续，再 看看 注意事项</li>
-                            <li>如果要用 其它的 方式 按照，则 需要 先 看看 这个 一般性注意事项</li>
+                            <li> 
+                                -
+                            </li>
+                            <li>
+                                -
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ brew 的 安装方式</b></i>
+                                <i><b>✨ - </b></i>
                             </summary>
-                            <a id="mysql-install-by-brew-mode" ></a>
                             <ul type="disc">
                                 <li>
                                     <details open>
                                         <summary>
-                                            <i><b>✨ brew 安装 说明</b></i>
+                                            <i><b>✨ -</b></i>
                                         </summary>
-                                        <a id="explanation-for-mysql-install-by-brew-mode" ></a>
                                         <ul type="disc">
-                                            <li>brew 安装 不是 最新 版</li>
-                                            <li>因 与 mariadb 及 percona-server 同时 安装 会有 冲突
+                                            <li>
+                                                -
+                                            </li>
+                                            <li> -
                                                 <pre><code> Conflicts with:
 mariadb (because mysql, mariadb, and percona install the same binaries)
 percona-server (because mysql, mariadb, and percona install the same binaries)</code></pre>
@@ -82,14 +85,18 @@ percona-server (because mysql, mariadb, and percona install the same binaries)</
                                             <li>
                                                 <details open>
                                                     <summary>
-                                                        <i><b>✨ brew 安装 注意事项：</b></i>
+                                                        <i><b>✨ -
+                                                        </b></i>
                                                     </summary>
-                                                    <a id="mysql-install-with-brew-note" ></a>
                                                     <ul type="disc">
                                                         <li>We've installed your MySQL database without a root password. To secure it run:
-                                                            <pre><code>mysql_secure_installation</code></pre>
+                                                            <pre><code>
+                                                                -
+                                                            </code></pre>
                                                         </li>
-                                                        <li>MySQL is configured to only allow connections from localhost by default</li>
+                                                        <li>
+                                                            -
+                                                        </li>
                                                         <li>To connect run:
                                                             <pre><code>mysql -uroot</code></pre>
                                                         </li>
@@ -105,3 +112,13 @@ percona-server (because mysql, mariadb, and percona install the same binaries)</
                                         </ul>
                                     </details>
                                 </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+----
