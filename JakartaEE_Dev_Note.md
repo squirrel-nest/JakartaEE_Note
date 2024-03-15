@@ -15,21 +15,31 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ 知识点 结合 例子</b></i>
+                                <i><b>✨ 最新 Jakarta EE Tutorial 在线文档</b></i>
                             </summary>
                             <ul type="disc">
-                                <li> - </li>
-                                <li> - </li>
+                                👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a>
                             </ul>
                         </details>
                     </li>
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ 最新 Jakarta EE Tutorial 在线文档</b></i>
+                                <i><b>✨ 最新 JAKARTA EE SPECIFICATIONS 在线文档</b></i>
                             </summary>
                             <ul type="disc">
-                                👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a>
+                                👉  ➡️  <a href="https://jakarta.ee/specifications/">JAKARTA EE SPECIFICATIONS</a>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 知识点 的 融合 与 贯通 - 用 xming 图解</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li> - </li>
+                                <li> - </li>
                             </ul>
                         </details>
                     </li>
