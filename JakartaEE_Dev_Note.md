@@ -15,11 +15,11 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ 最新 Jakarta EE Tutorial 在线文档</b></i>
+                                <i><b>✨ Jakarta EE Tutorial 在线文档</b></i>
                             </summary>
                             <ul type="disc">
                                 <li>
-                                    👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a>
+                                    最新 网址：👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a>
                                 </li>
                             </ul>
                         </details>
@@ -27,11 +27,11 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ 最新 JAKARTA EE SPECIFICATIONS 在线文档</b></i>
+                                <i><b>✨ JAKARTA EE SPECIFICATIONS 在线文档</b></i>
                             </summary>
                             <ul type="disc">
                                 <li>
-                                    👉  ➡️  <a href="https://jakarta.ee/specifications/">JAKARTA EE SPECIFICATIONS</a>
+                                    最新 网址：👉  ➡️  <a href="https://jakarta.ee/specifications/">JAKARTA EE SPECIFICATIONS</a>
                                 </li>
                             </ul>
                         </details>
@@ -43,7 +43,8 @@
                             </summary>
                             <ul type="disc">
                                 <li>
-                                    👉  ➡️  <a href="https://jakarta.ee/compatibility/">JAKARTA EE COMPATIBLE PRODUCTS</a>
+                                    最新 网址：👉  ➡️  <a href="https://jakarta.ee/compatibility/">JAKARTA EE COMPATIBLE PRODUCTS</a><br>
+                                    所谓 兼容产品，也就是 支持 Jakarta EE 的 平台，或者 说 支持 Jakarta EE 的 服务器 平台。
                                 </li>
                             </ul>
                         </details>
