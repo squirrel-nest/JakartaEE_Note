@@ -18,7 +18,9 @@
                                 <i><b>✨ 最新 Jakarta EE Tutorial 在线文档</b></i>
                             </summary>
                             <ul type="disc">
-                                👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a>
+                                <li>
+                                    👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a>
+                                </li>
                             </ul>
                         </details>
                     </li>
@@ -28,7 +30,9 @@
                                 <i><b>✨ 最新 JAKARTA EE SPECIFICATIONS 在线文档</b></i>
                             </summary>
                             <ul type="disc">
-                                👉  ➡️  <a href="https://jakarta.ee/specifications/">JAKARTA EE SPECIFICATIONS</a>
+                                <li>
+                                    👉  ➡️  <a href="https://jakarta.ee/specifications/">JAKARTA EE SPECIFICATIONS</a>
+                                </li>
                             </ul>
                         </details>
                     </li>
@@ -38,12 +42,12 @@
                                 <i><b>✨ JAKARTA EE COMPATIBLE PRODUCTS</b></i>
                             </summary>
                             <ul type="disc">
-                                👉  ➡️  <a href="https://jakarta.ee/compatibility/">JAKARTA EE COMPATIBLE PRODUCTS</a>
+                                <li>
+                                    👉  ➡️  <a href="https://jakarta.ee/compatibility/">JAKARTA EE COMPATIBLE PRODUCTS</a>
+                                </li>
                             </ul>
                         </details>
                     </li>
-
-                    
                     <li>
                         <details open>
                             <summary>
