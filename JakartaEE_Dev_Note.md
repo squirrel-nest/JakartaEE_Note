@@ -9,27 +9,17 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ </b></i>
+                    <i><b>✨ <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a> - 作为 脉络</b></i>
                 </summary>
                 <ul type="disc">
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ 关于几个 不同位置 版本 的 说明</b></i>
+                                <i><b>✨ 知识点 结合 例子</b></i>
                             </summary>
-                            <a id="explanation-for-different-ver-in-diff-position"></a>
                             <ul type="disc">
-                                <li>huarui0 和 squirrel-nest 两个 账号的 MySQL_Note 出现了 不一致的 情况，需要 合并 起来，另一个 fellow 就可以,两个 链接地址如下：<br>
-                                    huarui0: <a href="https://github.com/huarui0/MySQL_Note/tree/master">huarui0/MySQL_Note</a>;<br>
-                                    squirrel-nest: <a href="https://github.com/huarui0/MySQL_Note/tree/master">squirrel-nest/MySQLLearningNotes</a> -- MySQLLearningNotes 需要更名为：MySQL_Note<br>
-                                    <ol type="i">
-                                        <li>squirrel-nest 中 有 一个 01_SampleScript 文件夹， huarui0 中没有,需要将 squirrel-nest 中 的 拷到  huarui0 中</li>
-                                    </ol>
-                                </li>
-                                <li><a href="https://github.com/huarui0/MySQL_Note/blob/master/MySQL_Note.md">huarui0/MySQL_Note/MySQL_Note.md</a> - 这个版本是 包括 Window 操作系统 和 MacOS 以及 Linux 操作 系统 的 笔记，是最新整理过的，可以以这个版本为蓝本 进行 整理，然后，将 MacOS 部分，整理到这个文档，并建立链接 即可。</li>
-                                <li><a href="https://github.com/squirrel-nest/MySQLLearningNotes/blob/master/MySQLLearningNote_squirrel.md">squirrel-nest/MySQLLearningNotes/MySQLLearningNote_squirrel.md</a> - 这个版本是jinyi学习安装和设置时的笔记</li>
-                                <li><a href="https://github.com/squirrel-nest/MySQLLearningNotes/blob/master/MySQLLearningNote.md">squirrel-nest/MySQLLearningNotes/MySQLLearningNote.md</a> - 这个版本是拷贝自 huarui0/MySQL_Note/MySQL_Note.md 可以删除</li>
-                                <li><a href="https://github.com/squirrel-nest/MySQLLearningNotes/blob/master/MySQLLearningNote_huarui0.md">squirrel-nest/MySQLLearningNotes/MySQLLearningNote_huarui0.md</a> - 这个版本是拷贝自 huarui0/MySQL_Note/MySQL_Note.md 可以删除</li>
+                                <li> - </li>
+                                <li> - </li>
                             </ul>
                         </details>
                     </li>
