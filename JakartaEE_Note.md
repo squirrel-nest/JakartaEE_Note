@@ -243,10 +243,19 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ - </b></i>
+                    <i><b>✨ Web Server 的 安装 与 设置 </b></i>
                 </summary>
                 <ul type="disc">
-                    <li>✨  - </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨  Wildfly 的 安装 与 配置</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li> 参见：<a href="https://github.com/huarui0/WebServer_Note/blob/master/Wildfly/2_Note/%E5%8D%87%E7%BA%A7_%E8%AF%B4%E6%98%8E.txt">最旧的 升级 说明 </a> </li>
+                            </ul>
+                        </details>
+                    </li>
                 </ul>
             </details>
         </li>
@@ -315,7 +324,6 @@
                             </summary>
                             <a id="explanation-for-different-ver-in-diff-position"></a>
                             <ul type="disc">
-                                <li>
                                 <li>
                                     <details open>
                                         <summary>
