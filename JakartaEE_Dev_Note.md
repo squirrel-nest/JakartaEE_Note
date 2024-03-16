@@ -56,7 +56,9 @@
                             </summary>
                             <ul type="disc">
                                 <li> 如何 从 代码 查询 最 精确 的 知识 点 的 （权威）资料 </li>
-                                <li> - </li>
+                                <li> 比如：inject 的 概念，如何 理解 和 学习<br>
+                                    <img width="1708" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/31cbbb2c-18cc-4d4c-881f-8e0561192e26">
+                                </li>
                             </ul>
                         </details>
                     </li>
