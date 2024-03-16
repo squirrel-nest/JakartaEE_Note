@@ -66,18 +66,29 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ - </b></i>
+                    <i><b>✨ Sample / Examples</b></i>
                 </summary>
                 <ul type="disc">
-                    <li> - <br>
-                        <ul>
-                            <li> 
-                                -
-                            </li>
-                            <li>
-                                -
-                            </li>
-                        </ul>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ - </b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ Jakarta EE Tutorial Examples</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <a href="https://github.com/eclipse-ee4j/jakartaee-examples/tree/main">eclipse-ee4j/jakartaee-examples</a>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                            </ul>
+                        </details>
                     </li>
                     <li>
                         <details open>
@@ -92,7 +103,7 @@
                                         </summary>
                                         <ul type="disc">
                                             <li>
-                                                -
+                                                <a href="https://github.com/eclipse-ee4j/jakartaee-examples/tree/main">eclipse-ee4j/jakartaee-examples</a>
                                             </li>
                                             <li> -
                                                 <pre><code> Conflicts with:
