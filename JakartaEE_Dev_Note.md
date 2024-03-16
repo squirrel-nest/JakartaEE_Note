@@ -9,17 +9,17 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a> - 作为 脉络</b></i>
+                    <i><b>✨ 在线文档</b></i> - 「以 <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a> 作为 脉络，贯穿 知识 体系」
                 </summary>
                 <ul type="disc">
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ Jakarta EE Tutorial 在线文档</b></i>
+                                <i><b>✨ 最新 网址：👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a></b></i>
                             </summary>
                             <ul type="disc">
                                 <li>
-                                    最新 网址：👉  ➡️  <a href="https://jakartaee.github.io/jakartaee-documentation/jakartaee-tutorial/current/index.html">Jakarta EE Tutorial</a>
+                                    -
                                 </li>
                             </ul>
                         </details>
