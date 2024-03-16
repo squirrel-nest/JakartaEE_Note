@@ -19,7 +19,7 @@
                             </summary>
                             <ul type="disc">
                                 <li>
-                                    -
+                                    Jakarta EE Tutorial Examples codes are located at <a href="https://github.com/eclipse-ee4j/jakartaee-examples">https://github.com/eclipse-ee4j/jakartaee-examples</a>
                                 </li>
                             </ul>
                         </details>
