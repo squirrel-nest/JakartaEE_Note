@@ -291,7 +291,7 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ Jakarta EE 相关 的 教程（临时）</b></i>
+                    <i><b>✨ Jakarta EE 相关 的 教程（临时） - 暂时 不看</b></i>
                 </summary>
                 <ul type="disc">
                     <li>
@@ -312,7 +312,35 @@
                                         </ul>
                                     </details>
                                 </li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ Various Logging Levels in Hibernate</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <a href="https://www.baeldung.com/hibernate-logging-levels">Various Logging Levels in Hibernate</a>
+                                            </li>
+                                        </ul>
                                     </details>
+                                </li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ WildFly with Eclipse – Installation and Setup</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <a href="https://www.baeldung.com/eclipse-wildfly-configuration">WildFly with Eclipse – Installation and Setup</a>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <a href="https://stackoverflow.com/questions/75998950/wildfly-change-log-level-runtime-stop-working-when-deploy-springboot-application">Wildfly change log level runtime stop working when deploy springboot application</a>
+                                </li>
+                                <li>
+                                    <a href="https://stackoverflow.com/questions/77051878/hibernate-debug-trace-logging-when-both-logback-and-log4j-are-in-classpath">Hibernate debug/trace logging when both logback and log4j are in classpath</a> -- wildfly 30 how to enable DEBUG logging to see the full error.
                                 </li>
                             </ul>
                         </details>
