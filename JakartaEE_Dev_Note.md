@@ -141,6 +141,9 @@
                                                         <li>本地 目录 位置：
                                                             <pre><code>/Users/Codes/JakartaEEProjects/02_DemoCode/Wildfly/quickstart</code></pre>
                                                         </li>
+                                                        <li>
+                                                            配套 文档：<a href="https://docs.wildfly.org/31/Quickstarts.html">WildFly Quickstarts</a>
+                                                        </li>
                                                     </ul>
                                                 </details>
                                             </li>
