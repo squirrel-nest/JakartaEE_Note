@@ -351,7 +351,7 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ 教程 - 调试 与 错误 追踪 - debug and trace logging tutorial -- 临时，待 归类</b></i>
+                    <i><b>✨ 调试 / 错误追（跟）踪 与 日志 - debug and trace logging tutorial -- 临时，待 归类</b></i>
                 </summary>
                 <ul type="disc">
                     <li>
