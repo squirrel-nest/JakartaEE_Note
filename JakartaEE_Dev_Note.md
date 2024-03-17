@@ -86,7 +86,7 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ - </b></i>
+                                <i><b>✨ Jakarta EE Tutorial 官方 的 Sample </b></i>
                             </summary>
                             <ul type="disc">
                                 <li>
@@ -97,6 +97,18 @@
                                         <ul type="disc">
                                             <li>
                                                 <a href="https://github.com/eclipse-ee4j/jakartaee-examples/tree/main">eclipse-ee4j/jakartaee-examples</a>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ Jakarta EE Tutorial Examples</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <a href="https://github.com/eclipse-ee4j/glassfish-samples/tree/master">eclipse-ee4j/glassfish-samples</a>
                                             </li>
                                         </ul>
                                     </details>
