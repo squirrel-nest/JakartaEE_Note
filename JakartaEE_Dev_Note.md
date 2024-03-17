@@ -351,6 +351,74 @@
         <li>
             <details open>
                 <summary>
+                    <i><b>✨ 调试 与 日志 - Debug and Logging</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        分为 两种类型：本地（local）：（代码的方法） 和 云端（服务器端）（设置的方法）
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 云端（服务器端）（设置的方法）</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    ✨ 这部分 参见 各个 服务器 端 的 设置
+                                </li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ Wildfly 服务器端 的 设置</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>这部分 要 迁移 到 WebServer_Wildfly_Dev_Note.md 中<br>
+                                                参见：WebServer_Wildfly_Dev_Note.md 中 的 。。。
+                                            </li>
+                                            <li>
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ Hibernate</b></i>
+                                                    </summary>
+                                                    <ul type="disc">
+                                                        <li>
+                                                            <details open>
+                                                                <summary>
+                                                                    <i><b>✨ 设置 内容</b></i>
+                                                                </summary>
+                                                                <ol type="1">
+                                                                    <li>
+                                                                        -
+                                                                    </li>
+                                                                </ol>
+                                                            </details>
+                                                        </li>
+                                                        <li>
+                                                            教程：<a href="https://www.baeldung.com/hibernate-logging-levels">Various Logging Levels in Hibernate</a>
+                                                            <details open>
+                                                                <summary>
+                                                                    <i><b>✨ 截图：</b></i>
+                                                                </summary>
+                                                                <ol type="1">
+                                                                    <li>
+                                                                        <img width="1202" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/5f12090b-7689-49e0-b87c-af83200bd667">
+                                                                    </li>
+                                                                </ol>
+                                                            </details>
+                                                        </li>
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+        </li>
+        <li>
+            <details open>
+                <summary>
                     <i><b>✨ 调试 / 错误追（跟）踪 与 日志 - debug and trace logging tutorial -- 临时，待 归类</b></i>
                 </summary>
                 <ul type="disc">
