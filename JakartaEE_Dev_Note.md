@@ -388,7 +388,10 @@
                                                                 </summary>
                                                                 <ol type="1">
                                                                     <li>
-                                                                        -
+                                                                        <a href="https://www.baeldung.com/hibernate-logging-levels#sql">Logging SQL</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.baeldung.com/hibernate-logging-levels#parameters">Logging Parameter Values</a>
                                                                     </li>
                                                                 </ol>
                                                             </details>
