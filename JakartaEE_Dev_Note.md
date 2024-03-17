@@ -86,13 +86,13 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ Jakarta EE Tutorial 官方 的 Sample </b></i>
+                                <i><b>✨ Jakarta EE 官方 的 Sample </b></i>
                             </summary>
                             <ul type="disc">
                                 <li>
                                     <details open>
                                         <summary>
-                                            <i><b>✨ Jakarta EE Tutorial Examples</b></i>
+                                            <i><b>✨ Jakarta EE Examples （Include Jakarta EE Tutorial Examples）</b></i>
                                         </summary>
                                         <ul type="disc">
                                             <li>
@@ -104,7 +104,7 @@
                                 <li>
                                     <details open>
                                         <summary>
-                                            <i><b>✨ Jakarta EE Tutorial Examples</b></i>
+                                            <i><b>✨ GlassFish Samples for Jakarta EE</b></i>
                                         </summary>
                                         <ul type="disc">
                                             <li>
@@ -119,7 +119,7 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ - </b></i>
+                                <i><b>✨  </b></i>
                             </summary>
                             <ul type="disc">
                                 <li>
