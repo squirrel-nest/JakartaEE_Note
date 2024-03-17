@@ -150,6 +150,40 @@
                     <li>
                         <details open>
                             <summary>
+                                <i><b>✨ Spring 框架 的 例子</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ Resteasy Spring Examples</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ GitHub 上 的 例子
+                                                        </b></i>
+                                                    </summary>
+                                                    <ul type="disc">
+                                                        <li>
+                                                            <a href="https://github.com/resteasy/resteasy-spring-examples">resteasy/resteasy-spring-examples</a>
+                                                        </li>
+                                                        <li>本地 目录 位置：
+                                                            <pre><code> - </code></pre>
+                                                        </li>
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
                                 <i><b>✨ 其它 平台 的 例子</b></i>
                             </summary>
                             <ul type="disc">
@@ -184,6 +218,9 @@
                             </ul>
                         </details>
                     </li>
+
+
+                    https://github.com/resteasy/resteasy-spring-examples
                     <li>
                         <details open>
                             <summary>
@@ -202,6 +239,22 @@
                                             <li>
                                                 <a href="https://github.com/upc-is/dps-demoweb6">upc-is/dps-demoweb6</a>
                                             </li>
+                                            <li>
+                                                <a href="https://github.com/gpbonillas/hello-world-jakartaee9">gpbonillas/hello-world-jakartaee9</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/chacenb/jakartaEE10_JAX-RS_RestAPI/tree/main">chacenb/jakartaEE10_JAX-RS_RestAPI</a>
+                                            </li>
+
+                                            
+                                            <li>
+                                                <a href="https://github.com/upc-is/dps-demoweb6">upc-is/dps-demoweb6</a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="https://github.com/upc-is/dps-demoweb6">upc-is/dps-demoweb6</a>
+                                            </li>
+                                            
                                         </ul>
                                     </details>
                                 </li>
