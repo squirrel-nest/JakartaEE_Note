@@ -119,30 +119,25 @@
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨  </b></i>
+                                <i><b>✨ 其它 平台 的 例子</b></i>
                             </summary>
                             <ul type="disc">
                                 <li>
                                     <details open>
                                         <summary>
-                                            <i><b>✨ -</b></i>
+                                            <i><b>✨ Wildfly Samples</b></i>
                                         </summary>
                                         <ul type="disc">
                                             <li>
-                                                <a href="https://github.com/eclipse-ee4j/jakartaee-examples/tree/main">eclipse-ee4j/jakartaee-examples</a>
-                                            </li>
-                                            <li> -
-                                                <pre><code> Conflicts with:
-mariadb (because mysql, mariadb, and percona install the same binaries)
-percona-server (because mysql, mariadb, and percona install the same binaries)</code></pre>
-                                            </li>
-                                            <li>
                                                 <details open>
                                                     <summary>
-                                                        <i><b>✨ -
+                                                        <i><b>✨ Wildfly QuickStart Samples
                                                         </b></i>
                                                     </summary>
                                                     <ul type="disc">
+                                                        <li>
+                                                            <a href="https://github.com/eclipse-ee4j/glassfish-samples/tree/master">wildfly/quickstart</a>
+                                                        </li>
                                                         <li>We've installed your MySQL database without a root password. To secure it run:
                                                             <pre><code>
                                                                 -
