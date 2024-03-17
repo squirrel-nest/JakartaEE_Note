@@ -270,16 +270,12 @@
                                             <li>
                                                 <a href="https://github.com/chacenb/jakartaEE10_JAX-RS_RestAPI/tree/main">chacenb/jakartaEE10_JAX-RS_RestAPI</a>
                                             </li>
-
-                                            
                                             <li>
-                                                <a href="https://github.com/upc-is/dps-demoweb6">upc-is/dps-demoweb6</a>
+                                                <a href="https://stackoverflow.com/questions/35462401/wildfly-management-list-detect-rest-endpoints-deployed-in-wildfly">WildFly management - list/detect REST endpoints deployed in WildFly</a>
                                             </li>
-                                            
                                             <li>
-                                                <a href="https://github.com/upc-is/dps-demoweb6">upc-is/dps-demoweb6</a>
+                                                <a href="https://stackoverflow.com/questions/35462401/wildfly-management-list-detect-rest-endpoints-deployed-in-wildfly">Make Bulk rest calls to an API</a>
                                             </li>
-                                            
                                         </ul>
                                     </details>
                                 </li>
