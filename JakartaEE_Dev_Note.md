@@ -44,14 +44,10 @@
                             <ul type="disc">
                                 <li> 因 每个 分类 独立， 故 分开 列出</li>
                                 <li>faces/4.0/apidocs ：<br>
-                                    👉  ➡️  <a href="https://jakarta.ee/specifications/faces/4.0/apidocs/">   https://jakarta.ee/specifications/faces/4.0/apidocs/   Jakarta Faces API documentation</a>
+                                    👉  ➡️  <a href="https://jakarta.ee/specifications/faces/4.0/apidocs/">specifications/faces/4.0/apidocs/Jakarta Faces API documentation</a>
                                 </li>
                             </ul>
                         </details>
-
-
-
-                        https://jakarta.ee/specifications/faces/4.0/apidocs/
                     </li>
                     <li>
                         <details open>
