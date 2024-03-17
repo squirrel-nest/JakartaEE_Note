@@ -138,22 +138,8 @@
                                                         <li>
                                                             <a href="https://github.com/eclipse-ee4j/glassfish-samples/tree/master">wildfly/quickstart</a>
                                                         </li>
-                                                        <li>We've installed your MySQL database without a root password. To secure it run:
-                                                            <pre><code>
-                                                                -
-                                                            </code></pre>
-                                                        </li>
-                                                        <li>
-                                                            -
-                                                        </li>
-                                                        <li>To connect run:
-                                                            <pre><code>mysql -uroot</code></pre>
-                                                        </li>
-                                                        <li>To restart mysql after an upgrade:
-                                                            <pre><code>brew services restart mysql</code></pre>
-                                                        </li>
-                                                        <li>Or, if you don't want/need a background service you can just run:
-                                                            <pre><code>/opt/homebrew/opt/mysql/bin/mysqld_safe --datadir=/opt/homebrew/var/mysql</code></pre>
+                                                        <li>本地 目录 位置：
+                                                            <pre><code>/Users/Codes/JakartaEEProjects/02_DemoCode/Wildfly/quickstart</code></pre>
                                                         </li>
                                                     </ul>
                                                 </details>
