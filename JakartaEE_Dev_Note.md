@@ -215,12 +215,37 @@
                                         </ul>
                                     </details>
                                 </li>
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ RESTEasy Examples</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨  An Implementation of the Jakarta RESTful Web Services Specification
+                                                        </b></i>
+                                                    </summary>
+                                                    <ul type="disc">
+                                                        <li>
+                                                            <a href="https://github.com/resteasy/resteasy/tree/main">An Implementation of the Jakarta RESTful Web Services Specification</a>
+                                                        </li>
+                                                        <li>本地 目录 位置：
+                                                            <pre><code> - </code></pre>
+                                                        </li>
+                                                        <li>
+                                                            配套 文档：<a href="https://resteasy.dev">RESTEasy， a JBoss.org project </a>
+                                                        </li>
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
                             </ul>
                         </details>
                     </li>
-
-
-                    https://github.com/resteasy/resteasy-spring-examples
                     <li>
                         <details open>
                             <summary>
