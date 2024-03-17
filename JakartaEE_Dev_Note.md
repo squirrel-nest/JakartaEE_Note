@@ -76,10 +76,28 @@
                                         </summary>
                                         <ul type="circle">
                                             <li>
-                                                <img width="1708" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/31cbbb2c-18cc-4d4c-881f-8e0561192e26">
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ 例图：</b></i>
+                                                    </summary>
+                                                    <ul type="disc">
+                                                        <li>
+                                                            <img width="1708" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/31cbbb2c-18cc-4d4c-881f-8e0561192e26">
+                                                        </li>
+                                                    </ul>
+                                                </details>
                                             </li>
-                                            <li>Injection 需要 的 预备知识<br>
-                                                <img width="1709" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/e4dd2803-2681-480d-abe3-54872f9d09dd">
+                                            <li>
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ Injection 需要 的 预备知识</b></i>
+                                                    </summary>
+                                                    <ul type="disc">
+                                                        <li>
+                                                            <img width="1709" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/e4dd2803-2681-480d-abe3-54872f9d09dd">
+                                                        </li>
+                                                    </ul>
+                                                </details>
                                             </li>
                                         </ul>
                                     </details>
