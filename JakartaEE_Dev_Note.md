@@ -403,6 +403,9 @@
                                                                     <li>
                                                                         <img width="1202" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/5f12090b-7689-49e0-b87c-af83200bd667">
                                                                     </li>
+                                                                    <li>下载 这个 工具
+                                                                        <img width="1161" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/21648320-cacf-44ce-b367-20a676de6255">
+                                                                    </li>
                                                                 </ol>
                                                             </details>
                                                         </li>
