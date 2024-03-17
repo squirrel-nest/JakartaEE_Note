@@ -160,6 +160,9 @@
                                         </summary>
                                         <ul type="disc">
                                             <li>
+                                                <a href="https://docs.wildfly.org/31/Developer_Guide.html#resteasy-spring-framework-integration">15.4. RESTEasy Spring Framework Integration</a>
+                                            </li>
+                                            <li>
                                                 <details open>
                                                     <summary>
                                                         <i><b>✨ GitHub 上 的 例子
