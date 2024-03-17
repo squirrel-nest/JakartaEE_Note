@@ -184,6 +184,27 @@
                             </ul>
                         </details>
                     </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ GitHub 上 的 例子</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ jakartaee-rest-sample</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <a href="https://github.com/wildfly/quickstart">hantsy/jakartaee-rest-sample</a>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
                 </ul>
             </details>
         </li>
