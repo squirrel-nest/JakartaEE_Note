@@ -288,6 +288,38 @@
                 </ul>
             </details>
         </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Jakarta EE 相关 的 教程（临时）</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Spring Boot applications </b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    <details open>
+                                        <summary>
+                                            <i><b>✨ How to run Spring Boot applications on WildFly</b></i>
+                                        </summary>
+                                        <ul type="disc">
+                                            <li>
+                                                <a href="https://www.mastertheboss.com/jboss-frameworks/spring/spring-boot-hello-world-on-wildfly/">How to run Spring Boot applications on WildFly</a>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                    </details>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
     </ul>
 </details>
 
