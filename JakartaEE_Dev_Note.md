@@ -199,6 +199,9 @@
                                             <li>
                                                 <a href="https://github.com/wildfly/quickstart">hantsy/jakartaee-rest-sample</a>
                                             </li>
+                                            <li>
+                                                <a href="https://github.com/upc-is/dps-demoweb6">upc-is/dps-demoweb6</a>
+                                            </li>
                                         </ul>
                                     </details>
                                 </li>
