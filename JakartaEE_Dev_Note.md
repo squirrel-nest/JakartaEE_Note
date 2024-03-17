@@ -39,6 +39,23 @@
                     <li>
                         <details open>
                             <summary>
+                                <i><b>✨ JAKARTA EE API 在线文档 - API documentation</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li> 因 每个 分类 独立， 故 分开 列出</li>
+                                <li>faces/4.0/apidocs ：<br>
+                                    👉  ➡️  <a href="https://jakarta.ee/specifications/faces/4.0/apidocs/">   https://jakarta.ee/specifications/faces/4.0/apidocs/   Jakarta Faces API documentation</a>
+                                </li>
+                            </ul>
+                        </details>
+
+
+
+                        https://jakarta.ee/specifications/faces/4.0/apidocs/
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
                                 <i><b>✨ JAKARTA EE COMPATIBLE PRODUCTS</b></i>
                             </summary>
                             <ul type="disc">
