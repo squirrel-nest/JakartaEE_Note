@@ -136,7 +136,7 @@
                                                     </summary>
                                                     <ul type="disc">
                                                         <li>
-                                                            <a href="https://github.com/eclipse-ee4j/glassfish-samples/tree/master">wildfly/quickstart</a>
+                                                            <a href="https://github.com/wildfly/quickstart">wildfly/quickstart</a>
                                                         </li>
                                                         <li>本地 目录 位置：
                                                             <pre><code>/Users/Codes/JakartaEEProjects/02_DemoCode/Wildfly/quickstart</code></pre>
