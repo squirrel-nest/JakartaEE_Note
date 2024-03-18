@@ -529,7 +529,7 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
             * Task Service Eaxmple - Soap 1.2 RPC Style
                + WSDL
                   - rpc style
-                     * http://localhost:8088/lzjaxwsweb9/TaskServiceImpl?wsdl 注：这个是部署到Wildfly上的。。。，Local看clinet中的说明
+                     * http://localhost:8088/lzjaxwsweb9/TaskServiceImpl?wsdl 注：这个是部署到Wildfly上的。。。，Local看client中的说明
                + SOAP 说明
                   - soap 1.2
                + 后端架构
