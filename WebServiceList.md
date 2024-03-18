@@ -516,11 +516,11 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + [http://localhost:8088/lzjaxwsweb9/calculator-my.jsp](http://localhost:8088/lzjaxwsweb9/calculator-my.jsp) --><br>
+                        + [http://localhost:8088/lzjaxwsweb9/calculator-my.jsp](http://localhost:8088/lzjaxwsweb9/jaxws-calculator-my.jsp) --><br>
                            - --> []()<br>
                         + Path：
-                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my.jsp
-                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/calculator-my-response.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/jaxws-calculator-my.jsp
+                           - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/jaxws-calculator-my-response.jsp
                         
                   - Client 实现
 
