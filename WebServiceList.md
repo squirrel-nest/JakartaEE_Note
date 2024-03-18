@@ -516,7 +516,7 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
                + 前端实现 - Front End - 界面
                   - Web 实现
                      * 方法1：html界面
-                        + [http://localhost:8088/lzjaxwsweb9/calculator-my.jsp](http://localhost:8088/lzjaxwsweb9/jaxws-calculator-my.jsp) --><br>
+                        + [http://localhost:8088/lzjaxwsweb9/jaxws-calculator-my.jsp](http://localhost:8088/lzjaxwsweb9/jaxws-calculator-my.jsp) --><br>
                            - --> []()<br>
                         + Path：
                            - lzdata-ee-9-gdev/lzdata-ee8-jaxwsweb/src/main/webapp/jaxws-calculator-my.jsp
@@ -566,10 +566,8 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
                            1. 上传war文件到服务器端
                            2. 将 QName设置指向服务器端
                            3. 再执行：com.lzsoft.lzdata.webservice.jaxws.taskservice.TodolistApplicationSOAPPublisherClient
-
-
-
-
+                           4. 执行结果：
+                              <img width="1155" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/533167ee-9f45-486a-9299-0e413332da40">
             * EmployeeService Service Eaxmple - Soap 1.2 RPC Style
             * LoginService Service Eaxmple - Soap 1.2 RPC Style
             * OrderService Service Eaxmple - Soap 1.2 RPC Style
