@@ -473,11 +473,11 @@ to check if you don't have multiple SLF4J implementations, check the standard er
                     <li>
                         <details open>
                             <summary>
-                                <i><b>✨ </b></i>
+                                <i><b>✨ 更新 资源 笔记 都 迁移到 <a href="#BuildTool_Note/blob/master/12_Gradle_Usage_Note.md">这里</a></b></i>
                             </summary>
                             <ul type="disc">
                                 <li>
-                                    ✨ 
+                                    ✨ <a href="#BuildTool_Note/blob/master/12_Gradle_Usage_Note.md#gradle-dependency-and-plugin-version-upgrade-source">✨ 版本 更新源 - Dependency and Plugin Version Upgrade Source</a>
                                 </li>
                             </ul>
                         </details>
