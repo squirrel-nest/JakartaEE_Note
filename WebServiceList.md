@@ -572,7 +572,7 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
             * LoginService Service Eaxmple - Soap 1.2 RPC Style
             * OrderService Service Eaxmple - Soap 1.2 RPC Style
                + Reference
-                  - --->
+                  - ---> [https://memorynotfound.com/jax-ws-soap-web-service-example/](HOME » JAVA » JAX-WS (SOAP) » PRODUCE AND CONSUME JAX-WS SOAP WEB SERVICE EXAMPLE)
                + Web Page
                   - --> []()<br>
                + WSDL
