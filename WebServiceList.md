@@ -66,7 +66,6 @@
             <details open>
                 <summary>
                     <i><b>✨ 版本 管理 与 更新</b></i> - 是不是 要 迁移到 「 BuildTool_Note/12_Gradle_Usage_Note.md 」 中？
-
                 </summary>
                 <ul type="disc">
                     <li>方法 - 沿革</li>
