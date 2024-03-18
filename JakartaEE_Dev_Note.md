@@ -397,6 +397,31 @@
                                                             </details>
                                                         </li>
                                                         <li>
+                                                            <details open>
+                                                                <summary>
+                                                                    <i><b>✨ 调试 / 错误追（跟）踪 与 日志 - debug and trace logging tutorial</b></i> -- <b>与 设置 内容 整合</b>
+                                                                </summary>
+                                                                <ul type="disc">
+                                                                    <li>
+                                                                        <a href="https://stackoverflow.com/questions/77051878/hibernate-debug-trace-logging-when-both-logback-and-log4j-are-in-classpath">Hibernate debug/trace logging when both logback and log4j are in classpath</a>
+                                                                        <pre>If you are using Spring Boot's starters you have nothing to do: every starter pulls in spring-boot-starter, which depends on spring-boot-starter-logging. The latter depends on:
+<br>
+logback-classic,
+the right bridges between every major logging API and SLF4J (which is Logback's native API). Among them you have log4j-to-slf4j, which connects the Log4j API to SLF4J.
+Just remove all explicit logging dependencies and exclusions and you should be fine. You should especially remove log4j-slf4j2-impl: its naming is ambiguous, but it is actually a bridge from SLF4J to the Log4j API. If you deploy it together with log4j-to-slf4j it will issue a warning and deactivate itself to prevent an infinite recursion.
+<br>
+Remark: Spring's version of JCL (cf. source code) also prefers the Log4j API over SLF4J.
+<br>
+Edit: Might I provide some debugging tips:
+<br>
+XSSFWorkbook fails in your experiments if you forcibly exclude log4j-api. There is no need to do this. The log4j-api/log4j-core artifact pair works exactly as the slf4j-api/logback-classic pair: log4j-api and slf4j-api are APIs and they can be present at the same time, while log4j-core and logback-classic are their reference implementations and you want to replace one of them with a bridge to the other API,
+to check if you don't have multiple Log4j API implementations on your classpath, set -Dlog4j2.debug=true and look at the standard error of the application,
+to check if you don't have multiple SLF4J implementations, check the standard error.</pre>
+                                                                    </li>
+                                                                </ul>
+                                                            </details>
+                                                        </li>
+                                                        <li>
                                                             教程：<a href="https://www.baeldung.com/hibernate-logging-levels">Various Logging Levels in Hibernate</a>
                                                             <details open>
                                                                 <summary>
@@ -432,33 +457,6 @@
                                 </li>
                             </ul>
                         </details>
-                    </li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ 调试 / 错误追（跟）踪 与 日志 - debug and trace logging tutorial -- 临时，待 归类</b></i>
-                </summary>
-                <ul type="disc">
-                    <li>
-                        <a href="https://stackoverflow.com/questions/77051878/hibernate-debug-trace-logging-when-both-logback-and-log4j-are-in-classpath">Hibernate debug/trace logging when both logback and log4j are in classpath</a>
-                        <pre>1
-
-If you are using Spring Boot's starters you have nothing to do: every starter pulls in spring-boot-starter, which depends on spring-boot-starter-logging. The latter depends on:
-
-logback-classic,
-the right bridges between every major logging API and SLF4J (which is Logback's native API). Among them you have log4j-to-slf4j, which connects the Log4j API to SLF4J.
-Just remove all explicit logging dependencies and exclusions and you should be fine. You should especially remove log4j-slf4j2-impl: its naming is ambiguous, but it is actually a bridge from SLF4J to the Log4j API. If you deploy it together with log4j-to-slf4j it will issue a warning and deactivate itself to prevent an infinite recursion.
-
-Remark: Spring's version of JCL (cf. source code) also prefers the Log4j API over SLF4J.
-
-Edit: Might I provide some debugging tips:
-
-XSSFWorkbook fails in your experiments if you forcibly exclude log4j-api. There is no need to do this. The log4j-api/log4j-core artifact pair works exactly as the slf4j-api/logback-classic pair: log4j-api and slf4j-api are APIs and they can be present at the same time, while log4j-core and logback-classic are their reference implementations and you want to replace one of them with a bridge to the other API,
-to check if you don't have multiple Log4j API implementations on your classpath, set -Dlog4j2.debug=true and look at the standard error of the application,
-to check if you don't have multiple SLF4J implementations, check the standard error.</pre>
                     </li>
                 </ul>
             </details>
