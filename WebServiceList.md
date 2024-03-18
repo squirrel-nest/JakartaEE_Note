@@ -65,7 +65,8 @@
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ 版本 管理 与 更新</b></i>
+                    <i><b>✨ 版本 管理 与 更新</b></i> - 是不是 要 迁移到 「 BuildTool_Note/12_Gradle_Usage_Note.md 」 中？
+
                 </summary>
                 <ul type="disc">
                     <li>方法 - 沿革</li>
@@ -74,6 +75,7 @@
                             <summary>
                                 <i><b>✨ Gradle 模式</b></i>
                             </summary>
+                            <a href="jakartaee-gradle-depandency-and-plugin-version-management"></a>
                             <ol type="disc">
                                 <li>
                                     <details open>
@@ -185,6 +187,7 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
                             <summary>
                                 <i><b>✨ Maven 模式</b></i>
                             </summary>
+                            <a href="jakartaee-maven-depandency-and-plugin-version-management"></a>
                             <ul type="disc">
                                 <li>
                                     -
