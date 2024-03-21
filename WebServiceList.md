@@ -337,7 +337,74 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
 ### 部署的 Web Service 列表
   * 参见 <a href="https://github.com/squirrel-nest/JakartaEE_Note/blob/master/WebServiceList.md">Web Service 列表</a>
 
+----
 
+# 旧 版本 整理 到 这里 - 整理中
+## Web Services 例子 --> 参考 Tutorial 中的 例子 和 教程 Part VI: Web Services
+
+<details open>
+    <summary>
+        <i><b>✨ Jakarta XML Web Services Sample - "Big" Web Services</b></i>
+    </summary>
+    <ul type="disc">
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Introduction</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                           <summary>
+                               Jakarta XML Web Services 的 一些 介绍
+                           </summary>
+                           <ul type="square">
+                               <li>Big web services use XML messages that follow the Simple Object Access Protocol (SOAP) standard, an XML language definine a message architecture and message formats.</li>
+                               <li>Jakarta XML Web Services formerly call Java API for XML Web Services (JAX-WS)</li>
+                               <li>Jakarta XML Web Services is now included in the Jakarta EE platform as an optional technology under the jakarta namespace.</li>
+                           </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Jakarta XML Web Services Sample 模块 的 架构 以及 模块间的关系</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                           <summary>
+                               模块的架构
+                           </summary>
+                           <ul type="square">
+                               <li>lzdata-ee9-jaxwsweb【前端】 --> lzdata-ee9-jaxws-base【中间层】 --> lzdata-ee9-jpa-model【数据接入层模块】，lzdata-ee9-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee9-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。</li>
+                               <li>无法使用分模块的功能，合并到 lzdata-ee9-fusionweb 模块中。。。见 lzdata-ee9-fusionweb 模块的例子说明</li>
+                           </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                           <summary>
+                               例子
+                           </summary>
+                           <ul type="square">
+                               <li> - </li>
+                               <li> - </li>
+                           </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+----
+
+# 以下 为 旧 的 版本，待整理
 ## Web Services 例子 --> 参考 Tutorial 中的 例子 和 教程 Part VI: Web Services
 ### Jakarta XML Web Services Sample - "Big" Web Services
   * Introduction
