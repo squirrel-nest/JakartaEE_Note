@@ -374,13 +374,35 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
                     <i><b>✨ Jakarta XML Web Services Sample 模块 的 架构 以及 模块间的关系</b></i>
                 </summary>
                 <ul type="disc">
+                     <li>
+                        <details open>
+                           <summary>
+                               关于 阐述 架构 和 模块 间 的 关联 关系 的 笔记 的 方法
+                           </summary>
+                           <ul type="square">
+                               <li>
+                                   专业 的 方法 简单 又 实用 ，不知 目前 用 什么方法？ 
+                               </li>
+                               <li>
+                                   markdow 语言 的 mermaid 方法？太复杂，不行！
+                               </li>
+                               <li>
+                                   xming 的 脑图 方法，然后，再 拷贝 图像，可行 的 方法
+                               </li>
+                           </ul>
+                        </details>
+                    </li>
                     <li>
                         <details open>
                            <summary>
                                模块的架构
                            </summary>
                            <ul type="square">
-                               <li>lzdata-ee9-jaxwsweb【前端】 --> lzdata-ee9-jaxws-base【中间层】 --> lzdata-ee9-jpa-model【数据接入层模块】，lzdata-ee9-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee9-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。</li>
+                               <li>lzdata-ee9-jaxwsweb【前端】<br>
+                                   --> lzdata-ee9-jaxws-base【中间层】<br>
+                                   --> lzdata-ee9-jpa-model【数据接入层模块】;<br>
+                                   Note : lzdata-ee9-jpa-model 属于共用模块 其他模块 也可以 调用。。。;<br>
+                                   &nbsp;&nbsp:&nbsp;&nbsp;lzdata-ee9-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。</li>
                                <li>无法使用分模块的功能，合并到 lzdata-ee9-fusionweb 模块中。。。见 lzdata-ee9-fusionweb 模块的例子说明</li>
                            </ul>
                         </details>
@@ -419,16 +441,6 @@ apply from: '../test_dependencies_jaxws_base_9.gradle'</code></pre>
          </ul>
       </details>
   * Jakarta XML Web Services Sample 模块 的 架构 以及 模块间的关系
-    + <details open>
-         <summary>
-             说明
-         </summary>
-         <ul type="square">
-             <li>
-                 mermaid
-             </li>
-         </ul>
-      </details>
     + 说明
       1. 模块的架构
          - lzdata-ee9-jaxwsweb【前端】 --> lzdata-ee9-jaxws-base【中间层】 --> lzdata-ee9-jpa-model【数据接入层模块】，lzdata-ee9-jpa-model 属于共用模块 其他模块 也可以 调用。。。lzdata-ee9-jpa-model模块参见 数据接入层中，Jakarta Pesistence 模块 的说明。。。
