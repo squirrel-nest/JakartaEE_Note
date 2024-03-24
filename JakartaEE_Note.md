@@ -395,10 +395,40 @@
                                         <summary>
                                             <i><b>✨ 手动 添加 文件 的 方法</b></i>
                                         </summary>
-                                        <a id="explanation-for-mysql-install-by-brew-mode" ></a>
                                         <ul type="disc">
                                             <li>
-                                                -
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ 步骤 - 2024-03-25</b></i>
+                                                    </summary>
+                                                    <a id="explanation-for-mysql-install-by-brew-mode" ></a>
+                                                    <ol type="disc">
+                                                        <li>
+                                                            <details open>
+                                                                <summary>
+                                                                    <i><b>✨ ✨ 拷贝 文件 夹 gradle 文件夹</b></i>
+                                                                </summary>
+                                                                <ul type="disc">
+                                                                    <li>截图 1：
+                                                                        <img width="1655" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/efc0410a-d73c-40f4-a996-09f90a5a2774">
+                                                                    </li>
+                                                                </ul>
+                                                            </details>
+                                                        </li>
+                                                        <li>
+                                                            <details open>
+                                                                <summary>
+                                                                    <i><b>✨ 在 gradle 文件夹 中，添加 toml 文件</b></i>
+                                                                </summary>
+                                                                <ul type="disc">
+                                                                    <li>截图 2 - 内容：
+                                                                        <img width="1706" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/3b05c561-def4-4444-8258-17f1b15b0856">
+                                                                    </li>
+                                                                </ul>
+                                                            </details>
+                                                        </li>
+                                                    </ol>
+                                                </details>
                                             </li>
                                         </ul>
                                     </details>
