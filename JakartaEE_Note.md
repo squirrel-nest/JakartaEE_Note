@@ -534,10 +534,12 @@
                                                                                         <ol type="1">
                                                                                             <li>
                                                                                                 根据 不同 类型 的 功能 模块，创建 指定 的 settings.gradle.kts 文件，比如 针对 jakarta servlet 相关 的 功能 模块，可以 创建 settings_jakarta_servlet.gradle.kts，仅 在 这个 模块 中，将 相应 的 功能 模块 include 进来。
-                                                                                                <br>
                                                                                             </li>
                                                                                         </ol>
                                                                                     </details>
+                                                                                </li>
+                                                                                <li>
+                                                                                    ✨ Note：对于 的不同类型 的 dependency 和 plugin 对应 的 toml 文件，与 settings.gradle.kts 文件 应该 是 多对多 的 关系，这样 就可以进行 不同 的 组合，实现 模块 化 管理。
                                                                                 </li>
                                                                             </ul>
                                                                         </details>
