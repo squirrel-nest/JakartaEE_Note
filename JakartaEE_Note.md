@@ -517,6 +517,9 @@
                                                                                         </ul>
                                                                                     </details>
                                                                                 </li>
+                                                                                <li>
+                                                                                    ✨ Note：对于 的不同类型 的 dependency 和 plugin 对应 的 toml 文件，与 settings.gradle.kts 文件 应该 是 一对一 的 关系，这样 就可以在 不 重复 设置 的 情况下，实现 不同 功能 的 组合，可以 实现 按需 组合。
+                                                                                </li>
                                                                             </ul>
                                                                         </details>
                                                                     </li>
@@ -539,7 +542,7 @@
                                                                                     </details>
                                                                                 </li>
                                                                                 <li>
-                                                                                    ✨ Note：对于 的不同类型 的 dependency 和 plugin 对应 的 toml 文件，与 settings.gradle.kts 文件 应该 是 多对多 的 关系，这样 就可以进行 不同 的 组合，实现 模块 化 管理。
+                                                                                    ✨ Note：对于 的不同类型 的 功能 模块，与 settings.gradle.kts 文件 应该 是 多对多 的 关系，这样 就可以进行 不同 的 组合，实现 模块 化 管理。
                                                                                 </li>
                                                                             </ul>
                                                                         </details>
