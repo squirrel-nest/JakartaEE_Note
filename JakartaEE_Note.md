@@ -428,29 +428,30 @@
                                                                     <i><b>✨ settings.gradle.kts 文件 的 建立</b></i>
                                                                 </summary>
                                                                 <ul type="square">
+                                                                    <li>
+                                                                        <details open>
+                                                                            <summary>
+                                                                                <i><b>✨ 项目 名称 的 设置</b></i>
+                                                                            </summary>
+                                                                            <ol type="1">
+                                                                                <li>
+                                                                                    先 拷贝 最初的 settings.gradle.kts，更名为 settings_org.gradle.kts
+                                                                                </li>
                                                                                 <li>
                                                                                     <details open>
                                                                                         <summary>
-                                                                                            <i><b>✨ 项目 名称 的 设置</b></i>
+                                                                                            <i>✨ 更改 项目 名称 为 设定 的项目名称，如：rootProject.name = "lzdata-ee-10-gdev" 为 当前 项目 的 名称</i>
                                                                                         </summary>
-                                                                                        <ol type="1">
+                                                                                        <ul type="circle">
                                                                                             <li>
-                                                                                                先 拷贝 最初的 settings.gradle.kts，更名为 settings_org.gradle.kts
+                                                                                                <img width="1702" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/0e80dc96-856a-4d56-9de0-1f8391875cee">
                                                                                             </li>
-                                                                                            <li>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <details open>
-                                                                                                    <summary>
-                                                                                                        <i>✨ 更改 项目 名称 为 设定 的项目名称，如：rootProject.name = "lzdata-ee-10-gdev" 为 当前 项目 的 名称</i>
-                                                                                                    </summary>
-                                                                                                    <ul type="circle">
-                                                                                                        <li>
-                                                                                                            <img width="1702" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/0e80dc96-856a-4d56-9de0-1f8391875cee">
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </details>
-                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </details>
+                                                                                </li>
+                                                                            </ol>
+                                                                        </details>
+                                                                    </li>
                                                                     <li>
                                                                         <details open>
                                                                             <summary>
