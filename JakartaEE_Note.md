@@ -4,6 +4,7 @@
     + [Using the Gradle build system in the Eclipse IDE - Tutorial](https://www.vogella.com/tutorials/EclipseGradle/article.html#google_vignette)
     + [Vaadin Flow Quick Start](https://vaadin.com/docs/latest/guide/quick-start)
     + [Eclipse Jetty Programming Guide](https://eclipse.dev/jetty/documentation/jetty-12/programming-guide/index.html)
+
 ## 开发 工具 和 环境 设置
 
 <details open>
@@ -30,155 +31,6 @@
                 </summary>
                 <ul type="disc">
                     <li>✨ 笔记 参见：<a href="https://github.com/squirrel-nest/BuildTool_Note/tree/master">BuildTool_Note</a> --> <a href="https://github.com/squirrel-nest/BuildTool_Note/blob/master/Maven_Note.md">BuildTool_Note/Maven_Note.md</a>
-                    </li>
-                </ul>
-            </details>
-        </li>
-    </ul>
-</details>
-
-----
-
-<details open>
-    <summary>
-        <i><b>✨ 开发 工具</b></i>
-    </summary>
-    <ul type="disc">
-        <li>目前 主要 用 IntelliJ IDEA CE（ 社区版 ） 进行 开发 与 辅助编译， 只要 的 编译 手段 是 用 Gradle 后端 进行 编译，这样 会 灵活 一些，容易 控制 和 进行 错误 查找。</li>
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ IntelliJ IDEA CE（ 社区版 ）</b></i>
-                </summary>
-                <ul type="disc">
-                    <li>
-                        <details open>
-                            <summary>
-                                <i><b>✨ 设置</b></i>
-                            </summary>
-                            <a id="explanation-for-different-ver-in-diff-position"></a>
-                            <ul type="disc">
-                                <li> - </li>
-                                <li> - </li>
-                                <li> - </li>
-                                <li> - </li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li>
-                        <details open>
-                            <summary>
-                                <i><b>✨ Plugin 的 设置</b></i><br>临时
-                                <a href="https://discuss.gradle.org/t/multi-module-project-how-where-to-apply-plugins/46701">Multi-Module Project: How/Where to apply plugins?</a>
-                            </summary>
-                            <a id="explanation-for-different-ver-in-diff-position"></a>
-                            <ul type="disc">
-                                <li>
-                                    <ol type="i">
-                                        <li> The Java Plugin </li>
-                                        <li> The War Plugin </li>
-                                    </ol>
-                                </li>
-                                <li> <a href="https://github.com/heroku/heroku-gradle-plugin">heroku/heroku-gradle-plugin</a> </li>
-                                <li> <a href="https://github.com/bmuschko/gradle-tomcat-plugin">bmuschko/gradle-tomcat-plugin</a> </li>
-                                <li> - </li>
-                                <li> - </li>
-                            </ul>
-                        </details>
-                    </li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ Visual Studio Code</b></i>
-                </summary>
-                <ul type="disc">
-                    <li>✨ 辅助 的 开发 工具，也 很好用</li>
-                </ul>
-            </details>
-        </li>
-    </ul>
-</details>
-
-----
-
-<details open>
-    <summary>
-        <i><b>✨ 开发 框架</b></i>
-    </summary>
-    <ul type="disc">
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ Native 框架 - Jakarta EE</b></i>
-                </summary>
-                <ul type="disc">
-                    <li>
-                        <details open>
-                            <summary>
-                                <i><b>✨ 设置</b></i>
-                            </summary>
-                            <a id="explanation-for-different-ver-in-diff-position"></a>
-                            <ul type="disc">
-                                <li>
-                                    <ol type="i">
-                                        <li> - </li>
-                                    </ol>
-                                </li>
-                                <li> - </li>
-                                <li> - </li>
-                                <li> - </li>
-                                <li> - </li>
-                            </ul>
-                        </details>
-                    </li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ Spring</b></i>
-                </summary>
-                <ul type="disc">
-                    <li>
-                        <details open>
-                            <summary>
-                                <i><b>✨ Spring 框架</b></i>
-                            </summary>
-                            <a id="explanation-for-different-ver-in-diff-position"></a>
-                            <ul type="disc">
-                                <li>
-                                    <ol type="i">
-                                        <li> - </li>
-                                    </ol>
-                                </li>
-                                <li> - </li>
-                                <li> - </li>
-                                <li> - </li>
-                                <li> - </li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li>
-                        <details open>
-                            <summary>
-                                <i><b>✨ Spring boot 轻量框架</b></i>
-                            </summary>
-                            <a id="explanation-for-different-ver-in-diff-position"></a>
-                            <ul type="disc">
-                                <li>
-                                    <a href="https://spring.pleiades.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/">Spring Boot Gradle プラグインリファレンスガイド</a>
-                                </li>
-                                </li>
-                                <li> - </li>
-                                <li> - </li>
-                                <li> - </li>
-                                <li> - </li>
-                            </ul>
-                        </details>
                     </li>
                 </ul>
             </details>
@@ -293,6 +145,157 @@
 </details>
 
 ----
+## 项目 的 开发
+
+----
+
+<details open>
+    <summary>
+        <i><b>✨ 开发 工具</b></i>
+    </summary>
+    <ul type="disc">
+        <li>目前 主要 用 IntelliJ IDEA CE（ 社区版 ） 进行 开发 与 辅助编译， 只要 的 编译 手段 是 用 Gradle 后端 进行 编译，这样 会 灵活 一些，容易 控制 和 进行 错误 查找。</li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ IntelliJ IDEA CE（ 社区版 ）</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 设置</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Plugin 的 设置</b></i><br>临时
+                                <a href="https://discuss.gradle.org/t/multi-module-project-how-where-to-apply-plugins/46701">Multi-Module Project: How/Where to apply plugins?</a>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> The Java Plugin </li>
+                                        <li> The War Plugin </li>
+                                    </ol>
+                                </li>
+                                <li> <a href="https://github.com/heroku/heroku-gradle-plugin">heroku/heroku-gradle-plugin</a> </li>
+                                <li> <a href="https://github.com/bmuschko/gradle-tomcat-plugin">bmuschko/gradle-tomcat-plugin</a> </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Visual Studio Code</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>✨ 辅助 的 开发 工具，也 很好用</li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
+
+----
+
+
+<details open>
+    <summary>
+        <i><b>✨ 开发 框架</b></i>
+    </summary>
+    <ul type="disc">
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Native 框架 - Jakarta EE</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 设置</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> - </li>
+                                    </ol>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Spring</b></i>
+                </summary>
+                <ul type="disc">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Spring 框架</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <ol type="i">
+                                        <li> - </li>
+                                    </ol>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Spring boot 轻量框架</b></i>
+                            </summary>
+                            <a id="explanation-for-different-ver-in-diff-position"></a>
+                            <ul type="disc">
+                                <li>
+                                    <a href="https://spring.pleiades.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/">Spring Boot Gradle プラグインリファレンスガイド</a>
+                                </li>
+                                </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                                <li> - </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+    </ul>
+</details>
 
 <details open>
     <summary>
