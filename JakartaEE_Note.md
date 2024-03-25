@@ -462,6 +462,34 @@
                                                                                         </ul>
                                                                                     </details>
                                                                                 </li>
+                                                                                <li>
+                                                                                    <details open>
+                                                                                        <summary>
+                                                                                            <i><b>✨ 通过 在 settings.gradle.kts 文件 中 添加 dependencyResolutionManagement ，实现 对 toml 文件 的 管理</b></i>
+                                                                                        </summary>
+                                                                                        <ul type="circle">
+                                                                                            <li>
+                                                                                                toml 文件 的 添加 原则：<br>
+                                                                                                1. 根据 dependency 和 plugin 的 类型 或 功能，进行 添加，比如：<br>
+                                                                                                a. Jakarta Platform 相关 作为 一个 文件<br>
+                                                                                                b. Hibernate 相关 作为 一个 文件<br>
+                                                                                                c. Database 相关 作为 一个 文件<br>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                根据 不同 类型 的 dependency 和 plugin，在 gradle 文件夹 中，添加 toml 文件。<br>
+                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，<br>
+                                                                                                仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                toml 文件： 根据 不同 类型 的 dependency 和 plugin，创建  指定 的 settings.gradle.kts 文件。<br>
+                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin 等。
+                                                                                            </li>
+                                                                                            <li>截图 2 - 内容：
+                                                                                                <img width="1706" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/3b05c561-def4-4444-8258-17f1b15b0856">
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </details>
+                                                                                </li>
                                                                             </ul>
                                                                         </details>
                                                                     </li>
