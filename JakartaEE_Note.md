@@ -99,6 +99,8 @@
                                             <li>
                                                 最旧的 版本：Linux（CentOS）的 <b>单服务器版</b> 安装 与 设置 参见：<a href="https://github.com/huarui0/WebServer_Note/blob/master/Wildfly/2_Note/1_1_0_Wildfly_Stantalone_Note_Centos.txt">1_1_0_Wildfly_Stantalone_Note_Centos.txt</a>
                                             </li>
+                                        </ul>
+                                    </details>
                                 <li>
                                     <details open>
                                         <summary>
