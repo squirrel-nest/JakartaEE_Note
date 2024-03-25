@@ -425,47 +425,39 @@
                                                         <li>
                                                             <details open>
                                                                 <summary>
-                                                                    <i><b>✨ 在 gradle 文件夹 中，添加 toml 文件</b></i>
-                                                                </summary>
-                                                                <ul type="disc">
-                                                                    <li>
-                                                                        toml 文件 的 添加 原则：<br>
-                                                                        1. 根据 dependency 和 plugin 的 类型 或 功能，进行 添加，比如：<br>
-                                                                        a. Jakarta Platform 相关 作为 一个 文件<br>
-                                                                        b. Hibernate 相关 作为 一个 文件<br>
-                                                                        c. Database 相关 作为 一个 文件<br>
-                                                                    </li>
-                                                                    <li>截图 2 - 内容：
-                                                                        <img width="1706" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/3b05c561-def4-4444-8258-17f1b15b0856">
-                                                                    </li>
-                                                                </ul>
-                                                            </details>
-                                                        </li>
-                                                        <li>
-                                                            <details open>
-                                                                <summary>
                                                                     <i><b>✨ settings.gradle.kts 文件 的 建立</b></i>
                                                                 </summary>
                                                                 <ul type="square">
                                                                     <li>
                                                                         <details open>
                                                                             <summary>
-                                                                                <i><b>✨ dependency 和 plugin 的 管理</b></i>
+                                                                                <i><b>✨ dependency 和 plugin 的 管理 - 采用 version catalog 方式 管理</b></i>
                                                                             </summary>
                                                                             <ul type="square">
                                                                                 <li>
                                                                                     <details open>
                                                                                         <summary>
-                                                                                            <i><b>✨ dependency 和 plugin 
- 的 管理 模式</b></i>
+                                                                                            <i><b>✨ toml 文件 的 添加</b></i>
                                                                                         </summary>
                                                                                         <ul type="circle">
                                                                                             <li>
-                                                                                                采用 version catalog 方式 管理
+                                                                                                toml 文件 的 添加 原则：<br>
+                                                                                                1. 根据 dependency 和 plugin 的 类型 或 功能，进行 添加，比如：<br>
+                                                                                                a. Jakarta Platform 相关 作为 一个 文件<br>
+                                                                                                b. Hibernate 相关 作为 一个 文件<br>
+                                                                                                c. Database 相关 作为 一个 文件<br>
                                                                                             </li>
                                                                                             <li>
-                                                                                                toml 文件 根据 不同 类型 的 模块 功能，创建  指定 的 settings.gradle.kts 文件。<br>
+                                                                                                根据 不同 类型 的 dependency 和 plugin，在 gradle 文件夹 中，添加 toml 文件。<br>
+                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，<br>
+                                                                                                仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                toml 文件： 根据 不同 类型 的 dependency 和 plugin，创建  指定 的 settings.gradle.kts 文件。<br>
                                                                                                 如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin 等。
+                                                                                            </li>
+                                                                                            <li>截图 2 - 内容：
+                                                                                                <img width="1706" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/3b05c561-def4-4444-8258-17f1b15b0856">
                                                                                             </li>
                                                                                         </ul>
                                                                                     </details>
@@ -490,7 +482,7 @@
                                                                                                 <img width="1290" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/e3a4595b-de0b-467a-8389-19438a56fa7f">
                                                                                             </li>
                                                                                             <li>
-                                                                                                根据 不同 类型 的 模块，创建 指定 的 settings.gradle.kts 文件，比如 针对 jakarta 相关 的 模块，可以 创建 settings_jakarta.gradle.kts，仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin 等。
+                                                                                                根据 不同 类型 的 功能 模块，创建 指定 的 settings.gradle.kts 文件，比如 针对 jakarta servlet 相关 的 功能 模块，可以 创建 settings_jakarta_servlet.gradle.kts，仅 在 这个 模块 中，将 相应 的 功能 模块 include 进来。
                                                                                                 <br>
                                                                                             </li>
                                                                                         </ol>
