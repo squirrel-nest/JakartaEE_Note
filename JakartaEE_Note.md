@@ -23,40 +23,7 @@
 
 ----
 
-## 开发 工具 和 环境 设置
-
-<details open>
-    <summary>
-        <i><b>✨ Build Tools - 编译 和 生成 工具</b></i>
-    </summary>
-    <ul type="disc">
-        <li>目前 主要 用 Gradle 编译， 与 Maven 比较， 不知 哪个 更好，Gradle 直观 一些。</li>
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ Gradle Build Tool</b></i>
-                </summary>
-                <ul type="disc">
-                    <li>✨ 笔记 参见：<a href="https://github.com/squirrel-nest/BuildTool_Note/tree/master">BuildTool_Note</a> --> <a href="https://github.com/squirrel-nest/BuildTool_Note/blob/master/Gradle_Note.md">BuildTool_Note/Gradle_Note.md</a>
-                    </li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details open>
-                <summary>
-                    <i><b>✨ Maven Build Tool</b></i>
-                </summary>
-                <ul type="disc">
-                    <li>✨ 笔记 参见：<a href="https://github.com/squirrel-nest/BuildTool_Note/tree/master">BuildTool_Note</a> --> <a href="https://github.com/squirrel-nest/BuildTool_Note/blob/master/Maven_Note.md">BuildTool_Note/Maven_Note.md</a>
-                    </li>
-                </ul>
-            </details>
-        </li>
-    </ul>
-</details>
-
-----
+## 开发 环境 的 搭建 
 
 <details open>
     <summary>
@@ -478,29 +445,73 @@
 
 ----
 
-## 项目 的 部署
+
+## 项目 的 调试 与 测试
+
+----
+
+## 项目 的 编译 与 部署
 
 <details open>
     <summary>
-        <i><b>✨ Deployment - 部署</b></i>
+        <i><b>✨ Build Tools - 编译 和 生成 工具</b></i>
     </summary>
     <ul type="disc">
         <li>
             <details open>
                 <summary>
-                    <i><b>✨ 部署到 Wildfly</b></i>
+                    <i><b>✨ Build Tools - 编译 和 生成 工具</b></i>
                 </summary>
-                <ul type="disc">
-                    <li>✨ 笔记 参见：<a href="https://github.com/huarui0/WebServer_Note/tree/master">WebServer_Note</a> --> <a href="">Wildfly 的 笔记 （待改）</a>
+                <ul type="square">
+                    <li>目前 主要 用 Gradle 编译， 与 Maven 比较， 不知 哪个 更好，Gradle 直观 一些。</li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Gradle Build Tool</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>✨ 笔记 参见：<a href="https://github.com/squirrel-nest/BuildTool_Note/tree/master">BuildTool_Note</a> --> <a href="https://github.com/squirrel-nest/BuildTool_Note/blob/master/Gradle_Note.md">BuildTool_Note/Gradle_Note.md</a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ Maven Build Tool</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>
+                                    ✨ 笔记 参见：<a href="https://github.com/squirrel-nest/BuildTool_Note/tree/master">BuildTool_Note</a> --> <a href="https://github.com/squirrel-nest/BuildTool_Note/blob/master/Maven_Note.md">BuildTool_Note/Maven_Note.md</a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details open>
+                <summary>
+                    <i><b>✨ Deployment - 部署</b></i>
+                </summary>
+                <ul type="square">
+                    <li>
+                        <details open>
+                            <summary>
+                                <i><b>✨ 部署到 Wildfly</b></i>
+                            </summary>
+                            <ul type="disc">
+                                <li>✨ 笔记 参见：<a href="https://github.com/huarui0/WebServer_Note/tree/master">WebServer_Note</a> --> <a href="">Wildfly 的 笔记 （待改）</a>
+                                </li>
+                            </ul>
+                        </details>
                     </li>
                 </ul>
             </details>
         </li>
     </ul>
 </details>
-
-----
-## 项目 的 调试 与 测试
 
 ----
 
