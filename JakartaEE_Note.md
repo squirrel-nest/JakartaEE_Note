@@ -456,18 +456,18 @@
                                                                                 <li>
                                                                                     <details open>
                                                                                         <summary>
-                                                                                            <i><b>✨ settings.gradle.kts 文件 的 建立</b></i>
+                                                                                            <i><b>✨ dependency 和 plugin 
+ 的 管理 模式</b></i>
                                                                                         </summary>
-                                                                                        <ol type="1">
+                                                                                        <ul type="circle">
                                                                                             <li>
-                                                                                                先 拷贝 最初的 settings.gradle.kts，更名为 settings_org.gradle.kts，并 更改 项目 名称 rootProject.name = "PureCompose33" 为 当前 项目 的 名称<br>
-                                                                                                <img width="1290" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/e3a4595b-de0b-467a-8389-19438a56fa7f">
+                                                                                                采用 version catalog 方式 管理
                                                                                             </li>
                                                                                             <li>
-                                                                                                根据 不同 类型 的 模块，创建 指定 的 settings.gradle.kts 文件，比如 针对 jakarta 相关 的 模块，可以 创建 settings_jakarta.gradle.kts，仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin 等。
-                                                                                                <br>
+                                                                                                toml 文件 根据 不同 类型 的 模块 功能，创建  指定 的 settings.gradle.kts 文件。<br>
+                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin 等。
                                                                                             </li>
-                                                                                        </ol>
+                                                                                        </ul>
                                                                                     </details>
                                                                                 </li>
                                                                             </ul>
