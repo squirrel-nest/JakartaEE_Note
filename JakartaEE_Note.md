@@ -1,9 +1,27 @@
 # ✨ Jakarta EE 的 开发
-  * 临时
-    + [Apache Camel REST step-by-step example](https://www.masterspringboot.com/camel/apache-camel-rest-example-for-beginners/)
-    + [Using the Gradle build system in the Eclipse IDE - Tutorial](https://www.vogella.com/tutorials/EclipseGradle/article.html#google_vignette)
-    + [Vaadin Flow Quick Start](https://vaadin.com/docs/latest/guide/quick-start)
-    + [Eclipse Jetty Programming Guide](https://eclipse.dev/jetty/documentation/jetty-12/programming-guide/index.html)
+## 一些 参考 资料，临时 放这里
+
+<details open>
+    <summary>
+        <i><b>✨ 参考 资料</b></i>
+    </summary>
+    <ul type="disc">
+        <li>
+            [Apache Camel REST step-by-step example](https://www.masterspringboot.com/camel/apache-camel-rest-example-for-beginners/)
+        </li>
+        <li>
+            [Using the Gradle build system in the Eclipse IDE - Tutorial](https://www.vogella.com/tutorials/EclipseGradle/article.html#google_vignette)
+        </li>
+        <li>
+            [Vaadin Flow Quick Start](https://vaadin.com/docs/latest/guide/quick-start)
+        </li>
+        <li>
+            [Eclipse Jetty Programming Guide](https://eclipse.dev/jetty/documentation/jetty-12/programming-guide/index.html)
+        </li>
+    </ul>
+</details>
+
+----
 
 ## 开发 工具 和 环境 设置
 
