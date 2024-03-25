@@ -452,10 +452,6 @@
                                                                                                 如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，<br>
                                                                                                 仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。
                                                                                             </li>
-                                                                                            <li>
-                                                                                                toml 文件： 根据 不同 类型 的 dependency 和 plugin，创建  指定 的 settings.gradle.kts 文件。<br>
-                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin 等。
-                                                                                            </li>
                                                                                             <li>截图 2 - 内容：
                                                                                                 <img width="1706" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/3b05c561-def4-4444-8258-17f1b15b0856">
                                                                                             </li>
