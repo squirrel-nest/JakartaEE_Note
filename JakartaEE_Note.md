@@ -512,11 +512,14 @@
                                                                                             <li>
                                                                                                 <details open>
                                                                                                     <summary>
-                                                                                                        <i>✨ 根据 不同 类型 的 dependency 和 plugin，在 gradle 文件夹 中，添加 toml 文件。<br>
-                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，<br>
-                                                                                                仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。</i>
+                                                                                                        <i>✨ 
                                                                                                     </summary>
                                                                                                     <ul type="circle">
+                                                                                                        <li>
+                                                                                                            根据 不同 类型 的 dependency 和 plugin，在 gradle 文件夹 中，添加 toml 文件。<br>
+                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，<br>
+                                                                                                仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。</i>
+                                                                                                        </li>
                                                                                                         <li>
                                                                                                             <img width="1706" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/3b05c561-def4-4444-8258-17f1b15b0856">
                                                                                                         </li>
@@ -529,11 +532,16 @@
                                                                                 <li>
                                                                                     <details open>
                                                                                         <summary>
-                                                                                            <i><b>✨  - 创建 version catalog 的 settings.gradle.kts 文件</b></i>
+                                                                                            <i><b>✨  - 创建 version catalog 的 settings.gradle.kts 文件
+                                                                                            建立 </b></i>
                                                                                         </summary>
                                                                                         <ul type="circle">
                                                                                             <li>
-                                                                                                通过 在 settings.gradle.kts 文件 中 添加 dependencyResolutionManagement  标准符，实现 对 toml 文件 的 管理
+                                                                                                通过 在 settings.gradle.kts 文件 中 添加 dependencyResolutionManagement  标准符，实现 对 toml 文件 的 管理 --><br>
+                                                                                                建立 toml 文件 与 逻辑 名称 的 对应 关系，（为 管理方便，一个 settings.gradle.kts 文件，对应 一个 toml 文件，方便 管理。
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                ✨ Note：对于 的不同类型 的 dependency 和 plugin 对应 的 toml 文件，与 settings.gradle.kts 文件 应该 是 一对一 的 关系，这样 就可以在 不 重复 设置 的 情况下，实现 不同 功能 的 组合，可以 实现 按需 组合。
                                                                                             </li>
                                                                                             <li>
                                                                                                 <details open>
@@ -547,59 +555,59 @@
                                                                                                     </ul>
                                                                                                 </details>
                                                                                             </li>
+                                                                                        </ul>
+                                                                                    </details>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <details open>
+                                                                                        <summary>
+                                                                                            <i>✨ 附录：不同 的 toml 文件 与 settings.gradle.kts 文件 的 对应 关系</i>
+                                                                                        </summary>
+                                                                                        <ul type="circle">
                                                                                             <li>
                                                                                                 <details open>
                                                                                                     <summary>
-                                                                                                        <i>✨ 附录：不同 的 toml 文件 与 settings.gradle.kts 文件 的 对应 关系</i>
+                                                                                                        <i>✨ 编译相关 的，因为 是 共用 的 ，所以，还是 放在 settings_vercata_base.gradle.kts 文件 中</i>
                                                                                                     </summary>
                                                                                                     <ul type="circle">
                                                                                                         <li>
-                                                                                                            <details open>
-                                                                                                                <summary>
-                                                                                                                    <i>✨ 编译相关 的，因为 是 共用 的 ，所以，还是 放在 settings_vercata_base.gradle.kts 文件 中</i>
-                                                                                                                </summary>
-                                                                                                                <ul type="circle">
-                                                                                                                    <li>
-                                                                                                                        <img width="1327" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/58de7907-b3a2-452a-a36b-3e6bac5bbc33">
-                                                                                                                    </li>
-                                                                                                                </ul>
-                                                                                                            </details>
+                                                                                                            <img width="1327" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/58de7907-b3a2-452a-a36b-3e6bac5bbc33">
                                                                                                         </li>
+                                                                                                    </ul>
+                                                                                                </details>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <details open>
+                                                                                                    <summary>
+                                                                                                        <i>✨ 数据（库）相关 的，放在 settings_vercata_database.gradle.kts 文件 中</i>
+                                                                                                    </summary>
+                                                                                                    <ul type="circle">
                                                                                                         <li>
-                                                                                                            <details open>
-                                                                                                                <summary>
-                                                                                                                    <i>✨ 数据（库）相关 的，放在 settings_vercata_database.gradle.kts 文件 中</i>
-                                                                                                                </summary>
-                                                                                                                <ul type="circle">
-                                                                                                                    <li>
-                                                                                                                        截图待加
-                                                                                                                    </li>
-                                                                                                                </ul>
-                                                                                                            </details>
+                                                                                                            截图待加
                                                                                                         </li>
+                                                                                                    </ul>
+                                                                                                </details>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <details open>
+                                                                                                    <summary>
+                                                                                                        <i>✨ Jakarta EE 相关 的，放在 settings_vercata_jakarta.gradle.kts 文件 中</i>
+                                                                                                    </summary>
+                                                                                                    <ul type="circle">
                                                                                                         <li>
-                                                                                                            <details open>
-                                                                                                                <summary>
-                                                                                                                    <i>✨ Jakarta EE 相关 的，放在 settings_vercata_jakarta.gradle.kts 文件 中</i>
-                                                                                                                </summary>
-                                                                                                                <ul type="circle">
-                                                                                                                    <li>
-                                                                                                                        截图待加
-                                                                                                                    </li>
-                                                                                                                </ul>
-                                                                                                            </details>
+                                                                                                            截图待加
                                                                                                         </li>
+                                                                                                    </ul>
+                                                                                                </details>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <details open>
+                                                                                                    <summary>
+                                                                                                        <i>✨ Hibernate 相关 的，放在 settings_vercata_hibernate.gradle.kts 文件 中</i>
+                                                                                                    </summary>
+                                                                                                    <ul type="circle">
                                                                                                         <li>
-                                                                                                            <details open>
-                                                                                                                <summary>
-                                                                                                                    <i>✨ Hibernate 相关 的，放在 settings_vercata_hibernate.gradle.kts 文件 中</i>
-                                                                                                                </summary>
-                                                                                                                <ul type="circle">
-                                                                                                                    <li>
-                                                                                                                        截图待加
-                                                                                                                    </li>
-                                                                                                                </ul>
-                                                                                                            </details>
+                                                                                                            截图待加
                                                                                                         </li>
                                                                                                     </ul>
                                                                                                 </details>
@@ -607,9 +615,8 @@
                                                                                         </ul>
                                                                                     </details>
                                                                                 </li>
-                                                                                <li>
-                                                                                    ✨ Note：对于 的不同类型 的 dependency 和 plugin 对应 的 toml 文件，与 settings.gradle.kts 文件 应该 是 一对一 的 关系，这样 就可以在 不 重复 设置 的 情况下，实现 不同 功能 的 组合，可以 实现 按需 组合。
-                                                                                </li>
+
+                                                                                
                                                                             </ul>
                                                                         </details>
                                                                     </li>
