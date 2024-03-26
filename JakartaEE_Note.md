@@ -416,7 +416,7 @@
                                                                     <i><b>✨ ✨ 拷贝 文件 夹 gradle 文件夹</b></i>
                                                                 </summary>
                                                                 <ul type="disc">
-                                                                    <li>截图 1：
+                                                                    <li>
                                                                         <img width="1655" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/efc0410a-d73c-40f4-a996-09f90a5a2774">
                                                                     </li>
                                                                 </ul>
@@ -510,14 +510,11 @@
                                                                                                 c. Database 相关 作为 一个 文件<br>
                                                                                             </li>
                                                                                             <li>
-                                                                                                根据 不同 类型 的 dependency 和 plugin，在 gradle 文件夹 中，添加 toml 文件。<br>
-                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，<br>
-                                                                                                仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。
-                                                                                            </li>
-                                                                                            <li>
                                                                                                 <details open>
                                                                                                     <summary>
-                                                                                                        <i>✨ 截图 2 - 内容</i>
+                                                                                                        <i>✨ 根据 不同 类型 的 dependency 和 plugin，在 gradle 文件夹 中，添加 toml 文件。<br>
+                                                                                                如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，<br>
+                                                                                                仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。</i>
                                                                                                     </summary>
                                                                                                     <ul type="circle">
                                                                                                         <li>
@@ -538,12 +535,10 @@
                                                                                             <li>
                                                                                                 通过 在 settings.gradle.kts 文件 中 添加 dependencyResolutionManagement  标准符，实现 对 toml 文件 的 管理
                                                                                             </li>
-                                                                                            <li>✨ toml 文件： 根据 不同 类型 的 dependency 和 plugin，创建  指定 的 settings.gradle.kts 文件：通过在 settings.gradle.kts 文件中 的 dependencyResolutionManagement 标准符，建立 versionCatalogs，将 创建 的 toml 文件 的 物理位置（路径），<br>如：/Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件， 映射为 逻辑名称，如：libsJakartaEE 。
-                                                                                            </li>
                                                                                             <li>
                                                                                                 <details open>
                                                                                                     <summary>
-                                                                                                        <i>✨ 截图 3 - 内容</i>
+                                                                                                        <i>✨ ✨ toml 文件： 根据 不同 类型 的 dependency 和 plugin，创建  指定 的 settings.gradle.kts 文件：通过在 settings.gradle.kts 文件中 的 dependencyResolutionManagement 标准符，建立 versionCatalogs，将 创建 的 toml 文件 的 物理位置（路径），<br>如：/Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件， 映射为 逻辑名称，如：libsJakartaEE 。</i>
                                                                                                     </summary>
                                                                                                     <ul type="circle">
                                                                                                         <li>
