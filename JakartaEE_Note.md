@@ -537,7 +537,7 @@
                                                                                         </summary>
                                                                                         <ul type="circle">
                                                                                             <li>
-                                                                                                通过 在 settings.gradle.kts 文件 中 添加 dependencyResolutionManagement  标准符，实现 对 toml 文件 的 管理 --><br>
+                                                                                                通过 在 settings.gradle.kts 文件 中 添加 dependencyResolutionManagement  标识符，实现 对 toml 文件 的 管理 --><br>
                                                                                                 建立 toml 文件 与 逻辑 名称 的 对应 关系，（为 管理方便，一个 settings.gradle.kts 文件，对应 一个 toml 文件，方便 管理。
                                                                                             </li>
                                                                                             <li>
