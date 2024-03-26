@@ -473,16 +473,13 @@
                                                                                         </summary>
                                                                                         <ul type="circle">
                                                                                             <li>
-                                                                                                ✨ <b><kbd>pluginManagement</kbd></b> 内容 放在 settings_base.gradle.kts 文件中：/Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/settings_base.gradle.kts
-                                                                                            </li>
-                                                                                            <li>
                                                                                                 <details open>
                                                                                                     <summary>
-                                                                                                        <i>✨ 截图 2 - 内容</i>
+                                                                                                        <i>✨ <b><kbd>pluginManagement</kbd></b> 内容 放在 settings_base.gradle.kts 文件中：/Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/settings_base.gradle.kts</i>
                                                                                                     </summary>
                                                                                                     <ul type="circle">
                                                                                                         <li>
-                                                                                                            <img width="1713" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/640f2990-c693-470c-81ba-f881b3a192de">
+                                                                                                            <img width="1712" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/433ec5de-0987-4f4a-a9fd-8c364cd4ac45">
                                                                                                         </li>
                                                                                                     </ul>
                                                                                                 </details>
