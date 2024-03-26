@@ -532,8 +532,7 @@
                                                                                 <li>
                                                                                     <details open>
                                                                                         <summary>
-                                                                                            <i><b>✨  - 创建 version catalog 的 settings.gradle.kts 文件
-                                                                                            建立 </b></i>
+                                                                                            <i><b>✨ 创建 version catalog 的 settings.gradle.kts 文件</b></i>
                                                                                         </summary>
                                                                                         <ul type="circle">
                                                                                             <li>
