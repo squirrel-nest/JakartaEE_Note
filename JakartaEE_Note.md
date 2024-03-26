@@ -512,13 +512,13 @@
                                                                                             <li>
                                                                                                 <details open>
                                                                                                     <summary>
-                                                                                                        <i>✨ 
+                                                                                                        <i>✨ 方法 和 步骤</i>
                                                                                                     </summary>
                                                                                                     <ul type="circle">
                                                                                                         <li>
                                                                                                             根据 不同 类型 的 dependency 和 plugin，在 gradle 文件夹 中，添加 toml 文件。<br>
                                                                                                 如：Jakarta Platform 相关 的 功能模块， 创建 名称 为 /Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件，<br>
-                                                                                                仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。</i>
+                                                                                                仅 在 这个 模块 中，添加 Jakarta 相关 的 dependency 和 plugin。
                                                                                                         </li>
                                                                                                         <li>
                                                                                                             <img width="1706" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/3b05c561-def4-4444-8258-17f1b15b0856">
@@ -644,6 +644,40 @@
                                                                                 </li>
                                                                             </ul>
                                                                         </details>
+                                                                    </li>
+                                                                </ul>
+                                                            </details>
+                                                        </li>
+                                                    </ol>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details open>
+                                                    <summary>
+                                                        <i><b>✨ 将 各个 子 settings.gradle.kts 文件 添加 到 系统 中</b></i>
+                                                    </summary>
+                                                    <ul type="circle">
+                                                        <li>
+                                                            <pre><code>/*
+ * apply {
+ *     from("$rootDir/config/include.gradle.kts")
+ * }
+ */
+<br>
+apply(from = "settings_org.gradle.kts")
+
+apply(from = "settings_base.gradle.kts")
+
+apply(from = "settings_vercata_base.gradle.kts")</code></pre>
+                                                        </li>
+                                                        <li>
+                                                            <details open>
+                                                                <summary>
+                                                                    <i><b>✨ 将 各个 子 settings.gradle.kts 文件 添加 到 系统 中，使用 如下 的 脚本 命令，如图：</b></i>
+                                                                </summary>
+                                                                <ul type="square">
+                                                                    <li>
+                                                                        <img width="1722" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/6c8927fc-a51b-4a37-a88d-790eec085ff6">
                                                                     </li>
                                                                 </ul>
                                                             </details>
