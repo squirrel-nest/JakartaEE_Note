@@ -538,11 +538,32 @@
                                                                                             <li>
                                                                                                 <details open>
                                                                                                     <summary>
-                                                                                                        <i>✨ ✨ toml 文件： 根据 不同 类型 的 dependency 和 plugin，创建  指定 的 settings.gradle.kts 文件：通过在 settings.gradle.kts 文件中 的 dependencyResolutionManagement 标准符，建立 versionCatalogs，将 创建 的 toml 文件 的 物理位置（路径），<br>如：/Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件， 映射为 逻辑名称，如：libsJakartaEE 。</i>
+                                                                                                        <i>✨ toml 文件： 根据 不同 类型 的 dependency 和 plugin，创建  指定 的 settings.gradle.kts 文件：通过在 settings.gradle.kts 文件中 的 dependencyResolutionManagement 标准符，建立 versionCatalogs，将 创建 的 toml 文件 的 物理位置（路径），<br>如：/Users/Codes/JakartaEEProjects/01_LearningCode/lzdata-ee-10-gdev_template/gradle/libs_jakarta.versions.toml 的 toml 文件， 映射为 逻辑名称，如：libsJakartaEE 。</i>
                                                                                                     </summary>
                                                                                                     <ul type="circle">
                                                                                                         <li>
                                                                                                             <img width="1723" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/c17912ad-54e0-4a2c-b6f9-c88f35571d8a">
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </details>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <details open>
+                                                                                                    <summary>
+                                                                                                        <i>✨ 附录：不同 的 toml 文件 与 settings.gradle.kts 文件 的 对应 关系</i>
+                                                                                                    </summary>
+                                                                                                    <ul type="circle">
+                                                                                                        <li>
+                                                                                                            <details open>
+                                                                                                                <summary>
+                                                                                                                    <i>✨ 编译相关 的，因为 是 共用 的 ，所以，还是 放在 settings_base.gradle.kts 文件 中</i>
+                                                                                                                </summary>
+                                                                                                                <ul type="circle">
+                                                                                                                    <li>
+                                                                                                                        <img width="1327" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/58de7907-b3a2-452a-a36b-3e6bac5bbc33">
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </details>
                                                                                                         </li>
                                                                                                     </ul>
                                                                                                 </details>
