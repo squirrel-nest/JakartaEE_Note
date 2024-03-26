@@ -556,11 +556,47 @@
                                                                                                         <li>
                                                                                                             <details open>
                                                                                                                 <summary>
-                                                                                                                    <i>✨ 编译相关 的，因为 是 共用 的 ，所以，还是 放在 settings_base.gradle.kts 文件 中</i>
+                                                                                                                    <i>✨ 编译相关 的，因为 是 共用 的 ，所以，还是 放在 settings_vercata_base.gradle.kts 文件 中</i>
                                                                                                                 </summary>
                                                                                                                 <ul type="circle">
                                                                                                                     <li>
                                                                                                                         <img width="1327" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/58de7907-b3a2-452a-a36b-3e6bac5bbc33">
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </details>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <details open>
+                                                                                                                <summary>
+                                                                                                                    <i>✨ 数据（库）相关 的，放在 settings_vercata_database.gradle.kts 文件 中</i>
+                                                                                                                </summary>
+                                                                                                                <ul type="circle">
+                                                                                                                    <li>
+                                                                                                                        截图待加
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </details>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <details open>
+                                                                                                                <summary>
+                                                                                                                    <i>✨ Jakarta EE 相关 的，放在 settings_vercata_jakarta.gradle.kts 文件 中</i>
+                                                                                                                </summary>
+                                                                                                                <ul type="circle">
+                                                                                                                    <li>
+                                                                                                                        截图待加
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </details>
+                                                                                                        </li>
+                                                                                                        <li>
+                                                                                                            <details open>
+                                                                                                                <summary>
+                                                                                                                    <i>✨ Hibernate 相关 的，放在 settings_vercata_hibernate.gradle.kts 文件 中</i>
+                                                                                                                </summary>
+                                                                                                                <ul type="circle">
+                                                                                                                    <li>
+                                                                                                                        截图待加
                                                                                                                     </li>
                                                                                                                 </ul>
                                                                                                             </details>
