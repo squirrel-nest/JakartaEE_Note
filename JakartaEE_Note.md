@@ -433,6 +433,11 @@
                                                                             <summary>
                                                                                 <i><b>✨ 项目 名称 的 设置</b></i>
                                                                             </summary>
+                                                                            <ul type="circle">
+                                                                                <li>
+                                                                                    ✨ 项目名称，所有模块 共用，所以，放 最 先（顶层）就可以。
+                                                                                </li>
+                                                                            </ul>
                                                                             <ol type="1">
                                                                                 <li>
                                                                                     先 拷贝 最初的 settings.gradle.kts，更名为 settings_org.gradle.kts
@@ -450,6 +455,39 @@
                                                                                     </details>
                                                                                 </li>
                                                                             </ol>
+                                                                        </details>
+                                                                    </li>
+                                                                    <li>
+                                                                        <details open>
+                                                                            <summary>
+                                                                                <i><b>✨ dependency 和 plugin 源（Repositories）的 管理 - <b><kbd>pluginManagement</kbd></b> 标签 的 使用</b></i>
+                                                                            </summary>
+                                                                            <ul type="circle">
+                                                                                <li>
+                                                                                    ✨ dependency 和 plugin 源（Repositories），所有模块 共用，所以，放 最 先（顶层）就可以。
+                                                                                </li>
+                                                                                <li>
+                                                                                    <details open>
+                                                                                        <summary>
+                                                                                            <i>✨ <b><kbd>pluginManagement</kbd></b> 标签 的 添加</i>
+                                                                                        </summary>
+                                                                                        <ul type="circle">
+                                                                                            <li>
+                                                                                                <details open>
+                                                                                                    <summary>
+                                                                                                        <i>✨ 截图 2 - 内容</i>
+                                                                                                    </summary>
+                                                                                                    <ul type="circle">
+                                                                                                        <li>
+                                                                                                            -
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </details>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </details>
+                                                                                </li>
+                                                                            </ul>
                                                                         </details>
                                                                     </li>
                                                                     <li>
