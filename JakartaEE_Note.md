@@ -648,6 +648,19 @@
                                                                 </ul>
                                                             </details>
                                                         </li>
+                                                        <li>
+                                                            <details open>
+                                                                <summary>
+                                                                    <i><b>✨ 将 各个 子 功能 模块 （modules） 添加 到 系统 中，使用 include 关键字命令：<code>include (":lzdata-ee8-jpa-model") # kotlin 模式，<br>
+                                                                        如果 是 groovy: include 'lzdata-ee8-servlet-base'</code>，如图：</b></i>
+                                                                </summary>
+                                                                <ul type="square">
+                                                                    <li>
+                                                                        <img width="1706" alt="image" src="https://github.com/squirrel-nest/JakartaEE_Note/assets/8960325/0768fe7d-a4e8-44a4-935b-76e9864b8b2d">
+                                                                    </li>
+                                                                </ul>
+                                                            </details>
+                                                        </li>
                                                     </ol>
                                                 </details>
                                             </li>
@@ -673,7 +686,7 @@ apply(from = "settings_vercata_base.gradle.kts")</code></pre>
                                                         <li>
                                                             <details open>
                                                                 <summary>
-                                                                    <i><b>✨ 将 各个 子 settings.gradle.kts 文件 添加 到 系统 中，使用 如下 的 脚本 命令，如图：</b></i>
+                                                                    <i><b>✨ 将 各个 子 settings.gradle.kts 文件 添加 到 系统 中，使用 apply 关键字命令：<code>apply(from = "settings_org.gradle.kts") # kotlin 模式，如果 是 groovy，查 资料 吧</code> ，如图：</b></i>
                                                                 </summary>
                                                                 <ul type="square">
                                                                     <li>
