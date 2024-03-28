@@ -435,7 +435,13 @@
                                                                             </summary>
                                                                             <ul type="circle">
                                                                                 <li>
+                                                                                    ✨ settings_org.gradle.kts 文件：放 rootProject.name ， 设置 项目 名称 用
+                                                                                </li>
+                                                                                <li>
                                                                                     ✨ settings_base.gradle.kts 文件 就 放 基础 的 pluginManagement，将 dependencyResolutionManagement 的 versionCatalogs 子项 都 分离 出去，放到  settings_vercata_base.gradle.kts 文件 中
+                                                                                </li>
+                                                                                <li>
+                                                                                    ✨ settings_vercata_base.gradle.kts 文件: 放 dependencyResolutionManagement 的 versionCatalogs 子项，所有 的 一个 toml 文件 对应 的 逻辑名称 关联关系， 一个 settings.gradle.kts 文件 搞定。 - 即：一个 settings.gradle.kts （就是 settings_vercata_base.gradle.kts） 对应 所有 的 toml 文件 （一 对 多 的 关系）
                                                                                 </li>
                                                                             </ul>
                                                                     </li>
@@ -548,10 +554,10 @@
                                                                                         <ul type="circle">
                                                                                             <li>
                                                                                                 通过 在 settings.gradle.kts 文件 中 添加 dependencyResolutionManagement  标识符，实现 对 toml 文件 的 管理 --><br>
-                                                                                                建立 toml 文件 与 逻辑 名称 的 对应 关系，（为 管理方便，一个 settings.gradle.kts 文件，对应 一个 toml 文件，方便 管理。
+                                                                                                建立 toml 文件 与 逻辑 名称 的 对应 关系，（为 管理方便，一个 settings.gradle.kts 文件，对应 一个 toml 文件，方便 管理。  ---- 不采用 了
                                                                                             </li>
                                                                                             <li>
-                                                                                                ✨ Note：对于 的不同类型 的 dependency 和 plugin 对应 的 toml 文件，与 不同 的 settings.gradle.kts 文件 应该 是 一对一 的 关系，这样 就可以在 不 重复 设置 的 情况下，实现 不同 功能 的 组合，可以 实现 按需 组合。
+                                                                                                ✨ Note：对于 的不同类型 的 dependency 和 plugin 对应 的 toml 文件，与 不同 的 settings.gradle.kts 文件 应该 是 一对一 的 关系，这样 就可以在 不 重复 设置 的 情况下，实现 不同 功能 的 组合，可以 实现 按需 组合。 -- 这个 步骤 作废，所有 的 toml 文件 的 逻辑 名称 都 放 一个 文件 中了：settings_vercata_base.gradle.kts 文件 中。
                                                                                                 <pre>不知道 系统 是否 支持 这种 模式，应该 是 不支持！！！！
 因为，gradle 使用 的 机制 还是 脚本 性质 的， 后一个 命令 执行 会 覆盖 前面 的 一个吗？ 所以 还是 先 试验 一下 看。
 <br>
