@@ -431,6 +431,17 @@
                                                                     <li>
                                                                         <details open>
                                                                             <summary>
+                                                                                <i><b>✨ settings.gradle.kts 的 组织 架构（architecture）</b></i>
+                                                                            </summary>
+                                                                            <ul type="circle">
+                                                                                <li>
+                                                                                    ✨ settings_base.gradle.kts 文件 就 放 基础 的 pluginManagement，将 dependencyResolutionManagement 的 versionCatalogs 子项 都 分离 出去，放到  settings_vercata_base.gradle.kts 文件 中
+                                                                                </li>
+                                                                            </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                        <details open>
+                                                                            <summary>
                                                                                 <i><b>✨ 项目 名称 的 设置</b></i>
                                                                             </summary>
                                                                             <ul type="circle">
